@@ -876,10 +876,8 @@ async def unlock_content(
                 message="Cannot unlock comment under non-published or removed parent post"
             )
         comm_ver = comment.version_no if hasattr(comment, "version_no") and comment.version_no is not None else 1
-        from src.reframe.community.comment_visibility import inspection_complete
-        if not inspection_complete(comment.inspection_status):
-            raise ReframeException(status_code=409, code=ReframeErrorCodes.VALIDATION_ERROR,
-                message="This comment is hidden until its spoiler check completes. Please try again later.")
+        # Explicit spoiler consent does not certify an AI inspection. The body
+        # stays masked for other sessions and for every later edited version.
         if payload.version_no != comm_ver:
             raise ReframeException(
                 status_code=status.HTTP_400_BAD_REQUEST,

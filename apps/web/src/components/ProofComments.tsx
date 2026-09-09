@@ -5,6 +5,7 @@ import { loginDestination } from '../utils/navigation';
 import { useUnsavedChanges } from '../utils/useUnsavedChanges';
 import './ProofComments.css';
 import { DeleteConfirmation } from './DeleteConfirmation';
+import { CommentSpoiler } from './CommentSpoiler';
 
 interface Comment {
   comment_id: string; post_id: string; parent_comment_id: string | null;
@@ -92,7 +93,7 @@ export function ProofComments({ proofId, postId, navigate, onCount }: { proofId:
     const own = isAuthenticated && comment.author_id === user?.id;
     return <article className="proof-comment" key={comment.comment_id} data-testid={`comment-${comment.comment_id}`}>
       {!deleted && <header><strong>{comment.author_name || 'Viewer'}</strong><time dateTime={comment.created_at}>{new Date(comment.created_at).toLocaleDateString('en-US')}</time></header>}
-      {deleted ? <p className="deleted-comment">This comment has been deleted.</p> : masked ? <div className="comment-spoiler"><span>{comment.can_reveal ? 'Contains possible spoilers' : 'Hidden until the spoiler check completes'}</span>{comment.can_reveal ? <button disabled={pending} onClick={() => perform(() => communityApi.unlockContent('COMMENT', comment.comment_id, comment.version_no))}>Show comment</button> : <button disabled={pending} onClick={() => setRevision(value => value + 1)}>Check status</button>}</div> : <p className="comment-body">{comment.body_markdown}</p>}
+      {deleted ? <p className="deleted-comment">This comment has been deleted.</p> : masked ? <CommentSpoiler canReveal={Boolean(comment.can_reveal)} pending={pending} inspectionStatus={comment.inspection_status} onReveal={() => void perform(() => communityApi.unlockContent('COMMENT', comment.comment_id, comment.version_no))} /> : <p className="comment-body">{comment.body_markdown}</p>}
       {!deleted && <div className="comment-actions"><button disabled={pending || authLoading} onClick={() => start(comment, false)}>Reply</button>{own && <><button disabled={pending || masked} onClick={() => start(comment, true)}>Edit</button><button disabled={pending} onClick={() => setDeleting(comment)}>Delete</button></>}</div>}
     </article>;
   };
@@ -107,7 +108,7 @@ export function ProofComments({ proofId, postId, navigate, onCount }: { proofId:
       <label htmlFor={`comment-input-${proofId}`}>{draft.editing ? 'Edit comment' : draft.parent ? 'Write a reply' : 'Write a comment'}</label>
       <textarea ref={composer} id={`comment-input-${proofId}`} value={draft.text} maxLength={2000} disabled={pending} onChange={event => updateDraft({ text: event.target.value })} placeholder="Share your interpretation…" />
       <label className="comment-spoiler-check"><input type="checkbox" checked={draft.spoilers} disabled={pending} onChange={event => updateDraft({ spoilers: event.target.checked })} />Contains spoilers</label>
-      <small>Your words stay unchanged. Comments stay hidden from other readers until the AI spoiler check completes. Possible spoilers then require an explicit reveal.</small>
+      <small>Your words stay unchanged. Possible spoilers and unchecked comments are blurred until each reader chooses to open them.</small>
       {error && <p role="alert">{error}</p>}
       <div className="comment-submit">{(dirty || draft.parent || draft.editing) && <button type="button" disabled={pending} onClick={() => { if (discard()) { setDraft(emptyDraft()); setError(''); } }}>Cancel</button>}<button type="submit" disabled={pending || authLoading || (isAuthenticated && !draft.text.trim())}>{pending ? 'Posting…' : !isAuthenticated ? 'Log In to Comment' : error ? 'Try Again' : draft.editing ? 'Save Changes' : draft.parent ? 'Post Reply' : 'Post Comment'}</button></div>
     </form>

@@ -896,7 +896,7 @@ class CommunityService:
                 is_locked = False
 
             insp_status = getattr(c, "inspection_status", "UNVERIFIED_CALLS_DISABLED")
-            from src.reframe.community.comment_visibility import comment_masked, inspection_complete
+            from src.reframe.community.comment_visibility import comment_masked
             if comment_masked(c, viewer, is_locked, post.work_id, post.edition_id):
                 body = "🔒 [Spoiler Comment Masked] Complete the reveal or confirm warning to view."
                 masked = True
@@ -916,7 +916,7 @@ class CommunityService:
                 "author_cutoff_ms": getattr(c, "author_cutoff_ms", None),
                 "contains_spoilers": c.contains_spoilers,
                 "inspection_status": insp_status,
-                "can_reveal": inspection_complete(insp_status),
+                "can_reveal": c_status == "PUBLISHED",
                 "status": c_status,
                 "is_spoiler_masked": masked,
                 "visibility": SpoilerVisibility.MASKED if masked else SpoilerVisibility.VISIBLE,

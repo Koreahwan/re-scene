@@ -506,7 +506,7 @@ async def get_comment_detail(
         is_locked = False
 
     insp_status = getattr(comment, "inspection_status", "UNVERIFIED_CALLS_DISABLED")
-    from src.reframe.community.comment_visibility import comment_masked, inspection_complete
+    from src.reframe.community.comment_visibility import comment_masked
     if comment_masked(comment, viewer, is_locked, parent_post.work_id, parent_post.edition_id):
         body = "🔒 [Spoiler Comment Masked] Complete the reveal or confirm warning to view."
         masked = True
@@ -527,7 +527,7 @@ async def get_comment_detail(
             "author_cutoff_ms": getattr(comment, "author_cutoff_ms", None),
             "contains_spoilers": comment.contains_spoilers,
             "inspection_status": insp_status,
-            "can_reveal": inspection_complete(insp_status),
+            "can_reveal": comment.status == "PUBLISHED",
             "status": comment.status,
             "is_spoiler_masked": masked,
             "created_at": comment.created_at.isoformat()

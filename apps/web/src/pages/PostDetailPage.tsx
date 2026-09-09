@@ -4,6 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { WriteAccessGate } from '../components/WriteAccessGate';
 import { ErrorState, LoadingState } from '../components/FeedbackStates';
 import { DeleteConfirmation } from '../components/DeleteConfirmation';
+import { CommentSpoiler } from '../components/CommentSpoiler';
 
 interface PostDetailPageProps {
   postId?: string;
@@ -523,19 +524,7 @@ export const PostDetailPage: React.FC<PostDetailPageProps> = ({ postId, navigate
 
               if (isCommentMasked) {
                 return (
-                  <div key={cId} style={{ padding: '12px 16px', background: '#FFFBEB', borderRadius: 8, border: '1px solid #FDE68A', marginBottom: 8, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <div style={{ fontSize: 14, color: '#92400E' }}>
-                      ⚠️ This comment contains spoilers or unverified analysis.
-                    </div>
-                    <button
-                      type="button"
-                      disabled={!comment.can_reveal}
-                      onClick={() => handleUnlockComment(cId, comment.version_no || 1)}
-                      style={{ padding: '6px 12px', background: '#F59E0B', color: '#FFFFFF', border: 'none', borderRadius: 6, fontSize: 12, fontWeight: 600, cursor: 'pointer' }}
-                    >
-                      {comment.can_reveal ? 'Reveal Comment' : 'Awaiting spoiler check'}
-                    </button>
-                  </div>
+                  <CommentSpoiler key={cId} canReveal={Boolean(comment.can_reveal)} inspectionStatus={comment.inspection_status} onReveal={() => void handleUnlockComment(cId, comment.version_no || 1)} />
                 );
               }
 

@@ -153,12 +153,15 @@ async def get_viewer_context(
 
     async def _create_anonymous_context() -> ViewerContext:
         if not server_profile_enabled:
+            # Viewing consent does not grant public-author or account privileges.
+            unlock_rows = await db.execute(select(BrowserContentUnlock).where(BrowserContentUnlock.session_id == session_id))
+            unlocks = [f"{u.content_type}:{u.content_id}:{u.version_no}" for u in unlock_rows.scalars().all()]
             return ViewerContext(
                 user_id=None,
                 roles=["GUEST"],
                 work_progress_by_edition={},
                 completed_reveal_ids=[],
-                explicit_unlocks=[],
+                explicit_unlocks=unlocks,
                 admin_override=False,
                 session_id=session_id
             )
