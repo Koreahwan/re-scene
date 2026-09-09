@@ -14,11 +14,17 @@ through the official MCP integration. Browsing does not trigger paid generation.
 - **Retrospective readings:** revisit scenes with timestamped observations and alternative interpretations after finishing.
 - **Evidence-linked exploration:** connect interpretations to scene records and available reference frames.
 - **Film discovery and community:** browse films, manage viewing progress, and discuss readings behind spoiler gates.
-- **English and Korean interface.**
+- **English interface:** this release enforces `en-US`. Korean translation files remain in the source, but switching to Korean is not supported in the current UI.
+
+### What to try
+
+Open a film, choose its edition, and save your viewing position. Analysis becomes available only after the end of a stored input segment; an empty result at the beginning is expected. After finishing, revisit the evidence and retrospective readings. Account-based community features require a local account when running your own copy.
+
+Stored segment analysis covers *The Bat Whispers* (1930), *The Greene Murder Case* (1929), and *The Thirteenth Chair* (1929). The wider discovery catalog does not imply that every film has analysis or playable media. The two seeded demonstration readings are separate from these segment datasets.
 
 ## Run locally
 
-Requirements: Python 3.11+, Node.js 22+, and npm. Run commands from the repository root with a Python virtual environment activated.
+Recommended setup: Python 3.11 and Node.js 22 with npm, matching the Docker build configuration. Package metadata declares Python 3.10 or later; that is not a claim that every Python/dependency combination has been tested. Run commands from the repository root with a Python virtual environment activated.
 
 ```sh
 git clone https://github.com/Koreahwan/re-scene.git
@@ -38,9 +44,15 @@ python -m uvicorn apps.api.main:app --host 127.0.0.1 --port 8000
 
 Open [localhost:8000](http://localhost:8000). API documentation is at [/docs](http://localhost:8000/docs), and the liveness endpoint is [/live](http://localhost:8000/live).
 
-The local profile uses SQLite and stored analysis without paid model calls. The demo command registers the film catalog and two evidence-linked readings for *The Bat Whispers*. It can use an in-memory cache when Redis is unavailable. Accounts and community activity start from a fresh local database; production user data is not included.
+The local profile uses SQLite and stored analysis without paid model calls. The demo command registers the film catalog and two evidence-linked readings for *The Bat Whispers*, preserving existing readings on reruns. Development can use an in-memory cache when Redis is unavailable; it is not durable or shared between processes. Accounts and community activity start from a fresh local database; production user data is not included. The default database is `data/phase1_submission.db`. Keep both database URLs in `.env` pointed at the same file if you change its location.
 
-For frontend development, run `npm --prefix apps/web run dev` alongside the API server. The development server proxies `/api` to port 8000.
+### Local account verification
+
+The default `AUTH_EMAIL_DELIVERY_MODE=DEV_OUTBOX` does not send real email. To test registration on your own loopback-only development server, set `AUTH_DEV_OUTBOX_VIEWER_ENABLED=true` in `.env` and restart the API. Request a verification code in the UI, then read it at [the development outbox](http://localhost:8000/api/v1/dev/auth/outbox) and enter it in the UI. The viewer returns 404 while disabled. Do not expose this viewer on a shared or public server; turn it off after testing.
+
+### Frontend development
+
+Run `npm --prefix apps/web run dev` alongside the API server and open [localhost:5173](http://localhost:5173). The development server proxies `/api` to port 8000. Keep using the same browser origin during an authentication flow. When serving the built app through FastAPI instead, rebuild the frontend after UI changes.
 
 ### Docker preview
 
@@ -48,7 +60,13 @@ For frontend development, run `npm --prefix apps/web run dev` alongside the API 
 docker compose up --build
 ```
 
-The preview binds to `127.0.0.1:8000`, includes Redis, and leaves paid generation disabled. Its database is disposable container state. To register the demonstration readings, run `python -m scripts.seed_demo` inside the application container. The container image has not been end-to-end validated for this release. It is not a production deployment configuration.
+In another terminal, register the catalog and demonstration readings:
+
+```sh
+docker compose exec app python -m scripts.seed_demo
+```
+
+The preview binds to `127.0.0.1:8000`, includes Redis, and leaves paid generation disabled. Its SQLite database has no persistent volume and may be lost when the app container is recreated or removed. The root `.env` is not copied into the image or forwarded to the app by this Compose file; container settings come from its `environment` section. ClickHouse is a separate optional setup, not included in this preview. The container image has not been end-to-end validated for this release. It is not a production deployment configuration.
 
 ## Configuration
 
@@ -60,12 +78,28 @@ Production deployment additionally requires unique authentication secrets, secur
 
 ## Tests
 
+Start with the focused, zero-cost retrieval and runtime-verification tests:
+
 ```sh
-python -m pytest tests/security tests/unit -q
+python -m pytest tests/unit/test_clickhouse_publication.py tests/unit/test_selected_portion_analysis.py tests/unit/test_live_service_verification.py -q
 npm --prefix apps/web run build
 ```
 
-Ordinary Python tests use isolated databases and block model generation. Optional integration suites require their own services and fixtures. The broad suite currently has known failures, including older authentication expectations and checks requiring private database, design, or deployment fixtures omitted from this source release; a passing frontend build does not mean the complete Python suite passes.
+Ordinary Python tests use isolated databases and block model generation. They do not prove live Google or ClickHouse access. Optional integration suites require their own services and fixtures.
+
+For broader diagnostics, run `python -m pytest tests/security tests/unit -q`. This broader suite currently has known failures, including older authentication expectations and checks requiring private database, design, or deployment fixtures omitted from this source release; it is not a clean release gate. A passing frontend build does not mean the complete Python suite passes. Dated integration evidence and the exact observed scope are in [runtime setup and verification](docs/runtime.md#observed-deployment-checks--september-10-2026-kst).
+
+## Repository map
+
+| Path | Purpose |
+|---|---|
+| `apps/web/` | React and TypeScript interface |
+| `apps/api/` | FastAPI routes and application startup |
+| `src/reframe/` | Catalog, identity, community, analysis, retrieval, and generation guards |
+| `scripts/` | Demo registration, ClickHouse initialization, and operator verification |
+| `data/` | Catalog, stored analysis, provenance manifests, and test/demo data |
+| `tests/` | Unit, security, and optional integration checks |
+| `docs/runtime.md` | External-service setup, safety controls, and dated verification evidence |
 
 ## Data and limitations
 
