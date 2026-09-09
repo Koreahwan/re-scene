@@ -13,7 +13,7 @@ import structlog
 
 from src.reframe.community.models import (
     Post, PostVersion, Claim, ClaimVersion, PostEvidenceLink,
-    Counterclaim, CounterclaimEvidenceLink, Reaction, FilmReviewSlot
+    Counterclaim, CounterclaimEvidenceLink, Reaction, FilmReviewSlot, Comment
 )
 from src.reframe.evidence.models import EvidenceCatalog
 from src.reframe.evidence.adapter import v3_adapter
@@ -297,6 +297,27 @@ class CommunityService:
 
         # Load reactions for listed posts
         post_ids = [p.id for p, _, _, _, _ in rows]
+        # Fetch only thread metadata in one query; never expose spoiler bodies
+        # just to display engagement counts on collapsed review cards.
+        comment_counts = dict.fromkeys(post_ids, 0)
+        if post_ids:
+            thread_rows = (await db.execute(select(
+                Comment.id, Comment.post_id, Comment.parent_comment_id, Comment.status
+            ).where(Comment.post_id.in_(post_ids)))).all()
+            thread_index = {row.id: row for row in thread_rows}
+            for row in thread_rows:
+                if row.status != "PUBLISHED":
+                    continue
+                parent_id, seen = row.parent_comment_id, {row.id}
+                while parent_id is not None:
+                    parent = thread_index.get(parent_id)
+                    if (parent_id in seen or parent is None or parent.post_id != row.post_id
+                            or parent.status not in ("PUBLISHED", "DELETED")):
+                        break
+                    seen.add(parent_id)
+                    parent_id = parent.parent_comment_id
+                else:
+                    comment_counts[row.post_id] += 1
         like_counts: Dict[uuid.UUID, int] = {}
         viewer_liked_set: set[uuid.UUID] = set()
         if post_ids:
@@ -323,14 +344,16 @@ class CommunityService:
             content_ref = f"POST:{post.id}:{version.version_no}"
             visibility = evaluate_spoiler_visibility(scope, viewer, content_ref=content_ref)
             is_post_author = bool(viewer.user_id and post.author_id == viewer.user_id and not viewer.is_public_author)
-            if is_post_author:
+            # Shared demo identities retain editing rights, not an author-only reading bypass.
+            author_can_view = is_post_author and not viewer.is_shared_demo
+            if author_can_view:
                 visibility = SpoilerVisibility.VISIBLE
             is_post_unlocked = content_ref in viewer.explicit_unlocks
             insp_status = getattr(version, "inspection_status", "UNVERIFIED_CALLS_DISABLED")
             if version.contains_spoilers or insp_status in ("UNVERIFIED_CALLS_DISABLED", "UNVERIFIED_BUDGET_EXCEEDED", "UNVERIFIED_EVIDENCE_INSUFFICIENT", "FAILED"):
                 # Invariant: Unverified content CANNOT be unmasked solely by watch progress!
                 # Public visitors must confirm the warning for this specific content/version to view.
-                if not is_post_author and not viewer.is_admin and not is_post_unlocked:
+                if not author_can_view and not viewer.is_admin and not is_post_unlocked:
                     visibility = SpoilerVisibility.MASKED
 
             author_name = profile.display_name if profile and profile.display_name else (getattr(author, "email_normalized", "").split("@")[0] or "Anonymous")
@@ -356,6 +379,7 @@ class CommunityService:
                 "contains_spoilers": version.contains_spoilers,
                 "inspection_status": insp_status,
                 "like_count": like_counts.get(post.id, 0),
+                "comments_count": comment_counts.get(post.id, 0),
                 "viewer_liked": post.id in viewer_liked_set,
                 "created_at": post.created_at.isoformat()
             }
@@ -422,16 +446,16 @@ class CommunityService:
         content_ref = f"POST:{post.id}:{version.version_no}"
         insp_status = getattr(version, "inspection_status", "UNVERIFIED_CALLS_DISABLED")
         is_post_author = bool(viewer.is_authenticated and post.author_id == viewer.user_id)
-        if viewer.is_admin or is_private_draft_preview or is_post_author:
+        author_can_view = is_post_author and not viewer.is_shared_demo
+        if viewer.is_admin or is_private_draft_preview or author_can_view:
             visibility = SpoilerVisibility.VISIBLE
         else:
             visibility = evaluate_spoiler_visibility(scope, viewer, content_ref=content_ref)
-            is_post_author = bool(viewer.user_id and post.author_id == viewer.user_id and not viewer.is_public_author)
             is_post_unlocked = content_ref in viewer.explicit_unlocks
             if version.contains_spoilers or insp_status in ("UNVERIFIED_CALLS_DISABLED", "UNVERIFIED_BUDGET_EXCEEDED", "UNVERIFIED_EVIDENCE_INSUFFICIENT", "FAILED"):
                 # Invariant: Unverified content CANNOT be unmasked solely by watch progress!
                 # Public visitors must confirm the warning for this specific content/version to view.
-                if not is_post_author and not viewer.is_admin and not is_post_unlocked:
+                if not author_can_view and not viewer.is_admin and not is_post_unlocked:
                     visibility = SpoilerVisibility.MASKED
 
         # Load evidence links
@@ -879,7 +903,7 @@ class CommunityService:
 
             c_version = getattr(c, "version_no", 1)
             comment_ref = f"COMMENT:{c.id}:{c_version}"
-            comment_is_author = bool(viewer.user_id and c.author_id == viewer.user_id and not viewer.is_public_author)
+            comment_is_author = bool(viewer.user_id and c.author_id == viewer.user_id and not viewer.is_public_author and not viewer.is_shared_demo)
             comment_unlocked = comment_ref in viewer.explicit_unlocks
 
             c_scope = scope

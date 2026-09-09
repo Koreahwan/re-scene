@@ -5,6 +5,7 @@ import { AppModal } from './AppModal';
 import { DeleteConfirmation } from './DeleteConfirmation';
 import { RatingStars } from './RatingStars';
 import { ProofComments } from './ProofComments';
+import { CommentSpoiler } from './CommentSpoiler';
 import { loginDestination } from '../utils/navigation';
 import filledStar from '../assets/figma/rating-star-filled.svg';
 import emptyStar from '../assets/figma/rating-star-empty.svg';
@@ -68,6 +69,15 @@ export function TopBoxReviews({ pageId, title, navigate, openRequest }: {
     } catch (failure) { setError(failure instanceof Error ? failure.message : 'Unable to save your review.'); }
     finally { busy.current = false; setPending(false); }
   };
+  const unlockReview = async (post: any) => {
+    if (busy.current) return;
+    busy.current = true; setPending(true); setError('');
+    try {
+      await communityApi.unlockContent('POST', post.post_id, post.version_no || 1);
+      setReveal(null); setRevision(value => value + 1);
+    } catch { setError('Unable to reveal this review. Try again.'); }
+    finally { busy.current = false; setPending(false); }
+  };
   return <section className="top-box-reviews" aria-label="Reviews">
     <header><h2>Reviews</h2><button disabled={loading || authLoading || !target} onClick={() => void start()}>{own ? 'Edit My Review' : 'Write a Review'}</button></header>
     {loading && <p role="status">Loading reviews…</p>}
@@ -75,10 +85,12 @@ export function TopBoxReviews({ pageId, title, navigate, openRequest }: {
     {!loading && !error && !posts.length && <p>No reviews yet. Be the first to review this release.</p>}
     {posts.map(post => <article className="top-box-review" key={post.post_id}>
       <header><strong>{post.author_name || 'Viewer'}</strong><RatingStars rating={post.rating} /></header>
-      {post.is_spoiler_masked || post.is_locked ? <p>Contains possible spoilers. <button onClick={() => setReveal(post)}>Show review</button></p> : <p className="comment-body">{post.body_markdown}</p>}
+      {post.is_spoiler_masked || post.is_locked ? <CommentSpoiler key={`${post.post_id}:${post.version_no || 1}`}
+        contentKind="review" canReveal pending={pending} inspectionStatus={post.inspection_status}
+        onReveal={() => void unlockReview(post)} /> : <p className="comment-body">{post.body_markdown}</p>}
       {post.author_id === user?.id && <div><button onClick={() => void start()}>Edit</button><button onClick={() => setDeleting(post)}>Delete</button></div>}
-      <button onClick={() => setExpanded(value => value === post.post_id ? null : post.post_id)} aria-expanded={expanded === post.post_id}>Comments</button>
-      {expanded === post.post_id && <ProofComments key={post.post_id} proofId={post.post_id} postId={post.post_id} navigate={navigate} onCount={() => {}} />}
+      <button onClick={() => setExpanded(value => value === post.post_id ? null : post.post_id)} aria-expanded={expanded === post.post_id}>{post.comments_count ?? 0} {post.comments_count === 1 ? 'Comment' : 'Comments'}</button>
+      {expanded === post.post_id && <ProofComments key={post.post_id} proofId={post.post_id} postId={post.post_id} navigate={navigate} onCount={count => setPosts(rows => rows.map(row => row.post_id === post.post_id ? { ...row, comments_count: count } : row))} />}
     </article>)}
     <AppModal isOpen={open} title={editing ? 'Edit My Review' : 'Write a Review'} onClose={() => { if (!busy.current) setOpen(false); }}>
       <form onSubmit={save} className="comment-composer">
@@ -97,13 +109,9 @@ export function TopBoxReviews({ pageId, title, navigate, openRequest }: {
     </AppModal>
     {deleting && <DeleteConfirmation kind="review" onCancel={() => setDeleting(null)} onDelete={async () => { await communityApi.deletePost(deleting.post_id); setRevision(value => value + 1); }} />}
     <AppModal isOpen={Boolean(reveal)} title="Reveal spoiler content?" size="sm" onClose={() => { if (!busy.current) setReveal(null); }}>
-      <p>This review may include plot details.</p><div className="reveal-confirm-actions"><button disabled={pending} onClick={() => setReveal(null)}>Cancel</button>
-        <button disabled={pending} onClick={async () => {
-          if (!reveal || busy.current) return; busy.current = true; setPending(true); setError('');
-          try { await communityApi.unlockContent('POST', reveal.post_id, reveal.version_no); setReveal(null); setRevision(value => value + 1); }
-          catch { setError('Unable to reveal this review. Try again.'); }
-          finally { busy.current = false; setPending(false); }
-        }}>Reveal review</button></div>{error && <p role="alert">{error}</p>}
+      {reveal && <CommentSpoiler key={`${reveal.post_id}:${reveal.version_no || 1}`} contentKind="review"
+        canReveal pending={pending} inspectionStatus={reveal.inspection_status} onReveal={() => void unlockReview(reveal)} />}
+      {error && <p role="alert">{error}</p>}
     </AppModal>
   </section>;
 }

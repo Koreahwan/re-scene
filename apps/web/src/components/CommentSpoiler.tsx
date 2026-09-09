@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './CommentSpoiler.css';
 
-export function CommentSpoiler({ canReveal, pending = false, inspectionStatus, onReveal }: {
-  canReveal: boolean; pending?: boolean; inspectionStatus?: string; onReveal: () => void;
+export function CommentSpoiler({ canReveal, pending = false, inspectionStatus, onReveal, contentKind = 'comment' }: {
+  canReveal: boolean; pending?: boolean; inspectionStatus?: string; onReveal: () => void; contentKind?: 'comment' | 'review';
 }) {
   const [confirming, setConfirming] = useState(false);
   const showButton = useRef<HTMLButtonElement>(null);
@@ -19,11 +19,11 @@ export function CommentSpoiler({ canReveal, pending = false, inspectionStatus, o
       <strong>Possible spoilers</strong>
       <span>{checked ? 'Open only if you are ready for story details.' : 'Spoiler check incomplete. Open at your own risk.'}</span>
       {confirming ? <div className="comment-spoiler-confirm" role="group" aria-label="Confirm spoiler reveal">
-        <span>This may reveal plot details or the ending. Open this comment?</span>
+        <span>This may reveal plot details or the ending. Open this {contentKind}?</span>
         <div><button type="button" autoFocus disabled={pending} onClick={() => setConfirming(false)}>Cancel</button>
-          <button type="button" disabled={pending || !canReveal} onClick={() => { setConfirming(false); onReveal(); }}>Yes, show comment</button></div>
+          <button type="button" disabled={pending || !canReveal} onClick={() => { setConfirming(false); onReveal(); }}>Yes, show {contentKind}</button></div>
       </div> : <button ref={showButton} type="button" disabled={pending || !canReveal} onClick={() => setConfirming(true)}>
-        {pending ? 'Opening…' : canReveal ? 'Show comment' : 'Comment unavailable'}
+        {pending ? 'Opening…' : canReveal ? `Show ${contentKind}` : `${contentKind === 'review' ? 'Review' : 'Comment'} unavailable`}
       </button>}
     </div>
   </div>;

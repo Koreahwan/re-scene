@@ -248,6 +248,7 @@ export interface CommunityPostDTO {
   is_locked?: boolean;
   visibility?: string;
   likes_count?: number;
+  comments_count?: number;
   post_id: string;
   id?: string;
   author_id?: string;
