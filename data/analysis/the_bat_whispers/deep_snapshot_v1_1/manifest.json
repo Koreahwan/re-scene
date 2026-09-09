@@ -1,0 +1,31 @@
+{
+  "manifest_version": "1.1",
+  "snapshot_id": "the_bat_whispers_deep_snapshot_v1_1",
+  "movie_id": "the-bat-whispers-1930",
+  "canonical_asset_sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+  "source_artifact_sha256": "c2f2af8a578e89bd34b0b1a6a396717cffe70a6141c2202f8ad08414f53305fb",
+  "corpus_corrections_sha256": "6ffa08484bbda4af542911f4987b786fde5057ede950ca563683634fa7cf0b90",
+  "dataset_version": "v1.1_clean_room",
+  "generation_mode": "CLEAN_ROOM_INTERACTIVE_REBUILD",
+  "external_model_api_calls": 0,
+  "immutable": true,
+  "answer_assisted_fixture": true,
+  "source_namespace": "DEVELOPMENT_SNAPSHOT_V1_1",
+  "trust_namespace": "ENGINE_INFERENCE",
+  "human_review_status": "NOT_REVIEWED",
+  "created_at_iso": "2026-08-20T03:51:37.967667+00:00",
+  "firewall_compliance": "STRICT_CLEAN_ROOM_ENFORCED",
+  "statistics": {
+    "scenes_reviewed": 43,
+    "events_analyzed": 187,
+    "facts_grounded": 94,
+    "characters_profiled": 7,
+    "knowledge_propositions": 4,
+    "claims_extracted": 2,
+    "actions_categorized": 5,
+    "access_opportunities": 4,
+    "plan_steps": 3,
+    "causal_edges": 3,
+    "proof_candidates": 3
+  }
+}

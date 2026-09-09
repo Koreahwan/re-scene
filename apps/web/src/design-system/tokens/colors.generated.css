@@ -1,0 +1,42 @@
+/* Reframe V7 Figma Source-of-Truth Colors */
+:root {
+  /* Base Palette */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F8F9FA;
+  --color-bg-tertiary: #F5F5F5;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-subtle: #FAFAFA;
+  --color-bg-dark: #12141C;
+  --color-bg-card: #FFFFFF;
+
+  /* Text Colors */
+  --color-text-primary: #111111;
+  --color-text-body: #222222;
+  --color-text-secondary: #555555;
+  --color-text-muted: #888888;
+  --color-text-subtle: #999999;
+  --color-text-disabled: #BBBBBB;
+  --color-text-on-dark: #FFFFFF;
+
+  /* Border Colors */
+  --color-border-primary: #E5E5E5;
+  --color-border-secondary: #EEEEEE;
+  --color-border-subtle: #F0F0F0;
+  --color-border-focus: #111111;
+
+  /* Brand & Accents */
+  --color-brand-primary: #4B24FF;
+  --color-brand-hover: #3B1BD8;
+  --color-brand-light: #F0EDFF;
+  --color-accent-blue: #2F80ED;
+  --color-accent-red: #EB5757;
+  --color-accent-green: #27AE60;
+  --color-accent-yellow: #F2C94C;
+  --color-badge-verified: #E8F5E9;
+  --color-badge-verified-text: #2E7D32;
+  --color-badge-inference: #FFF3E0;
+  --color-badge-inference-text: #E65100;
+  --color-overlay-backdrop: #00000080;
+}

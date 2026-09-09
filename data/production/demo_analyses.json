@@ -1,0 +1,328 @@
+[
+  {
+    "proof_id": "proof-ai-tbw-0908-01",
+    "work_id": "the-bat-whispers-1930",
+    "edition_id": "tbw-fullscreen-archive",
+    "dataset_version": "v3",
+    "reveal_id": "reveal-anderson-identity",
+    "proof_type": "CLAIM_ACTION_CONFLICT",
+    "title": "Detective Anderson's Framing and Investigation of the Manor",
+    "blind_explanation": "Initial viewers observe Detective Anderson arriving at Oakdale Manor to take charge of the investigation into 'The Bat' and recent suspicious events. He methodically interviews members of the household, taking notes in his pad and questioning Lizzie Allen and Cornelia Van Gorder. He presents himself as an authoritative law enforcement officer dedicated to catching the criminal and securing the manor. Viewers reasonably perceive his relentless questioning and search of the premises as standard police protocol aimed at unmasking the intruder and preventing further terror.",
+    "reveal_explanation": "The unmasking of Detective Anderson as 'The Bat' completely reframes his earlier authoritative presence and investigative maneuvers. Rather than gathering evidence to solve the mystery, Anderson was actively using his position as the lead detective to search Oakdale Manor for the hidden safe and stolen bank funds without rousing suspicion. His interrogation of witnesses like Lizzie Allen served as a cover to gauge how much the household knew about the hidden passages, while his confiscation of weapons and search efforts allowed him to disarm potential threats to his heist. The officer finding an unexpected handgun in Anderson's coat foreshadows his dual identity, confirming that his police persona was a calculated cover for his criminal operations.",
+    "evidence_chain": [
+      {
+        "event_id": "ev-c017-01",
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 1920000,
+        "evidence_hash": "00e85589756f2d55a6b9ba146d722fd9fd1caa0c17ea4229e7dec7b5eb5b7bfb",
+        "actor": "Detective Anderson",
+        "action": "write",
+        "fact": "Detective Anderson writes in a notepad while speaking with Cornelia Van Gorder.",
+        "display_fact": "Detective Anderson writes in a notepad while speaking with Cornelia Van Gorder.",
+        "evidence_frame_ids": [
+          "frame_c017_000"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c017_000"
+      },
+      {
+        "event_id": "ev-c017-03",
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 1950000,
+        "evidence_hash": "2bdfa9719a17a95f3f0abcef90be44aa82c69d5a9273335edc81cc51d9cabf40",
+        "actor": "Detective Anderson",
+        "action": "question",
+        "fact": "Detective Anderson questions Lizzie and writes down her response.",
+        "display_fact": "Detective Anderson questions Lizzie and writes down her response.",
+        "evidence_frame_ids": [
+          "frame_c017_030",
+          "frame_c017_045",
+          "frame_c017_060"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c017_030"
+      },
+      {
+        "event_id": "ev-c035-04",
+        "scene_id": "scene-tbw-c035",
+        "timestamp_ms": 4185000,
+        "evidence_hash": "c9546bca3caf30596d1a69bcf041771a590b594e90d5325f7b3b76bd051e2b06",
+        "actor": "Police Officer",
+        "action": "search",
+        "fact": "The police officer searches Detective Anderson's coat pockets and pulls out a handgun.",
+        "display_fact": "The police officer searches Detective Anderson's coat pockets and pulls out a handgun.",
+        "evidence_frame_ids": [
+          "frame_c035_105",
+          "frame_c035_119"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c035_105"
+      },
+      {
+        "event_id": "ev-c040-01",
+        "scene_id": "scene-tbw-c040",
+        "timestamp_ms": 4710000,
+        "evidence_hash": "77a98fa2509415d1052610ce774d6e9e7daa0e70c33f5c9c3027778a5afe2d39",
+        "actor": "Detective Anderson",
+        "action": "restrain",
+        "fact": "Anderson holds a cloaked figure and inspects confiscated handguns while household members observe.",
+        "display_fact": "Anderson holds a cloaked figure and inspects confiscated handguns while household members observe.",
+        "evidence_frame_ids": [
+          "frame_c040_030",
+          "frame_c040_045",
+          "frame_c040_060"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c040_030"
+      }
+    ],
+    "observed_premises": [
+      {
+        "event_id": "ev-c017-01",
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 1920000,
+        "evidence_hash": "00e85589756f2d55a6b9ba146d722fd9fd1caa0c17ea4229e7dec7b5eb5b7bfb",
+        "actor": "Detective Anderson",
+        "action": "write",
+        "fact": "Detective Anderson writes in a notepad while speaking with Cornelia Van Gorder.",
+        "display_fact": "Detective Anderson writes in a notepad while speaking with Cornelia Van Gorder.",
+        "evidence_frame_ids": [
+          "frame_c017_000"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c017_000"
+      },
+      {
+        "event_id": "ev-c017-03",
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 1950000,
+        "evidence_hash": "2bdfa9719a17a95f3f0abcef90be44aa82c69d5a9273335edc81cc51d9cabf40",
+        "actor": "Detective Anderson",
+        "action": "question",
+        "fact": "Detective Anderson questions Lizzie and writes down her response.",
+        "display_fact": "Detective Anderson questions Lizzie and writes down her response.",
+        "evidence_frame_ids": [
+          "frame_c017_030",
+          "frame_c017_045",
+          "frame_c017_060"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c017_030"
+      },
+      {
+        "event_id": "ev-c035-04",
+        "scene_id": "scene-tbw-c035",
+        "timestamp_ms": 4185000,
+        "evidence_hash": "c9546bca3caf30596d1a69bcf041771a590b594e90d5325f7b3b76bd051e2b06",
+        "actor": "Police Officer",
+        "action": "search",
+        "fact": "The police officer searches Detective Anderson's coat pockets and pulls out a handgun.",
+        "display_fact": "The police officer searches Detective Anderson's coat pockets and pulls out a handgun.",
+        "evidence_frame_ids": [
+          "frame_c035_105",
+          "frame_c035_119"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c035_105"
+      },
+      {
+        "event_id": "ev-c040-01",
+        "scene_id": "scene-tbw-c040",
+        "timestamp_ms": 4710000,
+        "evidence_hash": "77a98fa2509415d1052610ce774d6e9e7daa0e70c33f5c9c3027778a5afe2d39",
+        "actor": "Detective Anderson",
+        "action": "restrain",
+        "fact": "Anderson holds a cloaked figure and inspects confiscated handguns while household members observe.",
+        "display_fact": "Anderson holds a cloaked figure and inspects confiscated handguns while household members observe.",
+        "evidence_frame_ids": [
+          "frame_c040_030",
+          "frame_c040_045",
+          "frame_c040_060"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c040_030"
+      }
+    ],
+    "alternative_explanations": [
+      "Anderson's aggressive questioning could be interpreted as the tactics of an overly zealous or stressed detective under pressure to solve a high-profile case.",
+      "The extra handgun found in Anderson's coat might be viewed as an official backup weapon carried by a cautious law officer investigating a dangerous killer."
+    ],
+    "counterfactual_results": {
+      "ai_provenance": {
+        "analysis_run_id": "621f34cc-e4b9-4dc8-b4a6-3684ccd4b1c7",
+        "model_call_id": "call-4546af8cfd4c",
+        "response_sha256": "88aa69d78161d882a69812c8e029f8c06bb10a7c46c7d2b9de69db816cfcce5a",
+        "validation": "EVIDENCE_REFERENCES_VALIDATED",
+        "source": "existing_v3_observations",
+        "video_rewatched": false,
+        "counterfactual_tested": false
+      }
+    },
+    "proof_strength": 0,
+    "fan_impact": 0,
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "PUBLIC_AI_ANALYSIS",
+    "trust_namespace": "AI_INTERPRETATION",
+    "trust_label": "Gemini-generated interpretation · not human reviewed",
+    "generation_mode": "LIVE_GOOGLE",
+    "asset_sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+    "correction_overlay_sha": "8caa42a4d20773797d743e299462271e5e57a933a064023eb1582e1387ad9af6",
+    "evidence_bundle_hash": "4bdb2109146ed10fa7789deae3426fd7b9e06db7d3f1a230c2e914802d406bbc",
+    "model_id": "gemini-3.6-flash",
+    "prompt_hash": "0783adc9156d7a69a3c9d7785441741e59f6c94fc3a9523fb8af6e86145f630c",
+    "retrieval_config_hash": "0376538053e5f2169f8d930ec4894f8ae1c6cc84296312d415cad15e7591f9e6",
+    "proof_schema_version": "1.0.0"
+  },
+  {
+    "proof_id": "proof-ai-tbw-0908-02",
+    "work_id": "the-bat-whispers-1930",
+    "edition_id": "tbw-fullscreen-archive",
+    "dataset_version": "v3",
+    "reveal_id": "reveal-secret-room-location",
+    "proof_type": "HIDDEN_PLAN_CHAIN",
+    "title": "The Disappearance of the Bank Loot and the Secret Room Entry",
+    "blind_explanation": "When characters inspect the Oakdale Manor Great Hall and examine the framed portrait mounted above the grand fireplace, an initial viewer naturally assumes the painting itself conceals a wall safe, hidden keyhole, or secret alcove. The detective standing on a stepladder to inspect the upper frame reinforces the belief that any secret structure in the room is tied directly to the artwork or the surrounding wall paneling. Viewers reasonably focus their attention on the framed portrait as the focal point of the mystery.",
+    "reveal_explanation": "The revelation that the secret room passage is activated by a mantelpiece mechanism rotating the entire grand fireplace structure completely changes the spatial understanding of the room. Viewers realize that focusing on the framed portrait was a misdirection. The fireplace itself serves as a giant revolving door concealing a secret hallway and safe room housing the bank loot. Dale Ogden's precise manipulation of the hidden latch on the mantelpiece demonstrates that access to the hidden room required knowledge of the architectural mechanism rather than examining the painting hanging above it. This reveal explains how figures moved unseen throughout the manor.",
+    "evidence_chain": [
+      {
+        "event_id": "ev-c023-03",
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2700000,
+        "evidence_hash": "d88e12973295f09ee47b1ed599ca8b2fe2682c7245e6e12c5b5653f7e7979700",
+        "actor": "Detective",
+        "action": "inspects wall portrait",
+        "fact": "The group inspects a large framed portrait on the wall.",
+        "display_fact": "The group inspects a large framed portrait on the wall.",
+        "evidence_frame_ids": [
+          "frame_c023_060"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c023_060"
+      },
+      {
+        "event_id": "ev-c023-05",
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000,
+        "evidence_hash": "a8f614e7db42c20ec261ec54fa536acdd1e97c1f1429d45e7e1fea5087b87e32",
+        "actor": "Detective",
+        "action": "examines painting frame",
+        "fact": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "display_fact": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "evidence_frame_ids": [
+          "frame_c023_119"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c023_119"
+      },
+      {
+        "event_id": "ev-c031-02",
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3645000,
+        "evidence_hash": "d4be470d84ef76fe803421ab6956ed826af6cbb57e4abc215c1115a8b6569845",
+        "actor": "Dale Ogden",
+        "action": "touches_mechanism",
+        "fact": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+        "display_fact": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+        "evidence_frame_ids": [
+          "frame_c031_045",
+          "frame_c031_060"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c031_045"
+      },
+      {
+        "event_id": "ev-c031-03",
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3660000,
+        "evidence_hash": "ec5df18eb113f344eacaebc6dc524561b41b1e8c18c3792a100cce9bb59a7e09",
+        "actor": "Fireplace panel",
+        "action": "rotates_open",
+        "fact": "The fireplace wall structure pivots open on hinges, uncovering a secret doorway.",
+        "display_fact": "The fireplace wall structure pivots open on hinges, uncovering a secret doorway.",
+        "evidence_frame_ids": [
+          "frame_c031_060",
+          "frame_c031_075"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c031_060"
+      }
+    ],
+    "observed_premises": [
+      {
+        "event_id": "ev-c023-03",
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2700000,
+        "evidence_hash": "d88e12973295f09ee47b1ed599ca8b2fe2682c7245e6e12c5b5653f7e7979700",
+        "actor": "Detective",
+        "action": "inspects wall portrait",
+        "fact": "The group inspects a large framed portrait on the wall.",
+        "display_fact": "The group inspects a large framed portrait on the wall.",
+        "evidence_frame_ids": [
+          "frame_c023_060"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c023_060"
+      },
+      {
+        "event_id": "ev-c023-05",
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000,
+        "evidence_hash": "a8f614e7db42c20ec261ec54fa536acdd1e97c1f1429d45e7e1fea5087b87e32",
+        "actor": "Detective",
+        "action": "examines painting frame",
+        "fact": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "display_fact": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "evidence_frame_ids": [
+          "frame_c023_119"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c023_119"
+      },
+      {
+        "event_id": "ev-c031-02",
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3645000,
+        "evidence_hash": "d4be470d84ef76fe803421ab6956ed826af6cbb57e4abc215c1115a8b6569845",
+        "actor": "Dale Ogden",
+        "action": "touches_mechanism",
+        "fact": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+        "display_fact": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+        "evidence_frame_ids": [
+          "frame_c031_045",
+          "frame_c031_060"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c031_045"
+      },
+      {
+        "event_id": "ev-c031-03",
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3660000,
+        "evidence_hash": "ec5df18eb113f344eacaebc6dc524561b41b1e8c18c3792a100cce9bb59a7e09",
+        "actor": "Fireplace panel",
+        "action": "rotates_open",
+        "fact": "The fireplace wall structure pivots open on hinges, uncovering a secret doorway.",
+        "display_fact": "The fireplace wall structure pivots open on hinges, uncovering a secret doorway.",
+        "evidence_frame_ids": [
+          "frame_c031_060",
+          "frame_c031_075"
+        ],
+        "frame_url": "/api/v1/media/the-bat-whispers-1930/tbw-fullscreen-archive/frames/frame_c031_060"
+      }
+    ],
+    "alternative_explanations": [
+      "The portrait above the mantelpiece could have contained a hidden eyehole or small peephole used by an observer rather than controlling the passage mechanism itself.",
+      "The stepladder examination of the painting might have been an attempt to locate a traditional wall safe hidden behind canvas rather than a full structural door."
+    ],
+    "counterfactual_results": {
+      "ai_provenance": {
+        "analysis_run_id": "621f34cc-e4b9-4dc8-b4a6-3684ccd4b1c7",
+        "model_call_id": "call-4546af8cfd4c",
+        "response_sha256": "88aa69d78161d882a69812c8e029f8c06bb10a7c46c7d2b9de69db816cfcce5a",
+        "validation": "EVIDENCE_REFERENCES_VALIDATED",
+        "source": "existing_v3_observations",
+        "video_rewatched": false,
+        "counterfactual_tested": false
+      }
+    },
+    "proof_strength": 0,
+    "fan_impact": 0,
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "PUBLIC_AI_ANALYSIS",
+    "trust_namespace": "AI_INTERPRETATION",
+    "trust_label": "Gemini-generated interpretation · not human reviewed",
+    "generation_mode": "LIVE_GOOGLE",
+    "asset_sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+    "correction_overlay_sha": "8caa42a4d20773797d743e299462271e5e57a933a064023eb1582e1387ad9af6",
+    "evidence_bundle_hash": "63dedd9dc1b475afccd6ccd909cf0d22cf88b2bafce9bb7f8c3ee20bb8bdbade",
+    "model_id": "gemini-3.6-flash",
+    "prompt_hash": "0783adc9156d7a69a3c9d7785441741e59f6c94fc3a9523fb8af6e86145f630c",
+    "retrieval_config_hash": "0376538053e5f2169f8d930ec4894f8ae1c6cc84296312d415cad15e7591f9e6",
+    "proof_schema_version": "1.0.0"
+  }
+]

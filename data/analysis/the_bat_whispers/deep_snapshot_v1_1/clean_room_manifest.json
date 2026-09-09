@@ -1,0 +1,27 @@
+{
+  "manifest_version": "1.1",
+  "snapshot_id": "the_bat_whispers_deep_snapshot_v1_1",
+  "generation_mode": "CLEAN_ROOM_INTERACTIVE_REBUILD",
+  "timestamp_iso": "2026-08-20T03:51:37.393817+00:00",
+  "external_model_api_calls": 0,
+  "allowed_sources_accessed": [
+    "data/production/v3_dataset_export.json",
+    "data/production/reveals_registry.json",
+    "data/production/canonical_corrections_v3.json",
+    "data/manifests/preprocessing_checkpoint_v3_gemini36.json",
+    "data/manifests/global_narrative_pass_v3.json",
+    "data/manifests/v3_frame_manifest.json",
+    "data/manifests/asset_manifest.json",
+    "data/external/raw/the_bat_whispers/the_bat_whispers_1930_proxy.mp4",
+    "data/external/raw/the_bat_whispers/The_Bat_Whispers_(1930,_fullscreen_version).webm"
+  ],
+  "denied_sources_firewalled": [
+    "src/reframe/proof/store.py CANONICAL_PROOFS_MAP",
+    "data/fixtures/the_bat_whispers_golden.json",
+    "data/analysis/the_bat_whispers/deep_snapshot_v1/proof_candidates.json",
+    "data/analysis/the_bat_whispers/deep_snapshot_v1/analysis_report.md",
+    "legacy counterfactual canned values"
+  ],
+  "media_review_performed": true,
+  "firewall_compliance": "STRICT_CLEAN_ROOM_ENFORCED"
+}

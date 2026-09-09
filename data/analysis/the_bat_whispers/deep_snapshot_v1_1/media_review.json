@@ -1,0 +1,132 @@
+[
+  {
+    "event_id": "ev-c017-05",
+    "timestamp_ms": 2010000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c017-05_minus2s_2008.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c017-05_exact_2010.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c017-05_plus2s_2012.00s.jpg"
+    ],
+    "observed_visual_facts": "A man in a dark suit and tie stands alone in the entrance foyer/hall near the grand staircase and suit of armor, looking to his right.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "V3 description confirmed. Solitary stance in entrance hall verified without inferring unstated internal motives."
+  },
+  {
+    "event_id": "ev-c021-03",
+    "timestamp_ms": 2490000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c021-03_minus2s_2488.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c021-03_exact_2490.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c021-03_plus2s_2492.00s.jpg"
+    ],
+    "observed_visual_facts": "A man in a suit carries rolled architectural papers across the room toward the seating area and unrolls them before the group.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "Blueprints unrolled in public presence of Dale Ogden and Cornelia Van Gorder."
+  },
+  {
+    "event_id": "ev-c023-05",
+    "timestamp_ms": 2759000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c023-05_minus2s_2757.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c023-05_exact_2759.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c023-05_plus2s_2761.00s.jpg"
+    ],
+    "observed_visual_facts": "Detective Anderson, wearing bowler hat and overcoat, stands on a stepladder with hands placed on the lower frame of the painting above the brick fireplace.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "Physical stepladder examination of the fireplace painting frame verified."
+  },
+  {
+    "event_id": "ev-c025-02",
+    "timestamp_ms": 2895000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c025-02_minus2s_2893.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c025-02_exact_2895.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c025-02_plus2s_2897.00s.jpg"
+    ],
+    "observed_visual_facts": "Detective Anderson, wearing bowler hat and coat, gestures forward with his right hand while speaking to Cornelia Van Gorder.",
+    "v3_agreement": "PARTIAL",
+    "notes": "Gestural speech interaction confirmed. Verbatim dialogue text is absent from metadata (INSUFFICIENT_CONTENT for strict claim contradiction)."
+  },
+  {
+    "event_id": "ev-c028-03",
+    "timestamp_ms": 3270000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c028-03_minus2s_3268.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c028-03_exact_3270.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c028-03_plus2s_3272.00s.jpg"
+    ],
+    "observed_visual_facts": "Detective Anderson, wearing coat and bowler hat, lifts and moves a large framed portrait resting near the base of the staircase while another character watches.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "Direct physical manipulation of portrait frame verified."
+  },
+  {
+    "event_id": "ev-c031-02",
+    "timestamp_ms": 3645000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c031-02_minus2s_3643.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c031-02_exact_3645.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c031-02_plus2s_3647.00s.jpg"
+    ],
+    "observed_visual_facts": "Dale Ogden, in a white dress, stands before the fireplace and reaches up with her right hand to touch and operate the mechanism located on the side of the fireplace mantel.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "Direct mechanical operation verified at 3,645,000ms, 15 seconds prior to public reveal broadcast."
+  },
+  {
+    "event_id": "ev-c035-03",
+    "timestamp_ms": 4140000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c035-03_minus2s_4138.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c035-03_exact_4140.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c035-03_plus2s_4142.00s.jpg"
+    ],
+    "observed_visual_facts": "Detective Anderson and Brooks face each other in intense close-up profile, speaking directly.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "Direct confrontation observed; classified as investigative/deflective confrontation."
+  },
+  {
+    "event_id": "ev-c037-04",
+    "timestamp_ms": 4425000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c037-04_minus2s_4423.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c037-04_exact_4425.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c037-04_plus2s_4427.00s.jpg"
+    ],
+    "observed_visual_facts": "Detective Anderson walks through the opened wall aperture beside the fireplace into the secret corridor.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "Physical entry through the pivoted fireplace portal confirmed."
+  },
+  {
+    "event_id": "ev-c038-02",
+    "timestamp_ms": 4470000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c038-02_minus2s_4468.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c038-02_exact_4470.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c038-02_plus2s_4472.00s.jpg"
+    ],
+    "observed_visual_facts": "Men inspect an opened hidden wall panel and a black safe inside the secret room while Cornelia, Dale, Lizzie, and others watch.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "Discovery and inspection of the hidden safe confirmed."
+  },
+  {
+    "event_id": "ev-c041-03",
+    "timestamp_ms": 4890000,
+    "review_status": "VISUALLY_RECHECKED",
+    "frames_examined": [
+      "scratch/deep_snapshot_v1_1_media_review/ev-c041-03_minus2s_4888.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c041-03_exact_4890.00s.jpg",
+      "scratch/deep_snapshot_v1_1_media_review/ev-c041-03_plus2s_4892.00s.jpg"
+    ],
+    "observed_visual_facts": "The captured Bat figure in cloak and mask is restrained on the lawn beside Brooks prior to unmasking.",
+    "v3_agreement": "CONFIRMED",
+    "notes": "Unmasking sequence confirming Detective Anderson as The Bat."
+  }
+]

@@ -1,0 +1,900 @@
+{
+  "film": {
+    "movie_id": "the-greene-murder-case-1929",
+    "title": "The Greene Murder Case",
+    "year": 1929,
+    "synopsis_safe": "Philo Vance investigates a series of shootings in a wealthy New York household. A restrictive inheritance agreement keeps the resentful relatives under one roof, while conflicting accounts complicate the inquiry led by District Attorney Markham and Sergeant Heath.",
+    "runtime_ms": 4012175,
+    "rights_status": "PUBLIC_DOMAIN",
+    "analysis_status": "READY",
+    "poster_path": "/assets/catalog/wikidata/Q13460318-sound-1929.jpg",
+    "directors": [
+      "Frank Tuttle"
+    ],
+    "cast": [
+      "William Powell",
+      "Florence Eldridge",
+      "Ullrich Haupt Sr.",
+      "Jean Arthur",
+      "Eugene Pallette",
+      "E. H. Calvert"
+    ],
+    "genres": [
+      "crime film",
+      "mystery film"
+    ]
+  },
+  "edition": {
+    "edition_id": "gmc-archive-1929",
+    "movie_id": "the-greene-murder-case-1929",
+    "runtime_ms": 4012175,
+    "dataset_version": "sound-v1-20260908",
+    "source_url": "https://archive.org/download/the-greene-murder-case_1929/the-greene-murder-case_1929.mp4",
+    "asset_sha256": "3957e2f3122652af5a070ad595e1a3d6f4bb6dd465132ae25bd61abb352bbf41",
+    "rights_review_status": "ANALYSIS_ONLY_NO_VIDEO_REDISTRIBUTION"
+  },
+  "reveals": [
+    {
+      "reveal_id": "gmc-archive-1929-reveal-01",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "title": "Philo Vance Exposes Ada Greene as the Serial Killer",
+      "safe_title": "AI analysis after the film",
+      "safe_preview": "Complete this film before opening its retrospective analysis.",
+      "timestamp_ms": 3585000,
+      "spoiler_cutoff_ms": 4012175,
+      "revealed_fact": "Heath speculates that Sibella was the killer, but Vance corrects him and explicitly accuses Ada. Vance explains that Ada used the German criminology books and lured Rex with a non-existent note to carry out the murder plot.",
+      "severity": "ENDING"
+    },
+    {
+      "reveal_id": "gmc-archive-1929-reveal-02",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "title": "Autopsy Confirms Mrs. Greene's Permanent Paralysis",
+      "safe_title": "AI analysis after the film",
+      "safe_preview": "Complete this film before opening its retrospective analysis.",
+      "timestamp_ms": 3055000,
+      "spoiler_cutoff_ms": 4012175,
+      "revealed_fact": "The medical examiner states that Mrs. Greene's leg muscles had been completely wasted away for years, making walking or standing impossible. Heath points out that Ada previously claimed to have seen her mother walking at the door.",
+      "severity": "ENDING"
+    },
+    {
+      "reveal_id": "gmc-archive-1929-reveal-03",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "title": "Philo Vance Verifies Dr. Von Blon and Sibella's Secret Marriage",
+      "safe_title": "AI analysis after the film",
+      "safe_preview": "Complete this film before opening its retrospective analysis.",
+      "timestamp_ms": 3950000,
+      "spoiler_cutoff_ms": 4012175,
+      "revealed_fact": "Heath reports that Ada went straight through the ice with no chance of rescue. Vance informs Sibella that he verified her secret marriage to Dr. Von Blon in Greenwich and wishes her happiness.",
+      "severity": "ENDING"
+    }
+  ],
+  "proofs": [
+    {
+      "proof_id": "proof-ai-gmc-archive-1929-01",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "reveal_id": "gmc-archive-1929-reveal-01",
+      "title": "Ada Greene's Staged Victimhood and False Intruders",
+      "summary": "Vance's accusation of Ada changes the role of her earlier testimony. In his concluding reconstruction, the apparent victim manufactured an intruder story: he explains her self-inflicted wound and the weighted cord that removed the revolver through the window. Her comments about Rex, the doctor's medical terms, and the missing note can therefore be reread as attempts to direct the investigation rather than simply help it. The demonstrated firearm trap and Vance's account of a nonexistent note supply the later connection to Rex's death. These are different kinds of evidence: Ada's earlier statements are observable testimony, while the hidden plan is the explanation Vance later gives for them. Her cooperative manner by itself would not establish guilt. The retrospective interpretation depends on that concluding reconstruction, not on treating every anxious gesture or helpful remark as an independently proven sign of deception.",
+      "timestamp_ms": 970970,
+      "spoiler_cutoff_ms": 4012175,
+      "observed_premises": [
+        {
+          "event_id": "gmc-archive-1929-c01-e09",
+          "scene_id": "gmc-archive-1929-window-016",
+          "timestamp_ms": 970970,
+          "actor": "Ada Greene",
+          "action": "Recounts the shooting from her bed",
+          "fact": "In her bedroom, Ada Greene describes waking up to a noise she thought was an engine backfiring, followed by a dark figure touching her hand and a shuffling noise before she was shot.",
+          "display_fact": "In her bedroom, Ada Greene describes waking up to a noise she thought was an engine backfiring, followed by a dark figure touching her hand and a shuffling noise before she was shot.",
+          "display_paraphrase": "In her bedroom, Ada Greene describes waking up to a noise she thought was an engine backfiring, followed by a dark figure touching her hand and a shuffling noise before she was shot.",
+          "frame_ids": [
+            "gmc-archive-1929-f0960960",
+            "gmc-archive-1929-f0970970"
+          ],
+          "evidence_frame_ids": [
+            "gmc-archive-1929-f0960960",
+            "gmc-archive-1929-f0970970"
+          ],
+          "frame_url": "/api/v1/media/the-greene-murder-case-1929/gmc-archive-1929/frames/gmc-archive-1929-f0960960",
+          "canonical_content_hash": "f7d3c10e78b97fe5e113c51f283d4d47afe0dc1ea04c1b5dc3e589e9a2102b91",
+          "source_modality": "BOTH",
+          "uncertainty": "None.",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "gmc-archive-1929-c02-e06",
+          "scene_id": "gmc-archive-1929-window-024",
+          "timestamp_ms": 1460000,
+          "actor": "Ada Greene, Philo Vance, and District Attorney Markham",
+          "action": "Reporting suspicious details",
+          "fact": "Ada informs Vance and Markham that she saw Rex moving galoshes and mentions a written paper containing medical terms spoken by Dr. Von Blon.",
+          "display_fact": "Ada informs Vance and Markham that she saw Rex moving galoshes and mentions a written paper containing medical terms spoken by Dr. Von Blon.",
+          "display_paraphrase": "Ada informs Vance and Markham that she saw Rex moving galoshes and mentions a written paper containing medical terms spoken by Dr. Von Blon.",
+          "frame_ids": [
+            "gmc-archive-1929-f1451450",
+            "gmc-archive-1929-f1471470"
+          ],
+          "evidence_frame_ids": [
+            "gmc-archive-1929-f1451450",
+            "gmc-archive-1929-f1471470"
+          ],
+          "frame_url": "/api/v1/media/the-greene-murder-case-1929/gmc-archive-1929/frames/gmc-archive-1929-f1451450",
+          "canonical_content_hash": "56599d9743f06a14b0cfb2a32cd0548f83823a03257cf534f2df13163e1136c1",
+          "source_modality": "BOTH",
+          "uncertainty": "None",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "gmc-archive-1929-c03-e07",
+          "scene_id": "gmc-archive-1929-window-034",
+          "timestamp_ms": 2090000,
+          "actor": "Ada Greene",
+          "action": "Shows Vance the secret incense burner mailbox",
+          "fact": "Ada leads Vance to an incense burner in Rex's room, explaining that she and Rex used it as a private mailbox since childhood. She claims a note containing a medical reference about her mother was placed there but vanished before Rex was shot.",
+          "display_fact": "Ada leads Vance to an incense burner in Rex's room, explaining that she and Rex used it as a private mailbox since childhood. She claims a note containing a medical reference about her mother was placed there but vanished before Rex was shot.",
+          "display_paraphrase": "Ada leads Vance to an incense burner in Rex's room, explaining that she and Rex used it as a private mailbox since childhood. She claims a note containing a medical reference about her mother was placed there but vanished before Rex was shot.",
+          "frame_ids": [
+            "gmc-archive-1929-f2082080",
+            "gmc-archive-1929-f2092090",
+            "gmc-archive-1929-f2102100"
+          ],
+          "evidence_frame_ids": [
+            "gmc-archive-1929-f2082080",
+            "gmc-archive-1929-f2092090",
+            "gmc-archive-1929-f2102100"
+          ],
+          "frame_url": "/api/v1/media/the-greene-murder-case-1929/gmc-archive-1929/frames/gmc-archive-1929-f2082080",
+          "canonical_content_hash": "6e66a2363741662fe613c26636a351a82303db772d7cf85016ccdc5e7c2b58d3",
+          "source_modality": "BOTH",
+          "uncertainty": "None",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        }
+      ],
+      "human_review_status": "NOT_REVIEWED",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "proof_type": "HIDDEN_PLAN_CHAIN",
+      "blind_explanation": "Initially, Ada Greene appears to be an innocent victim and helpful witness within the targeted household. When recounting her shooting in event gmc-archive-1929-c01-e09, Ada describes waking to a loud noise, feeling a dark figure touch her hand, and being wounded by an intruder, presenting herself as a target of an unknown assailant. Later, in event gmc-archive-1929-c02-e06, she voluntarily assists investigators by reporting that Rex moved galoshes and mentioning medical terms spoken by Dr. Von Blon. Furthermore, in event gmc-archive-1929-c03-e07, she shows Philo Vance a secret incense burner mailbox, claiming a note about her mother disappeared before Rex's shooting. First-time viewers naturally read these actions as those of a vulnerable survivor trying to protect herself and aid the police investigation.",
+      "reveal_explanation": "Vance's accusation of Ada changes the role of her earlier testimony. In his concluding reconstruction, the apparent victim manufactured an intruder story: he explains her self-inflicted wound and the weighted cord that removed the revolver through the window. Her comments about Rex, the doctor's medical terms, and the missing note can therefore be reread as attempts to direct the investigation rather than simply help it. The demonstrated firearm trap and Vance's account of a nonexistent note supply the later connection to Rex's death. These are different kinds of evidence: Ada's earlier statements are observable testimony, while the hidden plan is the explanation Vance later gives for them. Her cooperative manner by itself would not establish guilt. The retrospective interpretation depends on that concluding reconstruction, not on treating every anxious gesture or helpful remark as an independently proven sign of deception.",
+      "evidence_chain": [
+        {
+          "event_id": "gmc-archive-1929-c01-e09",
+          "scene_id": "gmc-archive-1929-window-016",
+          "timestamp_ms": 970970,
+          "evidence_hash": "f7d3c10e78b97fe5e113c51f283d4d47afe0dc1ea04c1b5dc3e589e9a2102b91"
+        },
+        {
+          "event_id": "gmc-archive-1929-c02-e06",
+          "scene_id": "gmc-archive-1929-window-024",
+          "timestamp_ms": 1460000,
+          "evidence_hash": "56599d9743f06a14b0cfb2a32cd0548f83823a03257cf534f2df13163e1136c1"
+        },
+        {
+          "event_id": "gmc-archive-1929-c03-e07",
+          "scene_id": "gmc-archive-1929-window-034",
+          "timestamp_ms": 2090000,
+          "evidence_hash": "6e66a2363741662fe613c26636a351a82303db772d7cf85016ccdc5e7c2b58d3"
+        }
+      ],
+      "alternative_explanations": [
+        "Before Vance's reconstruction, a wounded witness reporting suspicious behavior is a reasonable reading of the same earlier scenes.",
+        "The observations record testimony and the detective's later explanation; they do not independently test the mechanics or establish intent from demeanor alone."
+      ]
+    },
+    {
+      "proof_id": "proof-ai-gmc-archive-1929-02",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "reveal_id": "gmc-archive-1929-reveal-02",
+      "title": "The Impossibility of Mrs. Greene Walking",
+      "summary": "The medical examiner's statement that Mrs. Greene could neither stand nor walk changes the evidential value of the earlier sighting. Vance's hypothesis that she was concealing her mobility no longer fits the physical finding. Attention shifts from the supposedly walking mother to the reliability of the person who reported seeing her. Later questioning identifies Ada as that witness: she repeats the claim and points to Sibella's use of the shawl. The shawl is therefore no longer a secure identifier. Importantly, the examination does not prove that another person actually impersonated Mrs. Greene; a mistaken sighting and a fabricated account are both possibilities until further evidence distinguishes them. The narrative turn is the failure of an apparently concrete eyewitness claim when tested against an independent constraint, rather than proof that an unseen impersonation must have occurred.",
+      "timestamp_ms": 2540000,
+      "spoiler_cutoff_ms": 4012175,
+      "observed_premises": [
+        {
+          "event_id": "gmc-archive-1929-c04-e03",
+          "scene_id": "gmc-archive-1929-window-042",
+          "timestamp_ms": 2540000,
+          "actor": "Philo Vance and the police sergeant",
+          "action": "Inspecting Tobias Greene's book collection",
+          "fact": "Vance notices dust-free shelves and a chair indicating recent use by a frequent reader. They discover volumes on criminology, poisons, and sleepwalking, prompting speculation about whether Mrs. Greene could be faking her paralysis.",
+          "display_fact": "Vance notices dust-free shelves and a chair indicating recent use by a frequent reader. They discover volumes on criminology, poisons, and sleepwalking, prompting speculation about whether Mrs. Greene could be faking her paralysis.",
+          "display_paraphrase": "Vance notices dust-free shelves and a chair indicating recent use by a frequent reader. They discover volumes on criminology, poisons, and sleepwalking, prompting speculation about whether Mrs. Greene could be faking her paralysis.",
+          "frame_ids": [
+            "gmc-archive-1929-f2522520",
+            "gmc-archive-1929-f2532530",
+            "gmc-archive-1929-f2542540"
+          ],
+          "evidence_frame_ids": [
+            "gmc-archive-1929-f2522520",
+            "gmc-archive-1929-f2532530",
+            "gmc-archive-1929-f2542540"
+          ],
+          "frame_url": "/api/v1/media/the-greene-murder-case-1929/gmc-archive-1929/frames/gmc-archive-1929-f2522520",
+          "canonical_content_hash": "67aa95f515af75cd0adc30c93c800ed6a24b38b4e19c890d8bc21697fc7fb53b",
+          "source_modality": "BOTH",
+          "uncertainty": "None.",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "gmc-archive-1929-c04-e04",
+          "scene_id": "gmc-archive-1929-window-043",
+          "timestamp_ms": 2600000,
+          "actor": "A young woman, Markham, and Philo Vance",
+          "action": "Reporting a sighting of Mrs. Greene walking",
+          "fact": "A frightened young woman enters the library to report hearing a shuffling noise on the stairs an hour prior. She claims she looked over the banister and saw Mrs. Greene walking in her oriental shawl near the library door.",
+          "display_fact": "A frightened young woman enters the library to report hearing a shuffling noise on the stairs an hour prior. She claims she looked over the banister and saw Mrs. Greene walking in her oriental shawl near the library door.",
+          "display_paraphrase": "A frightened young woman enters the library to report hearing a shuffling noise on the stairs an hour prior. She claims she looked over the banister and saw Mrs. Greene walking in her oriental shawl near the library door.",
+          "frame_ids": [
+            "gmc-archive-1929-f2592590",
+            "gmc-archive-1929-f2602600",
+            "gmc-archive-1929-f2612610"
+          ],
+          "evidence_frame_ids": [
+            "gmc-archive-1929-f2592590",
+            "gmc-archive-1929-f2602600",
+            "gmc-archive-1929-f2612610"
+          ],
+          "frame_url": "/api/v1/media/the-greene-murder-case-1929/gmc-archive-1929/frames/gmc-archive-1929-f2592590",
+          "canonical_content_hash": "f63444c20161ae7c2e27b179bb99f09c12cb9ac6f3d6dfa2d5c0319353b35a5b",
+          "source_modality": "BOTH",
+          "uncertainty": "None.",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        }
+      ],
+      "human_review_status": "NOT_REVIEWED",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "proof_type": "CLAIM_ACTION_CONFLICT",
+      "blind_explanation": "In event gmc-archive-1929-c04-e03, Philo Vance and the police sergeant inspect old Tobias Greene's library, finding books on criminology and poisons, which leads Vance to speculate whether bedridden matriarch Mrs. Greene might be faking her paralysis. Shortly after, in event gmc-archive-1929-c04-e04, a frightened young woman reports to Vance and District Attorney Markham that she heard shuffling on the stairs and saw Mrs. Greene walking near the library wearing her oriental shawl. On a first viewing, these events suggest that Mrs. Greene was secretly mobile and executing the crimes herself.",
+      "reveal_explanation": "The medical examiner's statement that Mrs. Greene could neither stand nor walk changes the evidential value of the earlier sighting. Vance's hypothesis that she was concealing her mobility no longer fits the physical finding. Attention shifts from the supposedly walking mother to the reliability of the person who reported seeing her. Later questioning identifies Ada as that witness: she repeats the claim and points to Sibella's use of the shawl. The shawl is therefore no longer a secure identifier. Importantly, the examination does not prove that another person actually impersonated Mrs. Greene; a mistaken sighting and a fabricated account are both possibilities until further evidence distinguishes them. The narrative turn is the failure of an apparently concrete eyewitness claim when tested against an independent constraint, rather than proof that an unseen impersonation must have occurred.",
+      "evidence_chain": [
+        {
+          "event_id": "gmc-archive-1929-c04-e03",
+          "scene_id": "gmc-archive-1929-window-042",
+          "timestamp_ms": 2540000,
+          "evidence_hash": "67aa95f515af75cd0adc30c93c800ed6a24b38b4e19c890d8bc21697fc7fb53b"
+        },
+        {
+          "event_id": "gmc-archive-1929-c04-e04",
+          "scene_id": "gmc-archive-1929-window-043",
+          "timestamp_ms": 2600000,
+          "evidence_hash": "f63444c20161ae7c2e27b179bb99f09c12cb9ac6f3d6dfa2d5c0319353b35a5b"
+        }
+      ],
+      "alternative_explanations": [
+        "A witness might mistake someone wearing a similar shawl for Mrs. Greene; the medical finding alone cannot distinguish that mistake from a deliberate lie.",
+        "Vance's earlier suggestion about feigned paralysis may be a provisional investigative hypothesis, not a settled accusation; finding crime books does not identify their reader."
+      ]
+    },
+    {
+      "proof_id": "proof-ai-gmc-archive-1929-03",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "reveal_id": "gmc-archive-1929-reveal-03",
+      "title": "The Secret Marriage in Greenwich",
+      "summary": "Near the conclusion, Vance says that a marriage record in Greenwich establishes that Sibella and Dr. Von Blon are married, and he wishes her happiness. The earlier private conversation and the doctor's Greenwich connection now admit a marriage-related reading. Their secrecy need not be evidence of a murder conspiracy; it can belong to a separate personal story that the investigation has made look suspicious. This is a reinterpretation rather than proof of every intermediate detail. The recorded observations do not establish whether the marriage already existed at the time of their first conversation, or whether the doctor also attended a genuine medical case. The strongest supported connection is that Vance's later discovery supplies a noncriminal explanation for part of the couple's guarded behavior and separates romantic privacy from the principal murder plot. The uncertainty about timing should remain visible instead of being filled with an invented chronology.",
+      "timestamp_ms": 930930,
+      "spoiler_cutoff_ms": 4012175,
+      "observed_premises": [
+        {
+          "event_id": "gmc-archive-1929-c01-e08",
+          "scene_id": "gmc-archive-1929-window-015",
+          "timestamp_ms": 930930,
+          "actor": "Sibella Greene",
+          "action": "Confers quietly with Dr. Von Blon",
+          "fact": "Sibella Greene and Dr. Von Blon discuss delaying a personal agreement or relationship matter, agreeing that proceeding now would be inappropriate following the shooting.",
+          "display_fact": "Sibella Greene and Dr. Von Blon discuss delaying a personal agreement or relationship matter, agreeing that proceeding now would be inappropriate following the shooting.",
+          "display_paraphrase": "Sibella Greene and Dr. Von Blon discuss delaying a personal agreement or relationship matter, agreeing that proceeding now would be inappropriate following the shooting.",
+          "frame_ids": [
+            "gmc-archive-1929-f0920920",
+            "gmc-archive-1929-f0930930"
+          ],
+          "evidence_frame_ids": [
+            "gmc-archive-1929-f0920920",
+            "gmc-archive-1929-f0930930"
+          ],
+          "frame_url": "/api/v1/media/the-greene-murder-case-1929/gmc-archive-1929/frames/gmc-archive-1929-f0920920",
+          "canonical_content_hash": "3b7bea37110438eda7c51123575959801b9d6358266e00438842b9137d0afd66",
+          "source_modality": "BOTH",
+          "uncertainty": "None.",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "gmc-archive-1929-c04-e08",
+          "scene_id": "gmc-archive-1929-window-047",
+          "timestamp_ms": 2840000,
+          "actor": "Dr. Von Blonn, Philo Vance, and Markham",
+          "action": "Interrogating Dr. Von Blonn regarding his alibi and diagnosis",
+          "fact": "Dr. Von Blonn claims he was away on a case in Greenwich, Connecticut during the night. Vance informs him that a police surgeon and specialist will be performing a formal examination on Mrs. Greene.",
+          "display_fact": "Dr. Von Blonn claims he was away on a case in Greenwich, Connecticut during the night. Vance informs him that a police surgeon and specialist will be performing a formal examination on Mrs. Greene.",
+          "display_paraphrase": "Dr. Von Blonn claims he was away on a case in Greenwich, Connecticut during the night. Vance informs him that a police surgeon and specialist will be performing a formal examination on Mrs. Greene.",
+          "frame_ids": [
+            "gmc-archive-1929-f2822820",
+            "gmc-archive-1929-f2832830",
+            "gmc-archive-1929-f2842840"
+          ],
+          "evidence_frame_ids": [
+            "gmc-archive-1929-f2822820",
+            "gmc-archive-1929-f2832830",
+            "gmc-archive-1929-f2842840"
+          ],
+          "frame_url": "/api/v1/media/the-greene-murder-case-1929/gmc-archive-1929/frames/gmc-archive-1929-f2822820",
+          "canonical_content_hash": "607da36b151ee4e7cb725c3ee8deda6e44595ee35143060fb437ca8032c8f805",
+          "source_modality": "BOTH",
+          "uncertainty": "None.",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        }
+      ],
+      "human_review_status": "NOT_REVIEWED",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "proof_type": "KNOWLEDGE_LEAK",
+      "blind_explanation": "Sibella's quiet conversation with Dr. Von Blon presents a private matter whose details are not yet explained. They agree that proceeding immediately after the shooting would be inappropriate. Later, the doctor says he was attending a medical case in Greenwich. On a first viewing, a romantic understanding and an ordinary professional absence are both plausible. Their discretion may also attract suspicion because almost every relationship in the household is being examined for a possible connection to the crimes. The important uncertainty is what their secrecy concerns: these observations show that something personal is being kept private, but do not establish either criminal involvement or the precise nature and timing of their agreement.",
+      "reveal_explanation": "Near the conclusion, Vance says that a marriage record in Greenwich establishes that Sibella and Dr. Von Blon are married, and he wishes her happiness. The earlier private conversation and the doctor's Greenwich connection now admit a marriage-related reading. Their secrecy need not be evidence of a murder conspiracy; it can belong to a separate personal story that the investigation has made look suspicious. This is a reinterpretation rather than proof of every intermediate detail. The recorded observations do not establish whether the marriage already existed at the time of their first conversation, or whether the doctor also attended a genuine medical case. The strongest supported connection is that Vance's later discovery supplies a noncriminal explanation for part of the couple's guarded behavior and separates romantic privacy from the principal murder plot. The uncertainty about timing should remain visible instead of being filled with an invented chronology.",
+      "evidence_chain": [
+        {
+          "event_id": "gmc-archive-1929-c01-e08",
+          "scene_id": "gmc-archive-1929-window-015",
+          "timestamp_ms": 930930,
+          "evidence_hash": "3b7bea37110438eda7c51123575959801b9d6358266e00438842b9137d0afd66"
+        },
+        {
+          "event_id": "gmc-archive-1929-c04-e08",
+          "scene_id": "gmc-archive-1929-window-047",
+          "timestamp_ms": 2840000,
+          "evidence_hash": "607da36b151ee4e7cb725c3ee8deda6e44595ee35143060fb437ca8032c8f805"
+        }
+      ],
+      "alternative_explanations": [
+        "The doctor's Greenwich journey could have included genuine medical work; the marriage record alone does not disprove that account.",
+        "The couple may have postponed either an announcement or another personal plan out of discretion after the shootings; the early dialogue does not fix the wedding date."
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_id": "gmc-archive-1929-f0960960",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 960960,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f0960960.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f0970970",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 970970,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f0970970.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f1451450",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 1451450,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f1451450.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f1471470",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 1471470,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f1471470.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2082080",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2082080,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2082080.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2092090",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2092090,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2092090.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2102100",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2102100,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2102100.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f3573570",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 3573570,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f3573570.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f3583580",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 3583580,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f3583580.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f3593590",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 3593590,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f3593590.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2522520",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2522520,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2522520.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2532530",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2532530,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2532530.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2542540",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2542540,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2542540.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2592590",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2592590,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2592590.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2602600",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2602600,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2602600.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2612610",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2612610,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2612610.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f3053050",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 3053050,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f3053050.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f3063060",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 3063060,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f3063060.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f0920920",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 920920,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f0920920.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f0930930",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 930930,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f0930930.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2822820",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2822820,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2822820.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2832830",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2832830,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2832830.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f2842840",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 2842840,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f2842840.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f3933930",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 3933930,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f3933930.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f3943940",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 3943940,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f3943940.jpg"
+    },
+    {
+      "frame_id": "gmc-archive-1929-f3953950",
+      "movie_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "absolute_timestamp_ms": 3953950,
+      "filename": "gmc-archive-1929/gmc-archive-1929-f3953950.jpg"
+    }
+  ],
+  "subtitles": [],
+  "media": null,
+  "ai_publications": [
+    {
+      "proof_id": "proof-ai-gmc-archive-1929-01",
+      "record_sha256": "cc3237caab60b129be0c4062aeffb4e6d685dc05aacf441f71b43ea02c2a2110"
+    },
+    {
+      "proof_id": "proof-ai-gmc-archive-1929-02",
+      "record_sha256": "401c372c4b618a8a41c23ea9bd1fe8b1d4b34e8e53905e7e30aa9065ad97fa49"
+    },
+    {
+      "proof_id": "proof-ai-gmc-archive-1929-03",
+      "record_sha256": "1c8bb90c427a18b9bb8bf0f6d5c57dd7001f40c3d70dcd75bd80a6a5d34ab7ef"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "gmc-archive-1929-window-000",
+      "start_ms": 0,
+      "end_ms": 60000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-001",
+      "start_ms": 60000,
+      "end_ms": 120000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-002",
+      "start_ms": 120000,
+      "end_ms": 180000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-003",
+      "start_ms": 180000,
+      "end_ms": 240000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-004",
+      "start_ms": 240000,
+      "end_ms": 300000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-005",
+      "start_ms": 300000,
+      "end_ms": 360000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-006",
+      "start_ms": 360000,
+      "end_ms": 420000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-007",
+      "start_ms": 420000,
+      "end_ms": 480000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-008",
+      "start_ms": 480000,
+      "end_ms": 540000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-009",
+      "start_ms": 540000,
+      "end_ms": 600000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-010",
+      "start_ms": 600000,
+      "end_ms": 660000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-011",
+      "start_ms": 660000,
+      "end_ms": 720000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-012",
+      "start_ms": 720000,
+      "end_ms": 780000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-013",
+      "start_ms": 780000,
+      "end_ms": 840000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-014",
+      "start_ms": 840000,
+      "end_ms": 900000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-015",
+      "start_ms": 900000,
+      "end_ms": 960000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-016",
+      "start_ms": 960000,
+      "end_ms": 1020000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-017",
+      "start_ms": 1020000,
+      "end_ms": 1080000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-018",
+      "start_ms": 1080000,
+      "end_ms": 1140000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-019",
+      "start_ms": 1140000,
+      "end_ms": 1200000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-020",
+      "start_ms": 1200000,
+      "end_ms": 1260000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-021",
+      "start_ms": 1260000,
+      "end_ms": 1320000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-022",
+      "start_ms": 1320000,
+      "end_ms": 1380000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-023",
+      "start_ms": 1380000,
+      "end_ms": 1440000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-024",
+      "start_ms": 1440000,
+      "end_ms": 1500000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-025",
+      "start_ms": 1500000,
+      "end_ms": 1560000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-026",
+      "start_ms": 1560000,
+      "end_ms": 1620000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-027",
+      "start_ms": 1620000,
+      "end_ms": 1680000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-028",
+      "start_ms": 1680000,
+      "end_ms": 1740000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-029",
+      "start_ms": 1740000,
+      "end_ms": 1800000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-030",
+      "start_ms": 1800000,
+      "end_ms": 1860000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-031",
+      "start_ms": 1860000,
+      "end_ms": 1920000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-032",
+      "start_ms": 1920000,
+      "end_ms": 1980000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-033",
+      "start_ms": 1980000,
+      "end_ms": 2040000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-034",
+      "start_ms": 2040000,
+      "end_ms": 2100000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-035",
+      "start_ms": 2100000,
+      "end_ms": 2160000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-036",
+      "start_ms": 2160000,
+      "end_ms": 2220000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-037",
+      "start_ms": 2220000,
+      "end_ms": 2280000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-038",
+      "start_ms": 2280000,
+      "end_ms": 2340000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-039",
+      "start_ms": 2340000,
+      "end_ms": 2400000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-040",
+      "start_ms": 2400000,
+      "end_ms": 2460000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-041",
+      "start_ms": 2460000,
+      "end_ms": 2520000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-042",
+      "start_ms": 2520000,
+      "end_ms": 2580000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-043",
+      "start_ms": 2580000,
+      "end_ms": 2640000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-044",
+      "start_ms": 2640000,
+      "end_ms": 2700000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-045",
+      "start_ms": 2700000,
+      "end_ms": 2760000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-046",
+      "start_ms": 2760000,
+      "end_ms": 2820000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-047",
+      "start_ms": 2820000,
+      "end_ms": 2880000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-048",
+      "start_ms": 2880000,
+      "end_ms": 2940000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-049",
+      "start_ms": 2940000,
+      "end_ms": 3000000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-050",
+      "start_ms": 3000000,
+      "end_ms": 3060000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-051",
+      "start_ms": 3060000,
+      "end_ms": 3120000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-052",
+      "start_ms": 3120000,
+      "end_ms": 3180000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-053",
+      "start_ms": 3180000,
+      "end_ms": 3240000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-054",
+      "start_ms": 3240000,
+      "end_ms": 3300000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-055",
+      "start_ms": 3300000,
+      "end_ms": 3360000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-056",
+      "start_ms": 3360000,
+      "end_ms": 3420000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-057",
+      "start_ms": 3420000,
+      "end_ms": 3480000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-058",
+      "start_ms": 3480000,
+      "end_ms": 3540000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-059",
+      "start_ms": 3540000,
+      "end_ms": 3600000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-060",
+      "start_ms": 3600000,
+      "end_ms": 3660000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-061",
+      "start_ms": 3660000,
+      "end_ms": 3720000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-062",
+      "start_ms": 3720000,
+      "end_ms": 3780000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-063",
+      "start_ms": 3780000,
+      "end_ms": 3840000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-064",
+      "start_ms": 3840000,
+      "end_ms": 3900000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-065",
+      "start_ms": 3900000,
+      "end_ms": 3960000
+    },
+    {
+      "scene_id": "gmc-archive-1929-window-066",
+      "start_ms": 3960000,
+      "end_ms": 4012175
+    }
+  ]
+}

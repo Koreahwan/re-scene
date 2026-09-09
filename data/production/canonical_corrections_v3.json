@@ -1,0 +1,30 @@
+[
+  {
+    "target_type": "event",
+    "target_id": "ev-c041-02",
+    "scene_id": "scene-tbw-c041",
+    "field": "actor",
+    "original_value": "Detective Anderson",
+    "corrected_value": "Police and Household",
+    "description_corrected": "Police and household members tackle the fleeing cloaked Bat figure onto the lawn.",
+    "entities_corrected": ["The Bat", "Police Officers", "Cornelia Van Gorder"],
+    "validation_frame_ids": ["frame_c041_030", "frame_c041_045"],
+    "timestamp_ms": 4830000,
+    "canonical_asset_sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+    "human_review_reason": "Verified against canonical asset 8bb19634... at 80m30s (4830000ms): Men tackle the fleeing cloaked Bat figure. Detective Anderson cannot tackle The Bat as Anderson is himself The Bat."
+  },
+  {
+    "target_type": "event",
+    "target_id": "ev-c041-03",
+    "scene_id": "scene-tbw-c041",
+    "field": "actor",
+    "original_value": "Detective Anderson",
+    "corrected_value": "Police Officers",
+    "description_corrected": "Police officers bind the captured cloaked Bat figure on the lawn.",
+    "entities_corrected": ["The Bat", "Police Officers"],
+    "validation_frame_ids": ["frame_c041_090", "frame_c041_105"],
+    "timestamp_ms": 4890000,
+    "canonical_asset_sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+    "human_review_reason": "Verified against canonical asset 8bb19634... at 81m30s (4890000ms): Police officers secure and bind the cloaked Bat figure on the lawn prior to unmasking."
+  }
+]

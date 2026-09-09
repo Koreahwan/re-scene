@@ -1,0 +1,33 @@
+/* Reframe V7 Figma Source-of-Truth Spacing & Geometry */
+:root {
+  --spacing-2xs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-base: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 40px;
+  --spacing-4xl: 48px;
+  --spacing-5xl: 64px;
+  --spacing-6xl: 80px;
+  --spacing-section: 100px;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* Layout Dimensions */
+  --layout-max-width: 1440px;
+  --layout-content-width: 1200px;
+  --nav-height: 80px;
+  --footer-height: 240px;
+  --card-radius: 12px;
+  --modal-max-width: 720px;
+}

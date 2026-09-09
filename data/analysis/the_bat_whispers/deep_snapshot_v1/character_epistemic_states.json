@@ -1,0 +1,56 @@
+[
+  {
+    "state_id": "epistemic-anderson-c017",
+    "character": "Detective Anderson",
+    "scene_id": "scene-tbw-c017",
+    "timestamp_ms": 2010000,
+    "known_propositions": [
+      "prop-001-blueprints-secret-room",
+      "prop-003-anderson-identity-the-bat"
+    ],
+    "private_knowledge": [
+      "prop-003-anderson-identity-the-bat"
+    ],
+    "public_facade": "Investigating police detective conducting security assessment",
+    "evidence_refs": [
+      "ev-c017-05"
+    ],
+    "classification": "ENGINE_INFERENCE"
+  },
+  {
+    "state_id": "epistemic-anderson-c021",
+    "character": "Detective Anderson",
+    "scene_id": "scene-tbw-c021",
+    "timestamp_ms": 2490000,
+    "known_propositions": [
+      "prop-001-blueprints-secret-room",
+      "prop-003-anderson-identity-the-bat"
+    ],
+    "private_knowledge": [
+      "prop-003-anderson-identity-the-bat"
+    ],
+    "public_facade": "Sharing blueprints to assist household defense",
+    "evidence_refs": [
+      "ev-c021-03"
+    ],
+    "classification": "ENGINE_INFERENCE"
+  },
+  {
+    "state_id": "epistemic-dale-c031",
+    "character": "Dale Ogden",
+    "scene_id": "scene-tbw-c031",
+    "timestamp_ms": 3645000,
+    "known_propositions": [
+      "prop-001-blueprints-secret-room",
+      "prop-002-fireplace-mantel-mechanism"
+    ],
+    "private_knowledge": [
+      "prop-002-fireplace-mantel-mechanism"
+    ],
+    "public_facade": "Seeking evidence to exonerate Brooks",
+    "evidence_refs": [
+      "ev-c031-02"
+    ],
+    "classification": "OBSERVED_EVIDENCE"
+  }
+]

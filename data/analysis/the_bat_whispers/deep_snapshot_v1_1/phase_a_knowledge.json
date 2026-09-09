@@ -1,0 +1,172 @@
+[
+  {
+    "proposition_id": "prop-001-blueprints-secret-void",
+    "normalized_proposition": "Oakdale Manor architectural blueprints contain the layout of the hidden room and safe.",
+    "subjects": [
+      "blueprints",
+      "blueprint",
+      "plans",
+      "architecture",
+      "papers",
+      "safe",
+      "void",
+      "bank safe",
+      "hall",
+      "dark hall",
+      "alone",
+      "inspecting",
+      "unrolls"
+    ],
+    "canonical_truth_valid_from_ms": 0,
+    "audience_available_from_ms": 4860000,
+    "household_available_from_ms": 4860000,
+    "character_access": [
+      {
+        "character": "Detective Anderson",
+        "available_from_ms": 120000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c017-05",
+          "ev-c021-03"
+        ],
+        "confidence": 0.95,
+        "reasoning": "As The Bat, Anderson possessed prior knowledge of the blueprints and brought them to the manor."
+      },
+      {
+        "character": "Dale Ogden",
+        "available_from_ms": 2490000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c021-03"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "character": "Cornelia Van Gorder",
+        "available_from_ms": 2490000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c021-03"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "proposition_id": "prop-002-blueprints-exist",
+    "normalized_proposition": "Architectural blueprints of Oakdale Manor exist and are physically present in the manor.",
+    "subjects": [
+      "blueprints exist",
+      "manor blueprints",
+      "architectural floor plans"
+    ],
+    "canonical_truth_valid_from_ms": 0,
+    "audience_available_from_ms": 2490000,
+    "household_available_from_ms": 2490000,
+    "character_access": [
+      {
+        "character": "Detective Anderson",
+        "available_from_ms": 2490000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c021-03"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "character": "Dale Ogden",
+        "available_from_ms": 2490000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c021-03"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "proposition_id": "prop-003-fireplace-mantel-mechanism",
+    "normalized_proposition": "The grand fireplace wall rotates open via a lever mechanism located on the side of the fireplace mantel.",
+    "subjects": [
+      "fireplace",
+      "mantel",
+      "lever",
+      "painting",
+      "mechanism",
+      "secret room",
+      "stepladder",
+      "examines",
+      "touches",
+      "operates",
+      "painting frame"
+    ],
+    "canonical_truth_valid_from_ms": 0,
+    "audience_available_from_ms": 3660000,
+    "household_available_from_ms": 3660000,
+    "character_access": [
+      {
+        "character": "Dale Ogden",
+        "available_from_ms": 3645000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c031-02"
+        ],
+        "confidence": 1.0,
+        "reasoning": "Dale directly reaches up and operates the mantel mechanism on camera."
+      },
+      {
+        "character": "Detective Anderson",
+        "available_from_ms": 2759000,
+        "access_type": "INFERRED",
+        "evidence_refs": [
+          "ev-c023-05",
+          "ev-c028-03"
+        ],
+        "confidence": 0.88,
+        "reasoning": "Elevated examination of fireplace painting frame suggests targeted inspection of mantel mechanism area."
+      },
+      {
+        "character": "Detective",
+        "available_from_ms": 2759000,
+        "access_type": "INFERRED",
+        "evidence_refs": [
+          "ev-c023-05",
+          "ev-c028-03"
+        ],
+        "confidence": 0.88,
+        "reasoning": "Elevated examination of fireplace painting frame."
+      }
+    ]
+  },
+  {
+    "proposition_id": "prop-004-anderson-identity-the-bat",
+    "normalized_proposition": "Detective Anderson is secretly the criminal mastermind known as The Bat.",
+    "subjects": [
+      "Detective Anderson",
+      "The Bat",
+      "identity",
+      "criminal",
+      "disguise",
+      "anderson",
+      "bat"
+    ],
+    "canonical_truth_valid_from_ms": 0,
+    "audience_available_from_ms": 4860000,
+    "household_available_from_ms": 4860000,
+    "character_access": [
+      {
+        "character": "Detective Anderson",
+        "available_from_ms": 0,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c017-05",
+          "ev-c021-03",
+          "ev-c028-03",
+          "ev-c041-03"
+        ],
+        "confidence": 1.0,
+        "reasoning": "Anderson is himself The Bat."
+      }
+    ]
+  }
+]

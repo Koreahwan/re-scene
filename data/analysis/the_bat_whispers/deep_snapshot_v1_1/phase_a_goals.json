@@ -1,0 +1,18 @@
+[
+  {
+    "goal_id": "goal-001-safe-recovery",
+    "character": "Detective Anderson",
+    "goal_description": "Locate and access the hidden bank safe inside Oakdale Manor under cover of police investigation.",
+    "goal_type": "INFERRED_COVERT",
+    "supported_by_reveal": "reveal-anderson-identity",
+    "confidence": 0.94
+  },
+  {
+    "goal_id": "goal-002-secret-room-opening",
+    "character": "Dale Ogden",
+    "goal_description": "Open the hidden room behind the fireplace to find proof or missing bank funds.",
+    "goal_type": "OBSERVED_OVERT",
+    "supported_by_reveal": "reveal-secret-room-location",
+    "confidence": 0.98
+  }
+]

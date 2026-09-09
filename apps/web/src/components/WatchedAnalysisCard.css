@@ -1,0 +1,11 @@
+.watched-analysis-card { min-width: 0; padding: 24px; border: 1px solid var(--Gray-200, #E6E6EA); border-radius: 12px; background: white; display: flex; flex-direction: column; gap: 16px; box-sizing: border-box; }
+.watched-analysis-card-meta { display: flex; flex-wrap: wrap; gap: 8px 16px; color: var(--Purple-500, #4C22F4); font-size: 14px; line-height: 1.5; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.watched-analysis-card h3 { margin: 0; color: var(--Gray-800, #2D2D34); font-size: 20px; line-height: 1.4; overflow-wrap: anywhere; }
+.watched-analysis-card p { margin: 0; color: var(--Gray-600, #6B6B75); font-size: 14px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
+.watched-analysis-card footer { display: flex; justify-content: flex-end; padding-top: 8px; margin-top: auto; }
+.watched-analysis-card button, .watched-analysis-toggle { padding: 10px 16px; border: 1px solid var(--Purple-500, #4C22F4); border-radius: 8px; color: var(--Purple-500, #4C22F4); background: white; font: inherit; font-size: 14px; cursor: pointer; }
+.watched-analysis-card button:hover, .watched-analysis-toggle:hover { background: #F1F0FF; }
+.watched-analysis-toggle:disabled { color: #898992; border-color: #E6E6EA; cursor: not-allowed; }
+.watched-analysis-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; width: 100%; }
+.watched-analysis-actions p { margin: 0; color: #6B6B75; font-size: 14px; line-height: 1.5; }
+.watched-analysis-card:only-child { grid-column: 1 / -1; }

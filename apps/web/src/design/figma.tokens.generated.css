@@ -1,0 +1,75 @@
+/**
+ * AUTO-GENERATED FIGMA TOKENS CSS - REFRAME V7
+ * Sourced from 해커톤(1).fig (figma_v2_frozen_20260822)
+ */
+:root {
+  /* Typography */
+  --font-primary: Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: '42dot Sans', Pretendard, sans-serif;
+  --font-code: 'IBM Plex Sans KR', monospace;
+
+  /* Font Sizes */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 28px;
+  --text-4xl: 32px;
+  --text-5xl: 36px;
+  --text-6xl: 48px;
+  --text-7xl: 56px;
+  --text-8xl: 72px;
+
+  /* Colors - Background */
+  --bg-default: #0B0C10;
+  --bg-paper: #12141C;
+  --bg-surface: #1A1D2A;
+  --bg-surfaceRaised: #222638;
+  --bg-overlay: rgba(11, 12, 16, 0.85);
+
+  /* Colors - Primary */
+  --primary-50: #FAF5FF;
+  --primary-100: #F3E8FF;
+  --primary-200: #E9D5FF;
+  --primary-300: #D8B4FE;
+  --primary-400: #C084FC;
+  --primary-500: #A855F7;
+  --primary-600: #9333EA;
+  --primary-700: #7E22CE;
+  --primary-800: #6B21A8;
+  --primary-900: #581C87;
+
+  /* Colors - Neutral */
+  --neutral-50: #F8FAFC;
+  --neutral-100: #F1F5F9;
+  --neutral-200: #E2E8F0;
+  --neutral-300: #CBD5E1;
+  --neutral-400: #94A3B8;
+  --neutral-500: #64748B;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1E293B;
+  --neutral-900: #0F172A;
+
+  /* Colors - Accent */
+  --accent-red: #EF4444;
+  --accent-green: #10B981;
+  --accent-amber: #F59E0B;
+  --accent-cyan: #06B6D4;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.6), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.7), 0 4px 6px -2px rgba(0, 0, 0, 0.5);
+  --shadow-glowPrimary: 0 0 20px rgba(168, 85, 247, 0.35);
+}

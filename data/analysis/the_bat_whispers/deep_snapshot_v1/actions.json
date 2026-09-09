@@ -1,0 +1,103 @@
+[
+  {
+    "action_id": "action-anderson-c017-01",
+    "actor": "Detective Anderson",
+    "normalized_action": "Stands alone in the dark hall inspecting surroundings unbriefed.",
+    "scene_id": "scene-tbw-c017",
+    "timestamp_ms": 2010000,
+    "event_refs": [
+      "ev-c017-05"
+    ],
+    "fact_refs": [],
+    "frame_refs": [
+      "frame_c017_030"
+    ],
+    "objects": [
+      "dark hall",
+      "manor interior"
+    ],
+    "location": "Oakdale Manor Main Hall",
+    "confidence": 1.0
+  },
+  {
+    "action_id": "action-anderson-c021-01",
+    "actor": "Detective Anderson",
+    "normalized_action": "Carries rolled papers across the room and unrolls blueprints before Dale and the group.",
+    "scene_id": "scene-tbw-c021",
+    "timestamp_ms": 2490000,
+    "event_refs": [
+      "ev-c021-03"
+    ],
+    "fact_refs": [],
+    "frame_refs": [
+      "frame_c021_045"
+    ],
+    "objects": [
+      "rolled blueprints",
+      "table"
+    ],
+    "location": "Oakdale Manor Living Room",
+    "confidence": 1.0
+  },
+  {
+    "action_id": "action-anderson-c023-01",
+    "actor": "Detective",
+    "normalized_action": "Stands on a stepladder to examine the painting above the fireplace.",
+    "scene_id": "scene-tbw-c023",
+    "timestamp_ms": 2759000,
+    "event_refs": [
+      "ev-c023-05"
+    ],
+    "fact_refs": [],
+    "frame_refs": [
+      "frame_c023_060"
+    ],
+    "objects": [
+      "stepladder",
+      "fireplace painting",
+      "mantel"
+    ],
+    "location": "Oakdale Manor Fireplace Room",
+    "confidence": 1.0
+  },
+  {
+    "action_id": "action-anderson-c028-01",
+    "actor": "Detective Anderson",
+    "normalized_action": "Moves large framed portrait near stairs to inspect wall cavity.",
+    "scene_id": "scene-tbw-c028",
+    "timestamp_ms": 3270000,
+    "event_refs": [
+      "ev-c028-03"
+    ],
+    "fact_refs": [],
+    "frame_refs": [
+      "frame_c028_030"
+    ],
+    "objects": [
+      "large framed portrait",
+      "wall"
+    ],
+    "location": "Oakdale Manor Staircase Hall",
+    "confidence": 1.0
+  },
+  {
+    "action_id": "action-dale-c031-01",
+    "actor": "Dale Ogden",
+    "normalized_action": "Reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+    "scene_id": "scene-tbw-c031",
+    "timestamp_ms": 3645000,
+    "event_refs": [
+      "ev-c031-02"
+    ],
+    "fact_refs": [],
+    "frame_refs": [
+      "frame_c031_030"
+    ],
+    "objects": [
+      "mantel mechanism",
+      "fireplace wall"
+    ],
+    "location": "Oakdale Manor Fireplace Room",
+    "confidence": 1.0
+  }
+]

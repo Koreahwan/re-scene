@@ -1,0 +1,53 @@
+[
+  {
+    "step_id": "step-anderson-01",
+    "goal_id": "goal-anderson-locate-safe",
+    "actor": "Detective Anderson",
+    "scene_id": "scene-tbw-c017",
+    "timestamp_ms": 2010000,
+    "action": "Conduct unobserved layout inspection of manor halls.",
+    "preconditions": [
+      "Arrived at Oakdale Manor with lead detective credentials"
+    ],
+    "consequences": [
+      "Identifies architectural search zones without witness interference"
+    ],
+    "evidence_refs": [
+      "ev-c017-05"
+    ]
+  },
+  {
+    "step_id": "step-anderson-02",
+    "goal_id": "goal-anderson-locate-safe",
+    "actor": "Detective Anderson",
+    "scene_id": "scene-tbw-c021",
+    "timestamp_ms": 2490000,
+    "action": "Introduce architectural blueprints under the guise of official investigation.",
+    "preconditions": [
+      "Acquired or brought blueprints of the estate"
+    ],
+    "consequences": [
+      "Legitimizes search for hidden rooms and narrows focus to fireplace wall"
+    ],
+    "evidence_refs": [
+      "ev-c021-03"
+    ]
+  },
+  {
+    "step_id": "step-anderson-03",
+    "goal_id": "goal-anderson-locate-safe",
+    "actor": "Detective Anderson",
+    "scene_id": "scene-tbw-c028",
+    "timestamp_ms": 3270000,
+    "action": "Manipulate wall portrait near stairs to probe for secret panel release.",
+    "preconditions": [
+      "Blueprint examination identified wall fixture triggers"
+    ],
+    "consequences": [
+      "Tests structural trigger mechanism while maintaining investigation alibi"
+    ],
+    "evidence_refs": [
+      "ev-c028-03"
+    ]
+  }
+]

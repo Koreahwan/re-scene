@@ -1,0 +1,178 @@
+[
+  {
+    "proof_id": "proof-cand-secret-room-01",
+    "reveal_id": "reveal-secret-room-location",
+    "proof_type": "MECHANISM_DISCOVERY",
+    "title": "Concealed Fireplace Wall Mechanism Discovery and Lever Operation",
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "HIDDEN_FROM_PUBLIC",
+    "trust_namespace": "ENGINE_INFERENCE",
+    "trust_label": "Engine-supported interpretation (Clean-Room V1.1)",
+    "counterfactual_evaluation_id": "cf-eval-cand-secret-room-01",
+    "evaluation_input_hash": "283e4157852b63cf39a86cc8990be3cfd9583f14c4a543c9a827379fd5f9ce19",
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000
+      },
+      {
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3645000
+      }
+    ],
+    "observed_premises": [
+      {
+        "evidence_ref": "ev-c023-05",
+        "scene_id": "scene-tbw-c023",
+        "event_id": "ev-c023-05",
+        "fact_id": null,
+        "timestamp_ms": 2759000,
+        "actor": "Detective Anderson",
+        "action": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "display_fact": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "canonical_content_hash": "8dbc230cecf6f89b3b87873e8f91e6c22b94911e4d0d2d9943e99f8077d09e18"
+      },
+      {
+        "evidence_ref": "ev-c031-02",
+        "scene_id": "scene-tbw-c031",
+        "event_id": "ev-c031-02",
+        "fact_id": null,
+        "timestamp_ms": 3645000,
+        "actor": "Dale Ogden",
+        "action": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+        "display_fact": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+        "canonical_content_hash": "283e4157852b63cf39a86cc8990be3cfd9583f14c4a543c9a827379fd5f9ce19"
+      }
+    ],
+    "blind_explanation": "Characters examining decorative artwork and touching mantel fixtures during search.",
+    "reveal_explanation": "Operating the concealed mechanical trigger that unlocks and rotates the fireplace wall partition.",
+    "alternative_explanations": [
+      "Art inspection",
+      "Accidental discovery"
+    ],
+    "proof_strength": 0.82,
+    "fan_impact": 0.85
+  },
+  {
+    "proof_id": "proof-cand-anderson-01",
+    "reveal_id": "reveal-anderson-identity",
+    "proof_type": "MULTI_SCENE_PATTERN",
+    "title": "Elevated Fireplace Inspection and Portrait Wall Probing Pattern",
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "HIDDEN_FROM_PUBLIC",
+    "trust_namespace": "ENGINE_INFERENCE",
+    "trust_label": "Engine-supported interpretation (Clean-Room V1.1)",
+    "counterfactual_evaluation_id": "cf-eval-cand-anderson-01",
+    "evaluation_input_hash": "eb5ae95a109261de28681b93ce8723997fffedcbdc721c6ab69f0c0ada5885d6",
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000
+      },
+      {
+        "scene_id": "scene-tbw-c028",
+        "timestamp_ms": 3270000
+      }
+    ],
+    "observed_premises": [
+      {
+        "evidence_ref": "ev-c023-05",
+        "scene_id": "scene-tbw-c023",
+        "event_id": "ev-c023-05",
+        "fact_id": null,
+        "timestamp_ms": 2759000,
+        "actor": "Detective Anderson",
+        "action": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "display_fact": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "canonical_content_hash": "8dbc230cecf6f89b3b87873e8f91e6c22b94911e4d0d2d9943e99f8077d09e18"
+      },
+      {
+        "evidence_ref": "ev-c028-03",
+        "scene_id": "scene-tbw-c028",
+        "event_id": "ev-c028-03",
+        "fact_id": null,
+        "timestamp_ms": 3270000,
+        "actor": "Detective Anderson",
+        "action": "Detective Anderson moves large framed portrait near stairs.",
+        "display_fact": "Detective Anderson moves large framed portrait near stairs.",
+        "canonical_content_hash": "eb5ae95a109261de28681b93ce8723997fffedcbdc721c6ab69f0c0ada5885d6"
+      }
+    ],
+    "blind_explanation": "Standard police physical inspection of wall fixtures and artwork.",
+    "reveal_explanation": "Targeted search for the secret room release mechanism and wall voids by The Bat disguised as detective.",
+    "alternative_explanations": [
+      "Routine police security sweep",
+      "Checking for forced entry points"
+    ],
+    "proof_strength": 0.85,
+    "fan_impact": 0.85
+  },
+  {
+    "proof_id": "proof-cand-anderson-02",
+    "reveal_id": "reveal-anderson-identity",
+    "proof_type": "GOAL_ALIGNED_PATTERN",
+    "title": "Phased Architectural Blueprint Review and Structural Fixture Search Pattern",
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "HIDDEN_FROM_PUBLIC",
+    "trust_namespace": "ENGINE_INFERENCE",
+    "trust_label": "Engine-supported interpretation (Clean-Room V1.1)",
+    "counterfactual_evaluation_id": "cf-eval-cand-anderson-02",
+    "evaluation_input_hash": "371a305a513ac045b77565c33c472add5c8be80cfb380e678ea7759ecb24fea1",
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c021",
+        "timestamp_ms": 2490000
+      },
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000
+      },
+      {
+        "scene_id": "scene-tbw-c028",
+        "timestamp_ms": 3270000
+      }
+    ],
+    "observed_premises": [
+      {
+        "evidence_ref": "ev-c021-03",
+        "scene_id": "scene-tbw-c021",
+        "event_id": "ev-c021-03",
+        "fact_id": null,
+        "timestamp_ms": 2490000,
+        "actor": "Detective Anderson",
+        "action": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group.",
+        "display_fact": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group.",
+        "canonical_content_hash": "371a305a513ac045b77565c33c472add5c8be80cfb380e678ea7759ecb24fea1"
+      },
+      {
+        "evidence_ref": "ev-c023-05",
+        "scene_id": "scene-tbw-c023",
+        "event_id": "ev-c023-05",
+        "fact_id": null,
+        "timestamp_ms": 2759000,
+        "actor": "Detective Anderson",
+        "action": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "display_fact": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "canonical_content_hash": "8dbc230cecf6f89b3b87873e8f91e6c22b94911e4d0d2d9943e99f8077d09e18"
+      },
+      {
+        "evidence_ref": "ev-c028-03",
+        "scene_id": "scene-tbw-c028",
+        "event_id": "ev-c028-03",
+        "fact_id": null,
+        "timestamp_ms": 3270000,
+        "actor": "Detective Anderson",
+        "action": "Detective Anderson moves large framed portrait near stairs.",
+        "display_fact": "Detective Anderson moves large framed portrait near stairs.",
+        "canonical_content_hash": "eb5ae95a109261de28681b93ce8723997fffedcbdc721c6ab69f0c0ada5885d6"
+      }
+    ],
+    "blind_explanation": "Progressive multi-room investigative protocol by lead detective.",
+    "reveal_explanation": "Coordinated search sequence to locate the hidden room and safe while maintaining detective facade.",
+    "alternative_explanations": [
+      "Standard police protocol progression"
+    ],
+    "proof_strength": 0.85,
+    "fan_impact": 0.85
+  }
+]

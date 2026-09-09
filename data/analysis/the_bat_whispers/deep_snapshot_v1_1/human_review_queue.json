@@ -1,0 +1,26 @@
+[
+  {
+    "queue_id": "hrq-001",
+    "item_type": "PROOF_CANDIDATE",
+    "item_id": "proof-cand-secret-room-01",
+    "review_status": "NOT_REVIEWED",
+    "assigned_role": "MODERATOR",
+    "notes": "Clean-room D4 Knowledge Leak for fireplace mantel mechanism. Review required prior to public promotion."
+  },
+  {
+    "queue_id": "hrq-002",
+    "item_type": "PROOF_CANDIDATE",
+    "item_id": "proof-cand-anderson-01",
+    "review_status": "NOT_REVIEWED",
+    "assigned_role": "MODERATOR",
+    "notes": "Clean-room D3/D4 inspection sequence for Anderson identity."
+  },
+  {
+    "queue_id": "hrq-003",
+    "item_type": "PROOF_CANDIDATE",
+    "item_id": "proof-cand-anderson-02",
+    "review_status": "NOT_REVIEWED",
+    "assigned_role": "MODERATOR",
+    "notes": "Clean-room multi-scene search pattern with partial causal link."
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "character_id": "char-detective-anderson",
+    "canonical_name": "Detective Anderson",
+    "aliases": [
+      "The Bat",
+      "Lead Investigator"
+    ],
+    "public_role": "Police Detective assigned to investigate threats at Oakdale Manor",
+    "secret_role": "Master criminal 'The Bat' exploiting police authority to find the hidden loot",
+    "first_appearance_scene": "scene-tbw-c017",
+    "first_appearance_ms": 2010000,
+    "key_scene_ids": [
+      "scene-tbw-c017",
+      "scene-tbw-c021",
+      "scene-tbw-c022",
+      "scene-tbw-c023",
+      "scene-tbw-c024",
+      "scene-tbw-c025",
+      "scene-tbw-c027",
+      "scene-tbw-c028",
+      "scene-tbw-c029",
+      "scene-tbw-c030",
+      "scene-tbw-c034",
+      "scene-tbw-c035",
+      "scene-tbw-c036",
+      "scene-tbw-c037",
+      "scene-tbw-c038",
+      "scene-tbw-c039",
+      "scene-tbw-c040",
+      "scene-tbw-c041",
+      "scene-tbw-c042"
+    ],
+    "classification": "CANONICAL_METADATA"
+  },
+  {
+    "character_id": "char-dale-ogden",
+    "canonical_name": "Dale Ogden",
+    "aliases": [
+      "Niece"
+    ],
+    "public_role": "Niece of Courtleigh Fleming staying at Oakdale Manor",
+    "secret_role": "Conspiring with Jack Brooks to locate the hidden money and clear his name",
+    "first_appearance_scene": "scene-tbw-c006",
+    "first_appearance_ms": 600000,
+    "key_scene_ids": [
+      "scene-tbw-c006",
+      "scene-tbw-c007",
+      "scene-tbw-c010",
+      "scene-tbw-c011",
+      "scene-tbw-c021",
+      "scene-tbw-c024",
+      "scene-tbw-c025",
+      "scene-tbw-c029",
+      "scene-tbw-c031",
+      "scene-tbw-c033",
+      "scene-tbw-c034",
+      "scene-tbw-c037"
+    ],
+    "classification": "CANONICAL_METADATA"
+  },
+  {
+    "character_id": "char-cornelia-van-gorder",
+    "canonical_name": "Cornelia Van Gorder",
+    "aliases": [
+      "Miss Cornelia"
+    ],
+    "public_role": "Wealthy mystery novelist leasing Oakdale Manor for the summer",
+    "secret_role": "Amateur sleuth determined to outwit The Bat and solve the mystery",
+    "first_appearance_scene": "scene-tbw-c006",
+    "first_appearance_ms": 600000,
+    "key_scene_ids": [
+      "scene-tbw-c006",
+      "scene-tbw-c007",
+      "scene-tbw-c011",
+      "scene-tbw-c014",
+      "scene-tbw-c021",
+      "scene-tbw-c022",
+      "scene-tbw-c025",
+      "scene-tbw-c027",
+      "scene-tbw-c028",
+      "scene-tbw-c034",
+      "scene-tbw-c035",
+      "scene-tbw-c040",
+      "scene-tbw-c041"
+    ],
+    "classification": "CANONICAL_METADATA"
+  },
+  {
+    "character_id": "char-lizzie-allen",
+    "canonical_name": "Lizzie Allen",
+    "aliases": [
+      "Lizzie"
+    ],
+    "public_role": "Devoted but superstitious and easily frightened maid to Cornelia",
+    "secret_role": "None (comic relief and emotional barometer)",
+    "first_appearance_scene": "scene-tbw-c006",
+    "first_appearance_ms": 600000,
+    "key_scene_ids": [
+      "scene-tbw-c006",
+      "scene-tbw-c007",
+      "scene-tbw-c011",
+      "scene-tbw-c014",
+      "scene-tbw-c022",
+      "scene-tbw-c027",
+      "scene-tbw-c033",
+      "scene-tbw-c038",
+      "scene-tbw-c041"
+    ],
+    "classification": "CANONICAL_METADATA"
+  },
+  {
+    "character_id": "char-jack-brooks",
+    "canonical_name": "Jack Brooks",
+    "aliases": [
+      "Brooks",
+      "Gardener"
+    ],
+    "public_role": "Hired estate gardener",
+    "secret_role": "Oakdale Bank cashier framed for the $200,000 robbery, disguised as gardener",
+    "first_appearance_scene": "scene-tbw-c007",
+    "first_appearance_ms": 795000,
+    "key_scene_ids": [
+      "scene-tbw-c007",
+      "scene-tbw-c010",
+      "scene-tbw-c029",
+      "scene-tbw-c034",
+      "scene-tbw-c035",
+      "scene-tbw-c039",
+      "scene-tbw-c041"
+    ],
+    "classification": "CANONICAL_METADATA"
+  },
+  {
+    "character_id": "char-doctor-wells",
+    "canonical_name": "Doctor Wells",
+    "aliases": [
+      "Dr. Wells",
+      "Dr. Sterling"
+    ],
+    "public_role": "Local country physician attending the manor",
+    "secret_role": "Coroner who examined Fleming; suspect with knowledge of the estate",
+    "first_appearance_scene": "scene-tbw-c011",
+    "first_appearance_ms": 1320000,
+    "key_scene_ids": [
+      "scene-tbw-c011",
+      "scene-tbw-c013",
+      "scene-tbw-c024",
+      "scene-tbw-c025"
+    ],
+    "classification": "CANONICAL_METADATA"
+  },
+  {
+    "character_id": "char-richard-fleming",
+    "canonical_name": "Richard Fleming",
+    "aliases": [
+      "Richard"
+    ],
+    "public_role": "Nephew of Courtleigh Fleming",
+    "secret_role": "Schemer attempting to locate the stolen bank cash before others",
+    "first_appearance_scene": "scene-tbw-c006",
+    "first_appearance_ms": 600000,
+    "key_scene_ids": [
+      "scene-tbw-c006",
+      "scene-tbw-c007",
+      "scene-tbw-c021",
+      "scene-tbw-c022"
+    ],
+    "classification": "CANONICAL_METADATA"
+  }
+]

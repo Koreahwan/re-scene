@@ -1,0 +1,20 @@
+[
+  {
+    "item_id": "neg-001-dr-wells-suspicion",
+    "scene_id": "scene-tbw-c011",
+    "timestamp_ms": 1320000,
+    "event_ref": "ev-c011-01",
+    "apparent_interpretation": "Dr. Wells acts nervously and looks guilty, drawing suspicion as The Bat.",
+    "ground_truth_reinterpretation": "Dr. Wells is an anxious country doctor caught in Fleming's affairs; he is not The Bat.",
+    "category": "RED_HERRING"
+  },
+  {
+    "item_id": "neg-002-brooks-gardener-disguise",
+    "scene_id": "scene-tbw-c007",
+    "timestamp_ms": 795000,
+    "event_ref": "ev-c007-02",
+    "apparent_interpretation": "The mysterious gardener lurking around the manor is the criminal intruder.",
+    "ground_truth_reinterpretation": "Brooks is the framed bank cashier trying to clear his name with Dale's help.",
+    "category": "MISDIRECTION"
+  }
+]

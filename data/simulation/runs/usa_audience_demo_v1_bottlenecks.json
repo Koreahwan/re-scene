@@ -1,0 +1,85 @@
+{
+  "ranking_score_formula": "(0.40 * dropoff_share + 0.30 * business_importance + 0.30 * measured_sensitivity) * stability_score",
+  "bottlenecks": [
+    {
+      "rank": 1,
+      "state": "FILM_HUB",
+      "primary_dropoff_reasons": [
+        "NO_RELEVANT_FILM"
+      ],
+      "affected_share": 0.178,
+      "affected_sessions": 383691,
+      "sensitivity_score": 0.705,
+      "stability_score": 0.9452,
+      "suggested_experiment": "Feature curated film magazine guides on the film hub to provide immediate contextual entry points.",
+      "limitations": "Assumes single-title catalog context (The Bat Whispers); multi-film catalog dynamics are out of scope."
+    },
+    {
+      "rank": 2,
+      "state": "LANDING",
+      "primary_dropoff_reasons": [
+        "VALUE_NOT_CLEAR"
+      ],
+      "affected_share": 0.2374,
+      "affected_sessions": 511892,
+      "sensitivity_score": 0.7347,
+      "stability_score": 0.9417,
+      "suggested_experiment": "Provide instant 1-click sample scene reframe demonstration without requiring navigation.",
+      "limitations": "Traffic source intent is assumed rather than tracked through real attribution funnels."
+    },
+    {
+      "rank": 3,
+      "state": "DEEP_REFRAME",
+      "primary_dropoff_reasons": [
+        "CONTENT_TOO_DENSE"
+      ],
+      "affected_share": 0.0924,
+      "affected_sessions": 199196,
+      "sensitivity_score": 0.2152,
+      "stability_score": 0.98,
+      "suggested_experiment": "Test progressive disclosure of evidence cards and explicit trust label tooltips to reduce cognitive density.",
+      "limitations": "Synthetic reading patience model assumes linear text processing; real viewers may skim or jump to media clips."
+    },
+    {
+      "rank": 4,
+      "state": "SPOILER_GATE",
+      "primary_dropoff_reasons": [
+        "SPOILER_FRICTION"
+      ],
+      "affected_share": 0.2061,
+      "affected_sessions": 444449,
+      "sensitivity_score": 0.1861,
+      "stability_score": 0.9626,
+      "suggested_experiment": "Test inline spoil-guard toggles with contextual preview rather than modal interruption.",
+      "limitations": "Simulation treats spoiler tolerance as a static trait; real viewers may adjust tolerance per film genre."
+    },
+    {
+      "rank": 5,
+      "state": "REVEAL",
+      "primary_dropoff_reasons": [
+        "LOW_TRUST",
+        "NO_VERIFIED_PROOF"
+      ],
+      "affected_share": 0.1542,
+      "affected_sessions": 332523,
+      "sensitivity_score": 0.1341,
+      "stability_score": 0.98,
+      "suggested_experiment": "Highlight canonical timestamps and scene anchors immediately upon reveal selection.",
+      "limitations": "Model cannot observe real visual recognition speed of plot twists."
+    },
+    {
+      "rank": 6,
+      "state": "THEORY_LAB",
+      "primary_dropoff_reasons": [
+        "AUTH_FRICTION",
+        "THEORY_EFFORT"
+      ],
+      "affected_share": 0.1319,
+      "affected_sessions": 284283,
+      "sensitivity_score": 0.1489,
+      "stability_score": 0.9,
+      "suggested_experiment": "Offer scaffolded theory templates and pre-populated evidence picker to lower writing activation energy.",
+      "limitations": "Assumes deterministic effort thresholds; creative writing motivation varies widely across fan communities."
+    }
+  ]
+}

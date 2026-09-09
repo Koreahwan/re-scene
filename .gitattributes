@@ -1,0 +1,5 @@
+data/analysis/the_bat_whispers/deep_snapshot_v1_1/** text eol=crlf
+data/analysis/the_bat_whispers/deep_snapshot_v1_1/knowledge_propositions.json text eol=lf
+data/analysis/the_bat_whispers/deep_snapshot_v1_1/proof_candidates.json text eol=lf
+data/analysis/the_bat_whispers/deep_snapshot_v1_1/counterfactual_evaluation.json text eol=lf
+data/analysis/the_bat_whispers/deep_snapshot_v1_1/analysis_report.md text eol=lf

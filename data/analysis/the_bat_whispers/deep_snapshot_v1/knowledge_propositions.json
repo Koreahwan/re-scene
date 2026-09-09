@@ -1,0 +1,157 @@
+[
+  {
+    "proposition_id": "prop-001-blueprints-secret-room",
+    "normalized_proposition": "Oakdale Manor architectural blueprints contain the layout of the hidden room and safe.",
+    "subjects": [
+      "blueprints",
+      "blueprint",
+      "architecture",
+      "secret room",
+      "plans",
+      "hall",
+      "inspecting",
+      "dark hall",
+      "alone",
+      "unrolls",
+      "observe"
+    ],
+    "public_available_from_ms": 4860000,
+    "public_availability_evidence": "ev-c041-03",
+    "character_access": [
+      {
+        "character": "Detective Anderson",
+        "available_from_ms": 120000,
+        "access_type": "INFERRED",
+        "evidence_refs": [
+          "ev-c017-05",
+          "ev-c021-03"
+        ],
+        "confidence": 0.95,
+        "reasoning": "As The Bat, Anderson possessed prior knowledge of the blueprints and brought them to the manor."
+      },
+      {
+        "character": "Dale Ogden",
+        "available_from_ms": 2490000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c021-03"
+        ],
+        "confidence": 1.0,
+        "reasoning": "Observed blueprints unrolled before her in Scene 21."
+      },
+      {
+        "character": "Cornelia Van Gorder",
+        "available_from_ms": 2490000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c021-03"
+        ],
+        "confidence": 1.0,
+        "reasoning": "Observed blueprints unrolled before her in Scene 21."
+      }
+    ]
+  },
+  {
+    "proposition_id": "prop-002-fireplace-mantel-mechanism",
+    "normalized_proposition": "The grand fireplace wall rotates open via a lever located on the mantel side to access the secret room.",
+    "subjects": [
+      "fireplace",
+      "mantel",
+      "lever",
+      "painting",
+      "mechanism",
+      "secret room",
+      "stepladder",
+      "examines",
+      "touches",
+      "operates",
+      "painting frame"
+    ],
+    "public_available_from_ms": 3660000,
+    "public_availability_evidence": "ev-c031-03",
+    "character_access": [
+      {
+        "character": "Dale Ogden",
+        "available_from_ms": 3645000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c031-02"
+        ],
+        "confidence": 1.0,
+        "reasoning": "Dale directly reaches up to touch and operate the mechanism on the mantel."
+      },
+      {
+        "character": "Detective Anderson",
+        "available_from_ms": 2759000,
+        "access_type": "INFERRED",
+        "evidence_refs": [
+          "ev-c023-05",
+          "ev-c028-03"
+        ],
+        "confidence": 0.92,
+        "reasoning": "Targeted stepladder inspection of the painting above the fireplace and subsequent portrait movement."
+      },
+      {
+        "character": "Detective",
+        "available_from_ms": 2759000,
+        "access_type": "INFERRED",
+        "evidence_refs": [
+          "ev-c023-05",
+          "ev-c028-03"
+        ],
+        "confidence": 0.92,
+        "reasoning": "Targeted stepladder inspection of the painting above the fireplace and subsequent portrait movement."
+      },
+      {
+        "character": "Lizzie Allen",
+        "available_from_ms": 4545000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c038-03"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Unaware of the mechanism until after the secret room is entered."
+      }
+    ]
+  },
+  {
+    "proposition_id": "prop-003-anderson-identity-the-bat",
+    "normalized_proposition": "Detective Anderson is himself the masked criminal mastermind known as The Bat.",
+    "subjects": [
+      "Detective Anderson",
+      "The Bat",
+      "identity",
+      "criminal",
+      "disguise",
+      "anderson",
+      "bat"
+    ],
+    "public_available_from_ms": 4860000,
+    "public_availability_evidence": "ev-c041-03",
+    "character_access": [
+      {
+        "character": "Detective Anderson",
+        "available_from_ms": 0,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c017-05",
+          "ev-c021-03",
+          "ev-c028-03",
+          "ev-c041-03"
+        ],
+        "confidence": 1.0,
+        "reasoning": "Anderson is himself The Bat and possesses continuous self-awareness of his identity and goals."
+      },
+      {
+        "character": "Cornelia Van Gorder",
+        "available_from_ms": 4860000,
+        "access_type": "OBSERVED",
+        "evidence_refs": [
+          "ev-c041-03"
+        ],
+        "confidence": 1.0,
+        "reasoning": "Discovers identity only upon unmasking."
+      }
+    ]
+  }
+]

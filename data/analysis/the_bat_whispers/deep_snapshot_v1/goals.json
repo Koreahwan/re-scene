@@ -1,0 +1,39 @@
+[
+  {
+    "goal_id": "goal-anderson-locate-safe",
+    "actor": "Detective Anderson",
+    "goal": "Locate and breach the hidden safe in Oakdale Manor while maintaining detective cover.",
+    "status": "INFERRED",
+    "evidence_refs": [
+      "ev-c017-05",
+      "ev-c021-03",
+      "ev-c028-03",
+      "ev-c038-02"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "goal_id": "goal-dale-exonerate-brooks",
+    "actor": "Dale Ogden",
+    "goal": "Find the stolen bank money in the secret room to prove Jack Brooks is innocent.",
+    "status": "OBSERVED",
+    "evidence_refs": [
+      "ev-c010-02",
+      "ev-c031-02",
+      "ev-c031-04"
+    ],
+    "confidence": 0.98
+  },
+  {
+    "goal_id": "goal-cornelia-solve-mystery",
+    "actor": "Cornelia Van Gorder",
+    "goal": "Protect the manor occupants and solve the identity of The Bat.",
+    "status": "OBSERVED",
+    "evidence_refs": [
+      "ev-c006-03",
+      "ev-c021-03",
+      "ev-c041-03"
+    ],
+    "confidence": 1.0
+  }
+]

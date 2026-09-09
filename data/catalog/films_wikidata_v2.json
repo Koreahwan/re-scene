@@ -1,0 +1,2115 @@
+{
+  "version": "2.0",
+  "source": "Wikidata CC0",
+  "collected_at_utc": "2026-09-06T01:37:03.584632+00:00",
+  "count": 20,
+  "films": [
+    {
+      "movie_id": "the-bat-whispers-1930",
+      "qid": "Q3985804",
+      "title_en": "The Bat Whispers",
+      "title_ko": "배트 위스퍼스",
+      "year": 1930,
+      "description_en": "A mysterious cloaked criminal known as 'The Bat' terrorizes a country estate while searching for stolen bank loot.",
+      "description_ko": "정체불명의 복면 범죄자 '더 배트'가 도난당한 은행 자금을 찾아 외딴 대저택을 공포로 몰아넣는 미스터리 범죄 스릴러의 고전.",
+      "runtime_minutes": 83,
+      "directors": [
+        {
+          "qid": "Q967502",
+          "name_en": "Roland West",
+          "name_ko": "롤랜드 웨스트"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q983420",
+          "name_en": "Chester Morris",
+          "name_ko": "체스터 모리스"
+        },
+        {
+          "qid": "Q266473",
+          "name_en": "Una Merkel",
+          "name_ko": "우나 머켈"
+        },
+        {
+          "qid": "Q3666101",
+          "name_en": "Q3666101",
+          "name_ko": null
+        },
+        {
+          "qid": "Q3934887",
+          "name_en": "Richard Tucker",
+          "name_ko": null
+        },
+        {
+          "qid": "Q3568410",
+          "name_en": "William Bakewell",
+          "name_ko": "윌리엄 베이크웰"
+        },
+        {
+          "qid": "Q73168",
+          "name_en": "Gustav von Seyffertitz",
+          "name_ko": "구스타프 본 세이퍼티츠"
+        },
+        {
+          "qid": "Q3300132",
+          "name_en": "Maude Eburne",
+          "name_ko": null
+        },
+        {
+          "qid": "Q3020059",
+          "name_en": "DeWitt Clarke Jennings",
+          "name_ko": "드윗 제닝스"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q9593",
+          "name_en": "Crime film",
+          "name_ko": "범죄 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": true,
+      "source_revision": 2534854253,
+      "source_url": "https://www.wikidata.org/wiki/Q3985804",
+      "fetched_at_utc": "2026-09-06T01:36:53.832194+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q3985804.jpg",
+        "source_filename": "Q3985804.jpg",
+        "sha256": "6ba2194a9a6435bf0ce65643e07e4fce2b2da307472c63dbb0d6f775d6a65cb1",
+        "size_bytes": 103161,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "The Bat Whispers",
+        "source_url": "https://www.wikidata.org/wiki/Q3985804"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q3985804.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q3985804.jpg"
+    },
+    {
+      "movie_id": "wd-q25188",
+      "qid": "Q25188",
+      "title_en": "Inception",
+      "title_ko": "인셉션",
+      "year": 2010,
+      "description_en": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "description_ko": "타인의 꿈에 들어가 생각을 훔치는 특수 보안요원 코브가 생각을 심는 역발상 작전 '인셉션'을 제안받고 벌이는 SF 액션 스릴러.",
+      "runtime_minutes": 148,
+      "directors": [
+        {
+          "qid": "Q25191",
+          "name_en": "Christopher Nolan",
+          "name_ko": "크리스토퍼 놀란"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q38111",
+          "name_en": "Q38111",
+          "name_ko": "레오나르도 디카프리오"
+        },
+        {
+          "qid": "Q211553",
+          "name_en": "Ken Watanabe",
+          "name_ko": "와타나베 겐"
+        },
+        {
+          "qid": "Q177311",
+          "name_en": "Joseph Gordon-Levitt",
+          "name_ko": "조셉 고든 레빗"
+        },
+        {
+          "qid": "Q8927",
+          "name_en": "Marion Cotillard",
+          "name_ko": "마리옹 코티야르"
+        },
+        {
+          "qid": "Q173399",
+          "name_en": "Elliot Page",
+          "name_ko": "엘리엇 페이지"
+        },
+        {
+          "qid": "Q208026",
+          "name_en": "Tom Hardy",
+          "name_ko": "톰 하디"
+        },
+        {
+          "qid": "Q202589",
+          "name_en": "Cillian Murphy",
+          "name_ko": "킬리언 머피"
+        },
+        {
+          "qid": "Q299317",
+          "name_en": "Tom Berenger",
+          "name_ko": "톰 베렌저"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        },
+        {
+          "qid": "Q471839",
+          "name_en": "Science fiction film",
+          "name_ko": "SF 영화"
+        },
+        {
+          "qid": "Q188473",
+          "name_en": "Action film",
+          "name_ko": "액션 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q145",
+          "name_en": "United Kingdom",
+          "name_ko": "영국"
+        },
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        },
+        {
+          "qid": "Q5287",
+          "name_en": "Japanese",
+          "name_ko": "일본어"
+        },
+        {
+          "qid": "Q150",
+          "name_en": "French",
+          "name_ko": "프랑스어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2538970288,
+      "source_url": "https://www.wikidata.org/wiki/Q25188",
+      "fetched_at_utc": "2026-09-06T01:36:53.832283+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q25188.jpg",
+        "source_filename": "Q25188.jpg",
+        "sha256": "e1bab76f206e546c035bf3d19488bded68903a36f28ee3936512459344e4a176",
+        "size_bytes": 137809,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Inception",
+        "source_url": "https://www.wikidata.org/wiki/Q25188"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q25188.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q25188.jpg"
+    },
+    {
+      "movie_id": "wd-q13417189",
+      "qid": "Q13417189",
+      "title_en": "Interstellar",
+      "title_ko": "인터스텔라",
+      "year": 2014,
+      "description_en": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft to find a new home for mankind.",
+      "description_ko": "인류 멸망 위기에 처한 지구를 떠나 새로운 보금자리를 찾아 웜홀을 통과하는 우주 탐사팀의 장대한 모험과 가족애를 그린 SF 걸작.",
+      "runtime_minutes": 169,
+      "directors": [
+        {
+          "qid": "Q25191",
+          "name_en": "Christopher Nolan",
+          "name_ko": "크리스토퍼 놀란"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q188955",
+          "name_en": "Matthew McConaughey",
+          "name_ko": "매슈 매코너헤이"
+        },
+        {
+          "qid": "Q36301",
+          "name_en": "Q36301",
+          "name_ko": "앤 해서웨이"
+        },
+        {
+          "qid": "Q229313",
+          "name_en": "Jessica Chastain",
+          "name_ko": "제시카 채스테인"
+        },
+        {
+          "qid": "Q123351",
+          "name_en": "Michael Caine",
+          "name_ko": "마이클 케인"
+        },
+        {
+          "qid": "Q603317",
+          "name_en": "Bill Irwin",
+          "name_ko": "빌 어윈"
+        },
+        {
+          "qid": "Q211144",
+          "name_en": "Ellen Burstyn",
+          "name_ko": "엘런 버스틴"
+        },
+        {
+          "qid": "Q368037",
+          "name_en": "Wes Bentley",
+          "name_ko": "웨스 벤틀리"
+        },
+        {
+          "qid": "Q175535",
+          "name_en": "Matt Damon",
+          "name_ko": "맷 데이먼"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q471839",
+          "name_en": "Science fiction film",
+          "name_ko": "SF 영화"
+        },
+        {
+          "qid": "Q130232",
+          "name_en": "Drama film",
+          "name_ko": "드라마 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        },
+        {
+          "qid": "Q145",
+          "name_en": "United Kingdom",
+          "name_ko": "영국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2540151196,
+      "source_url": "https://www.wikidata.org/wiki/Q13417189",
+      "fetched_at_utc": "2026-09-06T01:36:53.832319+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q13417189.jpg",
+        "source_filename": "Q13417189.jpg",
+        "sha256": "06969b7977a4eddd29b96f9ba55e7a08defa0bda8e5a4e5c6bc2c5f9866691f8",
+        "size_bytes": 107235,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Interstellar",
+        "source_url": "https://www.wikidata.org/wiki/Q13417189"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q13417189.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q13417189.jpg"
+    },
+    {
+      "movie_id": "wd-q190525",
+      "qid": "Q190525",
+      "title_en": "Memento",
+      "title_ko": "메멘토",
+      "year": 2000,
+      "description_en": "A man with short-term memory loss attempts to track down his wife's murderer using Polaroid photos and tattoos.",
+      "description_ko": "단기 기억상실증에 걸린 남자가 아내를 죽인 범인을 찾기 위해 몸에 문신을 새기고 폴라로이드 사진을 단서로 추적해가는 반전 미스터리 스릴러.",
+      "runtime_minutes": 113,
+      "directors": [
+        {
+          "qid": "Q25191",
+          "name_en": "Christopher Nolan",
+          "name_ko": "크리스토퍼 놀란"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q206890",
+          "name_en": "Carrie-Anne Moss",
+          "name_ko": "캐리앤 모스"
+        },
+        {
+          "qid": "Q223745",
+          "name_en": "Guy Pearce",
+          "name_ko": "가이 피어스"
+        },
+        {
+          "qid": "Q296883",
+          "name_en": "Joe Pantoliano",
+          "name_ko": "조 판톨리아노"
+        },
+        {
+          "qid": "Q718382",
+          "name_en": "Mark Boone Junior",
+          "name_ko": "마크 분 주니어"
+        },
+        {
+          "qid": "Q231807",
+          "name_en": "Jorja Fox",
+          "name_ko": "조자 폭스"
+        },
+        {
+          "qid": "Q376131",
+          "name_en": "Stephen Tobolowsky",
+          "name_ko": "스티븐 토볼로스키"
+        },
+        {
+          "qid": "Q270622",
+          "name_en": "Harriet Sansom Harris",
+          "name_ko": "해리엇 샌섬 해리스"
+        },
+        {
+          "qid": "Q551558",
+          "name_en": "Callum Keith Rennie",
+          "name_ko": "캘럼 키스 레니"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2538566887,
+      "source_url": "https://www.wikidata.org/wiki/Q190525",
+      "fetched_at_utc": "2026-09-06T01:36:53.832348+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q190525.jpg",
+        "source_filename": "Q190525.jpg",
+        "sha256": "1af16c8dc87f300d9c18c90d95cb48ebf10579687ee2bc3054d2fa71a3d9fad5",
+        "size_bytes": 24318,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Memento",
+        "source_url": "https://www.wikidata.org/wiki/Q190525"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q190525.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q190525.jpg"
+    },
+    {
+      "movie_id": "wd-q46551",
+      "qid": "Q46551",
+      "title_en": "The Prestige",
+      "title_ko": "프레스티지",
+      "year": 2006,
+      "description_en": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "description_ko": "19세기 말 런던, 한때 동료였으나 숙적이 된 두 천재 마술사가 최고의 마술 비법을 차지하기 위해 집착과 파멸로 치닫는 미스터리 스릴러.",
+      "runtime_minutes": 125,
+      "directors": [
+        {
+          "qid": "Q25191",
+          "name_en": "Christopher Nolan",
+          "name_ko": "크리스토퍼 놀란"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q45772",
+          "name_en": "Christian Bale",
+          "name_ko": "크리스천 베일"
+        },
+        {
+          "qid": "Q129591",
+          "name_en": "Q129591",
+          "name_ko": "휴 잭맨"
+        },
+        {
+          "qid": "Q123351",
+          "name_en": "Michael Caine",
+          "name_ko": "마이클 케인"
+        },
+        {
+          "qid": "Q34436",
+          "name_en": "Q34436",
+          "name_ko": "스칼렛 요한슨"
+        },
+        {
+          "qid": "Q230534",
+          "name_en": "Rebecca Hall",
+          "name_ko": "리베카 홀"
+        },
+        {
+          "qid": "Q228868",
+          "name_en": "Piper Perabo",
+          "name_ko": "파이퍼 페라보"
+        },
+        {
+          "qid": "Q5383",
+          "name_en": "David Bowie",
+          "name_ko": "데이비드 보위"
+        },
+        {
+          "qid": "Q206922",
+          "name_en": "Andy Serkis",
+          "name_ko": "앤디 서키스"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q130232",
+          "name_en": "Drama film",
+          "name_ko": "드라마 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q145",
+          "name_en": "United Kingdom",
+          "name_ko": "영국"
+        },
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2537904645,
+      "source_url": "https://www.wikidata.org/wiki/Q46551",
+      "fetched_at_utc": "2026-09-06T01:36:53.832378+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q46551.jpg",
+        "source_filename": "Q46551.jpg",
+        "sha256": "56a24e197d817025d513f4113a7105fa732dff0a1a593450c8aaa408fb49e920",
+        "size_bytes": 29761,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "The Prestige",
+        "source_url": "https://www.wikidata.org/wiki/Q46551"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q46551.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q46551.jpg"
+    },
+    {
+      "movie_id": "wd-q61448040",
+      "qid": "Q61448040",
+      "title_en": "Parasite",
+      "title_ko": "기생충",
+      "year": 2019,
+      "description_en": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "description_ko": "전원백수인 기택네 장남 기우가 고액 과외 면접을 위해 박사장네 발을 들이면서 시작되는 두 가족의 걷잡을 수 없는 만남을 그린 블랙코미디 스릴러.",
+      "runtime_minutes": 132,
+      "directors": [
+        {
+          "qid": "Q495980",
+          "name_en": "Bong Joon-ho",
+          "name_ko": "봉준호"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q484400",
+          "name_en": "Song Kang-ho",
+          "name_ko": "송강호"
+        },
+        {
+          "qid": "Q489681",
+          "name_en": "Lee Sun-kyun",
+          "name_ko": "이선균"
+        },
+        {
+          "qid": "Q626347",
+          "name_en": "Cho Yeo-jeong",
+          "name_ko": "조여정"
+        },
+        {
+          "qid": "Q55733858",
+          "name_en": "Jang Hye-jin",
+          "name_ko": "장혜진"
+        },
+        {
+          "qid": "Q492701",
+          "name_en": "Choi Woo-shik",
+          "name_ko": "최우식"
+        },
+        {
+          "qid": "Q18700040",
+          "name_en": "Park So-dam",
+          "name_ko": "박소담"
+        },
+        {
+          "qid": "Q16177322",
+          "name_en": "Jung Ziso",
+          "name_ko": "정지소"
+        },
+        {
+          "qid": "Q21710318",
+          "name_en": "Lee Jung-eun",
+          "name_ko": "이정은"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        },
+        {
+          "qid": "Q130232",
+          "name_en": "Drama film",
+          "name_ko": "드라마 영화"
+        },
+        {
+          "qid": "Q216353",
+          "name_en": "Black comedy",
+          "name_ko": "블랙 코미디"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q884",
+          "name_en": "South Korea",
+          "name_ko": "대한민국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q9176",
+          "name_en": "Korean",
+          "name_ko": "한국어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2540328986,
+      "source_url": "https://www.wikidata.org/wiki/Q61448040",
+      "fetched_at_utc": "2026-09-06T01:36:53.832398+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q61448040.jpg",
+        "source_filename": "Q61448040.jpg",
+        "sha256": "6f33e79c66a01034af6762e70465c3cd56920b77a58e046eef38ad3b05603c40",
+        "size_bytes": 168283,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Parasite",
+        "source_url": "https://www.wikidata.org/wiki/Q61448040"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q61448040.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q61448040.png"
+    },
+    {
+      "movie_id": "wd-q488169",
+      "qid": "Q488169",
+      "title_en": "Memories of Murder",
+      "title_ko": "살인의 추억",
+      "year": 2003,
+      "description_en": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found murdered by an unknown culprit.",
+      "description_ko": "1986년 경기도 연쇄살인 사건을 추적하는 시골 형사 박두만과 서울에서 온 형사 서태윤의 처절한 수사 과정을 다룬 실화 바탕 한국 스릴러의 마스터피스.",
+      "runtime_minutes": 132,
+      "directors": [
+        {
+          "qid": "Q495980",
+          "name_en": "Bong Joon-ho",
+          "name_ko": "봉준호"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q484400",
+          "name_en": "Song Kang-ho",
+          "name_ko": "송강호"
+        },
+        {
+          "qid": "Q490092",
+          "name_en": "Kim Sang-kyung",
+          "name_ko": "김상경"
+        },
+        {
+          "qid": "Q10855807",
+          "name_en": "Kim Roe-ha",
+          "name_ko": "김뢰하"
+        },
+        {
+          "qid": "Q490380",
+          "name_en": "Park Hae-il",
+          "name_ko": "박해일"
+        },
+        {
+          "qid": "Q483578",
+          "name_en": "Byun Hee-bong",
+          "name_ko": "변희봉"
+        },
+        {
+          "qid": "Q12584263",
+          "name_en": "Ko Seo-hui",
+          "name_ko": "고서희"
+        },
+        {
+          "qid": "Q4022738",
+          "name_en": "Jeon Mi-seon",
+          "name_ko": "전미선"
+        },
+        {
+          "qid": "Q12612493",
+          "name_en": "Lee Jae-eung",
+          "name_ko": "이재응"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q9593",
+          "name_en": "Crime film",
+          "name_ko": "범죄 영화"
+        },
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q884",
+          "name_en": "South Korea",
+          "name_ko": "대한민국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q9176",
+          "name_en": "Korean",
+          "name_ko": "한국어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2539525134,
+      "source_url": "https://www.wikidata.org/wiki/Q488169",
+      "fetched_at_utc": "2026-09-06T01:36:53.832419+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q488169.jpg",
+        "source_filename": "Q488169.jpg",
+        "sha256": "f4c7eb20433f3c3be949346d8781b77602f40b5deb75ff23110e7f4ed68155c8",
+        "size_bytes": 91701,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Memories of Murder",
+        "source_url": "https://www.wikidata.org/wiki/Q488169"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q488169.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q488169.jpg"
+    },
+    {
+      "movie_id": "wd-q475693",
+      "qid": "Q475693",
+      "title_en": "Oldboy",
+      "title_ko": "올드보이",
+      "year": 2004,
+      "description_en": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
+      "description_ko": "영문도 모른 채 15년 동안 사설 감옥에 갇혀 있던 오대수가 풀려나 자신을 가둔 자의 정체와 충격적인 비밀을 5일 안에 밝혀내야 하는 복수 스릴러.",
+      "runtime_minutes": 116,
+      "directors": [
+        {
+          "qid": "Q315484",
+          "name_en": "Park Chan-wook",
+          "name_ko": "박찬욱"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q484575",
+          "name_en": "Choi Min-sik",
+          "name_ko": "최민식"
+        },
+        {
+          "qid": "Q489475",
+          "name_en": "Yu Ji-tae",
+          "name_ko": "유지태"
+        },
+        {
+          "qid": "Q485387",
+          "name_en": "Kang Hye-jung",
+          "name_ko": "강혜정"
+        },
+        {
+          "qid": "Q12965283",
+          "name_en": "Ji Dae-han",
+          "name_ko": "지대한"
+        },
+        {
+          "qid": "Q12608113",
+          "name_en": "Oh Tae-kyung",
+          "name_ko": "오태경 (배우)"
+        },
+        {
+          "qid": "Q484983",
+          "name_en": "Yoon Jin-seo",
+          "name_ko": "윤진서"
+        },
+        {
+          "qid": "Q483575",
+          "name_en": "Oh Dal-su",
+          "name_ko": "오달수"
+        },
+        {
+          "qid": "Q15630925",
+          "name_en": "Kim Byeong-ok",
+          "name_ko": "김병옥 (배우)"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q188473",
+          "name_en": "Action film",
+          "name_ko": "액션 영화"
+        },
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q884",
+          "name_en": "South Korea",
+          "name_ko": "대한민국"
+        },
+        {
+          "qid": "Q17",
+          "name_en": "Japan",
+          "name_ko": "일본"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q9176",
+          "name_en": "Korean",
+          "name_ko": "한국어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2539523564,
+      "source_url": "https://www.wikidata.org/wiki/Q475693",
+      "fetched_at_utc": "2026-09-06T01:36:53.832438+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q475693.jpg",
+        "source_filename": "Q475693.jpg",
+        "sha256": "bf5a398d2842f96a9fbae6511b875278b5cccd5ae05068fe468cb58b3ea60392",
+        "size_bytes": 29640,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Oldboy",
+        "source_url": "https://www.wikidata.org/wiki/Q475693"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q475693.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q475693.jpg"
+    },
+    {
+      "movie_id": "wd-q202548",
+      "qid": "Q202548",
+      "title_en": "Vertigo",
+      "title_ko": "현기증",
+      "year": 1958,
+      "description_en": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail.",
+      "description_ko": "고소공포증으로 은퇴한 전직 형사가 친구 아내의 미행을 의뢰받으면서 시작되는 치명적인 유혹과 집착, 미스터리를 그린 알프레드 히치콕의 걸작.",
+      "runtime_minutes": 128,
+      "directors": [
+        {
+          "qid": "Q7374",
+          "name_en": "Alfred Hitchcock",
+          "name_ko": "알프레드 히치콕"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q102462",
+          "name_en": "James Stewart",
+          "name_ko": "제임스 스튜어트"
+        },
+        {
+          "qid": "Q212879",
+          "name_en": "Kim Novak",
+          "name_ko": "킴 노백"
+        },
+        {
+          "qid": "Q232421",
+          "name_en": "Barbara Bel Geddes",
+          "name_ko": "바버라 벨 게디스"
+        },
+        {
+          "qid": "Q919651",
+          "name_en": "Tom Helmore",
+          "name_ko": "톰 헬모어"
+        },
+        {
+          "qid": "Q1375484",
+          "name_en": "Henry Jones",
+          "name_ko": "헨리 존스"
+        },
+        {
+          "qid": "Q368794",
+          "name_en": "Ellen Corby",
+          "name_ko": "엘런 코비"
+        },
+        {
+          "qid": "Q3198775",
+          "name_en": "Konstantin Shayne",
+          "name_ko": null
+        },
+        {
+          "qid": "Q531282",
+          "name_en": "Lee Patrick",
+          "name_ko": "리 패트릭"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2538946942,
+      "source_url": "https://www.wikidata.org/wiki/Q202548",
+      "fetched_at_utc": "2026-09-06T01:36:55.859075+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q202548.jpg",
+        "source_filename": "Q202548.jpg",
+        "sha256": "8b9e590922e007025881f865ad95896cf78583f67541db7c8b263cd114c07e08",
+        "size_bytes": 141432,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Vertigo",
+        "source_url": "https://www.wikidata.org/wiki/Q202548"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q202548.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q202548.jpg"
+    },
+    {
+      "movie_id": "wd-q34414",
+      "qid": "Q34414",
+      "title_en": "Rear Window",
+      "title_ko": "이창",
+      "year": 1954,
+      "description_en": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+      "description_ko": "다리를 다쳐 휠체어에 앉아 아파트 창밖 이웃들을 관찰하던 사진작가가 의문의 살인 사건을 목격하고 진실을 추적하는 서스펜스의 명작.",
+      "runtime_minutes": 112,
+      "directors": [
+        {
+          "qid": "Q7374",
+          "name_en": "Alfred Hitchcock",
+          "name_ko": "알프레드 히치콕"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q102462",
+          "name_en": "James Stewart",
+          "name_ko": "제임스 스튜어트"
+        },
+        {
+          "qid": "Q3925",
+          "name_en": "Grace Kelly",
+          "name_ko": "그레이스 켈리"
+        },
+        {
+          "qid": "Q1340156",
+          "name_en": "Wendell Corey",
+          "name_ko": "웬델 코리"
+        },
+        {
+          "qid": "Q229266",
+          "name_en": "Thelma Ritter",
+          "name_ko": "셀마 리터"
+        },
+        {
+          "qid": "Q336877",
+          "name_en": "Raymond Burr",
+          "name_ko": "레이먼드 버"
+        },
+        {
+          "qid": "Q3089145",
+          "name_en": "Judith Evelyn",
+          "name_ko": null
+        },
+        {
+          "qid": "Q3103797",
+          "name_en": "Georgine Darcy",
+          "name_ko": null
+        },
+        {
+          "qid": "Q1176607",
+          "name_en": "Ross Bagdasarian Sr.",
+          "name_ko": "로스 배그더세리언"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2540108404,
+      "source_url": "https://www.wikidata.org/wiki/Q34414",
+      "fetched_at_utc": "2026-09-06T01:36:57.805844+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q34414.jpg",
+        "source_filename": "Q34414.jpg",
+        "sha256": "0ac91f70d3b47601e89fd47944631a29b78d34da00f3ae54321b332dbcd03452",
+        "size_bytes": 160982,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Rear Window",
+        "source_url": "https://www.wikidata.org/wiki/Q34414"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q34414.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q34414.jpg"
+    },
+    {
+      "movie_id": "wd-q163038",
+      "qid": "Q163038",
+      "title_en": "Psycho",
+      "title_ko": "싸이코",
+      "year": 1960,
+      "description_en": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
+      "description_ko": "돈을 횡령해 도주하던 여성이 외딴 베이츠 모텔에 묵게 되면서 벌어지는 영화사상 가장 유명한 샤워실 서스펜스와 충격의 심리 공포 걸작.",
+      "runtime_minutes": 109,
+      "directors": [
+        {
+          "qid": "Q7374",
+          "name_en": "Alfred Hitchcock",
+          "name_ko": "알프레드 히치콕"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q145627",
+          "name_en": "John Gavin",
+          "name_ko": "존 게빈"
+        },
+        {
+          "qid": "Q312107",
+          "name_en": "Martin Balsam",
+          "name_ko": "마틴 발삼"
+        },
+        {
+          "qid": "Q1277934",
+          "name_en": "John McIntire",
+          "name_ko": "존 매킨타이어"
+        },
+        {
+          "qid": "Q2287751",
+          "name_en": "Simon Oakland",
+          "name_ko": "사이먼 오클랜드"
+        },
+        {
+          "qid": "Q3555082",
+          "name_en": "Vaughn Taylor",
+          "name_ko": null
+        },
+        {
+          "qid": "Q3082484",
+          "name_en": "Frank Albertson",
+          "name_ko": "프랭크 앨버트슨"
+        },
+        {
+          "qid": "Q456357",
+          "name_en": "Lurene Tuttle",
+          "name_ko": "루렌 터틀"
+        },
+        {
+          "qid": "Q271569",
+          "name_en": "Pat Hitchcock",
+          "name_ko": "팻 히치콕"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        },
+        {
+          "qid": "Q200092",
+          "name_en": "Horror film",
+          "name_ko": "공포 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2538953244,
+      "source_url": "https://www.wikidata.org/wiki/Q163038",
+      "fetched_at_utc": "2026-09-06T01:36:59.719338+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q163038.jpg",
+        "source_filename": "Q163038.jpg",
+        "sha256": "1dd42a3649eb507c6f1dca0f2d8a4a34156e7596d12a926c3b6f156055c21ca0",
+        "size_bytes": 127935,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Psycho",
+        "source_url": "https://www.wikidata.org/wiki/Q163038"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q163038.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q163038.jpg"
+    },
+    {
+      "movie_id": "wd-q190908",
+      "qid": "Q190908",
+      "title_en": "Seven",
+      "title_ko": "세븐",
+      "year": 1995,
+      "description_en": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+      "description_ko": "성서의 7대 죄악(탐식, 탐욕, 나태, 음란, 교만, 시기, 분노)을 모티브로 연쇄 살인을 저지르는 지능범을 쫓는 두 형사의 충격적 네오 누아르.",
+      "runtime_minutes": 127,
+      "directors": [
+        {
+          "qid": "Q184903",
+          "name_en": "David Fincher",
+          "name_ko": "데이빗 핀처"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q35332",
+          "name_en": "Brad Pitt",
+          "name_ko": "브래드 피트"
+        },
+        {
+          "qid": "Q48337",
+          "name_en": "Morgan Freeman",
+          "name_ko": "모건 프리먼"
+        },
+        {
+          "qid": "Q34460",
+          "name_en": "Gwyneth Paltrow",
+          "name_ko": "귀네스 팰트로"
+        },
+        {
+          "qid": "Q25144",
+          "name_en": "Kevin Spacey",
+          "name_ko": "케빈 스페이시"
+        },
+        {
+          "qid": "Q353978",
+          "name_en": "R. Lee Ermey",
+          "name_ko": "R. 리 어메이"
+        },
+        {
+          "qid": "Q316032",
+          "name_en": "John C. McGinley",
+          "name_ko": "존 C. 맥긴리"
+        },
+        {
+          "qid": "Q446493",
+          "name_en": "Richard Roundtree",
+          "name_ko": "리처드 라운트리"
+        },
+        {
+          "qid": "Q355209",
+          "name_en": "Richard Schiff",
+          "name_ko": "리처드 시프"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q9593",
+          "name_en": "Crime film",
+          "name_ko": "범죄 영화"
+        },
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2540112627,
+      "source_url": "https://www.wikidata.org/wiki/Q190908",
+      "fetched_at_utc": "2026-09-06T01:36:59.719455+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q190908.jpg",
+        "source_filename": "Q190908.jpg",
+        "sha256": "7bc2477dc2644bc9c5b3a04dac23874dc18de143abde8e60d514fc5c1cbf1c6c",
+        "size_bytes": 168973,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Seven",
+        "source_url": "https://www.wikidata.org/wiki/Q190908"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q190908.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q190908.jpg"
+    },
+    {
+      "movie_id": "wd-q210364",
+      "qid": "Q210364",
+      "title_en": "Shutter Island",
+      "title_ko": "셔터 아일랜드",
+      "year": 2010,
+      "description_en": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane on Shutter Island.",
+      "description_ko": "탈출 불가능한 고립된 섬 셔터 아일랜드의 정신병원에서 실종된 환자를 수사하기 위해 파견된 연방보안관 테디가 마주하는 거대한 진실과 반전.",
+      "runtime_minutes": 139,
+      "directors": [
+        {
+          "qid": "Q41148",
+          "name_en": "Martin Scorsese",
+          "name_ko": "마틴 스콜세지"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q38111",
+          "name_en": "Q38111",
+          "name_ko": "레오나르도 디카프리오"
+        },
+        {
+          "qid": "Q41422",
+          "name_en": "Q41422",
+          "name_ko": "마크 러팔로"
+        },
+        {
+          "qid": "Q173158",
+          "name_en": "Ben Kingsley",
+          "name_ko": "벤 킹즐리"
+        },
+        {
+          "qid": "Q156796",
+          "name_en": "Michelle Williams",
+          "name_ko": "미셸 윌리엄스"
+        },
+        {
+          "qid": "Q229268",
+          "name_en": "Patricia Clarkson",
+          "name_ko": "퍼트리샤 클라크슨"
+        },
+        {
+          "qid": "Q203215",
+          "name_en": "Max von Sydow",
+          "name_ko": "막스 폰 쉬도브"
+        },
+        {
+          "qid": "Q230308",
+          "name_en": "Emily Mortimer",
+          "name_ko": "에밀리 모티머"
+        },
+        {
+          "qid": "Q314841",
+          "name_en": "Jackie Earle Haley",
+          "name_ko": "재키 얼 헤일리"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2538798595,
+      "source_url": "https://www.wikidata.org/wiki/Q210364",
+      "fetched_at_utc": "2026-09-06T01:36:59.719502+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q210364.jpg",
+        "source_filename": "Q210364.jpg",
+        "sha256": "45014356f8016d3698365155edce6cddc18a902c1495d7a154b2ab381c8d4498",
+        "size_bytes": 141568,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Shutter Island",
+        "source_url": "https://www.wikidata.org/wiki/Q210364"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q210364.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q210364.png"
+    },
+    {
+      "movie_id": "wd-q183063",
+      "qid": "Q183063",
+      "title_en": "The Sixth Sense",
+      "title_ko": "식스 센스",
+      "year": 1999,
+      "description_en": "A child psychologist tries to help a boy who can see and talk to the dead, leading to one of the most famous twist endings in cinema history.",
+      "description_ko": "죽은 자들이 보인다는 8살 소년 콜과 그를 치료하려는 아동 심리학자 말콤의 교감을 통해 영화 역사상 최고의 반전을 선사한 미스터리 명작.",
+      "runtime_minutes": 107,
+      "directors": [
+        {
+          "qid": "Q5149",
+          "name_en": "M. Night Shyamalan",
+          "name_ko": "M. 나이트 샤말란"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q2680",
+          "name_en": "Q2680",
+          "name_ko": "브루스 윌리스"
+        },
+        {
+          "qid": "Q489856",
+          "name_en": "Haley Joel Osment",
+          "name_ko": "헤일리 조엘 오스먼트"
+        },
+        {
+          "qid": "Q229291",
+          "name_en": "Toni Collette",
+          "name_ko": "토니 콜렛"
+        },
+        {
+          "qid": "Q231163",
+          "name_en": "Olivia Williams",
+          "name_ko": "올리비아 윌리엄스"
+        },
+        {
+          "qid": "Q313470",
+          "name_en": "Donnie Wahlberg",
+          "name_ko": "도니 월버그"
+        },
+        {
+          "qid": "Q3900816",
+          "name_en": "Peter Anthony Tambakis",
+          "name_ko": null
+        },
+        {
+          "qid": "Q207458",
+          "name_en": "Mischa Barton",
+          "name_ko": "미샤 바턴"
+        },
+        {
+          "qid": "Q1433160",
+          "name_en": "Glenn Fitzgerald",
+          "name_ko": null
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q130232",
+          "name_en": "Drama film",
+          "name_ko": "드라마 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2538703807,
+      "source_url": "https://www.wikidata.org/wiki/Q183063",
+      "fetched_at_utc": "2026-09-06T01:36:59.719543+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q183063.jpg",
+        "source_filename": "Q183063.jpg",
+        "sha256": "6981d412e3def34d072070bc6b17701776be04c92812f2c60cb41685378dfc5c",
+        "size_bytes": 113159,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "The Sixth Sense",
+        "source_url": "https://www.wikidata.org/wiki/Q183063"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q183063.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q183063.jpg"
+    },
+    {
+      "movie_id": "wd-q132351",
+      "qid": "Q132351",
+      "title_en": "The Usual Suspects",
+      "title_ko": "유주얼 서스펙트",
+      "year": 1995,
+      "description_en": "The sole survivor of a pier shoot-out tells of how a twist of fate brought five criminals together and the legendary mastermind behind it all: Keyser Söze.",
+      "description_ko": "부두 폭발 사고의 유일한 생존자인 절름발이 버벌 킨트의 진술을 통해 서서히 드러나는 전설의 악마적 배후 '카이저 소제'의 실체.",
+      "runtime_minutes": 106,
+      "directors": [
+        {
+          "qid": "Q220794",
+          "name_en": "Bryan Singer",
+          "name_ko": "브라이언 싱어"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q310947",
+          "name_en": "Stephen Baldwin",
+          "name_ko": "스티븐 볼드윈"
+        },
+        {
+          "qid": "Q296616",
+          "name_en": "Gabriel Byrne",
+          "name_ko": "게이브리얼 번"
+        },
+        {
+          "qid": "Q193668",
+          "name_en": "Benicio del Toro",
+          "name_ko": "베니시오 델 토로"
+        },
+        {
+          "qid": "Q338812",
+          "name_en": "Chazz Palminteri",
+          "name_ko": "채즈 팰민테리"
+        },
+        {
+          "qid": "Q351812",
+          "name_en": "Kevin Pollak",
+          "name_ko": "케빈 폴락"
+        },
+        {
+          "qid": "Q217137",
+          "name_en": "Pete Postlethwaite",
+          "name_ko": "피트 포슬스웨이트"
+        },
+        {
+          "qid": "Q25144",
+          "name_en": "Kevin Spacey",
+          "name_ko": "케빈 스페이시"
+        },
+        {
+          "qid": "Q164534",
+          "name_en": "Peter Greene",
+          "name_ko": "피터 그린"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q9593",
+          "name_en": "Crime film",
+          "name_ko": "범죄 영화"
+        },
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        },
+        {
+          "qid": "Q150",
+          "name_en": "French",
+          "name_ko": "프랑스어"
+        },
+        {
+          "qid": "Q9067",
+          "name_en": "Hungarian",
+          "name_ko": "헝가리어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2540158819,
+      "source_url": "https://www.wikidata.org/wiki/Q132351",
+      "fetched_at_utc": "2026-09-06T01:36:59.719587+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q132351.jpg",
+        "source_filename": "Q132351.jpg",
+        "sha256": "cf2d9b5445238499bc9e76248cfddb6a5b197ce9e881e19aea2a8a20fd7d1954",
+        "size_bytes": 210497,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "The Usual Suspects",
+        "source_url": "https://www.wikidata.org/wiki/Q132351"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q132351.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q132351.jpg"
+    },
+    {
+      "movie_id": "wd-q20382729",
+      "qid": "Q20382729",
+      "title_en": "Arrival",
+      "title_ko": "컨택트",
+      "year": 2016,
+      "description_en": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+      "description_ko": "지구 곳곳에 불시착한 12개의 외계 비행물체와 외계인들의 신비로운 언어를 해독하며 시간과 기억의 경계를 마주하는 언어학자의 SF 걸작.",
+      "runtime_minutes": 116,
+      "directors": [
+        {
+          "qid": "Q548823",
+          "name_en": "Denis Villeneuve",
+          "name_ko": "드니 빌뇌브"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q481832",
+          "name_en": "Amy Adams",
+          "name_ko": "에이미 애덤스"
+        },
+        {
+          "qid": "Q23365",
+          "name_en": "Q23365",
+          "name_ko": "제러미 레너"
+        },
+        {
+          "qid": "Q182763",
+          "name_en": "Forest Whitaker",
+          "name_ko": "포리스트 휘터커"
+        },
+        {
+          "qid": "Q438445",
+          "name_en": "Michael Stuhlbarg",
+          "name_ko": "마이클 스툴바그"
+        },
+        {
+          "qid": "Q598178",
+          "name_en": "Tzi Ma",
+          "name_ko": "지 마"
+        },
+        {
+          "qid": "Q21063644",
+          "name_en": "Sangita Patel",
+          "name_ko": null
+        },
+        {
+          "qid": "Q15867224",
+          "name_en": "Mark O'Brien",
+          "name_ko": "마크 오브라이언"
+        },
+        {
+          "qid": "Q3082790",
+          "name_en": "Frank Schorpion",
+          "name_ko": null
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q471839",
+          "name_en": "Science fiction film",
+          "name_ko": "SF 영화"
+        },
+        {
+          "qid": "Q130232",
+          "name_en": "Drama film",
+          "name_ko": "드라마 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2538273060,
+      "source_url": "https://www.wikidata.org/wiki/Q20382729",
+      "fetched_at_utc": "2026-09-06T01:36:59.719633+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q20382729.jpg",
+        "source_filename": "Q20382729.jpg",
+        "sha256": "d5731f23d7d091dac30ac1be9447b71e4e8b091e0ce3303498323ace04f1fcf9",
+        "size_bytes": 107986,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Arrival",
+        "source_url": "https://www.wikidata.org/wiki/Q20382729"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q20382729.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q20382729.png"
+    },
+    {
+      "movie_id": "wd-q57982486",
+      "qid": "Q57982486",
+      "title_en": "Knives Out",
+      "title_ko": "나이브스 아웃",
+      "year": 2020,
+      "description_en": "A detective investigates the death of a patriarch of an eccentric, combative family after his 85th birthday party.",
+      "description_ko": "베스트셀러 미스터리 작가의 85세 생일 파티 직후 발생한 의문의 사망 사건을 파헤치는 명탐정 브누아 블랑의 유쾌하고 치밀한 본격 추리극.",
+      "runtime_minutes": 130,
+      "directors": [
+        {
+          "qid": "Q313046",
+          "name_en": "Rian Johnson",
+          "name_ko": "라이언 존슨"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q4547",
+          "name_en": "Daniel Craig",
+          "name_ko": "대니얼 크레이그"
+        },
+        {
+          "qid": "Q41449",
+          "name_en": "Michael Shannon",
+          "name_ko": "마이클 섀넌"
+        },
+        {
+          "qid": "Q178348",
+          "name_en": "Q178348",
+          "name_ko": "크리스 에번스"
+        },
+        {
+          "qid": "Q16762370",
+          "name_en": "LaKeith Stanfield",
+          "name_ko": "라키스 스탠필드"
+        },
+        {
+          "qid": "Q309788",
+          "name_en": "Don Johnson",
+          "name_ko": "돈 존슨"
+        },
+        {
+          "qid": "Q190523",
+          "name_en": "Christopher Plummer",
+          "name_ko": "크리스토퍼 플러머"
+        },
+        {
+          "qid": "Q698173",
+          "name_en": "Ana de Armas",
+          "name_ko": "아나 데 아르마스"
+        },
+        {
+          "qid": "Q106997",
+          "name_en": "Jamie Lee Curtis",
+          "name_ko": "제이미 리 커티스"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q216353",
+          "name_en": "Black comedy",
+          "name_ko": "블랙 코미디"
+        },
+        {
+          "qid": "Q9593",
+          "name_en": "Crime film",
+          "name_ko": "범죄 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2540150763,
+      "source_url": "https://www.wikidata.org/wiki/Q57982486",
+      "fetched_at_utc": "2026-09-06T01:36:59.719672+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q57982486.jpg",
+        "source_filename": "Q57982486.jpg",
+        "sha256": "3bc7fb8830706800f6d753957acb09b84e6cd08b48955b99df78a7a318c97440",
+        "size_bytes": 128715,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Knives Out",
+        "source_url": "https://www.wikidata.org/wiki/Q57982486"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q57982486.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q57982486.jpg"
+    },
+    {
+      "movie_id": "wd-q478209",
+      "qid": "Q478209",
+      "title_en": "Double Indemnity",
+      "title_ko": "이중 배상",
+      "year": 1944,
+      "description_en": "An insurance salesman is enticed into an unexpected murder-for-money plot by an enigmatic femme fatale, triggering suspicion from his company's shrewd claims investigator.",
+      "description_ko": "보험설계사 월터가 치명적인 팜므파탈 필리스의 유혹에 넘어가 남편을 살해하고 보험금을 타내려는 공모를 펼치며 파멸로 치닫는 필름 누아르의 효시.",
+      "runtime_minutes": 107,
+      "directors": [
+        {
+          "qid": "Q51547",
+          "name_en": "Billy Wilder",
+          "name_ko": "빌리 와일더"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q356309",
+          "name_en": "Fred MacMurray",
+          "name_ko": "프레드 맥머레이"
+        },
+        {
+          "qid": "Q94002",
+          "name_en": "Barbara Stanwyck",
+          "name_ko": "바버라 스탠윅"
+        },
+        {
+          "qid": "Q83812",
+          "name_en": "Edward G. Robinson",
+          "name_ko": "에드워드 G. 로빈슨"
+        },
+        {
+          "qid": "Q344758",
+          "name_en": "Gig Young",
+          "name_ko": "기그 영"
+        },
+        {
+          "qid": "Q3399241",
+          "name_en": "Porter Hall",
+          "name_ko": "포터 홀"
+        },
+        {
+          "qid": "Q1439141",
+          "name_en": "Fortunio Bonanova",
+          "name_ko": "포르투니오 보나노바"
+        },
+        {
+          "qid": "Q276097",
+          "name_en": "Jean Heather",
+          "name_ko": "진 헤더"
+        },
+        {
+          "qid": "Q3430780",
+          "name_en": "Richard Gaines",
+          "name_ko": "리처드 게인즈"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q9593",
+          "name_en": "Crime film",
+          "name_ko": "범죄 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2537935158,
+      "source_url": "https://www.wikidata.org/wiki/Q478209",
+      "fetched_at_utc": "2026-09-06T01:37:01.673492+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q478209.jpg",
+        "source_filename": "Q478209.jpg",
+        "sha256": "181b43947711c2e2f1758be5bbd5bd333ed9ab0be5c6a39003ac6dcfb3e9f259",
+        "size_bytes": 136146,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Double Indemnity",
+        "source_url": "https://www.wikidata.org/wiki/Q478209"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q478209.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q478209.jpg"
+    },
+    {
+      "movie_id": "wd-q841781",
+      "qid": "Q841781",
+      "title_en": "Gaslight",
+      "title_ko": "가스등",
+      "year": 1944,
+      "description_en": "Years after her aunt was murdered in her home, a young woman moves back into the house with her new husband, who secretly schemes to drive her insane.",
+      "description_ko": "남편의 정교한 심리적 조작과 거짓말로 인해 서서히 자신의 기억과 판단을 의심하며 미쳐가는 아내의 공포를 다룬 심리 스릴러의 고전.",
+      "runtime_minutes": 114,
+      "directors": [
+        {
+          "qid": "Q51499",
+          "name_en": "George Cukor",
+          "name_ko": "조지 큐커"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q105987",
+          "name_en": "Charles Boyer",
+          "name_ko": "샤를 부아예"
+        },
+        {
+          "qid": "Q43247",
+          "name_en": "Ingrid Bergman",
+          "name_ko": "잉그리드 버그먼"
+        },
+        {
+          "qid": "Q95148",
+          "name_en": "Joseph Cotten",
+          "name_ko": "조지프 코튼"
+        },
+        {
+          "qid": "Q240193",
+          "name_en": "May Whitty",
+          "name_ko": "메이 휘티"
+        },
+        {
+          "qid": "Q206856",
+          "name_en": "Angela Lansbury",
+          "name_ko": "앤절라 랜스베리"
+        },
+        {
+          "qid": "Q2210593",
+          "name_en": "Maude Fealy",
+          "name_ko": "모드 피얼리"
+        },
+        {
+          "qid": "Q271865",
+          "name_en": "Terry Moore",
+          "name_ko": "테리 무어"
+        },
+        {
+          "qid": "Q807414",
+          "name_en": "Barbara Everest",
+          "name_ko": "바바라 에버레스트"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        },
+        {
+          "qid": "Q24925",
+          "name_en": "Thriller film",
+          "name_ko": "스릴러 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2534772480,
+      "source_url": "https://www.wikidata.org/wiki/Q841781",
+      "fetched_at_utc": "2026-09-06T01:37:03.583666+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q841781.jpg",
+        "source_filename": "Q841781.jpg",
+        "sha256": "65c1ad23ec3b67e3de8c870161b070630899be752816a42c33fda0807b1cfbea",
+        "size_bytes": 151319,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Gaslight",
+        "source_url": "https://www.wikidata.org/wiki/Q841781"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q841781.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q841781.jpg"
+    },
+    {
+      "movie_id": "wd-q24815",
+      "qid": "Q24815",
+      "title_en": "Citizen Kane",
+      "title_ko": "시민 케인",
+      "year": 1941,
+      "description_en": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud'.",
+      "description_ko": "언론 재벌 찰스 포스터 케인의 죽음과 그가 남긴 마지막 유언 '로즈버드'의 의미를 추적하며 한 인간의 야망과 고독의 일생을 파헤치는 영화사의 기념비적 명작.",
+      "runtime_minutes": 119,
+      "directors": [
+        {
+          "qid": "Q24872",
+          "name_en": "Orson Welles",
+          "name_ko": "오손 웰즈"
+        }
+      ],
+      "cast": [
+        {
+          "qid": "Q24829",
+          "name_en": "Orson Welles",
+          "name_ko": "오슨 웰스"
+        },
+        {
+          "qid": "Q95148",
+          "name_en": "Joseph Cotten",
+          "name_ko": "조지프 코튼"
+        },
+        {
+          "qid": "Q456375",
+          "name_en": "Ruth Warrick",
+          "name_ko": "루스 워릭"
+        },
+        {
+          "qid": "Q600233",
+          "name_en": "Everett Sloane",
+          "name_ko": "에버렛 슬론"
+        },
+        {
+          "qid": "Q925872",
+          "name_en": "William Alland",
+          "name_ko": "윌리엄 앨런드"
+        },
+        {
+          "qid": "Q1385381",
+          "name_en": "Paul Stewart",
+          "name_ko": "폴 스튜어트 (배우)"
+        },
+        {
+          "qid": "Q1507169",
+          "name_en": "George Coulouris",
+          "name_ko": "조지 컬러리스"
+        },
+        {
+          "qid": "Q221874",
+          "name_en": "Dorothy Comingore",
+          "name_ko": "도로시 코민고어"
+        }
+      ],
+      "genres": [
+        {
+          "qid": "Q130232",
+          "name_en": "Drama film",
+          "name_ko": "드라마 영화"
+        },
+        {
+          "qid": "Q200092",
+          "name_en": "Mystery film",
+          "name_ko": "미스터리 영화"
+        }
+      ],
+      "countries": [
+        {
+          "qid": "Q30",
+          "name_en": "United States",
+          "name_ko": "미국"
+        }
+      ],
+      "languages": [
+        {
+          "qid": "Q1860",
+          "name_en": "English",
+          "name_ko": "영어"
+        }
+      ],
+      "core_demo_supported": false,
+      "source_revision": 2538757241,
+      "source_url": "https://www.wikidata.org/wiki/Q24815",
+      "fetched_at_utc": "2026-09-06T01:37:03.583806+00:00",
+      "license": "CC0 1.0 Universal",
+      "poster": {
+        "local_path": "/assets/catalog/wikidata/Q24815.jpg",
+        "source_filename": "Q24815.jpg",
+        "sha256": "34a1724427f0236df6751c6d1abef0ff9be2b23ce800f462e75b60c2a884282a",
+        "size_bytes": 132189,
+        "license": "Official Theatrical Release Poster (Editorial / Historical)",
+        "attribution": "Citizen Kane",
+        "source_url": "https://www.wikidata.org/wiki/Q24815"
+      },
+      "poster_local_path": "/assets/catalog/wikidata/Q24815.jpg",
+      "poster_path": "/assets/catalog/wikidata/Q24815.jpg"
+    }
+  ],
+  "source_revision": "v2-poster-enrichment-20260906-1430",
+  "enriched_at_utc": "2026-09-06T14:30:00Z"
+}

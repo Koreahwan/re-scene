@@ -1,0 +1,2979 @@
+{
+  "dataset_version": "the_bat_whispers_v3_gemini36",
+  "total_scenes": 43,
+  "total_events": 187,
+  "total_facts": 94,
+  "scenes": [
+    {
+      "scene_id": "scene-tbw-c001",
+      "title": null,
+      "start_ms": 0,
+      "end_ms": 120000,
+      "location": "City Skyline / Police Headquarters Exterior",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c002",
+      "title": null,
+      "start_ms": 120000,
+      "end_ms": 240000,
+      "location": "Police Headquarters Exterior / City Streets / Building Exterior / Office Interior",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c003",
+      "title": null,
+      "start_ms": 240000,
+      "end_ms": 360000,
+      "location": "Manor Library",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c004",
+      "title": null,
+      "start_ms": 360000,
+      "end_ms": 480000,
+      "location": "Oakdale Manor & Bank Vault Interior",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c005",
+      "title": null,
+      "start_ms": 480000,
+      "end_ms": 600000,
+      "location": "Bank Vault Interior and Fleming Estate Exterior",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c006",
+      "title": null,
+      "start_ms": 600000,
+      "end_ms": 720000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c007",
+      "title": null,
+      "start_ms": 720000,
+      "end_ms": 840000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c008",
+      "title": null,
+      "start_ms": 840000,
+      "end_ms": 960000,
+      "location": "Oakdale Manor Basement",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c009",
+      "title": null,
+      "start_ms": 960000,
+      "end_ms": 1080000,
+      "location": "Oakdale Manor Upstairs Bedroom",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c010",
+      "title": null,
+      "start_ms": 1080000,
+      "end_ms": 1200000,
+      "location": "Oakdale Manor Ground Floor Room",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c011",
+      "title": null,
+      "start_ms": 1200000,
+      "end_ms": 1320000,
+      "location": "Oakdale Manor",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c012",
+      "title": null,
+      "start_ms": 1320000,
+      "end_ms": 1440000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c013",
+      "title": null,
+      "start_ms": 1440000,
+      "end_ms": 1560000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c014",
+      "title": null,
+      "start_ms": 1560000,
+      "end_ms": 1680000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c015",
+      "title": null,
+      "start_ms": 1680000,
+      "end_ms": 1800000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c016",
+      "title": null,
+      "start_ms": 1800000,
+      "end_ms": 1920000,
+      "location": "Oakdale Manor Ground Floor Hallway",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c017",
+      "title": null,
+      "start_ms": 1920000,
+      "end_ms": 2040000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c018",
+      "title": null,
+      "start_ms": 2040000,
+      "end_ms": 2160000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c019",
+      "title": null,
+      "start_ms": 2160000,
+      "end_ms": 2280000,
+      "location": "Oakdale Manor",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c020",
+      "title": null,
+      "start_ms": 2280000,
+      "end_ms": 2400000,
+      "location": "Oakdale Manor Interior",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c021",
+      "title": null,
+      "start_ms": 2400000,
+      "end_ms": 2520000,
+      "location": "Oakdale Manor Ground Floor Hallway",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c022",
+      "title": null,
+      "start_ms": 2520000,
+      "end_ms": 2640000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c023",
+      "title": null,
+      "start_ms": 2640000,
+      "end_ms": 2760000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c024",
+      "title": null,
+      "start_ms": 2760000,
+      "end_ms": 2880000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c025",
+      "title": null,
+      "start_ms": 2880000,
+      "end_ms": 3000000,
+      "location": "Oakdale Manor Upstairs Hallway",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c026",
+      "title": null,
+      "start_ms": 3000000,
+      "end_ms": 3120000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c027",
+      "title": null,
+      "start_ms": 3120000,
+      "end_ms": 3240000,
+      "location": "Oakdale Manor Interior",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c028",
+      "title": null,
+      "start_ms": 3240000,
+      "end_ms": 3360000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c029",
+      "title": null,
+      "start_ms": 3360000,
+      "end_ms": 3480000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c030",
+      "title": null,
+      "start_ms": 3480000,
+      "end_ms": 3600000,
+      "location": "Oakdale Manor",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c031",
+      "title": null,
+      "start_ms": 3600000,
+      "end_ms": 3720000,
+      "location": "Oakdale Manor Secret Fireplace Room",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c032",
+      "title": null,
+      "start_ms": 3720000,
+      "end_ms": 3840000,
+      "location": "Oakdale Manor Office",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c033",
+      "title": null,
+      "start_ms": 3840000,
+      "end_ms": 3960000,
+      "location": "Oakdale Manor Great Hall",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c034",
+      "title": null,
+      "start_ms": 3960000,
+      "end_ms": 4080000,
+      "location": "Oakdale Manor Upstairs Room",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c035",
+      "title": null,
+      "start_ms": 4080000,
+      "end_ms": 4200000,
+      "location": "Oakdale Manor Upstairs Room",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c036",
+      "title": null,
+      "start_ms": 4200000,
+      "end_ms": 4320000,
+      "location": "Oakdale Manor Hidden Room",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c037",
+      "title": null,
+      "start_ms": 4320000,
+      "end_ms": 4440000,
+      "location": "Oakdale Manor Attic Room",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c038",
+      "title": null,
+      "start_ms": 4440000,
+      "end_ms": 4560000,
+      "location": "Oakdale Manor Secret Room and Staircase",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c039",
+      "title": null,
+      "start_ms": 4560000,
+      "end_ms": 4680000,
+      "location": "Oakdale Manor Attic Studio",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c040",
+      "title": null,
+      "start_ms": 4680000,
+      "end_ms": 4800000,
+      "location": "Oakdale Manor",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c041",
+      "title": null,
+      "start_ms": 4800000,
+      "end_ms": 4920000,
+      "location": "Exterior Manor Lawn",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c042",
+      "title": null,
+      "start_ms": 4920000,
+      "end_ms": 5040000,
+      "location": "Exterior Manor Lawn / Theater Stage",
+      "classification": "CANONICAL_METADATA"
+    },
+    {
+      "scene_id": "scene-tbw-c043",
+      "title": null,
+      "start_ms": 5040000,
+      "end_ms": 5119000,
+      "location": "Theater Stage Backdrop",
+      "classification": "CANONICAL_METADATA"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "ev-c001-01",
+      "scene_id": "scene-tbw-c001",
+      "timestamp_ms": 15000,
+      "actor": "None",
+      "action": "display",
+      "description": "Opening production credits and character cast lists are displayed on screen.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c001-02",
+      "scene_id": "scene-tbw-c001",
+      "timestamp_ms": 90000,
+      "actor": "None",
+      "action": "show",
+      "description": "A miniature cityscape establishing shot reveals a lit clock tower showing midnight.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c001-03",
+      "scene_id": "scene-tbw-c001",
+      "timestamp_ms": 105000,
+      "actor": "Pedestrians",
+      "action": "walk",
+      "description": "Pedestrians and a newsboy walk along the sidewalk outside the entrance to Police Headquarters.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c002-01",
+      "scene_id": "scene-tbw-c002",
+      "timestamp_ms": 120000,
+      "actor": "Police Officer",
+      "action": "drives",
+      "description": "A police vehicle exits the entrance archway of Police Headquarters onto the street.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c002-02",
+      "scene_id": "scene-tbw-c002",
+      "timestamp_ms": 150000,
+      "actor": "Driver",
+      "action": "operates",
+      "description": "The driver navigates the police vehicle along illuminated street routes at night.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c002-03",
+      "scene_id": "scene-tbw-c002",
+      "timestamp_ms": 210000,
+      "actor": "Police Officer",
+      "action": "arrives_at",
+      "description": "The police car stops at the entrance steps of a stone building while an officer walks down the stairs.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c002-04",
+      "scene_id": "scene-tbw-c002",
+      "timestamp_ms": 239000,
+      "actor": "Man at Desk",
+      "action": "reads",
+      "description": "A man wearing a suit sits back-facing at a large wooden desk in an office reading a piece of paper.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c003-01",
+      "scene_id": "scene-tbw-c003",
+      "timestamp_ms": 240000,
+      "actor": "John Bell",
+      "action": "read",
+      "description": "John Bell holds and reads a warning letter signed by 'The Bat' at his desk.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c003-02",
+      "scene_id": "scene-tbw-c003",
+      "timestamp_ms": 285000,
+      "actor": "Police Officers",
+      "action": "gather",
+      "description": "Police officers and a detective wait in the hallway near the library entrance.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c003-03",
+      "scene_id": "scene-tbw-c003",
+      "timestamp_ms": 330000,
+      "actor": "John Bell",
+      "action": "check",
+      "description": "John Bell adjusts and checks a small clock on his desk.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c003-04",
+      "scene_id": "scene-tbw-c003",
+      "timestamp_ms": 345000,
+      "actor": "Unknown Person",
+      "action": "reach",
+      "description": "A gloved hand reaches through an open window sill from outside.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c004-01",
+      "scene_id": "scene-tbw-c004",
+      "timestamp_ms": 375000,
+      "actor": "Man in Suit",
+      "action": "lean_through_window",
+      "description": "A man in a dark suit leans out an open window holding a cord.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c004-02",
+      "scene_id": "scene-tbw-c004",
+      "timestamp_ms": 420000,
+      "actor": "Butler",
+      "action": "open_safe",
+      "description": "The butler pulls back a wall curtain and opens a small hidden safe.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c004-03",
+      "scene_id": "scene-tbw-c004",
+      "timestamp_ms": 435000,
+      "actor": "Police Chief",
+      "action": "examine_note",
+      "description": "The police chief holds and inspects a paper note alongside the butler and sergeant.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c004-04",
+      "scene_id": "scene-tbw-c004",
+      "timestamp_ms": 450000,
+      "actor": "Police Chief",
+      "action": "gather_in_room",
+      "description": "Officers and men assemble in the library under an overlaid clock graphic.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c004-05",
+      "scene_id": "scene-tbw-c004",
+      "timestamp_ms": 479000,
+      "actor": "Silhouetted Figure",
+      "action": "look_down_at_vault",
+      "description": "A figure stands in shadow looking down into a fortified bank vault.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c005-01",
+      "scene_id": "scene-tbw-c005",
+      "timestamp_ms": 480000,
+      "actor": "Bank Worker",
+      "action": "operates",
+      "description": "A worker stands and moves in front of a massive circular bank vault door.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c005-02",
+      "scene_id": "scene-tbw-c005",
+      "timestamp_ms": 525000,
+      "actor": "Automobile",
+      "action": "drives_away",
+      "description": "A vintage car exits a garage structure onto an exterior ground area.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c005-03",
+      "scene_id": "scene-tbw-c005",
+      "timestamp_ms": 585000,
+      "actor": "Man with Bag",
+      "action": "enters",
+      "description": "A man carrying a bag walks through the stone-pillared iron gate labeled FLEMING.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c006-01",
+      "scene_id": "scene-tbw-c006",
+      "timestamp_ms": 630000,
+      "actor": "Man in Trenchcoat",
+      "action": "walks",
+      "description": "A man wearing a hat and coat walks across dark exterior grounds carrying a bag.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c006-02",
+      "scene_id": "scene-tbw-c006",
+      "timestamp_ms": 645000,
+      "actor": "Lizzie Allen",
+      "action": "talks",
+      "description": "Lizzie Allen stands next to Cornelia Van Gorder in the great hall, gesturing and talking while Cornelia knits.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c007-01",
+      "scene_id": "scene-tbw-c007",
+      "timestamp_ms": 720000,
+      "actor": "Lizzie Allen",
+      "action": "talks",
+      "description": "Lizzie expresses distress while speaking with Miss Cornelia.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c007-02",
+      "scene_id": "scene-tbw-c007",
+      "timestamp_ms": 750000,
+      "actor": "Unseen Character",
+      "action": "walks",
+      "description": "Close-up of feet walking across the floor.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c007-03",
+      "scene_id": "scene-tbw-c007",
+      "timestamp_ms": 795000,
+      "actor": "Lizzie Allen",
+      "action": "operates",
+      "description": "Lizzie and Miss Cornelia place their fingers on the planchette of a Ouija board.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c008-01",
+      "scene_id": "scene-tbw-c008",
+      "timestamp_ms": 840000,
+      "actor": "Cornelia Van Gorder",
+      "action": "operates Ouija board with",
+      "description": "Cornelia Van Gorder and Lizzie place their hands on a planchette over a Ouija board while sitting at a desk.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c008-02",
+      "scene_id": "scene-tbw-c008",
+      "timestamp_ms": 885000,
+      "actor": "Unidentified Figure",
+      "action": "climbs into",
+      "description": "A figure moves through a low basement window opening in the dark cellar area.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c008-03",
+      "scene_id": "scene-tbw-c008",
+      "timestamp_ms": 915000,
+      "actor": "Cornelia Van Gorder",
+      "action": "searches",
+      "description": "Cornelia Van Gorder descends into the basement holding a handgun, accompanied by Lizzie.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c008-04",
+      "scene_id": "scene-tbw-c008",
+      "timestamp_ms": 959000,
+      "actor": "Unidentified Figure",
+      "action": "skulks near",
+      "description": "A dark cloaked figure moves along the exterior wall near a illuminated basement window.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c009-01",
+      "scene_id": "scene-tbw-c009",
+      "timestamp_ms": 960000,
+      "actor": "The Bat",
+      "action": "casts shadow",
+      "description": "A bat silhouette appears cast against the exterior wall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c009-02",
+      "scene_id": "scene-tbw-c009",
+      "timestamp_ms": 975000,
+      "actor": "Maid",
+      "action": "runs",
+      "description": "Maid runs up the basement stairs in alarm.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c009-03",
+      "scene_id": "scene-tbw-c009",
+      "timestamp_ms": 990000,
+      "actor": "Maid",
+      "action": "lies down",
+      "description": "Maid lies on the floor under the raised bed.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c009-04",
+      "scene_id": "scene-tbw-c009",
+      "timestamp_ms": 1035000,
+      "actor": "Maid",
+      "action": "picks up",
+      "description": "Maid bends over to pick up a trap from the floor.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c009-05",
+      "scene_id": "scene-tbw-c009",
+      "timestamp_ms": 1050000,
+      "actor": "Maid",
+      "action": "shows",
+      "description": "Maid presents a newspaper reporting a bank robbery to Cornelia.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c010-01",
+      "scene_id": "scene-tbw-c010",
+      "timestamp_ms": 1125000,
+      "actor": "Billy",
+      "action": "speak",
+      "description": "Billy speaks and gestures in an agitated manner while conversing with Cornelia Van Gorder and Lizzie.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c010-02",
+      "scene_id": "scene-tbw-c010",
+      "timestamp_ms": 1185000,
+      "actor": "Cornelia Van Gorder",
+      "action": "walk",
+      "description": "Cornelia Van Gorder walks briskly toward the exit of the room while gesturing, as Lizzie looks on nervously.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c011-01",
+      "scene_id": "scene-tbw-c011",
+      "timestamp_ms": 1200000,
+      "actor": "Cornelia Van Gorder",
+      "action": "walks",
+      "description": "Cornelia walks toward the window as Lizzie reacts fearfully.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c011-02",
+      "scene_id": "scene-tbw-c011",
+      "timestamp_ms": 1230000,
+      "actor": "Dale Ogden",
+      "action": "talks",
+      "description": "Dale converses with Brooks in the garage beside an automobile.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c011-03",
+      "scene_id": "scene-tbw-c011",
+      "timestamp_ms": 1275000,
+      "actor": "Lizzie Allen",
+      "action": "speaks",
+      "description": "Lizzie speaks nervously to Cornelia in the Great Hall near a suit of armor.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c011-04",
+      "scene_id": "scene-tbw-c011",
+      "timestamp_ms": 1290000,
+      "actor": "Dale Ogden",
+      "action": "enters",
+      "description": "Dale enters the Great Hall and opens her handbag next to Cornelia.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c012-01",
+      "scene_id": "scene-tbw-c012",
+      "timestamp_ms": 1350000,
+      "actor": "Billy",
+      "action": "peeks",
+      "description": "Caretaker Billy peeks cautiously through the doorway watching the group in the Great Hall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c012-02",
+      "scene_id": "scene-tbw-c012",
+      "timestamp_ms": 1350000,
+      "actor": "Dale Van Gorder",
+      "action": "speaks",
+      "description": "Dale Van Gorder leans down and speaks to Cornelia Van Gorder while she continues knitting.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c012-03",
+      "scene_id": "scene-tbw-c012",
+      "timestamp_ms": 1380000,
+      "actor": "Jack Brooks",
+      "action": "speaks",
+      "description": "Jack Brooks stands holding his cap and speaks to Cornelia Van Gorder in the Great Hall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c013-01",
+      "scene_id": "scene-tbw-c013",
+      "timestamp_ms": 1440000,
+      "actor": "Cornelia Van Gorder",
+      "action": "knit",
+      "description": "Cornelia Van Gorder sits in an armchair knitting while other household members move around the hall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c013-02",
+      "scene_id": "scene-tbw-c013",
+      "timestamp_ms": 1470000,
+      "actor": "Lizzie Allen",
+      "action": "speak_to",
+      "description": "Lizzie bends down and speaks excitedly to Cornelia Van Gorder.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c013-03",
+      "scene_id": "scene-tbw-c013",
+      "timestamp_ms": 1500000,
+      "actor": "Cornelia Van Gorder",
+      "action": "inspect",
+      "description": "Cornelia and Lizzie examine an umbrella and inspect a paper note attached to it near the entryway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c013-04",
+      "scene_id": "scene-tbw-c013",
+      "timestamp_ms": 1530000,
+      "actor": "Lizzie Allen",
+      "action": "clasp",
+      "description": "Lizzie reacts with visible fear and grasps Cornelia's arm as Cornelia holds the note and purse.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c013-05",
+      "scene_id": "scene-tbw-c013",
+      "timestamp_ms": 1545000,
+      "actor": "Dr. Wells",
+      "action": "speak_to",
+      "description": "Dr. Wells speaks directly with Cornelia Van Gorder while holding his hat in his hands.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c014-01",
+      "scene_id": "scene-tbw-c014",
+      "timestamp_ms": 1560000,
+      "actor": "Dr. Wells",
+      "action": "speaks_with",
+      "description": "Dr. Wells holds his hat while speaking to Miss Cornelia Van Gorder.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c014-02",
+      "scene_id": "scene-tbw-c014",
+      "timestamp_ms": 1590000,
+      "actor": "Dr. Wells",
+      "action": "exits_through_door",
+      "description": "Dr. Wells steps through an open doorway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c014-03",
+      "scene_id": "scene-tbw-c014",
+      "timestamp_ms": 1620000,
+      "actor": "Miss Cornelia Van Gorder",
+      "action": "stands_near_doorway",
+      "description": "Miss Cornelia Van Gorder stands facing a closed door or wall panel.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c014-04",
+      "scene_id": "scene-tbw-c014",
+      "timestamp_ms": 1635000,
+      "actor": "Man in Vest",
+      "action": "operates_telephone",
+      "description": "A man wearing a vest stands facing a wall-mounted telephone apparatus.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c014-05",
+      "scene_id": "scene-tbw-c014",
+      "timestamp_ms": 1650000,
+      "actor": "Dale Ogden",
+      "action": "walks_near_staircase",
+      "description": "Dale Ogden walks past the base of the staircase while looking toward a man.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c014-06",
+      "scene_id": "scene-tbw-c014",
+      "timestamp_ms": 1665000,
+      "actor": "Miss Cornelia Van Gorder",
+      "action": "sits_at_table_with",
+      "description": "Miss Cornelia Van Gorder sits across from a young man holding a hat at an octagonal table in the Great Hall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c015-01",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1680000,
+      "actor": "Cornelia Van Gorder",
+      "action": "sit_and_converse",
+      "description": "Cornelia Van Gorder sits at a table opposite a man in a suit with a hat placed on the table.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c015-02",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1695000,
+      "actor": "Doctor Wells",
+      "action": "reach_for_object",
+      "description": "Doctor Wells reaches down toward a desktop bell and tray while Dale Ogden stands nearby.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c015-03",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1725000,
+      "actor": "Doctor Wells",
+      "action": "stand_near_window",
+      "description": "Doctor Wells stands near tall curtained French doors.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c015-04",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1740000,
+      "actor": "Doctor Wells",
+      "action": "walk_past_stairs",
+      "description": "Doctor Wells carries a coat over his arm near the bottom of the main staircase.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c015-05",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1755000,
+      "actor": "Doctor Wells",
+      "action": "speak_to",
+      "description": "Doctor Wells holds a small object and speaks directly with Dale Ogden.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c015-06",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1770000,
+      "actor": "Doctor Wells",
+      "action": "exit_through_doors",
+      "description": "Doctor Wells opens the double doors and walks through them.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c015-07",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1785000,
+      "actor": "Dale Ogden",
+      "action": "press_switch",
+      "description": "Dale Ogden reaches up to press a light switch on the wall near a cabinet.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c015-08",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1799000,
+      "actor": "Dale Ogden",
+      "action": "peer_through_door",
+      "description": "Dale Ogden peers through the gap between double doors while Cornelia Van Gorder and the man in a suit remain seated at the table in the foreground.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c016-01",
+      "scene_id": "scene-tbw-c016",
+      "timestamp_ms": 1800000,
+      "actor": "Cornelia Van Gorder",
+      "action": "converse_with",
+      "description": "Cornelia Van Gorder sits at an octagonal table conversing with a man in a dark suit, with a hat and gloves placed on the table between them.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c016-02",
+      "scene_id": "scene-tbw-c016",
+      "timestamp_ms": 1800000,
+      "actor": "Dale Ogden",
+      "action": "peer_through",
+      "description": "Dale Ogden watches the conversation through the narrow gap between the closed double doors.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c016-03",
+      "scene_id": "scene-tbw-c016",
+      "timestamp_ms": 1875000,
+      "actor": "Young Man",
+      "action": "converse_with",
+      "description": "A young man talks with Dale Ogden near the base of the staircase in the hallway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c016-04",
+      "scene_id": "scene-tbw-c016",
+      "timestamp_ms": 1919000,
+      "actor": "Young Man",
+      "action": "ascend",
+      "description": "The young man turns and walks up the staircase in the hallway alone.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c017-01",
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 1920000,
+      "actor": "Detective Anderson",
+      "action": "write",
+      "description": "Detective Anderson writes in a notepad while speaking with Cornelia Van Gorder.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c017-02",
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 1935000,
+      "actor": "Lizzie",
+      "action": "enter",
+      "description": "Lizzie opens the double door and enters the hall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c017-03",
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 1950000,
+      "actor": "Detective Anderson",
+      "action": "question",
+      "description": "Detective Anderson questions Lizzie and writes down her response.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c017-04",
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 1995000,
+      "actor": "Cornelia Van Gorder",
+      "action": "ascend",
+      "description": "Cornelia Van Gorder walks up the grand staircase while looking down at Anderson.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c017-05",
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 2010000,
+      "actor": "Detective Anderson",
+      "action": "observe",
+      "description": "Detective Anderson stands alone in the dark hall inspecting his surroundings.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c018-01",
+      "scene_id": "scene-tbw-c018",
+      "timestamp_ms": 2040000,
+      "actor": "Young Woman",
+      "action": "run",
+      "description": "Young woman runs past staircase entry.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c018-02",
+      "scene_id": "scene-tbw-c018",
+      "timestamp_ms": 2055000,
+      "actor": "Man in Suit",
+      "action": "peer",
+      "description": "Man peers past door frame while female silhouette uses telephone.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c018-03",
+      "scene_id": "scene-tbw-c018",
+      "timestamp_ms": 2085000,
+      "actor": "Man in Suit",
+      "action": "ascend",
+      "description": "Man walks past entrance columns and ascends stairs.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c018-04",
+      "scene_id": "scene-tbw-c018",
+      "timestamp_ms": 2115000,
+      "actor": "Maid",
+      "action": "react",
+      "description": "Maid works near table lamp and turns around startled.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c018-05",
+      "scene_id": "scene-tbw-c018",
+      "timestamp_ms": 2145000,
+      "actor": "Maid",
+      "action": "flee",
+      "description": "Maid turns and runs off as occupants gather.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c019-01",
+      "scene_id": "scene-tbw-c019",
+      "timestamp_ms": 2175000,
+      "actor": "Dale Van Gorder",
+      "action": "walks",
+      "description": "Dale walks across the main hall near the grand staircase.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c019-02",
+      "scene_id": "scene-tbw-c019",
+      "timestamp_ms": 2190000,
+      "actor": "Detective Anderson",
+      "action": "stands",
+      "description": "Detective Anderson stands near the staircase with Dale.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c019-03",
+      "scene_id": "scene-tbw-c019",
+      "timestamp_ms": 2235000,
+      "actor": "Man in Suit",
+      "action": "runs",
+      "description": "A man in a suit runs cautiously along an upper hallway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c019-04",
+      "scene_id": "scene-tbw-c019",
+      "timestamp_ms": 2279000,
+      "actor": "Billy (Caretaker)",
+      "action": "recovers",
+      "description": "Billy lies amongst laundry sacks on the basement floor after falling.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c020-01",
+      "scene_id": "scene-tbw-c020",
+      "timestamp_ms": 2280000,
+      "actor": "Dale Van Gorder",
+      "action": "sit and converse",
+      "description": "Dale Van Gorder sits in an armchair talking with the man sitting across from her.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c020-02",
+      "scene_id": "scene-tbw-c020",
+      "timestamp_ms": 2295000,
+      "actor": "Dale Van Gorder",
+      "action": "stand up and walk",
+      "description": "Dale Van Gorder gets up from the armchair and walks away while the man watches.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c020-03",
+      "scene_id": "scene-tbw-c020",
+      "timestamp_ms": 2310000,
+      "actor": "Man in Overcoat",
+      "action": "inspect bookshelf",
+      "description": "The man in the overcoat reaches toward a bookshelf holding a rolled document.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c020-04",
+      "scene_id": "scene-tbw-c020",
+      "timestamp_ms": 2325000,
+      "actor": "Dale Van Gorder",
+      "action": "walk through hall",
+      "description": "Dale Van Gorder walks past decorative doors and a dining table in a grand hallway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c020-05",
+      "scene_id": "scene-tbw-c020",
+      "timestamp_ms": 2340000,
+      "actor": "Dale Van Gorder",
+      "action": "converse",
+      "description": "Dale Van Gorder stands near a table talking intently face-to-face with the man in the overcoat.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c021-01",
+      "scene_id": "scene-tbw-c021",
+      "timestamp_ms": 2415000,
+      "actor": "Cornelia Van Gorder",
+      "action": "walks",
+      "description": "Cornelia walks into the hall joining Lizzie, Dale, Brooks, and Detective Anderson.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c021-02",
+      "scene_id": "scene-tbw-c021",
+      "timestamp_ms": 2445000,
+      "actor": "Detective Anderson",
+      "action": "speaks",
+      "description": "Detective Anderson speaks directly with Cornelia while examining a small object in hand.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c021-03",
+      "scene_id": "scene-tbw-c021",
+      "timestamp_ms": 2490000,
+      "actor": "Detective Anderson",
+      "action": "displays",
+      "description": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c021-04",
+      "scene_id": "scene-tbw-c021",
+      "timestamp_ms": 2519000,
+      "actor": "Detective Anderson",
+      "action": "leans_towards",
+      "description": "Detective Anderson leans close to speak directly to a tearful Dale Ogden.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c022-01",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2520000,
+      "actor": "Richard Fleming",
+      "action": "speak",
+      "description": "Richard speaks closely and intensely to a weeping Dale Ogden.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c022-02",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2535000,
+      "actor": "Richard Fleming",
+      "action": "lean over",
+      "description": "Richard leans down toward seated Dale surrounded by household members.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c022-03",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2550000,
+      "actor": "Man at Window",
+      "action": "stand",
+      "description": "A man stands outside at the curtained balcony window.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c022-04",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2565000,
+      "actor": "Detective",
+      "action": "enter",
+      "description": "A man in a coat stands near the doorway while others turn toward him.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c022-05",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2580000,
+      "actor": "Richard Fleming",
+      "action": "converse",
+      "description": "Richard talks face-to-face with the bowler-hatted detective while holding a wallet.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c022-06",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2610000,
+      "actor": "Detective",
+      "action": "talk",
+      "description": "The detective gestures and speaks to Cornelia Van Gorder.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c022-07",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2639000,
+      "actor": "Richard Fleming",
+      "action": "make phone call",
+      "description": "Richard places a call on the wall phone as the detective, Lizzie, and Cornelia watch.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c023-01",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2640000,
+      "actor": "Young Man",
+      "action": "talks on telephone",
+      "description": "Young man speaks into wall telephone while others listen nearby.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c023-02",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2655000,
+      "actor": "Young Man",
+      "action": "runs outdoor path",
+      "description": "A man runs down an exterior hedge-lined walkway at night.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c023-03",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2700000,
+      "actor": "Detective",
+      "action": "inspects wall portrait",
+      "description": "The group inspects a large framed portrait on the wall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c023-04",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2730000,
+      "actor": "Figure in coat",
+      "action": "ascends secret staircase",
+      "description": "A figure in a coat walks up a dark, narrow secret staircase.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c023-05",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2759000,
+      "actor": "Detective",
+      "action": "examines painting frame",
+      "description": "Detective stands on a stepladder to examine the painting above the fireplace.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c024-01",
+      "scene_id": "scene-tbw-c024",
+      "timestamp_ms": 2760000,
+      "actor": "Cornelia Van Gorder",
+      "action": "look_up",
+      "description": "Cornelia and Lizzie look upward reactively in the hall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c024-02",
+      "scene_id": "scene-tbw-c024",
+      "timestamp_ms": 2790000,
+      "actor": "Detective Anderson",
+      "action": "walk_past",
+      "description": "Detective Anderson quickly steps past a visibly alarmed Dale Ogden.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c024-03",
+      "scene_id": "scene-tbw-c024",
+      "timestamp_ms": 2820000,
+      "actor": "Brook",
+      "action": "enter",
+      "description": "Brook enters the hall through an open rear doorway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c024-04",
+      "scene_id": "scene-tbw-c024",
+      "timestamp_ms": 2835000,
+      "actor": "Doctor Wells",
+      "action": "converse",
+      "description": "Doctor Wells stands in the hall talking with Dale Ogden and Detective Anderson.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c024-05",
+      "scene_id": "scene-tbw-c024",
+      "timestamp_ms": 2850000,
+      "actor": "Unidentified Figure",
+      "action": "run_past",
+      "description": "A silhouetted figure moves quickly past a latticed window.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c024-06",
+      "scene_id": "scene-tbw-c024",
+      "timestamp_ms": 2865000,
+      "actor": "Doctor Wells",
+      "action": "lean_on",
+      "description": "Doctor Wells leans on the stair post while speaking to Dale and Cornelia.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c025-01",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2880000,
+      "actor": "Dr. Sterling",
+      "action": "converse",
+      "description": "Dr. Sterling leans against the staircase banister post while speaking to Cornelia Van Gorder and Dale Ogden.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c025-02",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2895000,
+      "actor": "Detective Anderson",
+      "action": "speak",
+      "description": "Detective Anderson, wearing a bowler hat and coat, gestures while speaking to Cornelia Van Gorder.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c025-03",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2910000,
+      "actor": "Dr. Sterling",
+      "action": "speak",
+      "description": "Dr. Sterling leans close to speak directly with Cornelia Van Gorder.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c025-04",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2925000,
+      "actor": "Dr. Sterling",
+      "action": "open_door",
+      "description": "Dr. Sterling holds open a set of paneled doors while speaking to Lizzie Allen.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c025-05",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2940000,
+      "actor": "Richard Fleming",
+      "action": "peer",
+      "description": "Richard Fleming peers out from behind a dark curtain.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c025-06",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2955000,
+      "actor": "Richard Fleming",
+      "action": "confront",
+      "description": "Richard Fleming stands closely facing Dr. Sterling near the paneled doors and speaks to him.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c026-01",
+      "scene_id": "scene-tbw-c026",
+      "timestamp_ms": 3000000,
+      "actor": "Richard Fleming",
+      "action": "speaks to",
+      "description": "Richard Fleming speaks closely to Dr. Wells while holding paper documents.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c026-02",
+      "scene_id": "scene-tbw-c026",
+      "timestamp_ms": 3090000,
+      "actor": "Dr. Wells",
+      "action": "walks away from",
+      "description": "Dr. Wells turns and walks away down the hallway stairs.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c026-03",
+      "scene_id": "scene-tbw-c026",
+      "timestamp_ms": 3105000,
+      "actor": "Richard Fleming",
+      "action": "stands alone",
+      "description": "Richard Fleming stands alone near the chair holding his papers after Dr. Wells leaves.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c026-04",
+      "scene_id": "scene-tbw-c026",
+      "timestamp_ms": 3119000,
+      "actor": "Unidentified Figure",
+      "action": "watches through",
+      "description": "A silhouette is seen peering through the lattice glass door pane.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c027-01",
+      "scene_id": "scene-tbw-c027",
+      "timestamp_ms": 3120000,
+      "actor": "Dr. Sterling",
+      "action": "peeks and brandishes weapon",
+      "description": "Dr. Sterling peers through a doorway split and raises a heavy wooden object overhead.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c027-02",
+      "scene_id": "scene-tbw-c027",
+      "timestamp_ms": 3150000,
+      "actor": "Dr. Sterling",
+      "action": "walks",
+      "description": "Dr. Sterling exits through double doors and walks along the upper hallway landing past a large decorative vase.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c027-03",
+      "scene_id": "scene-tbw-c027",
+      "timestamp_ms": 3180000,
+      "actor": "Cornelia Van Gorder",
+      "action": "uses phone",
+      "description": "Cornelia speaks into the mounted telephone near the staircase while Lizzie stands beside a smoking hot water bottle on an armchair.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c027-04",
+      "scene_id": "scene-tbw-c027",
+      "timestamp_ms": 3210000,
+      "actor": "Detective Anderson",
+      "action": "talks",
+      "description": "Detective Anderson stands in the hall conversing with Cornelia and Lizzie near the framed portrait.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c027-05",
+      "scene_id": "scene-tbw-c027",
+      "timestamp_ms": 3225000,
+      "actor": "Billy",
+      "action": "walks",
+      "description": "Billy advances through a dark corridor while holding an illuminated lantern.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c028-01",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3240000,
+      "actor": "Caretaker",
+      "action": "walks",
+      "description": "Caretaker walks down dark hallway carrying lit lantern.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c028-02",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3255000,
+      "actor": "Masked Figure",
+      "action": "approaches",
+      "description": "Masked figure wearing black mask appears behind caretaker.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c028-03",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3270000,
+      "actor": "Detective Anderson",
+      "action": "moves",
+      "description": "Detective Anderson moves large framed portrait near stairs.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c028-04",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3300000,
+      "actor": "Detective Anderson",
+      "action": "aims",
+      "description": "Detective Anderson draws and aims revolver at doorway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c028-05",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3315000,
+      "actor": "Detective Anderson",
+      "action": "stands_over",
+      "description": "Detective Anderson stands over collapsed man with revolver drawn.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c028-06",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3345000,
+      "actor": "Miss Cornelia",
+      "action": "speaks",
+      "description": "Miss Cornelia converses with Detective Anderson.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c029-01",
+      "scene_id": "scene-tbw-c029",
+      "timestamp_ms": 3360000,
+      "actor": "Caretaker",
+      "action": "close_door",
+      "description": "A man pulls heavy double doors shut while Dale stands behind him.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c029-02",
+      "scene_id": "scene-tbw-c029",
+      "timestamp_ms": 3390000,
+      "actor": "Unidentified Figure",
+      "action": "fire_gun",
+      "description": "A figure in a coat fires a handgun toward the manor exterior from the lawn at night.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c029-03",
+      "scene_id": "scene-tbw-c029",
+      "timestamp_ms": 3435000,
+      "actor": "Dale Ogden",
+      "action": "barricade_door",
+      "description": "Occupants push heavy wooden furniture against double doors to barricade them.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c029-04",
+      "scene_id": "scene-tbw-c029",
+      "timestamp_ms": 3465000,
+      "actor": "Detective Anderson",
+      "action": "converse",
+      "description": "Detective Anderson speaks directly with Dale and Brook in close proximity.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c030-01",
+      "scene_id": "scene-tbw-c030",
+      "timestamp_ms": 3480000,
+      "actor": "Unidentified Man",
+      "action": "lie_down",
+      "description": "A man lies prone on a rug on the floor near a door and cushion.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c030-02",
+      "scene_id": "scene-tbw-c030",
+      "timestamp_ms": 3495000,
+      "actor": "Detective Anderson",
+      "action": "stand",
+      "description": "Detective Anderson stands with the group holding a handgun at his side in the hall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c030-03",
+      "scene_id": "scene-tbw-c030",
+      "timestamp_ms": 3510000,
+      "actor": "The Bat",
+      "action": "crouch",
+      "description": "A cloaked figure crouches low in front of a window paned frame.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c030-04",
+      "scene_id": "scene-tbw-c030",
+      "timestamp_ms": 3540000,
+      "actor": "The Bat",
+      "action": "handle",
+      "description": "The cloaked figure works with coiled wire on the floor.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c030-05",
+      "scene_id": "scene-tbw-c030",
+      "timestamp_ms": 3599000,
+      "actor": "Miss Cornelia Van Gorder",
+      "action": "run",
+      "description": "A woman in a gown runs up small stairs toward an open door in the dark upper level.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c031-01",
+      "scene_id": "scene-tbw-c031",
+      "timestamp_ms": 3630000,
+      "actor": "Dale Ogden",
+      "action": "walk_towards",
+      "description": "Dale Ogden walks across the room while carrying a lit candle toward the fireplace wall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c031-02",
+      "scene_id": "scene-tbw-c031",
+      "timestamp_ms": 3645000,
+      "actor": "Dale Ogden",
+      "action": "touches_mechanism",
+      "description": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c031-03",
+      "scene_id": "scene-tbw-c031",
+      "timestamp_ms": 3660000,
+      "actor": "Fireplace panel",
+      "action": "rotates_open",
+      "description": "The fireplace wall structure pivots open on hinges, uncovering a secret doorway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c031-04",
+      "scene_id": "scene-tbw-c031",
+      "timestamp_ms": 3675000,
+      "actor": "Dale Ogden",
+      "action": "enters_passage",
+      "description": "Dale Ogden steps through the revealed secret opening holding the candle.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c031-05",
+      "scene_id": "scene-tbw-c031",
+      "timestamp_ms": 3719000,
+      "actor": "Secret door panel",
+      "action": "closes",
+      "description": "The secret panel door swings closed, shutting off the passage from view.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c032-01",
+      "scene_id": "scene-tbw-c032",
+      "timestamp_ms": 3720000,
+      "actor": "Bearded Man",
+      "action": "peek",
+      "description": "Bearded man looks through a narrow opening in the doorway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c032-02",
+      "scene_id": "scene-tbw-c032",
+      "timestamp_ms": 3735000,
+      "actor": "Woman in Light Dress",
+      "action": "inspect",
+      "description": "Woman leans over the wooden desk near a candle.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c032-03",
+      "scene_id": "scene-tbw-c032",
+      "timestamp_ms": 3750000,
+      "actor": "The Bat",
+      "action": "crouch",
+      "description": "A cloaked figure casts a bat shadow and crouches on the floor.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c032-04",
+      "scene_id": "scene-tbw-c032",
+      "timestamp_ms": 3795000,
+      "actor": "Woman in Light Dress",
+      "action": "knock",
+      "description": "Woman presses her hands and knocks on the wall panel door.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c033-01",
+      "scene_id": "scene-tbw-c033",
+      "timestamp_ms": 3840000,
+      "actor": "Dale Van Order",
+      "action": "open_door",
+      "description": "Dale Van Order opens a door, peering nervously into the darkened space.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c033-02",
+      "scene_id": "scene-tbw-c033",
+      "timestamp_ms": 3885000,
+      "actor": "Lizzie Allen",
+      "action": "walk_to",
+      "description": "Lizzie Allen walks near the Great Hall staircase and confers anxiously with Billy and Detective Anderson.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c033-03",
+      "scene_id": "scene-tbw-c033",
+      "timestamp_ms": 3930000,
+      "actor": "Unknown Gloved Person",
+      "action": "extinguish",
+      "description": "A gloved hand reaches out from behind a marble pillar and snuffs out the candle flame.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c034-01",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 3960000,
+      "actor": "Billy",
+      "action": "grimaces",
+      "description": "Billy grimaces while standing beside Detective Anderson.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c034-02",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 4005000,
+      "actor": "Detective Anderson",
+      "action": "enters",
+      "description": "Detective Anderson in coat and hat steps through an interior doorway into the upstairs room.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c034-03",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 4020000,
+      "actor": "Detective Anderson",
+      "action": "speaks",
+      "description": "Detective Anderson talks directly to Miss Cornelia as Dale and Brooks walk toward the background doorway.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c034-04",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 4050000,
+      "actor": "The Bat",
+      "action": "descends",
+      "description": "The masked figure wearing a dark bat cloak leaps or runs down a wooden flight of stairs.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c034-05",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 4065000,
+      "actor": "Billy",
+      "action": "reacts",
+      "description": "Billy and Detective Anderson look up in alarm as smoke billows near the Great Hall staircase next to a suit of armor.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c034-06",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 4079000,
+      "actor": "Detective Anderson",
+      "action": "inspects",
+      "description": "Detective Anderson leans over a wooden table to inspect its surface while Miss Cornelia stands holding her cane.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c035-01",
+      "scene_id": "scene-tbw-c035",
+      "timestamp_ms": 4080000,
+      "actor": "Miss Cornelia van Gorder",
+      "action": "walk",
+      "description": "Miss Cornelia walks across the room using a cane toward Detective Anderson standing near a table.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c035-02",
+      "scene_id": "scene-tbw-c035",
+      "timestamp_ms": 4125000,
+      "actor": "Brook",
+      "action": "stand",
+      "description": "Brook stands framed in the doorway looking sternly toward Detective Anderson.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c035-03",
+      "scene_id": "scene-tbw-c035",
+      "timestamp_ms": 4140000,
+      "actor": "Detective Anderson",
+      "action": "confront",
+      "description": "Detective Anderson faces Brook at close proximity while speaking directly to him.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c035-04",
+      "scene_id": "scene-tbw-c035",
+      "timestamp_ms": 4185000,
+      "actor": "Police Officer",
+      "action": "search",
+      "description": "The police officer searches Detective Anderson's coat pockets and pulls out a handgun.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c036-01",
+      "scene_id": "scene-tbw-c036",
+      "timestamp_ms": 4275000,
+      "actor": "Detective Anderson",
+      "action": "aims gun",
+      "description": "Detective Anderson aims two revolvers at a man seated on a chair in the room.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c036-02",
+      "scene_id": "scene-tbw-c036",
+      "timestamp_ms": 4290000,
+      "actor": "Richard Fleming",
+      "action": "inspects",
+      "description": "Richard Fleming stands over and looks down at the seated injured man.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c037-01",
+      "scene_id": "scene-tbw-c037",
+      "timestamp_ms": 4320000,
+      "actor": "Dr. Wells",
+      "action": "examine",
+      "description": "Dr. Wells inspects the distressed man's head, jaw, and eyes closely.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c037-02",
+      "scene_id": "scene-tbw-c037",
+      "timestamp_ms": 4380000,
+      "actor": "Detective Anderson",
+      "action": "aim",
+      "description": "Detective Anderson holds two handguns pointed across the attic room.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c037-03",
+      "scene_id": "scene-tbw-c037",
+      "timestamp_ms": 4395000,
+      "actor": "Dale Ogden",
+      "action": "exit",
+      "description": "Dale Ogden and others exit out through the narrow door frame in the back.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c037-04",
+      "scene_id": "scene-tbw-c037",
+      "timestamp_ms": 4425000,
+      "actor": "Detective Anderson",
+      "action": "walk_to",
+      "description": "Detective Anderson walks into the passageway opening near the fireplace.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c037-05",
+      "scene_id": "scene-tbw-c037",
+      "timestamp_ms": 4439000,
+      "actor": "Distressed Man",
+      "action": "stand_up",
+      "description": "The distressed man rises from his chair and reaches toward the table.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c038-01",
+      "scene_id": "scene-tbw-c038",
+      "timestamp_ms": 4440000,
+      "actor": "Injured Man",
+      "action": "reach_for",
+      "description": "An injured man in a stained shirt reaches across a table for a small revolver.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c038-02",
+      "scene_id": "scene-tbw-c038",
+      "timestamp_ms": 4470000,
+      "actor": "Detective Anderson",
+      "action": "inspect",
+      "description": "Men inspect an opened hidden wall panel and safe while onlookers watch inside the room.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c038-03",
+      "scene_id": "scene-tbw-c038",
+      "timestamp_ms": 4545000,
+      "actor": "Unseen Figure",
+      "action": "grab",
+      "description": "A black-gloved hand reaches from behind a secret wall partition and grabs Lizzie's shoulder.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c038-04",
+      "scene_id": "scene-tbw-c038",
+      "timestamp_ms": 4559000,
+      "actor": "Lizzie",
+      "action": "flee",
+      "description": "Lizzie jumps down the wooden staircase in panic after being startled.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c039-01",
+      "scene_id": "scene-tbw-c039",
+      "timestamp_ms": 4560000,
+      "actor": "Cornelia Van Gorder",
+      "action": "examine",
+      "description": "Cornelia Van Gorder and others gather around the opened hidden door panel in the attic wall.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c039-02",
+      "scene_id": "scene-tbw-c039",
+      "timestamp_ms": 4605000,
+      "actor": "Brooks",
+      "action": "enter",
+      "description": "A man steps through the open secret panel into the small room housing the safe.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c039-03",
+      "scene_id": "scene-tbw-c039",
+      "timestamp_ms": 4575000,
+      "actor": "Detective Anderson",
+      "action": "walk",
+      "description": "Detective Anderson walks past the secret panel towards the open window.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c039-04",
+      "scene_id": "scene-tbw-c039",
+      "timestamp_ms": 4650000,
+      "actor": "Brooks",
+      "action": "look",
+      "description": "A character looks out through the open window down a long ladder extending outside the building.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c040-01",
+      "scene_id": "scene-tbw-c040",
+      "timestamp_ms": 4710000,
+      "actor": "Detective Anderson",
+      "action": "restrain",
+      "description": "Anderson holds a cloaked figure and inspects confiscated handguns while household members observe.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c040-02",
+      "scene_id": "scene-tbw-c040",
+      "timestamp_ms": 4755000,
+      "actor": "Detective Anderson",
+      "action": "speak",
+      "description": "Anderson speaks to an associate while holding two handguns.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c040-03",
+      "scene_id": "scene-tbw-c040",
+      "timestamp_ms": 4770000,
+      "actor": "Unidentified Man",
+      "action": "run",
+      "description": "Men run down the interior stairs.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c040-04",
+      "scene_id": "scene-tbw-c040",
+      "timestamp_ms": 4785000,
+      "actor": "Cloaked Figure",
+      "action": "carry",
+      "description": "A dark cloaked figure runs across the lawn holding a satchel.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c040-05",
+      "scene_id": "scene-tbw-c040",
+      "timestamp_ms": 4799000,
+      "actor": "Lizzie Allen",
+      "action": "react",
+      "description": "Lizzie sits up in bed showing a shocked facial expression.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c041-01",
+      "scene_id": "scene-tbw-c041",
+      "timestamp_ms": 4800000,
+      "actor": "Lizzie Allen",
+      "action": "react",
+      "description": "Lizzie looks terrified while lying in bed with curlers in her hair.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c041-02",
+      "scene_id": "scene-tbw-c041",
+      "timestamp_ms": 4830000,
+      "actor": "Detective Anderson",
+      "action": "tackle",
+      "description": "Men tackle the cloaked figure onto the lawn as Lizzie watches.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c041-03",
+      "scene_id": "scene-tbw-c041",
+      "timestamp_ms": 4890000,
+      "actor": "Detective Anderson",
+      "action": "bind",
+      "description": "Detective Anderson stands beside the captured, bound cloaked figure on the lawn.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c041-04",
+      "scene_id": "scene-tbw-c041",
+      "timestamp_ms": 4919000,
+      "actor": "The Bat",
+      "action": "threaten",
+      "description": "The Bat holds a gun on the group, forcing them to raise their hands.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c042-01",
+      "scene_id": "scene-tbw-c042",
+      "timestamp_ms": 4935000,
+      "actor": "Police Officer",
+      "action": "restrain",
+      "description": "Men restrain and bind the caped suspect against a tree using rope.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c042-02",
+      "scene_id": "scene-tbw-c042",
+      "timestamp_ms": 4965000,
+      "actor": "The Bat",
+      "action": "speak",
+      "description": "The unmasked suspect speaks while tied to the tree in close-up.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c042-03",
+      "scene_id": "scene-tbw-c042",
+      "timestamp_ms": 5025000,
+      "actor": "Actor in Tuxedo",
+      "action": "address_audience",
+      "description": "An actor steps before a theater curtain to deliver an epilogue to the viewers.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c043-01",
+      "scene_id": "scene-tbw-c043",
+      "timestamp_ms": 5040000,
+      "actor": "Chester Morris",
+      "action": "speaks",
+      "description": "Chester Morris stands in front of a curtain dressed in formal tuxedo tails and speaks directly to the camera.",
+      "classification": "OBSERVED_EVIDENCE"
+    },
+    {
+      "event_id": "ev-c043-02",
+      "scene_id": "scene-tbw-c043",
+      "timestamp_ms": 5085000,
+      "actor": "Film Production",
+      "action": "displays",
+      "description": "The closing title card stating 'The End - A Roland West Attraction' is displayed on screen.",
+      "classification": "OBSERVED_EVIDENCE"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "fact-c001-01",
+      "scene_id": "scene-tbw-c001",
+      "timestamp_ms": 15000,
+      "subject": "Title Screen",
+      "predicate": "displays",
+      "object": "Film credits based upon stage play by Mary Roberts Rinehart and Avery Hopwood",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c001-02",
+      "scene_id": "scene-tbw-c001",
+      "timestamp_ms": 90000,
+      "subject": "Clock Tower",
+      "predicate": "indicates_time",
+      "object": "12:00 / Midnight",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c001-03",
+      "scene_id": "scene-tbw-c001",
+      "timestamp_ms": 105000,
+      "subject": "Building Facade",
+      "predicate": "is_labeled",
+      "object": "POLICE HEADQUARTERS",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c002-01",
+      "scene_id": "scene-tbw-c002",
+      "timestamp_ms": 120000,
+      "subject": "Police Headquarters",
+      "predicate": "has_signage",
+      "object": "POLICE HEADQUARTERS lettering above entrance",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c002-02",
+      "scene_id": "scene-tbw-c002",
+      "timestamp_ms": 239000,
+      "subject": "Office Interior",
+      "predicate": "contains",
+      "object": "Large carved wooden desk, high-backed chair, bookshelf, and desk lamps",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c003-01",
+      "scene_id": "scene-tbw-c003",
+      "timestamp_ms": 255000,
+      "subject": "Note",
+      "predicate": "contains_text",
+      "object": "Greetings Mr Bell... The Bat",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c003-02",
+      "scene_id": "scene-tbw-c003",
+      "timestamp_ms": 345000,
+      "subject": "Window",
+      "predicate": "is_state",
+      "object": "open",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c004-01",
+      "scene_id": "scene-tbw-c004",
+      "timestamp_ms": 420000,
+      "subject": "Wall Safe",
+      "predicate": "hidden_behind",
+      "object": "Curtain",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c004-02",
+      "scene_id": "scene-tbw-c004",
+      "timestamp_ms": 465000,
+      "subject": "Roadside Sign",
+      "predicate": "displays_text",
+      "object": "OAKDALE Dr. GROOMS SANITARIUM 2 Mi. East",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c005-01",
+      "scene_id": "scene-tbw-c005",
+      "timestamp_ms": 480000,
+      "subject": "Vault Room",
+      "predicate": "contains",
+      "object": "Large Circular Vault Door",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c005-02",
+      "scene_id": "scene-tbw-c005",
+      "timestamp_ms": 585000,
+      "subject": "Estate Gate",
+      "predicate": "bears_label",
+      "object": "FLEMING",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c006-01",
+      "scene_id": "scene-tbw-c006",
+      "timestamp_ms": 600000,
+      "subject": "Estate gate pillars",
+      "predicate": "bears_inscription",
+      "object": "FLEMING",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c006-02",
+      "scene_id": "scene-tbw-c006",
+      "timestamp_ms": 615000,
+      "subject": "Automobile",
+      "predicate": "parked_at",
+      "object": "Exterior Manor Grounds",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c006-03",
+      "scene_id": "scene-tbw-c006",
+      "timestamp_ms": 645000,
+      "subject": "Cornelia Van Gorder",
+      "predicate": "is_knitting_in",
+      "object": "Oakdale Manor Great Hall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c007-01",
+      "scene_id": "scene-tbw-c007",
+      "timestamp_ms": 720000,
+      "subject": "Lizzie Allen",
+      "predicate": "is_located_in",
+      "object": "Oakdale Manor Great Hall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c007-02",
+      "scene_id": "scene-tbw-c007",
+      "timestamp_ms": 795000,
+      "subject": "Ouija board",
+      "predicate": "is_used_by",
+      "object": "Lizzie Allen and Miss Cornelia Van Gorder",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c008-01",
+      "scene_id": "scene-tbw-c008",
+      "timestamp_ms": 915000,
+      "subject": "Cornelia Van Gorder",
+      "predicate": "holds",
+      "object": "Handgun",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c008-02",
+      "scene_id": "scene-tbw-c008",
+      "timestamp_ms": 885000,
+      "subject": "Oakdale Manor Basement",
+      "predicate": "contains",
+      "object": "Wooden ladder and boiler",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c009-01",
+      "scene_id": "scene-tbw-c009",
+      "timestamp_ms": 1050000,
+      "subject": "Newspaper",
+      "predicate": "displays_headline",
+      "object": "BANK ROBBED",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c010-01",
+      "scene_id": "scene-tbw-c010",
+      "timestamp_ms": 1080000,
+      "subject": "Staircase",
+      "predicate": "located_in",
+      "object": "Oakdale Manor Interior",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c010-02",
+      "scene_id": "scene-tbw-c010",
+      "timestamp_ms": 1110000,
+      "subject": "Cornelia Van Gorder",
+      "predicate": "holding",
+      "object": "Cane and Handbag",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c010-03",
+      "scene_id": "scene-tbw-c010",
+      "timestamp_ms": 1140000,
+      "subject": "Dark Sphere",
+      "predicate": "resting_on",
+      "object": "Floor",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c011-01",
+      "scene_id": "scene-tbw-c011",
+      "timestamp_ms": 1260000,
+      "subject": "Sky",
+      "predicate": "displays",
+      "object": "Lightning",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c011-02",
+      "scene_id": "scene-tbw-c011",
+      "timestamp_ms": 1275000,
+      "subject": "Cornelia Van Gorder",
+      "predicate": "carries",
+      "object": "Walking stick",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c012-01",
+      "scene_id": "scene-tbw-c012",
+      "timestamp_ms": 1350000,
+      "subject": "Cornelia Van Gorder",
+      "predicate": "is_knitting_in",
+      "object": "Oakdale Manor Great Hall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c012-02",
+      "scene_id": "scene-tbw-c012",
+      "timestamp_ms": 1380000,
+      "subject": "Jack Brooks",
+      "predicate": "is_holding",
+      "object": "cap",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c012-03",
+      "scene_id": "scene-tbw-c012",
+      "timestamp_ms": 1425000,
+      "subject": "Billy",
+      "predicate": "has_expression",
+      "object": "alarmed and wide-eyed",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c013-01",
+      "scene_id": "scene-tbw-c013",
+      "timestamp_ms": 1440000,
+      "subject": "Cornelia Van Gorder",
+      "predicate": "is_engaged_in",
+      "object": "knitting",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c013-02",
+      "scene_id": "scene-tbw-c013",
+      "timestamp_ms": 1440000,
+      "subject": "Lizzie Allen",
+      "predicate": "wears",
+      "object": "maid uniform",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c013-03",
+      "scene_id": "scene-tbw-c013",
+      "timestamp_ms": 1545000,
+      "subject": "Dr. Wells",
+      "predicate": "wears",
+      "object": "overcoat",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c014-01",
+      "scene_id": "scene-tbw-c014",
+      "timestamp_ms": 1665000,
+      "subject": "Oakdale Manor Great Hall",
+      "predicate": "contains_decor",
+      "object": "suit of armor and grand staircase",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c014-02",
+      "scene_id": "scene-tbw-c014",
+      "timestamp_ms": 1560000,
+      "subject": "Miss Cornelia Van Gorder",
+      "predicate": "wears",
+      "object": "lace shawl",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c015-01",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1680000,
+      "subject": "Cornelia Van Gorder",
+      "predicate": "is_seated_at",
+      "object": "Table in Great Hall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c015-02",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1680000,
+      "subject": "Suit of Armor",
+      "predicate": "located_at",
+      "object": "Beside Staircase in Hall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c015-03",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1695000,
+      "subject": "Desk Tray",
+      "predicate": "contains",
+      "object": "Bell and Inkwell",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c015-04",
+      "scene_id": "scene-tbw-c015",
+      "timestamp_ms": 1710000,
+      "subject": "Dale Ogden",
+      "predicate": "wears",
+      "object": "Light-colored dress with ruffled collar and necklace",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c016-01",
+      "scene_id": "scene-tbw-c016",
+      "timestamp_ms": 1800000,
+      "subject": "Table",
+      "predicate": "has_objects",
+      "object": "Hat and Gloves",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c016-02",
+      "scene_id": "scene-tbw-c016",
+      "timestamp_ms": 1860000,
+      "subject": "Oakdale Manor Ground Floor Hallway",
+      "predicate": "contains",
+      "object": "Staircase",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c017-01",
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 1920000,
+      "subject": "Detective Anderson",
+      "predicate": "holding",
+      "object": "Notepad and pencil",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c017-02",
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 1920000,
+      "subject": "Suit of Armor",
+      "predicate": "located_at",
+      "object": "Oakdale Manor Great Hall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c018-01",
+      "scene_id": "scene-tbw-c018",
+      "timestamp_ms": 2115000,
+      "subject": "Maid",
+      "predicate": "present_in",
+      "object": "Oakdale Manor Great Hall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c018-02",
+      "scene_id": "scene-tbw-c018",
+      "timestamp_ms": 2100000,
+      "subject": "Man in Suit",
+      "predicate": "on_staircase",
+      "object": "Oakdale Manor Great Hall Staircase",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c019-01",
+      "scene_id": "scene-tbw-c019",
+      "timestamp_ms": 2190000,
+      "subject": "Detective Anderson",
+      "predicate": "wearing",
+      "object": "trench coat and hat",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c019-02",
+      "scene_id": "scene-tbw-c019",
+      "timestamp_ms": 2279000,
+      "subject": "Oakdale Manor Basement",
+      "predicate": "contains",
+      "object": "laundry sacks, wooden ladder, and firewood",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c020-01",
+      "scene_id": "scene-tbw-c020",
+      "timestamp_ms": 2310000,
+      "subject": "Bookshelf",
+      "predicate": "located_in",
+      "object": "Oakdale Manor Interior",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c020-02",
+      "scene_id": "scene-tbw-c020",
+      "timestamp_ms": 2280000,
+      "subject": "Man in Overcoat",
+      "predicate": "wearing",
+      "object": "Overcoat",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c021-01",
+      "scene_id": "scene-tbw-c021",
+      "timestamp_ms": 2490000,
+      "subject": "Detective Anderson",
+      "predicate": "holds",
+      "object": "Blueprints",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c021-02",
+      "scene_id": "scene-tbw-c021",
+      "timestamp_ms": 2415000,
+      "subject": "Dale Ogden",
+      "predicate": "is_located_at",
+      "object": "Oakdale Manor Ground Floor Hallway",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c022-01",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2580000,
+      "subject": "Detective",
+      "predicate": "wearing",
+      "object": "Bowler Hat and Overcoat",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c022-02",
+      "scene_id": "scene-tbw-c022",
+      "timestamp_ms": 2639000,
+      "subject": "Wall telephone",
+      "predicate": "located_at",
+      "object": "Great Hall Wall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c023-01",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2640000,
+      "subject": "Wall telephone",
+      "predicate": "is_located_in",
+      "object": "Oakdale Manor Great Hall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c023-02",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2759000,
+      "subject": "Framed portrait",
+      "predicate": "mounted_above",
+      "object": "Fireplace",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c024-01",
+      "scene_id": "scene-tbw-c024",
+      "timestamp_ms": 2805000,
+      "subject": "Oakdale Manor Great Hall",
+      "predicate": "contains_object",
+      "object": "Suit of armor",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c024-02",
+      "scene_id": "scene-tbw-c024",
+      "timestamp_ms": 2865000,
+      "subject": "Doctor Wells",
+      "predicate": "positioned_at",
+      "object": "Staircase newel post",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c025-01",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2925000,
+      "subject": "Lizzie Allen",
+      "predicate": "holds",
+      "object": "Hot water bottle",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c025-02",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2895000,
+      "subject": "Detective Anderson",
+      "predicate": "wears",
+      "object": "Bowler hat",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c026-01",
+      "scene_id": "scene-tbw-c026",
+      "timestamp_ms": 3060000,
+      "subject": "Richard Fleming",
+      "predicate": "holds",
+      "object": "Paper Documents",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c026-02",
+      "scene_id": "scene-tbw-c026",
+      "timestamp_ms": 3060000,
+      "subject": "Oakdale Manor Great Hall",
+      "predicate": "contains",
+      "object": "Silver Tea Set on Table",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c027-01",
+      "scene_id": "scene-tbw-c027",
+      "timestamp_ms": 3195000,
+      "subject": "Hot water bottle",
+      "predicate": "emitting",
+      "object": "Smoke / Steam",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c027-02",
+      "scene_id": "scene-tbw-c027",
+      "timestamp_ms": 3180000,
+      "subject": "Large portrait painting",
+      "predicate": "positioned against",
+      "object": "Staircase wall",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c028-01",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3255000,
+      "subject": "Masked Figure",
+      "predicate": "is_behind",
+      "object": "Caretaker",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c028-02",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3315000,
+      "subject": "Caretaker",
+      "predicate": "is_lying_on",
+      "object": "Floor",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c029-01",
+      "scene_id": "scene-tbw-c029",
+      "timestamp_ms": 3435000,
+      "subject": "Unconscious Man",
+      "predicate": "lying_on",
+      "object": "Floor near hallway stairs",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c029-02",
+      "scene_id": "scene-tbw-c029",
+      "timestamp_ms": 3450000,
+      "subject": "Large framed portrait",
+      "predicate": "positioned_against",
+      "object": "Staircase wall floor",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c030-01",
+      "scene_id": "scene-tbw-c030",
+      "timestamp_ms": 3495000,
+      "subject": "Detective Anderson",
+      "predicate": "holds",
+      "object": "Handgun",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c030-02",
+      "scene_id": "scene-tbw-c030",
+      "timestamp_ms": 3585000,
+      "subject": "Fireplace",
+      "predicate": "has_opening",
+      "object": "Secret Passage",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c031-01",
+      "scene_id": "scene-tbw-c031",
+      "timestamp_ms": 3660000,
+      "subject": "Fireplace",
+      "predicate": "functions_as",
+      "object": "Secret revolving door",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c031-02",
+      "scene_id": "scene-tbw-c031",
+      "timestamp_ms": 3645000,
+      "subject": "Dale Ogden",
+      "predicate": "carries",
+      "object": "Candle",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c032-01",
+      "scene_id": "scene-tbw-c032",
+      "timestamp_ms": 3735000,
+      "subject": "Safe",
+      "predicate": "located_in",
+      "object": "Oakdale Manor Office",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c032-02",
+      "scene_id": "scene-tbw-c032",
+      "timestamp_ms": 3780000,
+      "subject": "The Bat",
+      "predicate": "present_in",
+      "object": "Oakdale Manor Office",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c033-01",
+      "scene_id": "scene-tbw-c033",
+      "timestamp_ms": 3930000,
+      "subject": "Candle",
+      "predicate": "extinguished_by",
+      "object": "Gloved hand",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c033-02",
+      "scene_id": "scene-tbw-c033",
+      "timestamp_ms": 3945000,
+      "subject": "Great Hall",
+      "predicate": "is_in_state",
+      "object": "Darkness",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c034-01",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 3990000,
+      "subject": "Miss Cornelia van Gorder",
+      "predicate": "holds",
+      "object": "cane",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c034-02",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 4065000,
+      "subject": "Oakdale Manor Great Hall",
+      "predicate": "contains",
+      "object": "suit of armor",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c034-03",
+      "scene_id": "scene-tbw-c034",
+      "timestamp_ms": 4050000,
+      "subject": "The Bat",
+      "predicate": "wears",
+      "object": "black cloak and mask",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c035-01",
+      "scene_id": "scene-tbw-c035",
+      "timestamp_ms": 4199000,
+      "subject": "Police Officer",
+      "predicate": "holds",
+      "object": "Handgun",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c035-02",
+      "scene_id": "scene-tbw-c035",
+      "timestamp_ms": 4080000,
+      "subject": "Miss Cornelia van Gorder",
+      "predicate": "located_in",
+      "object": "Oakdale Manor Upstairs Room",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c036-01",
+      "scene_id": "scene-tbw-c036",
+      "timestamp_ms": 4305000,
+      "subject": "Seated Injured Man",
+      "predicate": "has_injury",
+      "object": "Blood streak on forehead",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c036-02",
+      "scene_id": "scene-tbw-c036",
+      "timestamp_ms": 4260000,
+      "subject": "Cornelia Van Gorder",
+      "predicate": "covered_in",
+      "object": "Cobwebs",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c037-01",
+      "scene_id": "scene-tbw-c037",
+      "timestamp_ms": 4380000,
+      "subject": "Detective Anderson",
+      "predicate": "carrying",
+      "object": "Revolver",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c037-02",
+      "scene_id": "scene-tbw-c037",
+      "timestamp_ms": 4395000,
+      "subject": "Oakdale Manor Attic Room",
+      "predicate": "contains",
+      "object": "Passageway Doorway",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c038-01",
+      "scene_id": "scene-tbw-c038",
+      "timestamp_ms": 4440000,
+      "subject": "Injured Man",
+      "predicate": "has_blood_stains",
+      "object": "Shirt and Arm",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c038-02",
+      "scene_id": "scene-tbw-c038",
+      "timestamp_ms": 4545000,
+      "subject": "Lizzie",
+      "predicate": "wearing",
+      "object": "Hair Curlers and Robe",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c039-01",
+      "scene_id": "scene-tbw-c039",
+      "timestamp_ms": 4575000,
+      "subject": "Secret Wall Panel",
+      "predicate": "reveals",
+      "object": "Inner Alcove with Safe",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c039-02",
+      "scene_id": "scene-tbw-c039",
+      "timestamp_ms": 4650000,
+      "subject": "Ladder",
+      "predicate": "positioned_at",
+      "object": "Exterior Window",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c040-01",
+      "scene_id": "scene-tbw-c040",
+      "timestamp_ms": 4725000,
+      "subject": "Detective Anderson",
+      "predicate": "possession_of",
+      "object": "Handgun",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c040-02",
+      "scene_id": "scene-tbw-c040",
+      "timestamp_ms": 4695000,
+      "subject": "Cloaked Figure",
+      "predicate": "wearing",
+      "object": "Cloak and Mask",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c040-03",
+      "scene_id": "scene-tbw-c040",
+      "timestamp_ms": 4799000,
+      "subject": "Lizzie Allen",
+      "predicate": "location",
+      "object": "Oakdale Manor Upstairs Bedroom",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c041-01",
+      "scene_id": "scene-tbw-c041",
+      "timestamp_ms": 4845000,
+      "subject": "The Bat",
+      "predicate": "is_captured",
+      "object": "Exterior Manor Lawn",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c041-02",
+      "scene_id": "scene-tbw-c041",
+      "timestamp_ms": 4919000,
+      "subject": "The Bat",
+      "predicate": "holds_object",
+      "object": "Revolver",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c042-01",
+      "scene_id": "scene-tbw-c042",
+      "timestamp_ms": 4950000,
+      "subject": "The Bat",
+      "predicate": "bound_to",
+      "object": "Tree",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c042-02",
+      "scene_id": "scene-tbw-c042",
+      "timestamp_ms": 4995000,
+      "subject": "Scene Setting",
+      "predicate": "changes_to",
+      "object": "Theater Stage",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c043-01",
+      "scene_id": "scene-tbw-c043",
+      "timestamp_ms": 5040000,
+      "subject": "Chester Morris",
+      "predicate": "attired_in",
+      "object": "Formal Tuxedo Tails and Bowtie",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    },
+    {
+      "fact_id": "fact-c043-02",
+      "scene_id": "scene-tbw-c043",
+      "timestamp_ms": 5085000,
+      "subject": "Film",
+      "predicate": "concludes_with",
+      "object": "The End Title Card",
+      "fact_type": "OBSERVATION",
+      "classification": "CANONICAL_FACT"
+    }
+  ]
+}

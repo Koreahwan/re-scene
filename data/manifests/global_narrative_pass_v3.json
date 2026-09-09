@@ -1,0 +1,231 @@
+{
+  "dataset_version": "the_bat_whispers_v3_gemini36",
+  "movie_id": "the-bat-whispers-1930",
+  "model_id": "gemini-3.6-flash",
+  "total_chunks_analyzed": 43,
+  "sections": [
+    {
+      "section_title": "Act 1: Bank Heist, Panic, and Arrival at Oakdale Manor",
+      "key_characters": [
+        "Cornelia Van Gorder",
+        "Lizzie Allen",
+        "The Bat",
+        "John Bell",
+        "Dale Ogden",
+        "Jack Brooks",
+        "Dr. Wells",
+        "Billy"
+      ],
+      "apparent_plot_developments": [
+        "A master criminal known as 'The Bat' sends threatening notes and executes a high-stakes bank robbery.",
+        "Miss Cornelia Van Gorder and her maid Lizzie experience strange noises, shadowy intruders, and bat-shaped figures at Oakdale Manor.",
+        "A cryptic warning note attached to an umbrella is found inside the manor as guests and Dr. Wells arrive."
+      ],
+      "knowledge_states": [
+        {
+          "state_id": "ks-001",
+          "entity": "John Bell",
+          "believed_fact": "He is actively being targeted by the elusive killer known as The Bat.",
+          "grounded_chunk_id": "chunk-003",
+          "timestamp_ms": 240000
+        },
+        {
+          "state_id": "ks-002",
+          "entity": "Cornelia Van Gorder",
+          "believed_fact": "A major bank robbery has occurred while mysterious threats and shadows surround Oakdale Manor.",
+          "grounded_chunk_id": "chunk-009",
+          "timestamp_ms": 960000
+        },
+        {
+          "state_id": "ks-003",
+          "entity": "Cornelia Van Gorder",
+          "believed_fact": "An intruder delivered a threatening note inside the manor hidden on an umbrella.",
+          "grounded_chunk_id": "chunk-013",
+          "timestamp_ms": 1440000
+        }
+      ]
+    },
+    {
+      "section_title": "Act 2: Manor Murders, The Bat's Infiltration, and Investigation",
+      "key_characters": [
+        "Cornelia Van Gorder",
+        "Detective Anderson",
+        "Dale Ogden",
+        "Lizzie Allen",
+        "Doctor Wells",
+        "Richard Fleming",
+        "Brooks Bailey"
+      ],
+      "apparent_plot_developments": [
+        "Detective Anderson conducts an active investigation inside Oakdale Manor while tension rises among the residents.",
+        "House blueprints are revealed, exposing hidden passages and secret architectural features within the manor.",
+        "A masked intruder infiltrates Oakdale Manor, leading to direct violent confrontations, a collapsed victim, and gunfire."
+      ],
+      "knowledge_states": [
+        {
+          "state_id": "ks-act2-001",
+          "entity": "Detective Anderson",
+          "believed_fact": "Oakdale Manor contains secret rooms and structural hidden passages as evidenced by the house blueprints.",
+          "grounded_chunk_id": "chunk-021",
+          "timestamp_ms": 2400000
+        },
+        {
+          "state_id": "ks-act2-002",
+          "entity": "Cornelia Van Gorder",
+          "believed_fact": "An unidentified criminal or intruder is actively lurking within and around Oakdale Manor.",
+          "grounded_chunk_id": "chunk-027",
+          "timestamp_ms": 3120000
+        },
+        {
+          "state_id": "ks-act2-003",
+          "entity": "Detective Anderson",
+          "believed_fact": "A violent intruder has attacked someone inside the main hall of the manor.",
+          "grounded_chunk_id": "chunk-028",
+          "timestamp_ms": 3240000
+        }
+      ]
+    },
+    {
+      "section_title": "Act 3: Midnight Search, Secret Compartments, and Climax Confrontation",
+      "key_characters": [
+        "Detective Anderson",
+        "Miss Cornelia Van Gorder",
+        "Dale Ogden",
+        "Lizzie Allen",
+        "The Bat",
+        "Brooks",
+        "Dr. Wells",
+        "Chester Morris"
+      ],
+      "apparent_plot_developments": [
+        "Dale Ogden discovers a secret passage hidden behind the fireplace using a hidden mantelpiece latch.",
+        "Investigating occupants reveal hidden rooms, an injured man, and an attic alcove housing a safe.",
+        "Detective Anderson comes under heavy suspicion and is disarmed by a police officer.",
+        "The Bat is chased outside, subdued, bound, and unmasked, followed by Chester Morris delivering a direct address to the audience."
+      ],
+      "knowledge_states": [
+        {
+          "state_id": "ks-031-01",
+          "entity": "Dale Ogden",
+          "believed_fact": "Believes the mantelpiece latch reveals a hidden passage behind the fireplace.",
+          "grounded_chunk_id": "chunk-031",
+          "timestamp_ms": 3600000
+        },
+        {
+          "state_id": "ks-035-01",
+          "entity": "Police Officer",
+          "believed_fact": "Believes Detective Anderson must be disarmed after finding a hidden firearm in his coat.",
+          "grounded_chunk_id": "chunk-035",
+          "timestamp_ms": 4080000
+        },
+        {
+          "state_id": "ks-039-01",
+          "entity": "Miss Cornelia Van Gorder",
+          "believed_fact": "Believes the secret safe and escape ladder are located in the attic studio alcove.",
+          "grounded_chunk_id": "chunk-039",
+          "timestamp_ms": 4560000
+        },
+        {
+          "state_id": "ks-042-01",
+          "entity": "Gathered Occupants",
+          "believed_fact": "Believes The Bat has been neutralized after subduing and unmasking him on the lawn.",
+          "grounded_chunk_id": "chunk-042",
+          "timestamp_ms": 4920000
+        }
+      ]
+    }
+  ],
+  "knowledge_states": [
+    {
+      "state_id": "ks-001",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "John Bell",
+      "believed_fact": "He is actively being targeted by the elusive killer known as The Bat.",
+      "grounded_chunk_id": "chunk-003",
+      "timestamp_ms": 240000
+    },
+    {
+      "state_id": "ks-002",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Cornelia Van Gorder",
+      "believed_fact": "A major bank robbery has occurred while mysterious threats and shadows surround Oakdale Manor.",
+      "grounded_chunk_id": "chunk-009",
+      "timestamp_ms": 960000
+    },
+    {
+      "state_id": "ks-003",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Cornelia Van Gorder",
+      "believed_fact": "An intruder delivered a threatening note inside the manor hidden on an umbrella.",
+      "grounded_chunk_id": "chunk-013",
+      "timestamp_ms": 1440000
+    },
+    {
+      "state_id": "ks-act2-001",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Detective Anderson",
+      "believed_fact": "Oakdale Manor contains secret rooms and structural hidden passages as evidenced by the house blueprints.",
+      "grounded_chunk_id": "chunk-021",
+      "timestamp_ms": 2400000
+    },
+    {
+      "state_id": "ks-act2-002",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Cornelia Van Gorder",
+      "believed_fact": "An unidentified criminal or intruder is actively lurking within and around Oakdale Manor.",
+      "grounded_chunk_id": "chunk-027",
+      "timestamp_ms": 3120000
+    },
+    {
+      "state_id": "ks-act2-003",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Detective Anderson",
+      "believed_fact": "A violent intruder has attacked someone inside the main hall of the manor.",
+      "grounded_chunk_id": "chunk-028",
+      "timestamp_ms": 3240000
+    },
+    {
+      "state_id": "ks-031-01",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Dale Ogden",
+      "believed_fact": "Believes the mantelpiece latch reveals a hidden passage behind the fireplace.",
+      "grounded_chunk_id": "chunk-031",
+      "timestamp_ms": 3600000
+    },
+    {
+      "state_id": "ks-035-01",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Police Officer",
+      "believed_fact": "Believes Detective Anderson must be disarmed after finding a hidden firearm in his coat.",
+      "grounded_chunk_id": "chunk-035",
+      "timestamp_ms": 4080000
+    },
+    {
+      "state_id": "ks-039-01",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Miss Cornelia Van Gorder",
+      "believed_fact": "Believes the secret safe and escape ladder are located in the attic studio alcove.",
+      "grounded_chunk_id": "chunk-039",
+      "timestamp_ms": 4560000
+    },
+    {
+      "state_id": "ks-042-01",
+      "movie_id": "the-bat-whispers-1930",
+      "dataset_version": "the_bat_whispers_v3_gemini36",
+      "entity": "Gathered Occupants",
+      "believed_fact": "Believes The Bat has been neutralized after subduing and unmasking him on the lawn.",
+      "grounded_chunk_id": "chunk-042",
+      "timestamp_ms": 4920000
+    }
+  ],
+  "generated_at": "2026-08-18T06:58:17.773384+00:00"
+}

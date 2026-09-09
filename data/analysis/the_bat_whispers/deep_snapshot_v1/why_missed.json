@@ -1,0 +1,31 @@
+[
+  {
+    "reveal_id": "reveal-anderson-identity",
+    "factor_type": "ROLE_EXPECTATION",
+    "description": "Viewers accept Detective Anderson's probing actions (examining blueprints, dark hallways, fixtures) as standard detective procedure because of his official police persona.",
+    "evidence_refs": [
+      "ev-c017-05",
+      "ev-c021-03",
+      "ev-c025-02"
+    ]
+  },
+  {
+    "reveal_id": "reveal-anderson-identity",
+    "factor_type": "ATTENTION_MISDIRECTION",
+    "description": "The dramatic suspicion cast onto Dr. Wells and the hooded figure/gardener distracts viewers from scrutinizing the lead detective.",
+    "evidence_refs": [
+      "ev-c007-02",
+      "ev-c011-01",
+      "ev-c035-03"
+    ]
+  },
+  {
+    "reveal_id": "reveal-secret-room-location",
+    "factor_type": "EDITING_AND_STAGING",
+    "description": "The stepladder examination in Scene 23 is staged as a search for hidden wires or art theft rather than a mechanical lever search, concealing its relevance until Dale operates the mantel in Scene 31.",
+    "evidence_refs": [
+      "ev-c023-05",
+      "ev-c031-02"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "evidence_id": "neg-001",
+    "scene_id": "scene-tbw-c012",
+    "timestamp_ms": 1450000,
+    "description": "Dr. Wells exhibits nervous and evasive behavior during medical inquiry.",
+    "misdirection_target": "Dr. Wells as The Bat",
+    "true_resolution": "Dr. Wells was concealing a separate personal secret, acting as a deliberate narrative red herring."
+  },
+  {
+    "evidence_id": "neg-002",
+    "scene_id": "scene-tbw-c015",
+    "timestamp_ms": 1820000,
+    "description": "Jack Brooks operates under the guise of an eccentric gardener.",
+    "misdirection_target": "Brooks as criminal intruder",
+    "true_resolution": "Brooks is an innocent bank cashier attempting to clear his name."
+  }
+]

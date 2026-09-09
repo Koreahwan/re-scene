@@ -1,0 +1,178 @@
+[
+  {
+    "candidate_id": "proof-cand-secret-room-01",
+    "reveal_id": "reveal-secret-room-location",
+    "proof_type": "KNOWLEDGE_LEAK",
+    "depth_level": "D4",
+    "title": "Direct Examination and Mechanical Operation of Fireplace Mantel Release",
+    "target_proposition": "prop-003-fireplace-mantel-mechanism",
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000
+      },
+      {
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3645000
+      }
+    ],
+    "observed_premises": [
+      {
+        "premise_id": "prem-sr-01",
+        "scene_id": "scene-tbw-c023",
+        "event_id": "ev-c023-05",
+        "timestamp_ms": 2759000,
+        "actor": "Detective Anderson",
+        "observed_action": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "grounding_status": "VISUALLY_RECHECKED"
+      },
+      {
+        "premise_id": "prem-sr-02",
+        "scene_id": "scene-tbw-c031",
+        "event_id": "ev-c031-02",
+        "timestamp_ms": 3645000,
+        "actor": "Dale Ogden",
+        "observed_action": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+        "grounding_status": "VISUALLY_RECHECKED"
+      }
+    ],
+    "epistemic_status": {
+      "proposition_id": "prop-003-fireplace-mantel-mechanism",
+      "public_available_from_ms": 3660000,
+      "dale_access_ms": 3645000,
+      "dale_access_type": "OBSERVED",
+      "is_pre_reveal_leak": true
+    },
+    "blind_explanation": "Characters examining decorative artwork and touching mantel fixtures during search.",
+    "reveal_explanation": "Operating the concealed mechanical trigger that unlocks and rotates the fireplace wall partition.",
+    "alternative_explanations": [
+      "Art inspection",
+      "Accidental discovery"
+    ],
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "PUBLIC",
+    "trust_namespace": "ENGINE_INFERENCE",
+    "trust_label": "Engine-supported interpretation (Clean-Room V1.1)"
+  },
+  {
+    "candidate_id": "proof-cand-anderson-01",
+    "reveal_id": "reveal-anderson-identity",
+    "proof_type": "KNOWLEDGE_LEAK",
+    "depth_level": "D3_TO_D4_HYPOTHESIS",
+    "title": "Elevated Fireplace Inspection and Portrait Wall Probing Sequence",
+    "target_proposition": "prop-003-fireplace-mantel-mechanism",
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000
+      },
+      {
+        "scene_id": "scene-tbw-c028",
+        "timestamp_ms": 3270000
+      }
+    ],
+    "observed_premises": [
+      {
+        "premise_id": "prem-and-01",
+        "scene_id": "scene-tbw-c023",
+        "event_id": "ev-c023-05",
+        "timestamp_ms": 2759000,
+        "actor": "Detective Anderson",
+        "observed_action": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "grounding_status": "VISUALLY_RECHECKED"
+      },
+      {
+        "premise_id": "prem-and-02",
+        "scene_id": "scene-tbw-c028",
+        "event_id": "ev-c028-03",
+        "timestamp_ms": 3270000,
+        "actor": "Detective Anderson",
+        "observed_action": "Detective Anderson moves large framed portrait near stairs.",
+        "grounding_status": "VISUALLY_RECHECKED"
+      }
+    ],
+    "epistemic_status": {
+      "proposition_id": "prop-003-fireplace-mantel-mechanism",
+      "public_available_from_ms": 3660000,
+      "anderson_access_ms": 2759000,
+      "anderson_access_type": "INFERRED",
+      "is_pre_reveal_leak": true,
+      "circularity_check": "INFERRED_FROM_ACTION_NOT_CIRCULAR"
+    },
+    "blind_explanation": "Standard police physical inspection of wall fixtures and artwork.",
+    "reveal_explanation": "Targeted search for the secret room release mechanism and wall voids by The Bat disguised as detective.",
+    "alternative_explanations": [
+      "Routine police security sweep",
+      "Checking for forced entry points"
+    ],
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "PUBLIC",
+    "trust_namespace": "ENGINE_INFERENCE",
+    "trust_label": "Engine-supported interpretation (Clean-Room V1.1)"
+  },
+  {
+    "candidate_id": "proof-cand-anderson-02",
+    "reveal_id": "reveal-anderson-identity",
+    "proof_type": "HIDDEN_PLAN_CHAIN",
+    "depth_level": "D3_MULTI_SCENE_PATTERN",
+    "title": "Phased Architectural Blueprint Review and Structural Fixture Search Pattern",
+    "target_proposition": "prop-002-blueprints-secret-void",
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c021",
+        "timestamp_ms": 2490000
+      },
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000
+      },
+      {
+        "scene_id": "scene-tbw-c028",
+        "timestamp_ms": 3270000
+      }
+    ],
+    "observed_premises": [
+      {
+        "premise_id": "prem-plan-01",
+        "scene_id": "scene-tbw-c021",
+        "event_id": "ev-c021-03",
+        "timestamp_ms": 2490000,
+        "actor": "Detective Anderson",
+        "observed_action": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group.",
+        "grounding_status": "VISUALLY_RECHECKED"
+      },
+      {
+        "premise_id": "prem-plan-02",
+        "scene_id": "scene-tbw-c023",
+        "event_id": "ev-c023-05",
+        "timestamp_ms": 2759000,
+        "actor": "Detective Anderson",
+        "observed_action": "Detective stands on a stepladder to examine the painting above the fireplace.",
+        "grounding_status": "VISUALLY_RECHECKED"
+      },
+      {
+        "premise_id": "prem-plan-03",
+        "scene_id": "scene-tbw-c028",
+        "event_id": "ev-c028-03",
+        "timestamp_ms": 3270000,
+        "actor": "Detective Anderson",
+        "observed_action": "Detective Anderson moves large framed portrait near stairs.",
+        "grounding_status": "VISUALLY_RECHECKED"
+      }
+    ],
+    "causal_assessment": {
+      "c021_to_c023": "ENABLES",
+      "c023_to_c028": "TEMPORAL_PRECEDENCE_ONLY",
+      "honest_classification": "D3_MULTI_SCENE_PATTERN_WITH_PARTIAL_CAUSAL_LINK"
+    },
+    "blind_explanation": "Progressive multi-room investigative protocol by lead detective.",
+    "reveal_explanation": "Coordinated search sequence to locate the hidden room and safe while maintaining detective facade.",
+    "alternative_explanations": [
+      "Standard police protocol progression"
+    ],
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "PUBLIC",
+    "trust_namespace": "ENGINE_INFERENCE",
+    "trust_label": "Engine-supported interpretation (Clean-Room V1.1)"
+  }
+]

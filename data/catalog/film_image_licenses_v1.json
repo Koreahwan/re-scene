@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "source": "Wikimedia Commons",
+  "count": 6,
+  "total_bytes": 820975,
+  "licenses": [
+    {
+      "qid": "Q3985804",
+      "movie_title": "The Bat Whispers",
+      "local_path": "/assets/catalog/wikidata/Q3985804.jpg",
+      "source_filename": "Batwhispers.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Batwhispers.jpg",
+      "sha256": "6ba2194a9a6435bf0ce65643e07e4fce2b2da307472c63dbb0d6f775d6a65cb1",
+      "size_bytes": 103161,
+      "license": "Public domain",
+      "attribution": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hap_Hadley\" class=\"extiw\" title=\"w:en:Hap Hadley\"><span title=\"American illustrator (1895–1976)\">Hap Hadley</span></a></bdi>",
+      "credit": "Scan of printed poster, from an online auction ad. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.liveauctioneers.com/item/40128474_the-bat-whispers-united-artists-1930-one-sheet-27-x\">source</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150911162308/https://p2.liveauctioneers.com/928/76800/40128474_1_x.jpg\">archive</a>"
+    },
+    {
+      "qid": "Q202548",
+      "movie_title": "Vertigo",
+      "local_path": "/assets/catalog/wikidata/Q202548.jpg",
+      "source_filename": "Vertigomovie.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vertigomovie.jpg",
+      "sha256": "8b9e590922e007025881f865ad95896cf78583f67541db7c8b263cd114c07e08",
+      "size_bytes": 141432,
+      "license": "Public domain",
+      "attribution": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Saul_Bass\" class=\"extiw\" title=\"w:en:Saul Bass\"><span title=\"American graphic designer and filmmaker (1920–1996)\">Saul Bass</span></a></bdi>",
+      "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"http://aliceovolk.files.wordpress.com/2012/11/vertigo-1958-usa-movie-poster-art-by-saul-bass-james-stewart-in-alfred-hitchcocks-vertigo1.jpg\">http://aliceovolk.files.wordpress.com/2012/11/vertigo-1958-usa-movie-poster-art-by-saul-bass-james-stewart-in-alfred-hitchcocks-vertigo1.jpg</a>"
+    },
+    {
+      "qid": "Q34414",
+      "movie_title": "Rear Window",
+      "local_path": "/assets/catalog/wikidata/Q34414.jpg",
+      "source_filename": "Rear Window film poster.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rear_Window_film_poster.jpg",
+      "sha256": "0ac91f70d3b47601e89fd47944631a29b78d34da00f3ae54321b332dbcd03452",
+      "size_bytes": 160982,
+      "license": "Public domain",
+      "attribution": "Copyrighted by Paramount International. Artists(s) not known.",
+      "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.impawards.com/1954/rear_window_ver2_xlg.html\">http://www.impawards.com/1954/rear_window_ver2_xlg.html</a>"
+    },
+    {
+      "qid": "Q163038",
+      "movie_title": "Psycho",
+      "local_path": "/assets/catalog/wikidata/Q163038.jpg",
+      "source_filename": "Psycho (1960) theatrical poster (retouched).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Psycho_(1960)_theatrical_poster_(retouched).jpg",
+      "sha256": "1dd42a3649eb507c6f1dca0f2d8a4a34156e7596d12a926c3b6f156055c21ca0",
+      "size_bytes": 127935,
+      "license": "Public domain",
+      "attribution": "Designed by <a href=\"https://en.wikipedia.org/wiki/Macario_G%C3%B3mez_Quibus\" class=\"extiw\" title=\"w:Macario Gómez Quibus\">Macario Gómez Quibus</a>. \"© Shamley Productions, Inc.\"",
+      "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://movieposters.ha.com/itm/hitchcock/psycho-paramount-1960-trimmed-poster-27-x-40-hitchcock/a/161344-51364.s?ic4=GalleryView-Thumbnail-071515\">Heritage Auctions</a>. Cropped from the original. Retouched by uploader to reduce damage by folds, creases, scratches, etc. and to improve color to reduce effects of aging and more closely match the coloration found on better-preserved reproductions."
+    },
+    {
+      "qid": "Q478209",
+      "movie_title": "Double Indemnity",
+      "local_path": "/assets/catalog/wikidata/Q478209.jpg",
+      "source_filename": "Double Indemnity (1944 poster).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Double_Indemnity_(1944_poster).jpg",
+      "sha256": "181b43947711c2e2f1758be5bbd5bd333ed9ab0be5c6a39003ac6dcfb3e9f259",
+      "size_bytes": 136146,
+      "license": "Public domain",
+      "attribution": "\"Copyright 1944 <a href=\"https://en.wikipedia.org/wiki/Paramount_Pictures\" class=\"extiw\" title=\"w:Paramount Pictures\">Paramount Pictures Inc.</a>\"",
+      "credit": "Scan via <a rel=\"nofollow\" class=\"external text\" href=\"https://movieposters.ha.com/itm/film-noir/double-indemnity-paramount-1944-one-sheet-27-x-41-/a/7125-86131.s\">Heritage Auctions</a>. Cropped from original image."
+    },
+    {
+      "qid": "Q841781",
+      "movie_title": "Gaslight",
+      "local_path": "/assets/catalog/wikidata/Q841781.jpg",
+      "source_filename": "Gaslight (1944 poster).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gaslight_(1944_poster).jpg",
+      "sha256": "65c1ad23ec3b67e3de8c870161b070630899be752816a42c33fda0807b1cfbea",
+      "size_bytes": 151319,
+      "license": "Public domain",
+      "attribution": "\"Copyright 1944 <a href=\"https://en.wikipedia.org/wiki/Loews_Cineplex_Entertainment\" class=\"extiw\" title=\"w:Loews Cineplex Entertainment\">Loew's Incorporated</a>\".",
+      "credit": "Scan via <a rel=\"nofollow\" class=\"external text\" href=\"https://movieposters.ha.com/itm/film-noir/gaslight-mgm-1944-fine-very-fine-on-linen-one-sheet-27-x-41-/a/7191-86673.s\">Heritage Auctions</a>. Cropped from original image."
+    }
+  ]
+}

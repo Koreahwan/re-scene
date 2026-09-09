@@ -1,0 +1,98 @@
+[
+  {
+    "observation_id": "obs-001",
+    "scene_id": "scene-tbw-c017",
+    "timestamp_ms": 2010000,
+    "event_ref": "ev-c017-05",
+    "actor": "Detective Anderson",
+    "observed_action": "Detective Anderson stands alone in the dark entrance hall inspecting his surroundings.",
+    "inferred_purposes": [
+      {
+        "hypothesis": "Reconnaissance of manor layout for hidden safe",
+        "classification": "ENGINE_INFERENCE",
+        "confidence": 0.82
+      }
+    ],
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "observation_id": "obs-002",
+    "scene_id": "scene-tbw-c021",
+    "timestamp_ms": 2490000,
+    "event_ref": "ev-c021-03",
+    "actor": "Detective Anderson",
+    "observed_action": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group.",
+    "inferred_purposes": [
+      {
+        "hypothesis": "Studying manor architectural plans to locate secret room",
+        "classification": "ENGINE_INFERENCE",
+        "confidence": 0.88
+      }
+    ],
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "observation_id": "obs-003",
+    "scene_id": "scene-tbw-c023",
+    "timestamp_ms": 2759000,
+    "event_ref": "ev-c023-05",
+    "actor": "Detective Anderson",
+    "observed_action": "Detective Anderson stands on a stepladder to examine the painting frame above the fireplace.",
+    "inferred_purposes": [
+      {
+        "hypothesis": "Searching for the secret room release mechanism on the fireplace structure",
+        "classification": "ENGINE_INFERENCE",
+        "confidence": 0.9
+      }
+    ],
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "observation_id": "obs-004",
+    "scene_id": "scene-tbw-c025",
+    "timestamp_ms": 2895000,
+    "event_ref": "ev-c025-02",
+    "actor": "Detective Anderson",
+    "observed_action": "Detective Anderson, wearing bowler hat and coat, gestures while speaking to Cornelia Van Gorder.",
+    "inferred_purposes": [
+      {
+        "hypothesis": "Offering verbal reassurance to the household",
+        "classification": "ENGINE_INFERENCE",
+        "confidence": 0.7
+      }
+    ],
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "observation_id": "obs-005",
+    "scene_id": "scene-tbw-c028",
+    "timestamp_ms": 3270000,
+    "event_ref": "ev-c028-03",
+    "actor": "Detective Anderson",
+    "observed_action": "Detective Anderson moves large framed portrait near stairs.",
+    "inferred_purposes": [
+      {
+        "hypothesis": "Probing wall space behind portrait for hidden voids or levers",
+        "classification": "ENGINE_INFERENCE",
+        "confidence": 0.86
+      }
+    ],
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "observation_id": "obs-006",
+    "scene_id": "scene-tbw-c031",
+    "timestamp_ms": 3645000,
+    "event_ref": "ev-c031-02",
+    "actor": "Dale Ogden",
+    "observed_action": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+    "inferred_purposes": [
+      {
+        "hypothesis": "Activating the hidden release trigger to open the secret room",
+        "classification": "ENGINE_INFERENCE",
+        "confidence": 0.98
+      }
+    ],
+    "grounding_status": "VISUALLY_RECHECKED"
+  }
+]

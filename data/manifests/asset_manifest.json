@@ -1,0 +1,98 @@
+{
+  "movie_id": "the-bat-whispers-1930",
+  "title": "The Bat Whispers",
+  "year": 1930,
+  "asset_status": "APPROVED",
+  "canonical_video": {
+    "source_url": "https://archive.org/details/The_Bat_Whispers_1930_fullscreen_version",
+    "archive_item_id": "The_Bat_Whispers_1930_fullscreen_version",
+    "downloaded_at": "2026-08-17T00:00:00Z",
+    "file_name": "The_Bat_Whispers_(1930,_fullscreen_version).webm",
+    "sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+    "size_bytes": 3994748153,
+    "runtime_ms": 5119080,
+    "runtime_seconds": 5119.08,
+    "width": 1424,
+    "height": 1080,
+    "fps": "24000/1001",
+    "container": "matroska,webm",
+    "video_codec": "vp9",
+    "audio_codec": "opus"
+  },
+  "derived_browser_proxy": {
+    "file_name": "the_bat_whispers_1930_proxy.mp4",
+    "container": "mp4",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 640,
+    "height": 486,
+    "transcode_command": "ffmpeg -y -i <canonical_webm> -vf scale=640:-2 -c:v libx264 -preset veryfast -crf 26 -c:a aac -b:a 96k -movflags +faststart <proxy_mp4>",
+    "duration_ms": 5119080
+  },
+  "audio": {
+    "present": true,
+    "channels": 2,
+    "sample_rate": 48000,
+    "codec": "opus",
+    "rights_statement": "Public Domain in the United States (film soundtrack published 1930)",
+    "rights_checked_at": "2026-08-17T00:00:00Z"
+  },
+  "subtitles": {
+    "source_url": "https://archive.org/details/The_Bat_Whispers_1930_fullscreen_version",
+    "file_name": "the_bat_whispers_1930.srt",
+    "language": "en",
+    "license": "Public Domain",
+    "rights_checked_at": "2026-08-17T00:00:00Z"
+  },
+  "rights": {
+    "film_statement": "The Bat Whispers was released theatrically in the United States in November 1930 by United Artists. No copyright renewal was registered with the US Copyright Office in the 28th year (1957-1958). The underlying work entered the US Public Domain.",
+    "digital_scan_statement": "Raw public archive scan uploaded to Internet Archive under public domain / creative commons dedication.",
+    "territories_reviewed": ["US", "KR"],
+    "review_status": "APPROVED",
+    "reviewed_at": "2026-08-17T00:00:00Z",
+    "notes": [
+      "Canonical asset locked and verified with SHA-256: 8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948.",
+      "Proxy media strictly maintains 1:1 timeline synchronization with zero measurable drift."
+    ]
+  },
+  "active_dataset_version": "the_bat_whispers_v3_gemini36",
+  "phase2_banner_assets": {
+    "node_id": "666:4972",
+    "parent_component_node": "5:23773",
+    "background_node": "5:23772",
+    "retrieved_at": "2026-09-08T12:19:30+09:00",
+    "items": [
+      {
+        "file": "apps/web/public/assets/banner/projector.png",
+        "sha256": "40310160ace2071f5929266d62f8a4ffbfee3dce9894676ff442a27f11c8131b",
+        "source": "https://www.figma.com/api/mcp/asset/8cd49e1d-a007-4b40-ba6c-66946d3d0745.png"
+      },
+      {
+        "file": "apps/web/public/assets/banner/ellipse-3414.svg",
+        "sha256": "4383e537d772a2f372b6b6bfe7d0f6eb71c0f4a50630ef27306d9e9296c83605",
+        "source": "https://www.figma.com/api/mcp/asset/5c72a3e6-2168-4c30-bd14-e625123f0092.svg"
+      },
+      {
+        "file": "apps/web/public/assets/banner/ellipse-3415.svg",
+        "sha256": "a6d846f6d65d9dd08065adfa55a206be0bfbdff945419a71158bdc761d6e5437",
+        "source": "https://www.figma.com/api/mcp/asset/e4e224ed-3fa3-4408-9c4e-317928f03fde.svg"
+      },
+      {
+        "file": "apps/web/public/assets/banner/ellipse-3416.svg",
+        "sha256": "e85b625e7bbd8666621a4bfcedcdbf8eb7b1ba4ec90dda2487441584fa73fa97",
+        "source": "https://www.figma.com/api/mcp/asset/7315b909-0b97-406c-8046-0ae60a1d4fd6.svg"
+      },
+      {
+        "file": "apps/web/public/assets/banner/star-8.svg",
+        "sha256": "2b1fff00dce2545073883516761746b345480749eacec3bbe747067885f5d0a1",
+        "source": "https://www.figma.com/api/mcp/asset/ca05cfad-e72d-4760-8e85-655f28531015.svg"
+      },
+      {
+        "file": "apps/web/public/fonts/Paperlogy-7Bold.woff2",
+        "sha256": "fe2a655ea14d43c9f8b91557fd1a9da1d1314b1f830c863b514bbe32e6a1b36d",
+        "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-7Bold.woff2",
+        "license": "SIL Open Font License 1.1"
+      }
+    ]
+  }
+}

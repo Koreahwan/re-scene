@@ -1,0 +1,12 @@
+{
+  "movie_id": "the-bat-whispers-1930",
+  "title": "The Bat Whispers",
+  "year": 1930,
+  "runtime_ms": 5119080,
+  "runtime_seconds": 5119.08,
+  "language": "en",
+  "rights_status": "APPROVED",
+  "active_dataset_version": "the_bat_whispers_v3_gemini36",
+  "source_url": "https://archive.org/details/The_Bat_Whispers_1930_fullscreen_version",
+  "synopsis": "A mysterious masked killer known as 'The Bat' terrorizes a secluded country estate while searching for a hidden fortune stolen from the Oakdale Bank."
+}

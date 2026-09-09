@@ -1,0 +1,50 @@
+[
+  {
+    "opportunity_id": "opp-001",
+    "character": "Detective Anderson",
+    "location": "Entrance Hall",
+    "object_or_mechanism": "Foyer & Staircase",
+    "start_ms": 2010000,
+    "end_ms": 2040000,
+    "is_covert": false,
+    "evidence_refs": [
+      "ev-c017-05"
+    ]
+  },
+  {
+    "opportunity_id": "opp-002",
+    "character": "Detective Anderson",
+    "location": "Living Room / Fireplace",
+    "object_or_mechanism": "Fireplace Painting Frame",
+    "start_ms": 2759000,
+    "end_ms": 2790000,
+    "is_covert": false,
+    "evidence_refs": [
+      "ev-c023-05"
+    ]
+  },
+  {
+    "opportunity_id": "opp-003",
+    "character": "Detective Anderson",
+    "location": "Staircase Base",
+    "object_or_mechanism": "Framed Portrait",
+    "start_ms": 3270000,
+    "end_ms": 3300000,
+    "is_covert": false,
+    "evidence_refs": [
+      "ev-c028-03"
+    ]
+  },
+  {
+    "opportunity_id": "opp-004",
+    "character": "Dale Ogden",
+    "location": "Fireplace Mantel",
+    "object_or_mechanism": "Mantel Lever Mechanism",
+    "start_ms": 3645000,
+    "end_ms": 3660000,
+    "is_covert": false,
+    "evidence_refs": [
+      "ev-c031-02"
+    ]
+  }
+]

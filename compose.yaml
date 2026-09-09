@@ -1,0 +1,25 @@
+# Local preview only. No cloud credentials or paid model calls are required.
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      ENVIRONMENT: development
+      REDIS_URL: redis://redis:6379/0
+      GOOGLE_GENAI_USE_VERTEXAI: "false"
+      EXECUTION_MODE: OFFLINE_FIXTURE
+      PAID_CALLS_ENABLED: "false"
+      SPEND_KILL_SWITCH_ACTIVE: "true"
+      LIVE_AGENT_ENABLED: "false"
+      EMBEDDED_WORKER_ENABLED: "false"
+    depends_on:
+      redis:
+        condition: service_healthy
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5

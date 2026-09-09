@@ -1,0 +1,26 @@
+[
+  {
+    "edge_id": "edge-001",
+    "from_step": "step-anderson-01",
+    "to_step": "step-anderson-02",
+    "relation": "PREPARES",
+    "evidence_refs": [
+      "ev-c017-05",
+      "ev-c021-03"
+    ],
+    "confidence": 0.9,
+    "reasoning": "Solitary spatial inspection established which wing required blueprint correlation before presenting plans to the group."
+  },
+  {
+    "edge_id": "edge-002",
+    "from_step": "step-anderson-02",
+    "to_step": "step-anderson-03",
+    "relation": "ENABLES",
+    "evidence_refs": [
+      "ev-c021-03",
+      "ev-c028-03"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Blueprint review specifically indicated hidden wall voids, directly prompting Anderson's physical manipulation of the portrait fixture."
+  }
+]

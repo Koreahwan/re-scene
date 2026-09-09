@@ -1,0 +1,49 @@
+{
+  "lock_version": "1.0",
+  "snapshot_id": "the_bat_whispers_deep_snapshot_v1_1",
+  "lock_timestamp_iso": "2026-08-20T03:51:37.493791+00:00",
+  "phase_a_status": "LOCKED_IMMUTABLE",
+  "files_locked": {
+    "clean_room_manifest.json": {
+      "sha256": "a8996c01a6b16430beddc9f1ec8dd2deb206995bc8b008629138ee2c57e03a13",
+      "size_bytes": 1229
+    },
+    "media_review.json": {
+      "sha256": "314129a2287baa6f38341d37a9ef8baaafa94d54402ae351adec816b633f7fc2",
+      "size_bytes": 6882
+    },
+    "phase_a_observations.json": {
+      "sha256": "fc29d042f32facb268946ece7784df9e330d3f1c4d0ba01b4b28c5f3d0e7960e",
+      "size_bytes": 3323
+    },
+    "phase_a_knowledge.json": {
+      "sha256": "112604d0ea4c256720f3c9f572476d917c7bd244e8cbd606cf107af65ad13fad",
+      "size_bytes": 4855
+    },
+    "phase_a_claims.json": {
+      "sha256": "200ccb15b5552765c922166dbf703805a85733557b88f25cd59276dd69e04947",
+      "size_bytes": 1167
+    },
+    "phase_a_actions.json": {
+      "sha256": "3d285b7c08326940382bc2dccf0c82322fc62623fe02db13e41352aabaab91d3",
+      "size_bytes": 1938
+    },
+    "phase_a_access.json": {
+      "sha256": "cccd39b90cec9cba11be854ee37e0e82a1c1ca3e110145a0a01cbb381910b8ba",
+      "size_bytes": 1195
+    },
+    "phase_a_goals.json": {
+      "sha256": "4facfaca8e5d77f45676dbe504896d9e9d278f9af424ae45734504eed8363f47",
+      "size_bytes": 655
+    },
+    "phase_a_plan_hypotheses.json": {
+      "sha256": "bd69f0777d92c73cc5733f99ff997b87825bfaf24b1d9b2e1a9ee5a7f4a58b7f",
+      "size_bytes": 2621
+    },
+    "phase_a_candidate_proofs.json": {
+      "sha256": "a5824ecb4d7eadf0fe0aed988ce822dd5e05bdc1d48eb259f7c511b621bbc121",
+      "size_bytes": 6779
+    }
+  },
+  "total_files_locked": 10
+}

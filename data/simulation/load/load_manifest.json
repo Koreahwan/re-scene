@@ -1,0 +1,15 @@
+{
+  "load_profile_version": "v1.0",
+  "derived_from_policy": "reframe_us_audience_policy_v1",
+  "default_target_host": "http://localhost:8000",
+  "default_virtual_users": 250,
+  "max_recommended_local_users": 1000,
+  "duration_minutes": 10,
+  "files_generated": [
+    "usa_audience_request_mix_v1.json",
+    "locustfile_generated.py"
+  ],
+  "read_percentage": 92.5,
+  "write_percentage": 7.5,
+  "safety_notes": "Targets localhost by default. No real credentials or live APIs used."
+}

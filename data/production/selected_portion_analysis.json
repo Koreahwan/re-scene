@@ -1,0 +1,3210 @@
+{
+  "version": "selected-portion-v1-20260909",
+  "provenance": "Adapted from previously generated independent segment observations; no full-film synthesis reused. Unverified visual identities are replaced with neutral references. Reading prompts are AI-assisted editorial guidance, not additional film facts or human verification.",
+  "human_review_status": "NOT_REVIEWED",
+  "new_paid_model_calls": 0,
+  "films": [
+    {
+      "work_id": "the-bat-whispers-1930",
+      "edition_id": "tbw-fullscreen-archive",
+      "runtime_ms": 5119080,
+      "asset_sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+      "source_sha256": "5ce72f798fc68e5643ee144fad9f5dd341585f370a1229f5c0811a0eb78eda3b",
+      "model_id": "gemini-3.6-flash",
+      "segment_interval_ms": 120000,
+      "segments": [
+        {
+          "segment_id": "chunk-001",
+          "start_ms": 0,
+          "input_end_ms": 120000,
+          "available_after_ms": 120000,
+          "summary": "The scene opens with the movie's title credits and cast list displayed on screen, followed by establishing shots of a city skyline with a clock tower showing midnight, and the exterior of Police Headquarters with pedestrians passing by.",
+          "observations": [
+            {
+              "timestamp_ms": 15000,
+              "text": "Opening production credits and character cast lists are displayed on screen.",
+              "evidence_end_ms": 60000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 90000,
+              "text": "A miniature cityscape establishing shot reveals a lit clock tower showing midnight.",
+              "evidence_end_ms": 90000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 105000,
+              "text": "Pedestrians and a newsboy walk along the sidewalk outside the entrance to Police Headquarters.",
+              "evidence_end_ms": 119000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "12cf52fb8cf9724a778c90c58fbdeab037b4d4bcc071c6dc7a326b4b1d863b8c",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-002",
+          "start_ms": 120000,
+          "input_end_ms": 240000,
+          "available_after_ms": 240000,
+          "summary": "A police vehicle departs Police Headquarters and travels through city streets at night, pulling up outside a large stone building. The camera pans up the building's facade before transitioning inside to an office where a man sits at a desk examining a paper document.",
+          "observations": [
+            {
+              "timestamp_ms": 120000,
+              "text": "A police vehicle exits the entrance archway of Police Headquarters onto the street.",
+              "evidence_end_ms": 135000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 150000,
+              "text": "The driver navigates the police vehicle along illuminated street routes at night.",
+              "evidence_end_ms": 195000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 210000,
+              "text": "The police car stops at the entrance steps of a stone building while an officer walks down the stairs.",
+              "evidence_end_ms": 210000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 239000,
+              "text": "A man wearing a suit sits back-facing at a large wooden desk in an office reading a piece of paper.",
+              "evidence_end_ms": 239000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "1e07453372bffa82a073c58f7142e849ce81a24a6e6d58e4c726e097114ee3c1",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-003",
+          "start_ms": 240000,
+          "input_end_ms": 360000,
+          "available_after_ms": 360000,
+          "summary": "A man reads a threatening note signed by 'The Bat' in his library. Police wait outside while a man checks his clock. A gloved hand reaches inside through an open window.",
+          "observations": [
+            {
+              "timestamp_ms": 240000,
+              "text": "John a man holds and reads a warning letter signed by 'The Bat' at his desk.",
+              "evidence_end_ms": 255000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 285000,
+              "text": "Police officers and a detective wait in the hallway near the library entrance.",
+              "evidence_end_ms": 300000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 330000,
+              "text": "John a man adjusts and checks a small clock on his desk.",
+              "evidence_end_ms": 330000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 345000,
+              "text": "A gloved hand reaches through an open window sill from outside.",
+              "evidence_end_ms": 345000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "64aa24f6f6ff99f56ae363fc028ce3d67dbc193e5a8d06ec8943af391a18dede",
+          "reading": "The written warning and the clock make waiting visible. The hand at the window adds a separate piece of visual information; it does not identify the person behind it."
+        },
+        {
+          "segment_id": "chunk-004",
+          "start_ms": 360000,
+          "input_end_ms": 480000,
+          "available_after_ms": 480000,
+          "summary": "A man leans through a window, police gather at a manor where a butler opens a hidden wall safe, and a road sign leads to a bank vault viewed from above.",
+          "observations": [
+            {
+              "timestamp_ms": 375000,
+              "text": "A man in a dark suit leans out an open window holding a cord.",
+              "evidence_end_ms": 375000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 420000,
+              "text": "The butler pulls back a wall curtain and opens a small hidden safe.",
+              "evidence_end_ms": 420000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 435000,
+              "text": "The police chief holds and inspects a paper note alongside the butler and sergeant.",
+              "evidence_end_ms": 435000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 450000,
+              "text": "Officers and men assemble in the library under an overlaid clock graphic.",
+              "evidence_end_ms": 450000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 479000,
+              "text": "A figure stands in shadow looking down into a fortified bank vault.",
+              "evidence_end_ms": 479000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "65fbda59b9bee49755751927a71e2deb6bacbfd8fedec3ee55d2f48a5c28c67d",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-005",
+          "start_ms": 480000,
+          "input_end_ms": 600000,
+          "available_after_ms": 600000,
+          "summary": "A bank vault room is observed from an elevated viewpoint while a worker operates near the vault door. A car drives away from a dark garage, followed by scenes of an exterior road and a man carrying a bag entering the wrought-iron gate of the Fleming estate.",
+          "observations": [
+            {
+              "timestamp_ms": 480000,
+              "text": "A worker stands and moves in front of a massive circular bank vault door.",
+              "evidence_end_ms": 510000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 525000,
+              "text": "A vintage car exits a garage structure onto an exterior ground area.",
+              "evidence_end_ms": 540000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 585000,
+              "text": "A man carrying a bag walks through the stone-pillared iron gate labeled FLEMING.",
+              "evidence_end_ms": 599000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "44a73b4a93a430423a4b40f7ddfc1aed3bde9ed4930ef29c293ce2d48bab851e",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-006",
+          "start_ms": 600000,
+          "input_end_ms": 720000,
+          "available_after_ms": 720000,
+          "summary": "An exterior view shows the gated entrance to the Fleming estate and a parked car outside at night, followed by a man carrying a satchel walking through the grounds. Inside Oakdale Manor Great Hall, a maid stands beside an older woman sitting in an armchair with knitting, animatedly speaking to her while the woman listens and continues to knit.",
+          "observations": [
+            {
+              "timestamp_ms": 630000,
+              "text": "A man wearing a hat and coat walks across dark exterior grounds carrying a bag.",
+              "evidence_end_ms": 630000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 645000,
+              "text": "The maid stands next to the older woman in the great hall, gesturing and talking while the older woman knits.",
+              "evidence_end_ms": 719000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "7e842e8621cb5810f3174371106a8ce5f966af03dec57480f11d03be0e364717",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-007",
+          "start_ms": 720000,
+          "input_end_ms": 840000,
+          "available_after_ms": 840000,
+          "summary": "The maid interacts anxiously with the older woman in Oakdale Manor before both sit down to operate a Ouija board.",
+          "observations": [
+            {
+              "timestamp_ms": 720000,
+              "text": "The maid expresses distress while speaking with the older woman.",
+              "evidence_end_ms": 735000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 750000,
+              "text": "Close-up of feet walking across the floor.",
+              "evidence_end_ms": 750000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 795000,
+              "text": "The maid and the older woman place their fingers on the planchette of a Ouija board.",
+              "evidence_end_ms": 839000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "a758e335f6fc7e9e0993ef9d2e2cb575bd033f5de1b491d1f9e989e8a082dc31",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-008",
+          "start_ms": 840000,
+          "input_end_ms": 960000,
+          "available_after_ms": 960000,
+          "summary": "The older woman and her the maid interact over a Ouija board in the manor living room before investigating suspicious activity in the dark basement, where the older woman holds a handgun. Meanwhile, a figure enters through a basement entry, and a cloaked silhouette lurks outside near the window.",
+          "observations": [
+            {
+              "timestamp_ms": 840000,
+              "text": "The older woman and the maid place their hands on a planchette over a Ouija board while sitting at a desk.",
+              "evidence_end_ms": 870000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 885000,
+              "text": "A figure moves through a low basement window opening in the dark cellar area.",
+              "evidence_end_ms": 900000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 915000,
+              "text": "The older woman descends into the basement holding a handgun, accompanied by the maid.",
+              "evidence_end_ms": 945000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 959000,
+              "text": "A dark cloaked figure moves along the exterior wall near a illuminated basement window.",
+              "evidence_end_ms": 959000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "ec3fa2bd8aff5c5bdbf9cd5c116cd1c007aff74add87199ec26b34b4aa4c967f",
+          "reading": "The scene alternates an interior search with exterior silhouettes. That alternation gives the viewer more locations to track without establishing that the figures have the same identity."
+        },
+        {
+          "segment_id": "chunk-009",
+          "start_ms": 960000,
+          "input_end_ms": 1080000,
+          "available_after_ms": 1080000,
+          "summary": "A bat-shaped shadow appears outside the manor. Inside, the maid moves through the basement and bedroom, picks up a trap, and shows a bank robbery newspaper to the older woman.",
+          "observations": [
+            {
+              "timestamp_ms": 960000,
+              "text": "A bat silhouette appears cast against the exterior wall.",
+              "evidence_end_ms": 960000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 975000,
+              "text": "Maid runs up the basement stairs in alarm.",
+              "evidence_end_ms": 975000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 990000,
+              "text": "Maid lies on the floor under the raised bed.",
+              "evidence_end_ms": 990000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1035000,
+              "text": "Maid bends over to pick up a trap from the floor.",
+              "evidence_end_ms": 1035000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1050000,
+              "text": "Maid presents a newspaper reporting a bank robbery to the older woman.",
+              "evidence_end_ms": 1079000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "cc4d4e9b1abdf57d48de675b358a76cb0206b9295c199e7dd343f3ce325caac9",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-010",
+          "start_ms": 1080000,
+          "input_end_ms": 1200000,
+          "available_after_ms": 1200000,
+          "summary": "The older woman and her the maid view the interior staircase from an doorway before conversing with the caretaker, the caretaker, inside a room equipped with fine furniture and tapestries.",
+          "observations": [
+            {
+              "timestamp_ms": 1125000,
+              "text": "The caretaker speaks and gestures in an agitated manner while conversing with the older woman and the maid.",
+              "evidence_end_ms": 1170000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1185000,
+              "text": "The older woman walks briskly toward the exit of the room while gesturing, as the maid looks on nervously.",
+              "evidence_end_ms": 1199000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "cd9bc148f417f997d0abba49c97aec00e51f0d25013b9d777f6ce86b33df5507",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-011",
+          "start_ms": 1200000,
+          "input_end_ms": 1320000,
+          "available_after_ms": 1320000,
+          "summary": "The young woman visits the garage before returning to the Great Hall, where the maid and the older woman discuss recent occurrences during an outdoor lightning storm.",
+          "observations": [
+            {
+              "timestamp_ms": 1200000,
+              "text": "The older woman walks toward the window as the maid reacts fearfully.",
+              "evidence_end_ms": 1200000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1230000,
+              "text": "The young woman converses with a young man in the garage beside an automobile.",
+              "evidence_end_ms": 1245000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1275000,
+              "text": "The maid speaks nervously to the older woman in the Great Hall near a suit of armor.",
+              "evidence_end_ms": 1275000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1290000,
+              "text": "The young woman enters the Great Hall and opens her handbag next to the older woman.",
+              "evidence_end_ms": 1305000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "b139982e511b98a6eaff66aac29b64c04968b0dbc9f058094e52fffbdafad1cc",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-012",
+          "start_ms": 1320000,
+          "input_end_ms": 1440000,
+          "available_after_ms": 1440000,
+          "summary": "Exterior tree silhouette at night transitioning to a garage interior with a car silhouette, then into Oakdale Manor Great Hall where the older woman knits while the young woman, the maid, and a young man converse, as the caretaker anxiously peeks through a doorway.",
+          "observations": [
+            {
+              "timestamp_ms": 1350000,
+              "text": "The caretaker peeks cautiously through the doorway watching the group in the Great Hall.",
+              "evidence_end_ms": 1425000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1350000,
+              "text": "The young woman leans down and speaks to the older woman while she continues knitting.",
+              "evidence_end_ms": 1410000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1380000,
+              "text": "A young man stands holding his cap and speaks to the older woman in the Great Hall.",
+              "evidence_end_ms": 1439000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "88c7de4f03c07f1e8278f2818f309c09a62163fc70de4baf2f6bc4a1530136fb",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-013",
+          "start_ms": 1440000,
+          "input_end_ms": 1560000,
+          "available_after_ms": 1560000,
+          "summary": "In the Great Hall of Oakdale Manor, the older woman knits while the maid speaks with her. They discover a note attached to an umbrella near the door, startling the maid. A man in a suit enters the hall wearing an overcoat and converses with the older woman.",
+          "observations": [
+            {
+              "timestamp_ms": 1440000,
+              "text": "The older woman sits in an armchair knitting while other household members move around the hall.",
+              "evidence_end_ms": 1455000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1470000,
+              "text": "The maid bends down and speaks excitedly to the older woman.",
+              "evidence_end_ms": 1485000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1500000,
+              "text": "The older woman and the maid examine an umbrella and inspect a paper note attached to it near the entryway.",
+              "evidence_end_ms": 1515000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1530000,
+              "text": "The maid reacts with visible fear and grasps the older woman's arm as the older woman holds the note and purse.",
+              "evidence_end_ms": 1530000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1545000,
+              "text": "A man in a suit speaks directly with the older woman while holding his hat in his hands.",
+              "evidence_end_ms": 1559000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "7f2e3083cd33f8202f1307cd1bf7ef578890ffba8949c7d8426bbb1a71aae4d7",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-014",
+          "start_ms": 1560000,
+          "input_end_ms": 1680000,
+          "available_after_ms": 1680000,
+          "summary": "A man in a suit confers with the older woman in the manor before departing through a doorway. Meanwhile, a man uses a wall telephone, the young woman walks near the main staircase, and the older woman sits down at a table in the Great Hall to talk with a young man holding a hat.",
+          "observations": [
+            {
+              "timestamp_ms": 1560000,
+              "text": "A man in a suit holds his hat while speaking to the older woman.",
+              "evidence_end_ms": 1605000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1590000,
+              "text": "A man in a suit steps through an open doorway.",
+              "evidence_end_ms": 1590000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1620000,
+              "text": "The older woman stands facing a closed door or wall panel.",
+              "evidence_end_ms": 1620000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1635000,
+              "text": "A man wearing a vest stands facing a wall-mounted telephone apparatus.",
+              "evidence_end_ms": 1635000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1650000,
+              "text": "The young woman walks past the base of the staircase while looking toward a man.",
+              "evidence_end_ms": 1650000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1665000,
+              "text": "The older woman sits across from a young man holding a hat at an octagonal table in the Great Hall.",
+              "evidence_end_ms": 1679000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "83b17fe1d6d7e373e8daf03060bd1a2d980f69fc8f1b50e2b441100b71d54d90",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-015",
+          "start_ms": 1680000,
+          "input_end_ms": 1800000,
+          "available_after_ms": 1800000,
+          "summary": "In the hall of Oakdale Manor, the older woman and a man in a suit converse at a table. Meanwhile, a man in a suit interacts with items on a desk, talks briefly with the young woman, and exits through large double doors. The young woman then operates a light switch on the wall and peers back into the room through the slightly opened double doors.",
+          "observations": [
+            {
+              "timestamp_ms": 1680000,
+              "text": "The older woman sits at a table opposite a man in a suit with a hat placed on the table.",
+              "evidence_end_ms": 1680000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1695000,
+              "text": "A man in a suit reaches down toward a desktop bell and tray while the young woman stands nearby.",
+              "evidence_end_ms": 1710000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1725000,
+              "text": "A man in a suit stands near tall curtained French doors.",
+              "evidence_end_ms": 1725000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1740000,
+              "text": "A man in a suit carries a coat over his arm near the bottom of the main staircase.",
+              "evidence_end_ms": 1740000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1755000,
+              "text": "A man in a suit holds a small object and speaks directly with the young woman.",
+              "evidence_end_ms": 1755000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1770000,
+              "text": "A man in a suit opens the double doors and walks through them.",
+              "evidence_end_ms": 1770000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1785000,
+              "text": "The young woman reaches up to press a light switch on the wall near a cabinet.",
+              "evidence_end_ms": 1785000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1799000,
+              "text": "The young woman peers through the gap between double doors while the older woman and the man in a suit remain seated at the table in the foreground.",
+              "evidence_end_ms": 1799000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "68c090c81c9a620b070be273ce6c8c595faac39d5755fc808efdf9840eeaf6b6",
+          "reading": "The switch and the gap between the doors make visibility part of the scene: who can see into the room is distinct from what anyone knows."
+        },
+        {
+          "segment_id": "chunk-016",
+          "start_ms": 1800000,
+          "input_end_ms": 1920000,
+          "available_after_ms": 1920000,
+          "summary": "The older woman sits at a table conversing with a man in a dark suit while the young woman watches through a crack in the double doors. Afterwards, the young woman meets a young man in the ground floor hallway near the staircase, where they speak intimately before he walks up the stairs alone.",
+          "observations": [
+            {
+              "timestamp_ms": 1800000,
+              "text": "The older woman sits at an octagonal table conversing with a man in a dark suit, with a hat and gloves placed on the table between them.",
+              "evidence_end_ms": 1830000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1800000,
+              "text": "The young woman watches the conversation through the narrow gap between the closed double doors.",
+              "evidence_end_ms": 1845000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1875000,
+              "text": "A young man talks with the young woman near the base of the staircase in the hallway.",
+              "evidence_end_ms": 1905000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1919000,
+              "text": "The young man turns and walks up the staircase in the hallway alone.",
+              "evidence_end_ms": 1919000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "2743c13cd7f24328913a46b8425b2db51b3e519b0132dc9b6b4ce1cadbe17bfe",
+          "reading": "The partially closed doors separate the seated conversation from the observer. This is a difference in vantage point, not evidence of an undisclosed motive."
+        },
+        {
+          "segment_id": "chunk-017",
+          "start_ms": 1920000,
+          "input_end_ms": 2040000,
+          "available_after_ms": 2040000,
+          "summary": "A man in a suit interviews the older woman and the maid in the hall while taking notes. The older woman ascends the stairs, leaving a man in a suit alone as the lights dim.",
+          "observations": [
+            {
+              "timestamp_ms": 1920000,
+              "text": "A man in a suit writes in a notepad while speaking with the older woman.",
+              "evidence_end_ms": 1920000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1935000,
+              "text": "The maid opens the double door and enters the hall.",
+              "evidence_end_ms": 1935000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1950000,
+              "text": "A man in a suit questions the maid and writes down her response.",
+              "evidence_end_ms": 1980000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 1995000,
+              "text": "The older woman walks up the grand staircase while looking down at a man in a suit.",
+              "evidence_end_ms": 1995000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2010000,
+              "text": "A man in a suit stands alone in the dark hall inspecting his surroundings.",
+              "evidence_end_ms": 2039000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "935205a76de3aebb2a052bda98e6fa61d0c1464abe42badeb33a2bff54d62b45",
+          "reading": "Note-taking establishes the visible form of an interview. The stills support that activity, but cannot verify the questions, answers, or their truth."
+        },
+        {
+          "segment_id": "chunk-018",
+          "start_ms": 2040000,
+          "input_end_ms": 2160000,
+          "available_after_ms": 2160000,
+          "summary": "Characters move through Oakdale Manor hall and room. A maid is startled by occupants entering the living area.",
+          "observations": [
+            {
+              "timestamp_ms": 2040000,
+              "text": "Young woman runs past staircase entry.",
+              "evidence_end_ms": 2040000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2055000,
+              "text": "Man peers past door frame while female silhouette uses telephone.",
+              "evidence_end_ms": 2055000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2085000,
+              "text": "Man walks past entrance columns and ascends stairs.",
+              "evidence_end_ms": 2100000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2115000,
+              "text": "Maid works near table lamp and turns around startled.",
+              "evidence_end_ms": 2130000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2145000,
+              "text": "Maid turns and runs off as occupants gather.",
+              "evidence_end_ms": 2159000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "7f8e630d4675189605ac73e45259389b96fd52653930f3a1f3c41bc0120085be",
+          "reading": "Entrances interrupt the people already in the room. Tracking those interruptions is more reliable here than assigning a cause to a startled reaction."
+        },
+        {
+          "segment_id": "chunk-019",
+          "start_ms": 2160000,
+          "input_end_ms": 2280000,
+          "available_after_ms": 2280000,
+          "summary": "Characters move through Oakdale Manor's main hall, upstairs hallways, and basement. A man in a suit stands in the hall with the young woman. Figures move cautiously through upper corridors, while the caretaker falls into laundry sacks in the basement.",
+          "observations": [
+            {
+              "timestamp_ms": 2175000,
+              "text": "The young woman walks across the main hall near the grand staircase.",
+              "evidence_end_ms": 2175000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2190000,
+              "text": "A man in a suit stands near the staircase with the young woman.",
+              "evidence_end_ms": 2190000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2235000,
+              "text": "A man in a suit runs cautiously along an upper hallway.",
+              "evidence_end_ms": 2250000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2279000,
+              "text": "The caretaker lies amongst laundry sacks on the basement floor after falling.",
+              "evidence_end_ms": 2279000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "a3c8e1960b84d3329c0f481643b32d8197fc32fc6eedd3da046256df04f3e879",
+          "reading": "The alternation between corridors and basement divides attention across spaces. The comic physical mishap in one space does not explain the movements in another."
+        },
+        {
+          "segment_id": "chunk-020",
+          "start_ms": 2280000,
+          "input_end_ms": 2400000,
+          "available_after_ms": 2400000,
+          "summary": "The young woman converses with a man wearing an overcoat inside Oakdale Manor. The man inspects a bookcase with a rolled paper while the young woman walks across different rooms in the house during their conversation.",
+          "observations": [
+            {
+              "timestamp_ms": 2280000,
+              "text": "The young woman sits in an armchair talking with the man sitting across from her.",
+              "evidence_end_ms": 2280000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2295000,
+              "text": "The young woman gets up from the armchair and walks away while the man watches.",
+              "evidence_end_ms": 2295000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2310000,
+              "text": "The man in the overcoat reaches toward a bookshelf holding a rolled document.",
+              "evidence_end_ms": 2310000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2325000,
+              "text": "The young woman walks past decorative doors and a dining table in a grand hallway.",
+              "evidence_end_ms": 2325000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2340000,
+              "text": "The young woman stands near a table talking intently face-to-face with the man in the overcoat.",
+              "evidence_end_ms": 2385000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "6242c784afe03831a327c7906fdf01bc63e1db537dbb77b6ac2f7610b871b00e",
+          "reading": "A bookcase and a rolled paper become objects of attention during the conversation. Examining them is visible; the purpose of that examination is not independently established by these stills."
+        },
+        {
+          "segment_id": "chunk-021",
+          "start_ms": 2400000,
+          "input_end_ms": 2520000,
+          "available_after_ms": 2520000,
+          "summary": "Characters gather in the hallway of Oakdale Manor. A man in a suit discusses evidence with the older woman while holding a small object, then retrieves and displays house blueprints to the young woman, a young man, the maid, and the older woman.",
+          "observations": [
+            {
+              "timestamp_ms": 2415000,
+              "text": "The older woman walks into the hall joining the maid, the young woman, a young man, and a man in a suit.",
+              "evidence_end_ms": 2430000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2445000,
+              "text": "A man in a suit speaks directly with the older woman while examining a small object in hand.",
+              "evidence_end_ms": 2475000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2490000,
+              "text": "A man in a suit carries rolled papers across the room and unrolls blueprints before the young woman and the group.",
+              "evidence_end_ms": 2505000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2519000,
+              "text": "A man in a suit leans close to speak directly to a tearful the young woman.",
+              "evidence_end_ms": 2519000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "1f64bc788516d6fbadbb5023a5a8b90fc3356a59faa198aac8792bb007338dac",
+          "reading": "Displaying a plan makes the layout a shared object of attention. Holding or showing it does not establish who knows the house best."
+        },
+        {
+          "segment_id": "chunk-022",
+          "start_ms": 2520000,
+          "input_end_ms": 2640000,
+          "available_after_ms": 2640000,
+          "summary": "Inside Oakdale Manor, a man addresses a distressed the young woman while the older woman, the maid, and a young man look on. A figure appears on the balcony outside. Later, a detective in a bowler hat arrives, confers with a man and the older woman, and watches as a man uses a wall telephone.",
+          "observations": [
+            {
+              "timestamp_ms": 2520000,
+              "text": "A man speaks closely and intensely to a weeping the young woman.",
+              "evidence_end_ms": 2520000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2535000,
+              "text": "A man leans down toward seated the young woman surrounded by household members.",
+              "evidence_end_ms": 2535000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2550000,
+              "text": "A man stands outside at the curtained balcony window.",
+              "evidence_end_ms": 2550000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2565000,
+              "text": "A man in a coat stands near the doorway while others turn toward him.",
+              "evidence_end_ms": 2565000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2580000,
+              "text": "A man talks face-to-face with the bowler-hatted detective while holding a wallet.",
+              "evidence_end_ms": 2595000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2610000,
+              "text": "The detective gestures and speaks to the older woman.",
+              "evidence_end_ms": 2625000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2639000,
+              "text": "A man places a call on the wall phone as the detective, the maid, and the older woman watch.",
+              "evidence_end_ms": 2639000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "9a42f951968954d8b2cfb1b70a135d9eca12421eb7645d176e5a8eb6ad9194c0",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-023",
+          "start_ms": 2640000,
+          "input_end_ms": 2760000,
+          "available_after_ms": 2760000,
+          "summary": "Characters gather in the Great Hall, listen to a phone call, and investigate the room, including examining a framed portrait and a hidden passage.",
+          "observations": [
+            {
+              "timestamp_ms": 2640000,
+              "text": "Young man speaks into wall telephone while others listen nearby.",
+              "evidence_end_ms": 2640000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2655000,
+              "text": "A man runs down an exterior hedge-lined walkway at night.",
+              "evidence_end_ms": 2655000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2700000,
+              "text": "The group inspects a large framed portrait on the wall.",
+              "evidence_end_ms": 2700000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2730000,
+              "text": "A figure in a coat walks up a dark, narrow secret staircase.",
+              "evidence_end_ms": 2730000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2759000,
+              "text": "Detective stands on a stepladder to examine the painting above the fireplace.",
+              "evidence_end_ms": 2759000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "591cdf752e9b938dd4388881784b0cc219d04f6e5a1ba2fd3db20295509432d1",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-024",
+          "start_ms": 2760000,
+          "input_end_ms": 2880000,
+          "available_after_ms": 2880000,
+          "summary": "In Oakdale Manor Great Hall, the older woman and the maid look up startled, a man in a suit and the young woman move through the room, a young man enters, and a man in a suit confers with the young woman and the older woman while a figure runs past a window.",
+          "observations": [
+            {
+              "timestamp_ms": 2760000,
+              "text": "The older woman and the maid look upward reactively in the hall.",
+              "evidence_end_ms": 2775000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2790000,
+              "text": "A man in a suit quickly steps past a visibly alarmed the young woman.",
+              "evidence_end_ms": 2805000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2820000,
+              "text": "A young man enters the hall through an open rear doorway.",
+              "evidence_end_ms": 2820000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2835000,
+              "text": "A man in a suit stands in the hall talking with the young woman and a man in a suit.",
+              "evidence_end_ms": 2835000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2850000,
+              "text": "A silhouetted figure moves quickly past a latticed window.",
+              "evidence_end_ms": 2850000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2865000,
+              "text": "A man in a suit leans on the stair post while speaking to the young woman and the older woman.",
+              "evidence_end_ms": 2879000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "c6a4a31ad1a00b5d668d815c837108ba7e776dea76863027f973c407161aec94",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-025",
+          "start_ms": 2880000,
+          "input_end_ms": 3000000,
+          "available_after_ms": 3000000,
+          "summary": "In the upstairs hallway and landing of Oakdale Manor, a man in a suit, the older woman, and the young woman talk near the staircase post. A man in a suit briefly converses with the older woman. A man in a suit then speaks near a doorway with the maid, who is holding a hot water bottle. A man emerges from behind a curtain, leading to a tense face-to-face conversation with a man in a suit in front of the paneled doors.",
+          "observations": [
+            {
+              "timestamp_ms": 2880000,
+              "text": "A man in a suit leans against the staircase banister post while speaking to the older woman and the young woman.",
+              "evidence_end_ms": 2880000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2895000,
+              "text": "A man in a suit, wearing a bowler hat and coat, gestures while speaking to the older woman.",
+              "evidence_end_ms": 2895000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2910000,
+              "text": "A man in a suit leans close to speak directly with the older woman.",
+              "evidence_end_ms": 2910000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2925000,
+              "text": "A man in a suit holds open a set of paneled doors while speaking to the maid.",
+              "evidence_end_ms": 2925000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2940000,
+              "text": "A man peers out from behind a dark curtain.",
+              "evidence_end_ms": 2940000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 2955000,
+              "text": "A man stands closely facing a man in a suit near the paneled doors and speaks to him.",
+              "evidence_end_ms": 2999000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "713f04039cb1f6a013f21e194c3a41d63b51bc912108599421f13b018938b32a",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-026",
+          "start_ms": 3000000,
+          "input_end_ms": 3120000,
+          "available_after_ms": 3120000,
+          "summary": "A man converses intensely with a man in a suit in the manor hallway while holding papers. A man in a suit turns and walks away, leaving a man alone before an unseen figure appears behind a glass pane.",
+          "observations": [
+            {
+              "timestamp_ms": 3000000,
+              "text": "A man speaks closely to a man in a suit while holding paper documents.",
+              "evidence_end_ms": 3075000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3090000,
+              "text": "A man in a suit turns and walks away down the hallway stairs.",
+              "evidence_end_ms": 3090000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3105000,
+              "text": "A man stands alone near the chair holding his papers after a man in a suit leaves.",
+              "evidence_end_ms": 3105000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3119000,
+              "text": "A silhouette is seen peering through the lattice glass door pane.",
+              "evidence_end_ms": 3119000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "0bd0f4af1fb02a882b7c903f8fafdca7c376645473150050bf662470d3710cc0",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-027",
+          "start_ms": 3120000,
+          "input_end_ms": 3240000,
+          "available_after_ms": 3240000,
+          "summary": "A man in a suit watches through a doorway and raises a club before walking down an upper hallway. Downstairs, the older woman uses the telephone while the maid reacts to a smoking hot water bottle on a chair. A man in a suit arrives to converse with the older woman and the maid, after which the caretaker navigates a dark hallway carrying a lantern.",
+          "observations": [
+            {
+              "timestamp_ms": 3120000,
+              "text": "A man in a suit peers through a doorway split and raises a heavy wooden object overhead.",
+              "evidence_end_ms": 3135000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3150000,
+              "text": "A man in a suit exits through double doors and walks along the upper hallway landing past a large decorative vase.",
+              "evidence_end_ms": 3165000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3180000,
+              "text": "The older woman speaks into the mounted telephone near the staircase while the maid stands beside a smoking hot water bottle on an armchair.",
+              "evidence_end_ms": 3195000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3210000,
+              "text": "A man in a suit stands in the hall conversing with the older woman and the maid near the framed portrait.",
+              "evidence_end_ms": 3210000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3225000,
+              "text": "The caretaker advances through a dark corridor while holding an illuminated lantern.",
+              "evidence_end_ms": 3239000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "d0a2cb8d7594224da5a733331c1a9775bde1b1e3ed5c6914d27003620d9a274d",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-028",
+          "start_ms": 3240000,
+          "input_end_ms": 3360000,
+          "available_after_ms": 3360000,
+          "summary": "In the hallway, a masked figure emerges behind a man with a lantern. In the hall, a man in a suit moves a painting, then draws his revolver as a man collapses from a doorway. The group gathers around the fallen man, and the older woman speaks with the detective.",
+          "observations": [
+            {
+              "timestamp_ms": 3240000,
+              "text": "Caretaker walks down dark hallway carrying lit lantern.",
+              "evidence_end_ms": 3240000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3255000,
+              "text": "Masked figure wearing black mask appears behind caretaker.",
+              "evidence_end_ms": 3255000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3270000,
+              "text": "A man in a suit moves large framed portrait near stairs.",
+              "evidence_end_ms": 3270000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3300000,
+              "text": "A man in a suit draws and aims revolver at doorway.",
+              "evidence_end_ms": 3300000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3315000,
+              "text": "A man in a suit stands over collapsed man with revolver drawn.",
+              "evidence_end_ms": 3330000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3345000,
+              "text": "The older woman converses with a man in a suit.",
+              "evidence_end_ms": 3345000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "2fda2f4fdafca8db877d11e9f7ec78c8108721bcbd305389b295a3400282f739",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-029",
+          "start_ms": 3360000,
+          "input_end_ms": 3480000,
+          "available_after_ms": 3480000,
+          "summary": "Characters secure the main doors inside Oakdale Manor as commotion unfolds. An exterior figure fires a gun outside, and an unconscious man lies on the floor near the stairs while a man in a suit confers with the young woman and a young man.",
+          "observations": [
+            {
+              "timestamp_ms": 3360000,
+              "text": "A man pulls heavy double doors shut while the young woman stands behind him.",
+              "evidence_end_ms": 3360000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3390000,
+              "text": "A figure in a coat fires a handgun toward the manor exterior from the lawn at night.",
+              "evidence_end_ms": 3390000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3435000,
+              "text": "Occupants push heavy wooden furniture against double doors to barricade them.",
+              "evidence_end_ms": 3435000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3465000,
+              "text": "A man in a suit speaks directly with the young woman and a young man in close proximity.",
+              "evidence_end_ms": 3465000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "38c3e88d251d2729784d0075cf0ac3addbb397329c710f26b01f828715db25ce",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-030",
+          "start_ms": 3480000,
+          "input_end_ms": 3600000,
+          "available_after_ms": 3600000,
+          "summary": "A man lies on the floor inside Oakdale Manor before the group gathers in the hall. Meanwhile, a cloaked figure moves secretly through rooms, crouching near windows, working with wires on the floor, and passing near a fireplace hidden passageway while people gather on the staircase below.",
+          "observations": [
+            {
+              "timestamp_ms": 3480000,
+              "text": "A man lies prone on a rug on the floor near a door and cushion.",
+              "evidence_end_ms": 3480000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3495000,
+              "text": "A man in a suit stands with the group holding a handgun at his side in the hall.",
+              "evidence_end_ms": 3495000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3510000,
+              "text": "A cloaked figure crouches low in front of a window paned frame.",
+              "evidence_end_ms": 3510000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3540000,
+              "text": "The cloaked figure works with coiled wire on the floor.",
+              "evidence_end_ms": 3555000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3599000,
+              "text": "A woman in a gown runs up small stairs toward an open door in the dark upper level.",
+              "evidence_end_ms": 3599000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "15ce031436ff022a2599d20630a67e02d1da5833bd26bb1b4a18a6848d03fa10",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-031",
+          "start_ms": 3600000,
+          "input_end_ms": 3720000,
+          "available_after_ms": 3720000,
+          "summary": "A woman holding a candle approaches a fireplace inside a dimly lit manor room. She manipulates a hidden latch on the mantelpiece, causing the entire fireplace structure to pivot open as a secret door. She steps through into the hidden passage beyond, and the secret door panel closes behind her.",
+          "observations": [
+            {
+              "timestamp_ms": 3630000,
+              "text": "The young woman walks across the room while carrying a lit candle toward the fireplace wall.",
+              "evidence_end_ms": 3645000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3645000,
+              "text": "The young woman reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+              "evidence_end_ms": 3660000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3660000,
+              "text": "The fireplace wall structure pivots open on hinges, uncovering a secret doorway.",
+              "evidence_end_ms": 3675000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3675000,
+              "text": "The young woman steps through the revealed secret opening holding the candle.",
+              "evidence_end_ms": 3690000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3719000,
+              "text": "The secret panel door swings closed, shutting off the passage from view.",
+              "evidence_end_ms": 3719000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "de8696b3558f3ee925fb71009746777e694e61b53e40daf68e84474026597f51",
+          "reading": "The moving fireplace changes the observable layout of the room. This supports the existence of an opening, not a conclusion about who has previously used it."
+        },
+        {
+          "segment_id": "chunk-032",
+          "start_ms": 3720000,
+          "input_end_ms": 3840000,
+          "available_after_ms": 3840000,
+          "summary": "A bearded man peeks through a door opening. A woman in a light dress searches a desk before a cloaked figure casting a bat shadow enters and crouches. The woman presses against and knocks on a panel door while the cloaked figure remains in the room near the safe.",
+          "observations": [
+            {
+              "timestamp_ms": 3720000,
+              "text": "Bearded man looks through a narrow opening in the doorway.",
+              "evidence_end_ms": 3720000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3735000,
+              "text": "Woman leans over the wooden desk near a candle.",
+              "evidence_end_ms": 3735000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3750000,
+              "text": "A cloaked figure casts a bat shadow and crouches on the floor.",
+              "evidence_end_ms": 3780000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3795000,
+              "text": "Woman presses her hands and knocks on the wall panel door.",
+              "evidence_end_ms": 3839000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "85395011bcaa7e6ce55a4fb872b5aa0bb218a2c049343354275900ef9ac62792",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-033",
+          "start_ms": 3840000,
+          "input_end_ms": 3960000,
+          "available_after_ms": 3960000,
+          "summary": "Inside Oakdale Manor, tension rises as occupants navigate dimly lit rooms. In the Great Hall, the maid, the caretaker, and a man in a suit converse in alarm until a mystery gloved hand reaches around a marble pillar to extinguish a lit candle, plunging the room into darkness.",
+          "observations": [
+            {
+              "timestamp_ms": 3840000,
+              "text": "The young woman Van Order opens a door, peering nervously into the darkened space.",
+              "evidence_end_ms": 3840000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3885000,
+              "text": "The maid walks near the Great Hall staircase and confers anxiously with the caretaker and a man in a suit.",
+              "evidence_end_ms": 3915000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 3930000,
+              "text": "A gloved hand reaches out from behind a marble pillar and snuffs out the candle flame.",
+              "evidence_end_ms": 3930000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "3a27bd5a49591d0add73818c3f84f0a64655456a34e524963c0e9c14acfe0408",
+          "reading": "A hand extinguishing the candle changes what the room allows the viewer to see. Darkness restricts observation; it does not itself identify the hand."
+        },
+        {
+          "segment_id": "chunk-034",
+          "start_ms": 3960000,
+          "input_end_ms": 4080000,
+          "available_after_ms": 4080000,
+          "summary": "In an upstairs room of Oakdale Manor, the older woman and the young woman sit together while a young man stands nearby holding a light. A man in a suit enters through a doorway and speaks with the older woman while the others move toward the hall. Meanwhile, a cloaked figure in a bat mask descends a wooden staircase. Downstairs in the Great Hall, two men react to smoke and commotion near the grand staircase before a man in a suit inspects a table upstairs.",
+          "observations": [
+            {
+              "timestamp_ms": 3960000,
+              "text": "The caretaker grimaces while standing beside a man in a suit.",
+              "evidence_end_ms": 3960000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4005000,
+              "text": "A man in a suit in coat and hat steps through an interior doorway into the upstairs room.",
+              "evidence_end_ms": 4005000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4020000,
+              "text": "A man in a suit talks directly to the older woman as the young woman and a young man walk toward the background doorway.",
+              "evidence_end_ms": 4020000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4050000,
+              "text": "The masked figure wearing a dark bat cloak leaps or runs down a wooden flight of stairs.",
+              "evidence_end_ms": 4050000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4065000,
+              "text": "The caretaker and a man in a suit look up in alarm as smoke billows near the Great Hall staircase next to a suit of armor.",
+              "evidence_end_ms": 4065000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4079000,
+              "text": "A man in a suit leans over a wooden table to inspect its surface while the older woman stands holding her cane.",
+              "evidence_end_ms": 4079000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "8447c0aacbea4fa16833d35d47eba63d6adda450591efc5877b411379ac01ded",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-035",
+          "start_ms": 4080000,
+          "input_end_ms": 4200000,
+          "available_after_ms": 4200000,
+          "summary": "In an upstairs room at Oakdale Manor, a man in a suit, the older woman, and the young woman converse before a young man appears in the doorway. A man in a suit confronts a young man face-to-face as the older woman intervenes. A police officer wearing a bowler hat searches a man in a suit's coat and retrieves a handgun.",
+          "observations": [
+            {
+              "timestamp_ms": 4080000,
+              "text": "The older woman walks across the room using a cane toward a man in a suit standing near a table.",
+              "evidence_end_ms": 4095000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4125000,
+              "text": "A young man stands framed in the doorway looking sternly toward a man in a suit.",
+              "evidence_end_ms": 4125000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4140000,
+              "text": "A man in a suit faces a young man at close proximity while speaking directly to him.",
+              "evidence_end_ms": 4155000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4185000,
+              "text": "The police officer searches a man in a suit's coat pockets and pulls out a handgun.",
+              "evidence_end_ms": 4199000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "9496d1790a46759a59a5d790db060a4e0221115714142d6882deac5a80c46f3b",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-036",
+          "start_ms": 4200000,
+          "input_end_ms": 4320000,
+          "available_after_ms": 4320000,
+          "summary": "A man in a suit, the older woman, and a man investigate a hidden room in Oakdale Manor. Inside, a man in a suit draws handguns on a group, including an injured man seated in a chair with blood on his temple, while a man inspects the injured man close up.",
+          "observations": [
+            {
+              "timestamp_ms": 4275000,
+              "text": "A man in a suit aims two revolvers at a man seated on a chair in the room.",
+              "evidence_end_ms": 4290000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4290000,
+              "text": "A man stands over and looks down at the seated injured man.",
+              "evidence_end_ms": 4319000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "597009b9a4a2537a99a7afee57852109ef32a96a322d03abeb80b0ec54896c26",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-037",
+          "start_ms": 4320000,
+          "input_end_ms": 4440000,
+          "available_after_ms": 4440000,
+          "summary": "A man in a suit physically examines a distressed man's head and eyes in close-up. The camera then cuts to a wider view of the attic room where a man in a suit holds revolvers aimed toward the occupants while the group, including the young woman, the maid, and a man in a suit, exits through a doorway, leaving the distressed man seated until he suddenly rises.",
+          "observations": [
+            {
+              "timestamp_ms": 4320000,
+              "text": "A man in a suit inspects the distressed man's head, jaw, and eyes closely.",
+              "evidence_end_ms": 4365000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4380000,
+              "text": "A man in a suit holds two handguns pointed across the attic room.",
+              "evidence_end_ms": 4395000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4395000,
+              "text": "The young woman and others exit out through the narrow door frame in the back.",
+              "evidence_end_ms": 4410000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4425000,
+              "text": "A man in a suit walks into the passageway opening near the fireplace.",
+              "evidence_end_ms": 4425000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4439000,
+              "text": "The distressed man rises from his chair and reaches toward the table.",
+              "evidence_end_ms": 4439000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "90c1a114f641f6cfcdf2bf00b6031d32367d69002107423e50b62ff2c0be03f4",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-038",
+          "start_ms": 4440000,
+          "input_end_ms": 4560000,
+          "available_after_ms": 4560000,
+          "summary": "An injured man grabs a handgun before the scene shifts to a group investigating a secret wall panel and safe in Oakdale Manor. A black-gloved hand grabs the maid from behind a hidden doorway, causing her to flee down the stairs in terror.",
+          "observations": [
+            {
+              "timestamp_ms": 4440000,
+              "text": "An injured man in a stained shirt reaches across a table for a small revolver.",
+              "evidence_end_ms": 4455000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4470000,
+              "text": "Men inspect an opened hidden wall panel and safe while onlookers watch inside the room.",
+              "evidence_end_ms": 4515000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4545000,
+              "text": "A black-gloved hand reaches from behind a secret wall partition and grabs the maid's shoulder.",
+              "evidence_end_ms": 4545000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4559000,
+              "text": "The maid jumps down the wooden staircase in panic after being startled.",
+              "evidence_end_ms": 4559000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "2e8e25437b60925b9a6b04e39afd558681a2303aa42da7c6c8c8792b716e1c4e",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-039",
+          "start_ms": 4560000,
+          "input_end_ms": 4680000,
+          "available_after_ms": 4680000,
+          "summary": "Characters gather around a newly discovered secret door panel inside the manor attic studio. A man steps into the secret alcove housing a safe, while others inspect an open window leading outside to a ladder.",
+          "observations": [
+            {
+              "timestamp_ms": 4560000,
+              "text": "The older woman and others gather around the opened hidden door panel in the attic wall.",
+              "evidence_end_ms": 4575000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4605000,
+              "text": "A man steps through the open secret panel into the small room housing the safe.",
+              "evidence_end_ms": 4605000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4575000,
+              "text": "A man in a suit walks past the secret panel towards the open window.",
+              "evidence_end_ms": 4620000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4650000,
+              "text": "A character looks out through the open window down a long ladder extending outside the building.",
+              "evidence_end_ms": 4650000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "aee79e8025d661c4568f7cb73390ae686e89384bccec6bc55b7fc2b6441c1943",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-040",
+          "start_ms": 4680000,
+          "input_end_ms": 4800000,
+          "available_after_ms": 4800000,
+          "summary": "A man in a suit detains a cloaked figure and confiscates handguns inside Oakdale Manor. Men run down a staircase, a masked figure flees across the exterior grounds carrying a satchel, and the maid reacts in shock from her bed.",
+          "observations": [
+            {
+              "timestamp_ms": 4710000,
+              "text": "A man in a suit holds a cloaked figure and inspects confiscated handguns while household members observe.",
+              "evidence_end_ms": 4740000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4755000,
+              "text": "A man in a suit speaks to an associate while holding two handguns.",
+              "evidence_end_ms": 4755000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4770000,
+              "text": "Men run down the interior stairs.",
+              "evidence_end_ms": 4770000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4785000,
+              "text": "A dark cloaked figure runs across the lawn holding a satchel.",
+              "evidence_end_ms": 4785000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4799000,
+              "text": "The maid sits up in bed showing a shocked facial expression.",
+              "evidence_end_ms": 4799000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "be0e3fef113d71d957dd1129969062ad332e0307a202337502fa27bddc18cb50",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-041",
+          "start_ms": 4800000,
+          "input_end_ms": 4920000,
+          "available_after_ms": 4920000,
+          "summary": "Characters react inside Oakdale Manor before moving outdoors to capture a cloaked figure on the lawn. The figure is subdued and bound, but later threatens the gathered crowd at gunpoint.",
+          "observations": [
+            {
+              "timestamp_ms": 4800000,
+              "text": "The maid looks terrified while lying in bed with curlers in her hair.",
+              "evidence_end_ms": 4800000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4830000,
+              "text": "Police and household members tackle the fleeing cloaked figure onto the lawn.",
+              "evidence_end_ms": 4845000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4890000,
+              "text": "Police officers bind the captured cloaked figure on the lawn.",
+              "evidence_end_ms": 4905000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4919000,
+              "text": "The Bat holds a gun on the group, forcing them to raise their hands.",
+              "evidence_end_ms": 4919000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "eb4c8291443a2e800faeb04a59e8327e2acabb1861be3b8da32d41c8d71a3600",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-042",
+          "start_ms": 4920000,
+          "input_end_ms": 5040000,
+          "available_after_ms": 5040000,
+          "summary": "Characters subdue and tie the caped man to a tree on the manor grounds, revealing his face. The scene transitions to a theater stage where an actor in a tuxedo addresses the audience directly.",
+          "observations": [
+            {
+              "timestamp_ms": 4935000,
+              "text": "Men restrain and bind the caped suspect against a tree using rope.",
+              "evidence_end_ms": 4950000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 4965000,
+              "text": "The unmasked suspect speaks while tied to the tree in close-up.",
+              "evidence_end_ms": 4980000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 5025000,
+              "text": "An actor steps before a theater curtain to deliver an epilogue to the viewers.",
+              "evidence_end_ms": 5039000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "da75832ae3cd03582a58df8184b5315b071353bd2ab4c8f269874386f2f46351",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        },
+        {
+          "segment_id": "chunk-043",
+          "start_ms": 5040000,
+          "input_end_ms": 5119000,
+          "available_after_ms": 5119000,
+          "summary": "Chester Morris stands in front of a draped curtain in formal tuxedo tails and delivers a speech directly to the audience. Following his speech, the closing title card 'The End - A Roland West Attraction' appears, concluding the film into blackness.",
+          "observations": [
+            {
+              "timestamp_ms": 5040000,
+              "text": "Chester Morris stands in front of a curtain dressed in formal tuxedo tails and speaks directly to the camera.",
+              "evidence_end_ms": 5070000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            },
+            {
+              "timestamp_ms": 5085000,
+              "text": "The closing title card stating 'The End - A Roland West Attraction' is displayed on screen.",
+              "evidence_end_ms": 5085000,
+              "uncertainty": "Sampled stills; dialogue is not established."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "SAMPLED_STILLS_ONLY",
+          "source_response_sha256": "e3af4067e631641114496806a5f9ab325b52870aee2ecea7ae3a578bc4b941df",
+          "reading": "Read the visible placement of people and objects as spatial information. A glance or a movement does not, by itself, establish a motive or a hidden identity."
+        }
+      ]
+    },
+    {
+      "work_id": "the-greene-murder-case-1929",
+      "edition_id": "gmc-archive-1929",
+      "runtime_ms": 4012175,
+      "asset_sha256": "3957e2f3122652af5a070ad595e1a3d6f4bb6dd465132ae25bd61abb352bbf41",
+      "source_sha256": "b66f94f9c387e426ac394797266cb150c611016069734e067ebcb8afb0f65b80",
+      "model_id": "gemini-3.6-flash",
+      "segment_interval_ms": 600000,
+      "segments": [
+        {
+          "segment_id": "segment-01",
+          "start_ms": 0,
+          "input_end_ms": 600000,
+          "available_after_ms": 601000,
+          "summary": "An attorney reviews the will with the family at the mansion. Its terms require them to remain in the house to receive their inheritance. Later, a woman brings broth to the bedridden older woman and reads beside her. Gunfire sends the household into alarm.",
+          "observations": [
+            {
+              "timestamp_ms": 10010,
+              "text": "The title card for The Greene Murder Case is displayed accompanied by background music. Additional credit cards follow, listing the director, story writer, and cast.",
+              "evidence_end_ms": 10010,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 80080,
+              "text": "An elderly gentleman in a top hat and overcoat walks through the entrance gate on a snowy night. He approaches the front door of the mansion.",
+              "evidence_end_ms": 80080,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 110110,
+              "text": "Sproot the butler greets Mr. Cannon inside the entrance hall and leads him up the grand wooden staircase. They head toward the upper floor hallway.",
+              "evidence_end_ms": 110110,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 130130,
+              "text": "Mr. Cannon knocks on Chester Greene's door to call him for the annual reading of the will. Inside, Chester expresses annoyance while sitting in his armchair drinking.",
+              "evidence_end_ms": 140140,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 170170,
+              "text": "Mr. Cannon enters Mrs. Greene's bedroom where she lies in bed. Chester and other family members gather as Cannon prepares to review the terms of the estate.",
+              "evidence_end_ms": 180180,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 200200,
+              "text": "Sibella enters the bedroom wearing a dress and holding a cigarette. She announces her intention to go out to the theater with Dr. Von Blon.",
+              "evidence_end_ms": 210210,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 230230,
+              "text": "Mr. Cannon reviews the legal document, reminding the family that they must live in the mansion together for 15 years to receive their shares in 1934. He notes that if anyone dies, the share is split among the surviving members.",
+              "evidence_end_ms": 240240,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 280280,
+              "text": "Chester voices intense resentment about being trapped in the house for ten years. Mrs. Greene complains about her ungrateful children before Mr. Cannon wishes them good evening and leaves.",
+              "evidence_end_ms": 280280,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 390390,
+              "text": "Ada enters the kitchen where servant Gertrude speaks ominously about the cursed family doomed by God. Gertrude then hands Ada a bowl of warm broth for Mrs. Greene.",
+              "evidence_end_ms": 400400,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 440440,
+              "text": "Ada delivers the broth to Mrs. Greene in bed and takes a seat beside her. Mrs. Greene instructs Ada to continue reading aloud from the novel where they left off.",
+              "evidence_end_ms": 450450,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 530530,
+              "text": "Chester sits in his armchair in his darkened room holding a book and glass. A nearby tabletop clock ticks past 11:55 PM toward midnight.",
+              "evidence_end_ms": 530530,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 560560,
+              "text": "Two sudden gunshots resonate through the dark, quiet mansion. Mrs. Greene wakes up screaming hysterically in her bed, calling out for her children.",
+              "evidence_end_ms": 570570,
+              "uncertainty": "The shooter is unseen."
+            },
+            {
+              "timestamp_ms": 590590,
+              "text": "Members of the household hurry between rooms after the gunfire; shouted reports describe people being shot.",
+              "evidence_end_ms": 590590,
+              "uncertainty": "None"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "eae0822acefdbcc5c1a815e69901e9128f16724364167b7a11e8739fbe745d37",
+          "source_request_sha256": "38baaa74dae866b70d8d3eeabddc75b4430b6179e614b6c42a2ba335255638dd",
+          "reading": "The will puts money and enforced proximity into the same conversation. Resentment is expressed openly, but an expressed grievance is not evidence that its speaker fired a shot."
+        },
+        {
+          "segment_id": "segment-02",
+          "start_ms": 600000,
+          "input_end_ms": 1200000,
+          "available_after_ms": 1201000,
+          "summary": "District Attorney Markham and Sergeant Heath confer with Philo Vance regarding the murder of Chester Greene and the wounding of Ada Greene. Vance points out that a three-minute gap between shots undermines the simple burglary theory. The investigation moves to the Greene mansion, where Vance and Heath interview family members: Rex Greene defensively denies involvement despite his missing .32 caliber revolver and angrily accuses Dr. Von Blon; Sibella Greene openly expresses hatred for her family; and Ada Greene describes an unseen intruder making a shuffling noise before shooting her. Outside on the balcony, detectives inspect galoshes footprints in the snow. Finally, Vance and Heath enter the bedroom of bedridden matriarch Mrs. Greene, who furiously demands that the police halt their investigation.",
+          "observations": [
+            {
+              "timestamp_ms": 610610,
+              "text": "District Attorney Markham talks on the telephone in his office, confirming that Chester Greene was killed instantly while his sister was wounded. Sergeant Heath stands nearby as Markham discusses the initial burglary hypothesis.",
+              "evidence_end_ms": 610610,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 660660,
+              "text": "Sergeant Heath takes the telephone receiver to speak directly with Philo Vance. Vance questions the burglary theory, highlighting how strange it is that a burglar would linger in the hall for three minutes between two shots.",
+              "evidence_end_ms": 670670,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 710710,
+              "text": "At the Greene residence, Philo Vance questions the butler regarding the sound of the gunshots. The butler confirms hearing two shots with approximately three minutes elapsing between them.",
+              "evidence_end_ms": 710710,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 740740,
+              "text": "Vance discusses Chester Greene's fatal shooting with Sergeant Heath and Rex Greene. Vance notes that Chester was shot from the front at close range without making a sound, suggesting he was astonished to recognize his killer.",
+              "evidence_end_ms": 740740,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 780780,
+              "text": "Sergeant Heath asks if anyone in the household owns a gun. Rex Greene admits he owned a .32 caliber revolver but claims he searched for it after the crime and found it missing.",
+              "evidence_end_ms": 780780,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 820820,
+              "text": "An agitated Rex Greene points at Dr. Von Blon, shouting that the doctor stole his revolver to murder the family and secure the inheritance. Rex lunges toward Dr. Von Blon before being held back.",
+              "evidence_end_ms": 820820,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 860860,
+              "text": "Dr. Von Blon speaks calmly with Sergeant Heath and Vance regarding his arrival time and when the investigators will be permitted to speak with the injured Ada Greene.",
+              "evidence_end_ms": 860860,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 890890,
+              "text": "Sibella Greene enters and speaks nonchalantly to the investigators. She states that all family members hate each other and admits she has personally considered killing the entire household.",
+              "evidence_end_ms": 890890,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 930930,
+              "text": "Sibella Greene and Dr. Von Blon discuss delaying a personal agreement or relationship matter, agreeing that proceeding now would be inappropriate following the shooting.",
+              "evidence_end_ms": 930930,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 970970,
+              "text": "In her bedroom, Ada Greene describes waking up to a noise she thought was an engine backfiring, followed by a dark figure touching her hand and a shuffling noise before she was shot.",
+              "evidence_end_ms": 970970,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1011010,
+              "text": "Sibella enters Ada's bedroom and harshly accuses Ada of lying, calling her deceitful and suggesting she shot Chester herself. Dr. Von Blon intervenes to pull Sibella away.",
+              "evidence_end_ms": 1011010,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1041040,
+              "text": "Dr. Von Blon opens his doctor's kit containing various vials and hypodermic needles. He prepares and gives Ada a sedative to help her rest.",
+              "evidence_end_ms": 1041040,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1081080,
+              "text": "Sergeant Heath, Vance, and a police officer inspect footprint casts in the snow on the outer balcony. The officers note that the intruder wore galoshes and that the tracks end abruptly at the wall.",
+              "evidence_end_ms": 1081080,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1131130,
+              "text": "On the porch, Vance remarks on Dr. Von Blon's extensive supply of drugs in his medical bag and asks about Mrs. Greene's physical health. Dr. Von Blon replies that Mrs. Greene suffers from hopeless organic paralysis in both legs.",
+              "evidence_end_ms": 1131130,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1191190,
+              "text": "Sergeant Heath and Philo Vance enter the bedroom of bedridden matriarch Mrs. Greene. Resting in her canopy bed alongside Rex, she angrily orders the officers to cease their investigation and get out of her home.",
+              "evidence_end_ms": 1191190,
+              "uncertainty": "None."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "645b0003b138abae4540c01707898d59ae2a27fd0fb7c749792b203d41e195b0",
+          "source_request_sha256": "beaae96fe259e69045f55dd0b384a1c2d861f9ad4511d4f69dd59b0f9d41890f",
+          "reading": "The discussion tests the burglary account against timing and physical traces. Keep the investigators' reasoning separate from the family members' accounts: neither a confident accusation nor a footprint identifies a shooter by itself."
+        },
+        {
+          "segment_id": "segment-03",
+          "start_ms": 1200000,
+          "input_end_ms": 1800000,
+          "available_after_ms": 1801000,
+          "summary": "Philo Vance, District Attorney Markham, and Detective Heath continue their investigation into the Greene house shootings. After questioning Rex Greene and finding galoshes, Ada Greene visits Markham's office with new information about a hidden note. While calling Rex at the Greene house to retrieve the note, Vance and Markham hear a gun shot over the phone. Arriving at the scene, they find Rex dead and the note missing, prompting further interrogation of household members.",
+          "observations": [
+            {
+              "timestamp_ms": 1205000,
+              "text": "Philo Vance questions Rex Greene in front of Mrs. Greene regarding what he heard before the gunshots. Rex claims he only heard a door blowing in the hall prior to sleeping.",
+              "evidence_end_ms": 1221220,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1245000,
+              "text": "Ada Greene mentions hearing a door noise similar to what Rex described while lying in bed attended by a nurse and another woman.",
+              "evidence_end_ms": 1251250,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1315000,
+              "text": "Detective Heath holds up a pair of galoshes and confronts Rex Greene, questioning whether they belong to him.",
+              "evidence_end_ms": 1321320,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1340000,
+              "text": "Rex angrily states he was not out of the house last night and demands to leave, but Heath insists he remain under surveillance.",
+              "evidence_end_ms": 1341340,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1375000,
+              "text": "In the District Attorney's office, Vance, Markham, and Heath debate whether the crime was committed by an outsider or someone familiar with the family.",
+              "evidence_end_ms": 1381380,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1425000,
+              "text": "An assistant announces Ada Greene, who enters Markham's office to share information regarding recent events at the house.",
+              "evidence_end_ms": 1431430,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1460000,
+              "text": "Ada informs Vance and Markham that she saw Rex moving galoshes and mentions a written paper containing medical terms spoken by Dr. Von Blon.",
+              "evidence_end_ms": 1471470,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1515000,
+              "text": "Markham places a call to the Greene home, and Ada speaks to Rex over the line, asking him to fetch a note from their mailbox.",
+              "evidence_end_ms": 1521520,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1545000,
+              "text": "A struggle and gunshot sound are heard over the phone line. Vance takes the receiver and pronounces Rex dead as Ada faints in her chair.",
+              "evidence_end_ms": 1551550,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1585000,
+              "text": "Police officers and investigators drive rapidly to the Greene mansion following the emergency phone call.",
+              "evidence_end_ms": 1591590,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1615000,
+              "text": "Vance, Markham, and Heath enter the room and find Rex Greene lying dead on the carpeted floor.",
+              "evidence_end_ms": 1621620,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1650000,
+              "text": "Vance notes that Rex was shot from the front and compares his expression to Chester's, while Dr. Von Blon claims he was elsewhere in the house and heard no shot.",
+              "evidence_end_ms": 1661660,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1690000,
+              "text": "Vance discovers the note is missing from Rex's body. Heath asks Sproot to detail all telephone extensions present in the mansion.",
+              "evidence_end_ms": 1691690,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1725000,
+              "text": "The medical examiner arrives to evaluate Rex's body and locate the bullet for forensic analysis.",
+              "evidence_end_ms": 1731730,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1770000,
+              "text": "Vance visits Sibella Greene in her room while she holds her small dog, questioning her regarding her whereabouts during the shooting.",
+              "evidence_end_ms": 1781780,
+              "uncertainty": "None"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "9e04e1a91ab356dc31bb9f04d6b7fdc89a75c0946d9415b7ca1000091ca61913",
+          "source_request_sha256": "e17755ac9fc756e695381a88a2be794604ad622174eaba33295e416cd0f394c5",
+          "reading": "The telephone links the investigators to a distant event without giving them a view of the room. What they hear and what they later find are different kinds of evidence."
+        },
+        {
+          "segment_id": "segment-04",
+          "start_ms": 1800000,
+          "input_end_ms": 2400000,
+          "available_after_ms": 2401000,
+          "summary": "In this segment of The Greene Murder Case (1929), Philo Vance, District Attorney Markham, and Sergeant Heath continue investigating the murders at the Greene mansion. They question household staff, including the maid and the butler Sproot, regarding timelines and suspicious occurrences. Ada reports mysterious muddy footprints leading to her balcony, matching earlier prints but leaving no trail going down. Ballistic evidence confirms the same .32-caliber weapon was used, and Dr. Von Blon discovers that dangerous narcotics (strychnine and morphine) have been stolen from his medical bag. The investigators review the terms of old Tobias Greene's will, seeking psychological and financial motives behind the killings.",
+          "observations": [
+            {
+              "timestamp_ms": 1805000,
+              "text": "Ada tells her companion that she is frightened and wishes to speak alone on the roof garden. She goes to retrieve her coat while he agrees to meet her up there.",
+              "evidence_end_ms": 1821820,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1845000,
+              "text": "The house maid complains to the investigators about the bizarre behavior and tension among the Greene family members. She demands her pay from the butler and declares that she is quitting immediately.",
+              "evidence_end_ms": 1861860,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1885000,
+              "text": "Philo Vance questions Sproot about why he did not previously report hearing the recent gunshot. Sproot states he was replacing silverware in the dining room after calling Rex to the phone, noting that Ada's room sits directly above the dining room.",
+              "evidence_end_ms": 1901900,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1910000,
+              "text": "Vance asks Mrs. Mannheim how long she has worked at the Greene residence. She replies that she has been there for thirteen years since her husband died, noting that old Tobias Greene knew her husband.",
+              "evidence_end_ms": 1921920,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1945000,
+              "text": "Sergeant Heath remarks that if he could find the murder weapon, he would report the shootings as suicides and resign. Vance discusses historical newspaper reports regarding old Tobias Greene, leading Heath to offer to retrieve a copy of the old man's will.",
+              "evidence_end_ms": 1961960,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 1980000,
+              "text": "Ada enters to inform District Attorney Markham that someone was in her room, leaving muddy tracks across the carpet from the open balcony doors. Sergeant Heath notes these match outdoor footprints leading up to the balcony with no returning tracks down.",
+              "evidence_end_ms": 1991990,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2030000,
+              "text": "Heath reveals that ballistic analysis confirms a .32-caliber bullet fired from the same handgun used in earlier shootings. He adds that the galoshes stored in the closet that match the outdoor tracks have disappeared.",
+              "evidence_end_ms": 2042040,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2090000,
+              "text": "Ada leads Vance to an incense burner in Rex's room, explaining that she and Rex used it as a private mailbox since childhood. She claims a note containing a medical reference about her mother was placed there but vanished before Rex was shot.",
+              "evidence_end_ms": 2102100,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2150000,
+              "text": "On the roof garden, Vance asks Dr. Von Blon about Mrs. Greene's health, which the doctor describes as a simple paralysis of the legs. Sibella interrupts to remind Dr. Von Blon that he left his medical bag in her mother's room.",
+              "evidence_end_ms": 2162160,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2185000,
+              "text": "Sibella remarks sarcastically that the roof garden would be an ideal place for a murder by pushing someone off into the river to look like an accident or suicide. She then asks Dr. Von Blon to head back downstairs.",
+              "evidence_end_ms": 2192190,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2240000,
+              "text": "Dr. Von Blon alerts Markham and Heath that four grains of strychnine and eight grains of morphine were taken from his medical bag while it was unattended in the mansion. Heath announces plans to place a police nurse inside the house and extra surveillance outside.",
+              "evidence_end_ms": 2252250,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2290000,
+              "text": "Vance and Markham examine the copy of old Tobias Greene's will provided by Heath. They note life annuities designated for servants Sproot and Mrs. Mannheim, as well as a clause bequeathing the family library to the police department after fifteen years.",
+              "evidence_end_ms": 2302300,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2360000,
+              "text": "Vance and Markham discuss how the restrictions and financial provisions of the late Tobias Greene's will might provide a logical or psychological motive for the killer.",
+              "evidence_end_ms": 2372370,
+              "uncertainty": "None"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "0c6691e8f8f186dd4ccb6ddf6d8c5784b4ae519748caf50dc42bcb797ead8b5b",
+          "source_request_sha256": "d380c0efacd6a3788480337b30dd83526806930989db6e9633162dc53d53b646",
+          "reading": "The investigation combines household testimony, physical traces, and access to objects. Those strands need to agree before a single explanation can carry them all."
+        },
+        {
+          "segment_id": "segment-05",
+          "start_ms": 2400000,
+          "input_end_ms": 3000000,
+          "available_after_ms": 3001000,
+          "summary": "Philo Vance and District Attorney Markham search Tobias Greene's dark library, finding books on criminology and poisons as well as a hidden pair of galoshes. A family member reports seeing the supposedly paralyzed Mrs. Greene walking in the hallway. Soon after, Ada survives a morphine poisoning in her bouillon, and Nurse O'Brien recounts delivering the cup. After Dr. Von Blonn offers an alibi in Connecticut, Mrs. Greene dies of strychnine poisoning, which Markham assumes is suicide. Vance remains skeptical, orders an examination of Mrs. Greene's leg muscles, and places a phone call to Connecticut to check Dr. Von Blonn's alibi.",
+          "observations": [
+            {
+              "timestamp_ms": 2405000,
+              "text": "Markham and Philo Vance discuss the motive behind the Greene family murders, noting that three family members remain. Vance suggests investigating Tobias Greene's library, asking why he would leave his collection of books to the police.",
+              "evidence_end_ms": 2422420,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2440000,
+              "text": "Markham and Vance ask an officer for updates and learn that Sibella is out riding with Dr. Von Blonn. Vance inspects the library door lock, noting that the key turns easily and the hinges move smoothly despite claims that it had been locked for ten years.",
+              "evidence_end_ms": 2452450,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2490000,
+              "text": "The group enters the unlit library using flashlights and candles because the electric lights are nonfunctional. While searching the dark room, the police sergeant trips over a pair of galoshes on the floor.",
+              "evidence_end_ms": 2492490,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2540000,
+              "text": "Vance notices dust-free shelves and a chair indicating recent use by a frequent reader. They discover volumes on criminology, poisons, and sleepwalking, prompting speculation about whether Mrs. Greene could be faking her paralysis.",
+              "evidence_end_ms": 2542540,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2600000,
+              "text": "A frightened young woman enters the library to report hearing a shuffling noise on the stairs an hour prior. She claims she looked over the banister and saw Mrs. Greene walking in her oriental shawl near the library door.",
+              "evidence_end_ms": 2612610,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2680000,
+              "text": "Vance learns that Ada was poisoned with morphine but survived after prompt medical intervention. The sergeant explains that Dr. Von Blonn was summoned after the butler heard a bell ringing downstairs.",
+              "evidence_end_ms": 2682680,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2750000,
+              "text": "Nurse O'Brien explains that Mrs. Greene requested she bring a cup of bouillon to Ada. Nurse O'Brien notes that she placed the cup down while Ada was in the bathroom and asserts that Mrs. Greene did not touch it.",
+              "evidence_end_ms": 2762760,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2800000,
+              "text": "Vance hypothesizes that Mrs. Greene got out of bed to poison Ada's cup while Ada was in the bathroom. He explains that Sibella's dog played with a toy attached to a bell cord, inadvertently alerting the household in time to save Ada.",
+              "evidence_end_ms": 2792790,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2840000,
+              "text": "Dr. Von Blonn claims he was away on a case in Greenwich, Connecticut during the night. Vance informs him that a police surgeon and specialist will be performing a formal examination on Mrs. Greene.",
+              "evidence_end_ms": 2842840,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2880000,
+              "text": "After Dr. Von Blonn departs, Vance uses the telephone to request a connection to the county clerk in Greenwich, Connecticut. He seeks independent verification of Dr. Von Blonn's whereabouts.",
+              "evidence_end_ms": 2882880,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2910000,
+              "text": "Markham informs Vance that Mrs. Greene has died from strychnine, believing she committed suicide because police were closing in. Vance firmly disagrees, stating that suicide does not fit the psychological evidence.",
+              "evidence_end_ms": 2912910,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2930000,
+              "text": "Vance writes down facts regarding Dr. Von Blonn's statements on Mrs. Greene's paralysis. He requests that medical examiners specifically check the condition of Mrs. Greene's leg muscles.",
+              "evidence_end_ms": 2922920,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2950000,
+              "text": "Vance answers the telephone call from the county clerk in Greenwich, Connecticut. He takes down information regarding Dr. Von Blonn's claimed activities.",
+              "evidence_end_ms": 2942940,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2980000,
+              "text": "A detective enters the room and hands Vance a document or newspaper, complaining about working on a Saturday. Vance reviews the item as he continues analyzing the case.",
+              "evidence_end_ms": 2972970,
+              "uncertainty": "None."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "a35d02836cf88f2ea7476b11bbf38b311a04ec69c9abed1aaf7a5ff839f65ae0",
+          "source_request_sha256": "e79e099fdb2d689745e3af6dda9271c975e2ecfb7b387149e73d1e6b0bc52237",
+          "reading": "A reported sighting and a physical condition are not yet the same kind of evidence. Vance asks for an examination and an alibi check rather than treating an account as settled fact."
+        },
+        {
+          "segment_id": "segment-06",
+          "start_ms": 3000000,
+          "input_end_ms": 3600000,
+          "available_after_ms": 3601000,
+          "summary": "In this segment of The Greene Murder Case (1929), the medical examiner confirms that Mrs. Greene's leg muscles were completely wasted away, rendering her physically incapable of walking or leaving her bed. Philo Vance recognizes that Ada's claim of seeing her mother walking near the library contradicts medical reality. Vance interviews family members and servants, learning that the Greene children were taught German and that the balcony window in Ada's room was found open after her shooting. Vance then confronts the cook, Mrs. Mannheim, revealing that Ada is her biological daughter whose father died in an institution for the criminally insane. After examining criminology texts and demonstrating a string-rigged secret panel firearm mechanism in Rex's room that fired upon opening, Vance clears Sibella and explicitly accuses Ada of orchestrating and executing the murders.",
+          "observations": [
+            {
+              "timestamp_ms": 3005000,
+              "text": "The medical examiner tells Vance and Markham that he will prepare a formal report regarding Mrs. Greene's leg muscles and her physical capacity. Vance acknowledges the examiner's statement.",
+              "evidence_end_ms": 3013010,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3025000,
+              "text": "The domestic worker recites passages from scripture regarding death and judgment. Sergeant Heath asks what she is doing, and she claims she is cleansing out corruption.",
+              "evidence_end_ms": 3033030,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3055000,
+              "text": "The medical examiner states that Mrs. Greene's leg muscles had been completely wasted away for years, making walking or standing impossible. Heath points out that Ada previously claimed to have seen her mother walking at the door.",
+              "evidence_end_ms": 3063060,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3085000,
+              "text": "Vance tells Markham and Heath that confirming Mrs. Greene could not walk puts him on the right track to solve the case. He leaves to put the remaining facts together.",
+              "evidence_end_ms": 3093090,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3115000,
+              "text": "Vance asks Ada to repeat her statement about seeing her mother walking in front of the library. Ada re-confirms her claim and notes the figure was wearing her mother's shawl.",
+              "evidence_end_ms": 3123120,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3145000,
+              "text": "When Vance asks who else wore her mother's shawl, Ada answers that Sibella wore it frequently. She then abruptly excuses herself from the table in distress.",
+              "evidence_end_ms": 3163160,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3185000,
+              "text": "Vance asks Mrs. Mannheim where she was living when her husband died. She answers that they were in Trenton, New Jersey.",
+              "evidence_end_ms": 3193190,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3215000,
+              "text": "Vance asks Sprooot if anyone in the Greene family speaks or reads German. Sprooot confirms that old Mr. Greene had all his children learn German during business trips to Germany.",
+              "evidence_end_ms": 3223220,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3245000,
+              "text": "Vance asks Sprooot if the window leading to the balcony steps was open when Ada was shot. Sprooot confirms that the window was open and that he closed it himself.",
+              "evidence_end_ms": 3263260,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3295000,
+              "text": "Vance instructs Heath to phone a specific address and request records on a name while covering all extensions to prevent eavesdropping.",
+              "evidence_end_ms": 3293290,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3365000,
+              "text": "Vance states that Mrs. Mannheim is Ada's birth mother and that Mr. Greene adopted Ada after her father went to a state hospital for the criminally insane. Mrs. Mannheim tearfully admits this and explains her promise to keep it secret.",
+              "evidence_end_ms": 3363360,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3455000,
+              "text": "Heath suggests the cook committed the crimes for money, but Vance presents books on criminal history and criminology. Vance explains that the murderer meticulously copied techniques from these specialized volumes.",
+              "evidence_end_ms": 3473470,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3515000,
+              "text": "In Rex's room, Vance opens a secret panel near the fireplace mantle to reveal a handgun attached to a string mechanism. He demonstrates how opening the door pulled the trigger to kill Rex automatically.",
+              "evidence_end_ms": 3533530,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3585000,
+              "text": "Heath speculates that Sibella was the killer, but Vance corrects him and explicitly accuses Ada. Vance explains that Ada used the German criminology books and lured Rex with a non-existent note to carry out the murder plot.",
+              "evidence_end_ms": 3593590,
+              "uncertainty": "None"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "574d86cde362193e306e81777a8de9fd19c930b07a5d25d87c4ac0c1e902c525",
+          "source_request_sha256": "d60486de9225cc2dd79da24217fdb17617fefb9d012d229d9bffd6750d1bdc34",
+          "reading": "The segment moves from testimony to tests and a mechanical demonstration. Distinguish what those tests rule out from the additional interpretation in the investigator's accusation."
+        },
+        {
+          "segment_id": "segment-07",
+          "start_ms": 3600000,
+          "input_end_ms": 4012175,
+          "available_after_ms": 4012175,
+          "summary": "Philo Vance explains the full reconstruction of the murders and Ada Greene's motives to Sergeant Heath. Upon realizing Ada and Sibella are together on the roof, Vance and Heath rush upstairs. On the snowy roof, Ada attempts to push Sibella over the edge into the icy river, but Vance rescues Sibella while Ada falls off the roof to her death. Indoors, Vance comforts Sibella, reveals he knows of her secret marriage to Dr. Von Blon, and answers Heath's final question about the gun's disappearance in the snow as the film concludes.",
+          "observations": [
+            {
+              "timestamp_ms": 3605000,
+              "text": "Philo Vance explains to Sergeant Heath that Ada's motives stemmed from jealousy of Sibella, resentment over her household status, a desire for freedom, and inherited criminal traits. He shows the crime literature she studied in the library.",
+              "evidence_end_ms": 3613610,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3625000,
+              "text": "Vance outlines how Ada took Chester's revolver and galoshes, sneaked around the house during the snowfall, shot Chester, and then shot herself in the back to create a false trail.",
+              "evidence_end_ms": 3633630,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3655000,
+              "text": "Vance explains that Ada rigged a weighted cord attached to the revolver through an open window, causing the gun to be pulled outside immediately after she shot herself.",
+              "evidence_end_ms": 3663660,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3695000,
+              "text": "Vance explains that Ada poisoned Mrs. Greene and herself to divert suspicion, using the dog's teeth on the bell cord to sound the alarm.",
+              "evidence_end_ms": 3693690,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3730000,
+              "text": "Heath mentions that Ada and Sibella are currently on the roof together, causing Vance to immediately react and call for urgency.",
+              "evidence_end_ms": 3733730,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3750000,
+              "text": "Heath finds the roof door locked, but Vance warns everyone to remain quiet and enter through a window to avoid alerting Ada.",
+              "evidence_end_ms": 3753750,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3785000,
+              "text": "Ada guides Sibella out onto the snow-covered roof under the pretense of showing her the view of the river and boats.",
+              "evidence_end_ms": 3783780,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3825000,
+              "text": "Ada suddenly grabs Sibella and tries to force her over the roof parapet into the icy water, prompting screaming and a desperate struggle.",
+              "evidence_end_ms": 3823820,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3865000,
+              "text": "Vance reaches the roof, pulls Sibella back to safety, and Ada slips from the snowy ledge, plummeting into the icy river below.",
+              "evidence_end_ms": 3863860,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3915000,
+              "text": "Officers hurry down to the ground level and riverbank following Ada's fall into the river.",
+              "evidence_end_ms": 3913910,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3930000,
+              "text": "Inside the study, Vance stands near a seated Sibella, who expresses her deep gratitude to him for saving her life.",
+              "evidence_end_ms": 3923920,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3950000,
+              "text": "Heath reports that Ada went straight through the ice with no chance of rescue. Vance informs Sibella that he verified her secret marriage to Dr. Von Blon in Greenwich and wishes her happiness.",
+              "evidence_end_ms": 3953950,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3980000,
+              "text": "As they walk out, Heath asks how the gun disappeared without open water, and Vance points out that snow served the purpose. Heath remarks that life is just a problem, and Vance agrees.",
+              "evidence_end_ms": 3983980,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 4004000,
+              "text": "The film concludes with the Paramount title card overlay reading 'A Paramount Picture / The End' as the musical score finishes.",
+              "evidence_end_ms": 4004000,
+              "uncertainty": "None"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "ecf98fab14a02087788c8bb5f8a3bf487e90469bc695dc5923b27ae24267e49c",
+          "source_request_sha256": "8fbe977a6963e1e960c057024c31668dd7aa12dbeac79a4f00038b214318ba7e",
+          "reading": "The explanation is now retrospective, while the rooftop action supplies a new visible event. The explanatory speech and the action should not be treated as interchangeable forms of proof."
+        }
+      ]
+    },
+    {
+      "work_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "runtime_ms": 4343392,
+      "asset_sha256": "2b2cf53350bf301975b3d24c1fc2a803182c7393d119ecf7b6a7493d66c4856f",
+      "source_sha256": "61389b4df6a1b2a19b59a1a85c736f43a4cea011d4e2c4b8bb69ed884a10dcbe",
+      "model_id": "gemini-3.6-flash",
+      "segment_interval_ms": 600000,
+      "segments": [
+        {
+          "segment_id": "segment-01",
+          "start_ms": 0,
+          "input_end_ms": 600000,
+          "available_after_ms": 601000,
+          "summary": "This segment opens with the film credits for 'The Thirteenth Chair'. Edward Wales secretly enters the dark room where Spencer Lee was murdered, attempting to bribe the servant Ram Das to leave him alone. After Ram Das alerts Commissioner Grimshaw, Wales speaks to Grimshaw over the telephone, claiming he knows the identity of the veiled woman who killed Lee but refusing to name her. Grimshaw discusses the case with Inspector Delzante before contacting Sir Roscoe Crosby. At the Crosby residence, family members discuss the murder and the mystery surrounding the veiled woman. Meanwhile, Richard Crosby persuades his mother's secretary, Nelly O'Neill, to accept his marriage proposal, and his family warmly welcomes her.",
+          "observations": [
+            {
+              "timestamp_ms": 0,
+              "text": "The film opens with the MGM lion trademark, title cards, and cast and crew credits accompanied by orchestral music.",
+              "evidence_end_ms": 0,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 110110,
+              "text": "Edward Wales enters a dark room near shuttered doors and inspects the room and floor with a flashlight.",
+              "evidence_end_ms": 120120,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 160160,
+              "text": "Wales offers money to servant Ram Das to leave him alone in the room for ten minutes, but Ram Das refuses due to police orders.",
+              "evidence_end_ms": 170170,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 190190,
+              "text": "Professor Feringeea peeks from behind a carved wooden screen while Wales attempts to bribe Ram Das.",
+              "evidence_end_ms": 190190,
+              "uncertainty": "Actor identity inferred from cast list"
+            },
+            {
+              "timestamp_ms": 220220,
+              "text": "Wales offers up to thirty rupees to Ram Das, who speaks in Hindi to another servant and insists on locking the doors until police arrive.",
+              "evidence_end_ms": 210210,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 260260,
+              "text": "Ram Das places a call to Commissioner Grimshaw to report Wales' unauthorized presence in Spencer Lee's room.",
+              "evidence_end_ms": 270270,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 280280,
+              "text": "Wales claims he can identify the woman who killed Spencer Lee but refuses to state her name on the phone, claiming she is prominent in official circles.",
+              "evidence_end_ms": 290290,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 320320,
+              "text": "Grimshaw tells Delzante that Wales claims a veiled woman committed the murder, while Delzante notes official records confirm Lee's last visitor was heavily veiled.",
+              "evidence_end_ms": 330330,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 360360,
+              "text": "Grimshaw recounts that Lee was found stabbed in the back and died in Wales' arms, noting that no fingerprints were found on the untouched tea cup.",
+              "evidence_end_ms": 370370,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 390390,
+              "text": "Grimshaw calls Sir Roscoe Crosby to inform him that Inspector Delzante has arrived in Calcutta, and Sir Roscoe offers the residency's full assistance.",
+              "evidence_end_ms": 390390,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 430430,
+              "text": "Sir Roscoe informs Lady Crosby and Helen of Delzante's arrival, prompting Lady Crosby to express apprehension about the identity of the veiled woman.",
+              "evidence_end_ms": 440440,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 470470,
+              "text": "Richard asks Nelly to marry him, but Nelly hesitates due to their social class difference and her position as his mother's secretary.",
+              "evidence_end_ms": 470470,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 510510,
+              "text": "Richard reassures Nelly that class differences do not matter to him and convinces her to bring the topic to his family immediately.",
+              "evidence_end_ms": 510510,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 540540,
+              "text": "Richard brings Nelly inside to meet his family, who react warmly and express complete approval of Richard's choice.",
+              "evidence_end_ms": 540540,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 570570,
+              "text": "Lady Crosby recounts her own background as a schoolteacher when marrying Richard's father, offering words of encouragement to Nelly.",
+              "evidence_end_ms": 580580,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 590590,
+              "text": "Professor Feringeea stands on the terrace holding an upright suspended length of rope.",
+              "evidence_end_ms": 590590,
+              "uncertainty": "None"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "ce6fd157a7002967153ee16b7c5160bdf2a8119187a07dcc7cbd003c3e845f8a",
+          "source_request_sha256": "8b0c209e4a4f279cd7f5fbf97fcc0dc4ba0dd9e81affd6bd86018730ef770f6b",
+          "reading": "A claim to know something creates pressure without disclosing the information itself. The private conversation at the house operates on a different footing from the telephone discussion of the case."
+        },
+        {
+          "segment_id": "segment-02",
+          "start_ms": 600000,
+          "input_end_ms": 1200000,
+          "available_after_ms": 1201000,
+          "summary": "In this segment, party guests observe a demonstration of Thug strangulation and discuss the murder of Spencer Lee. Edward Wales convinces Sir Roscoe Crosby to postpone announcing Richard Crosby's engagement to Helen O'Neill for twenty-four hours. Medium Madame Rosalie La Grange arrives, demonstrates her methods of trickery—including reading an unpaid bill left in a handbag and producing shoe-tapping spirit rappings—and promises to deliver an authentic, untricked séance for the group.",
+          "observations": [
+            {
+              "timestamp_ms": 610610,
+              "text": "A man wearing a turban demonstrates a strangulation technique using a cord around the neck of a man in a tuxedo. The victim playfully chokes while other guests react in amusement.",
+              "evidence_end_ms": 620620,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 650650,
+              "text": "The man in the turban claims that Thugs never spill blood, asserting that this proves they were not involved in Spencer Lee's murder. The other man asks whether Lee's published articles attacking the cult led to his death.",
+              "evidence_end_ms": 660660,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 700700,
+              "text": "Guests gather around drinks and propose holding a séance later that evening with a visiting fortune teller. They debate whether spiritualism and mediumship should be taken seriously.",
+              "evidence_end_ms": 700700,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 740740,
+              "text": "Howard suggests asking the spirit of Spencer Lee during the séance to name his murderer. Female guests protest that asking such a direct question would be sacrilegious.",
+              "evidence_end_ms": 740740,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 770770,
+              "text": "Richard Crosby demands an apology from Edward Wales regarding remarks about his fiancée. Wales asks Sir Roscoe Crosby to withhold announcing Richard's engagement to Miss O'Neill that evening.",
+              "evidence_end_ms": 780780,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 810810,
+              "text": "Helen O'Neill steps forward to defend her mother from any negative allegations. Wales clarifies that he does not know her mother and has never heard of her.",
+              "evidence_end_ms": 820820,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 850850,
+              "text": "Sir Roscoe Crosby agrees to delay announcing the engagement for twenty-four hours on Wales's recommendation. Sir Roscoe cautions that he expects a complete and satisfactory explanation the next day.",
+              "evidence_end_ms": 860860,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 890890,
+              "text": "Lady Crosby informs the room that the fortune teller Madame La Grange has arrived. Some guests mockingly anticipate poking fun at her during the session.",
+              "evidence_end_ms": 890890,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 930930,
+              "text": "Madame La Grange enters wearing dark clothing and a head wrap, greeting Lady Crosby and guests in an Irish accent. Edward Wales introduces her to the room.",
+              "evidence_end_ms": 940940,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 980980,
+              "text": "Madame La Grange reveals she read an unpaid bazaar bill found in a guest's handbag left in the hallway and matched the handbag fabric to the guest's dress. She openly admits to this trickery to prove how easily people are duped.",
+              "evidence_end_ms": 980980,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 1031030,
+              "text": "Madame La Grange produces loud knocking sounds by clicking her big toe against a wooden device inside her shoe. She demonstrates this trick to show how fake mediums fake spirit rappings.",
+              "evidence_end_ms": 1031030,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 1071070,
+              "text": "Madame La Grange promises that although her profession usually involves trickery, tonight she will perform an honest séance. Wales confirms no money will be exchanged for her services under these test conditions.",
+              "evidence_end_ms": 1071070,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 1111110,
+              "text": "Guests discuss previous experiences with table turning and spiritual manifestations. Wales reassures them about the conditions for tonight's séance.",
+              "evidence_end_ms": 1111110,
+              "uncertainty": null
+            },
+            {
+              "timestamp_ms": 1161160,
+              "text": "Madame La Grange asks the host to bring a small card table for the séance. Guests prepare to take their seats around the table.",
+              "evidence_end_ms": 1171170,
+              "uncertainty": null
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "a619354d63858b1a16bf5b3050057b76a225fd4015313e402a5212d4582ee227",
+          "source_request_sha256": "e6c17f3c964d981801237326fb77ec49def02f1959fc0656aebf2d23182f280e",
+          "reading": "The medium demonstrates how an apparently mysterious effect can be produced. Her demonstration establishes a method for that effect, not the truth or falsity of every subsequent claim."
+        },
+        {
+          "segment_id": "segment-03",
+          "start_ms": 1200000,
+          "input_end_ms": 1800000,
+          "available_after_ms": 1801000,
+          "summary": "Madame La Grange demonstrates trick spiritualist methods before offering to hold a seance. After a guest (Helen) begs her to stay, La Grange agrees under the condition that she be searched by the women present to prove she carries no hidden equipment. Meanwhile, Edward Wales reveals to Sir Rosco and the men that he intends to use the seance to contact the spirit of the murdered Spencer Lee and uncover his killer. In private, Madame La Grange reveals to Helen that she is Helen's mother, though she wishes to keep it secret from the high-society guests. After La Grange is searched and cleared, the room's doors are locked from the outside by a servant. The thirteen participants form a hand-holding circle, the lights are extinguished, and a sudden scream occurs in the dark when a guest feels a hand on her face, which La Grange then reveals was another trick demonstration.",
+          "observations": [
+            {
+              "timestamp_ms": 1215000,
+              "text": "Madame La Grange places her hands on a small folding table and tilts it to demonstrate trickery used by fraudulent mediums. The surrounding guests watch her physical demonstration with amusement and curiosity.",
+              "evidence_end_ms": 1221220,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1240000,
+              "text": "Madame La Grange sets the table down and acknowledges to the company that she cannot fool them with trickery. She offers to enter a trance state and contact her spirit control named Laughing Eyes.",
+              "evidence_end_ms": 1251250,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1275000,
+              "text": "Madame La Grange pauses dramatizing a trance and claims her spirit control has fled due to the presence of unbelievers in the room. She asserts that she might as well leave and attend to her business.",
+              "evidence_end_ms": 1281280,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1330000,
+              "text": "Helen approaches Madame La Grange and earnestly pleads with her to stay as a personal favor. Moved by Helen's request, Madame La Grange agrees to stay and proceed with the seance.",
+              "evidence_end_ms": 1331330,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1370000,
+              "text": "Edward Wales warns Madame La Grange that he will closely scrutinize her manifestations. He suggests locking all doors and windows to ensure no outside accomplice can assist her.",
+              "evidence_end_ms": 1361360,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1420000,
+              "text": "Madame La Grange consents to let the ladies search her clothes and body in a private room to prove she has no hidden devices. She makes lighthearted jokes about her plain underwear as the women escort her out.",
+              "evidence_end_ms": 1421420,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1460000,
+              "text": "While the women are searching the medium, Edward Wales reveals to Sir Rosco and the men that his true purpose is to find out who killed Spencer Lee. Sir Rosco and the other men discuss Spencer Lee's questionable character.",
+              "evidence_end_ms": 1471470,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1510000,
+              "text": "In a side room, the female guests check Madame La Grange's garments to ensure nothing is concealed. Helen assists her as the other women complete their search and prepare to head back.",
+              "evidence_end_ms": 1511510,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1560000,
+              "text": "When left alone together, Madame La Grange embraces Helen tearfully and addresses her as her daughter, expressing anxiety about embarrassing Helen in front of wealthy friends. Helen embraces her warmly and insists she feels no shame.",
+              "evidence_end_ms": 1571570,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1610000,
+              "text": "Edward Wales gives keys to the servant Chotti, instructing him to lock the room door from the hallway and remain standing guard outside until instructed otherwise.",
+              "evidence_end_ms": 1611610,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1660000,
+              "text": "The group places thirteen chairs in a circle and takes their seats for the seance. A guest remarks nervously on the number thirteen before Madame La Grange instructs everyone to join hands.",
+              "evidence_end_ms": 1661660,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1720000,
+              "text": "Madame La Grange advises the circle that she may groan or make noise while going into trance and asks everyone to maintain hand contact. Edward Wales tells Richard to turn off the lights when ordered.",
+              "evidence_end_ms": 1731730,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1770000,
+              "text": "The lights are switched off, leaving the room in darkness while participants hold hands. A female guest suddenly screams loudly that a hand touched her face.",
+              "evidence_end_ms": 1771770,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 1795000,
+              "text": "When the lights are restored, Madame La Grange calmly explains that she touched the woman's face herself to demonstrate how easily trickery occurs before having her hands bound. The startled guest expresses surprise at the illusion.",
+              "evidence_end_ms": 1791790,
+              "uncertainty": "none"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "0bcba91ce02433d4a491bf00a902e89310f426fbd34c6aff5e5b81f0d6b34572",
+          "source_request_sha256": "771260c9c022e0e4af4b50438d620b3b115fb00b8f324178dfc8c0f4d8dbcdb7",
+          "reading": "Searching, locking the doors, and joining hands are attempts to control the conditions of an observation. A private conversation is available to the viewer without necessarily being available to everyone in the circle."
+        },
+        {
+          "segment_id": "segment-04",
+          "start_ms": 1800000,
+          "input_end_ms": 2400000,
+          "available_after_ms": 2401000,
+          "summary": "Madame La Grange demonstrates to the guests how mediums untie themselves in the dark and insists on being tied to her chair with handkerchiefs before resuming the séance. When the lights are extinguished, she enters a trance and channels messages from a spirit named Spencer. As Edward Wales aggressively presses the spirit to reveal who murdered Spencer, a struggle occurs in the dark, and Wales is stabbed in the back. Inspector Delzante arrives at the locked-room crime scene, notes the missing murder weapon, and orders a complete reconstruction of the seating circle to investigate the murder.",
+          "observations": [
+            {
+              "timestamp_ms": 1805000,
+              "text": "Madame La Grange demonstrates to the seated guests how a medium can secretly free a hand during a séance held in the dark.",
+              "evidence_end_ms": 1811810,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1850000,
+              "text": "Sir Rosco collects handkerchiefs from the gentlemen present to bind Madame La Grange securely to her chair.",
+              "evidence_end_ms": 1851850,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1880000,
+              "text": "The gentlemen tie Madame La Grange's wrists and ankles with handkerchiefs and verify that the knots are firm.",
+              "evidence_end_ms": 1891890,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1925000,
+              "text": "The guests join hands in a circle around the bound medium, and the room lights are turned off.",
+              "evidence_end_ms": 1921920,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 1960000,
+              "text": "In total darkness, Madame La Grange hums and moans as she slips into a trance.",
+              "evidence_end_ms": 1951950,
+              "uncertainty": "Visuals are pitch black during the blackout."
+            },
+            {
+              "timestamp_ms": 1990000,
+              "text": "Madame La Grange speaks in a altered spirit voice regarding Spencer, letters, and a pool, while Edward Wales asks the spirit questions.",
+              "evidence_end_ms": 1981980,
+              "uncertainty": "Visuals remain pitch black during the blackout."
+            },
+            {
+              "timestamp_ms": 2035000,
+              "text": "Wales repeatedly demands to know who killed Spencer, which is immediately followed by sounds of a struggle, gasps, and screams in the dark.",
+              "evidence_end_ms": 2032030,
+              "uncertainty": "The attack occurs in complete darkness; exact physical movements cannot be seen."
+            },
+            {
+              "timestamp_ms": 2155000,
+              "text": "Inspector Delzante questions Sir Rosco about the locked doors, key custody, and moving the victim's body.",
+              "evidence_end_ms": 2162160,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2185000,
+              "text": "Inspector Delzante notes that the knife has not been located and declares every person in the room a suspect.",
+              "evidence_end_ms": 2182180,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2220000,
+              "text": "Delzante stops the men from carrying Wales out, pointing out that four gentlemen hesitated when asked to lift the body.",
+              "evidence_end_ms": 2232230,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2255000,
+              "text": "Inspector Delzante commands all participants to sit back down in the circle in their original séance seating positions.",
+              "evidence_end_ms": 2272270,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2315000,
+              "text": "Madame La Grange assists Inspector Delzante by specifying where individual guests were seated prior to the blackout.",
+              "evidence_end_ms": 2322320,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 2375000,
+              "text": "The guests swap chairs and adjust positions to ensure the reconstructed circle matches the original séance arrangement.",
+              "evidence_end_ms": 2382380,
+              "uncertainty": "None."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "b9c20dd7844f5cd06410c0afffc435a0ce53ac6dbc29d56f41ddbaf9a0487b14",
+          "source_request_sha256": "53d2d577e2b2f91f984516b7d43336459d968c13e58f8a8c9bf04ff9f1ac9943",
+          "reading": "Darkness makes the sequence difficult to observe directly. Reconstructing the seating arrangement is an attempt to recover a spatial account, not an identification by itself."
+        },
+        {
+          "segment_id": "segment-05",
+          "start_ms": 2400000,
+          "input_end_ms": 3000000,
+          "available_after_ms": 3001000,
+          "summary": "Inspector Delzante interrogates the guests and medium Madame La Grange regarding the murder of Edward Wales during the seance. He reveals that the seance was a staged setup planned between Wales and Madame La Grange to force a female murder suspect to confess to killing Spencer Lee. By collecting the first names of all female guests present, Delzante discovers two women named Helen, leading him to realize that Madame La Grange altered her seance plan to protect Helen O'Neill. When Delzante formally accuses Helen O'Neill and orders her searched for the murder knife, Madame La Grange breaks down and confesses that Helen is her secret daughter, fiercely proclaiming her daughter's innocence and promising to prove it.",
+          "observations": [
+            {
+              "timestamp_ms": 2405000,
+              "text": "Inspector Delzante questions Sir Roscoe about whether the seance messages were intended solely for Wales. Sir Roscoe confirms Wales repeatedly asked the spirit who killed him before screaming and being killed in the dark.",
+              "evidence_end_ms": 2422420,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2430000,
+              "text": "Delzante receives word that the police matron has arrived and deduces that Wales was killed specifically to prevent the spirit's answer from identifying Spencer Lee's murderer.",
+              "evidence_end_ms": 2442440,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2465000,
+              "text": "Delzante announces that a police matron will search the women while officer Grimshaw searches the men. He asks Madame La Grange to stay behind for further questioning before being searched.",
+              "evidence_end_ms": 2472470,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2500000,
+              "text": "Delzante asks Madame La Grange why she failed to deliver the pre-agreed answer when Wales asked for the killer's name. She claims she was in a trance and heard nothing.",
+              "evidence_end_ms": 2512510,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2535000,
+              "text": "Delzante produces written notes showing that Wales and Madame La Grange had rehearsed the seance script in advance. He explains Wales believed a woman killed Spencer Lee and wanted to trick her into confessing.",
+              "evidence_end_ms": 2542540,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2575000,
+              "text": "Delzante reads aloud the script transcript up to where Madame La Grange was supposed to speak a woman's first name. He demands to know why she refused to utter the name, while she claims Wales never gave her a name.",
+              "evidence_end_ms": 2582580,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2610000,
+              "text": "Delzante asserts that something unexpected happened upon Madame La Grange's arrival that forced her to abandon the pre-arranged plan to name the female suspect.",
+              "evidence_end_ms": 2612610,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2645000,
+              "text": "Delzante systematically asks each woman in the room for her first name, taking note of Mary, Grace, Alice, and Helen.",
+              "evidence_end_ms": 2652650,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2670000,
+              "text": "Miss O'Neill reveals her name is Helen, prompting Delzante to realize there are two women named Helen present in the room.",
+              "evidence_end_ms": 2672670,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2700000,
+              "text": "Delzante points out that Miss O'Neill was not present when La Grange arrived, making her an extra Helen. He accuses La Grange of altering seating arrangements and lying to protect Miss O'Neill.",
+              "evidence_end_ms": 2702700,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2740000,
+              "text": "As Delzante continues pressing the accusation, Dick Crosby attempts to intervene to defend Helen O'Neill. Madame La Grange reacts emotionally, screaming at Delzante to leave the girl alone.",
+              "evidence_end_ms": 2742740,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2780000,
+              "text": "Delzante explains that Helen sat next to Wales and could easily have freed one hand to stab him. Ignoring La Grange's frantic pleas, he orders the matron to search Helen for the murder weapon.",
+              "evidence_end_ms": 2782780,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2840000,
+              "text": "To prevent the search, Madame La Grange admits that Helen O'Neill is her biological child and that seeing her unexpectedly made her panic and attempt to protect her.",
+              "evidence_end_ms": 2842840,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2880000,
+              "text": "Helen embraces Madame La Grange while La Grange vehemently insists to Inspector Delzante that her daughter is innocent and that she will prove it.",
+              "evidence_end_ms": 2882880,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2940000,
+              "text": "Madame La Grange desperately begs Inspector Delzante to believe that Helen lacks a murderer's heart and vows to prove who the real killer is.",
+              "evidence_end_ms": 2942940,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 2985000,
+              "text": "As women are escorted to be searched, Sir Roscoe and other male guests vocally object to being detained and treated like common criminals.",
+              "evidence_end_ms": 2992990,
+              "uncertainty": "None"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "f3fefbb9f1048b0c7033789b6eae52a38eddb26e46d23f4518c4dc67732cce34",
+          "source_request_sha256": "0586bd9a07543527db1f63aaccf672b7e547c751e76d70905fbf6261304e1152",
+          "reading": "The questioning exposes differences between a planned performance, the names participants supply, and personal relationships. An accusation remains an accusation until it is supported independently."
+        },
+        {
+          "segment_id": "segment-06",
+          "start_ms": 3000000,
+          "input_end_ms": 3600000,
+          "available_after_ms": 3601000,
+          "summary": "This segment of The Thirteenth Chair (1929) covers the tense investigation following the murder. Madame Rosalie La Grange prays alone in a dim room for spiritual guidance to save her daughter Nellie. Inspector Delzante interrogates Rosalie and then turns his focus to Nellie, using a fingerprint bluff to force her to admit she visited Spencer Lee's rooms. Nellie claims she went on behalf of Helen to retrieve blackmail letters, but Helen denies ever writing to Lee or asking Nellie to go. Delzante accuses Nellie of killing Lee to cover up her own compromising letters and orders her arrest, but Rosalie intervenes, claiming she knows who the real killer is and securing ten minutes from the Inspector to prove it.",
+          "observations": [
+            {
+              "timestamp_ms": 3003000,
+              "text": "Richard explains to Lady Crosby that he does not know where Madame Rosalie La Grange has gone, noting that they were instructed to wait in the hall.",
+              "evidence_end_ms": 3003000,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3033000,
+              "text": "Left alone in the darkened room, Rosalie clasps her hands and prays aloud, admitting her past history as a fake medium while pleading for power to save her daughter.",
+              "evidence_end_ms": 3033030,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3093000,
+              "text": "A police officer peers through the window blinds as Rosalie concludes her prayer. Inspector Delzante enters the room shortly after and questions why the lights were turned off.",
+              "evidence_end_ms": 3093090,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3123000,
+              "text": "Delzante asks Rosalie why she turned off the lights and searched the room. She explains she was praying for guidance and seeking comfort regarding her daughter's innocence before Delzante orders her searched again.",
+              "evidence_end_ms": 3123120,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3173000,
+              "text": "Inspector Delzante asks officer Ellis if anything was thrown out the window. Ellis confirms a woman lowered the blinds but threw nothing out, prompting Delzante to focus on Nellie.",
+              "evidence_end_ms": 3173170,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3223000,
+              "text": "Delzante lies that fingerprints on a cup match Nellie's, and when Nellie instinctively denies touching the cup, Delzante reveals there were no fingerprints and treats her denial as an admission of being present.",
+              "evidence_end_ms": 3223220,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3283000,
+              "text": "Rosalie and Richard plead with Nellie to explain her presence in Lee's room. Rosalie senses Nellie is lying to shield someone and demands to know who committed the crime.",
+              "evidence_end_ms": 3283280,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3333000,
+              "text": "Rosalie tells Delzante that there were two Helens and urges him to question the other Helen. Delzante then directly questions Helen about her relationship with Spencer Lee.",
+              "evidence_end_ms": 3333330,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3373000,
+              "text": "Nellie states that Helen sent her to retrieve letters written to Spencer Lee before Helen's marriage to avoid blackmail. Delzante asks if tea was served before or after the letters were handed over.",
+              "evidence_end_ms": 3373370,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3423000,
+              "text": "Delzante refuses to believe Nellie's story, asserting that she went for her own compromising letters and killed Spencer Lee when he refused to return them. Richard vigorously disputes Delzante's conclusion.",
+              "evidence_end_ms": 3433430,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3493000,
+              "text": "Delzante asks Helen if she wrote letters to Lee or sent Nellie to retrieve them. Helen denies ever writing letters to Lee or requesting Nellie to visit his apartment.",
+              "evidence_end_ms": 3493490,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3543000,
+              "text": "Richard accuses Helen of lying to save herself from suspicion, but Helen reiterates her statement. Delzante orders Officer Grimshaw to take Nellie into custody for police headquarters.",
+              "evidence_end_ms": 3543540,
+              "uncertainty": "None"
+            },
+            {
+              "timestamp_ms": 3583000,
+              "text": "Rosalie begs Delzante not to arrest Nellie, claiming she knows who killed Spencer Lee. Delzante grants Rosalie ten minutes to reveal the killer and agrees to remove everyone else from the room.",
+              "evidence_end_ms": 3593590,
+              "uncertainty": "None"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "20d5bc608636b0571a51846a605e9ae4548e86b2fcc9443667f3a058c67949db",
+          "source_request_sha256": "5b8490b524470b2ee0869dcdd0c654cea8351dfdd026181f6c66346d5cccba02",
+          "reading": "A bluff can change what someone is willing to say without making the alleged evidence real. The competing accounts in the interrogation still need to be distinguished from the inspector's conclusion."
+        },
+        {
+          "segment_id": "segment-07",
+          "start_ms": 3600000,
+          "input_end_ms": 4200000,
+          "available_after_ms": 4201000,
+          "summary": "Madame Rosalie La Grange desperately prays for a genuine spiritual sign to catch the true murderer and clear her daughter. She convinces Inspector Delzante to allow one final seance under strict conditions. Delzante brings the reluctant guests back into the room, where everyone holds hands in total darkness. During the dark seance, a voice claiming to be Edward Wales speaks, causing Miss Eastwood to panic and confess to stabbing both Wales and Spencer Lee.",
+          "observations": [
+            {
+              "timestamp_ms": 3605000,
+              "text": "Madame La Grange stands alone in the room, lamenting that all her life she relied on fake spiritualist tricks. She worries that she does not truly know who committed the crime to save her daughter.",
+              "evidence_end_ms": 3613610,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 3645000,
+              "text": "Madame La Grange addresses her spirit guide, begging for a real message so she will not be defeated by a ruthless killer. She wrings her hands in distress as she prays.",
+              "evidence_end_ms": 3663660,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 3705000,
+              "text": "Inspector Delzante opens the door and walks into the room. Madame La Grange immediately asks to speak with him alone.",
+              "evidence_end_ms": 3713710,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 3735000,
+              "text": "Madame La Grange begs Inspector Delzante to give her one more chance to stage a seance and trap the real murderer. She says she is drowning and snatching at a last straw.",
+              "evidence_end_ms": 3733730,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 3780000,
+              "text": "Inspector Delzante agrees to her request despite calling it unheard of insanity. He orders Officer Grimshaw to follow Madame La Grange's instructions.",
+              "evidence_end_ms": 3773770,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 3840000,
+              "text": "Inspector Delzante informs the assembled guests in the hallway that they must return to the room. The guests express annoyance at the ongoing investigation.",
+              "evidence_end_ms": 3843840,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 3880000,
+              "text": "The guests slowly walk back into the seance room and prepare to sit down as instructed. Madame La Grange tells them to take their exact former positions.",
+              "evidence_end_ms": 3883880,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 3940000,
+              "text": "Several guests shout in objection about sitting in the dark near the dead body. Madame La Grange counters that the innocent have no reason to fear the dead.",
+              "evidence_end_ms": 3943940,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 4010000,
+              "text": "Everyone sits in a circle and joins hands. Madame La Grange requests that the lights be extinguished to begin the spirit circle.",
+              "evidence_end_ms": 4014010,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 4050000,
+              "text": "In pitch darkness, Madame La Grange chants repeatedly, calling upon the spirit of Edward Wales to reveal who killed him.",
+              "evidence_end_ms": 4054050,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 4090000,
+              "text": "A deep voice echoes in the room, claiming to come from far away. The participants react with fear in the dark.",
+              "evidence_end_ms": 4094090,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 4130000,
+              "text": "Miss Eastwood screams in terror that someone next to her is moving and pulling their hand free in the dark circle.",
+              "evidence_end_ms": 4134130,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 4155000,
+              "text": "Miss Eastwood screams in terror that someone is touching her hair and striking her, hysterically yelling out that she did it.",
+              "evidence_end_ms": 4154150,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 4175000,
+              "text": "When the lights turn back on, Miss Eastwood is seen sobbing uncontrollably on her chair. Inspector Delzante commands Grimshaw to record her full confession.",
+              "evidence_end_ms": 4174170,
+              "uncertainty": "none"
+            },
+            {
+              "timestamp_ms": 4190000,
+              "text": "Inspector Delzante states that Miss Eastwood killed Wales to prevent him from receiving Lee's message, and killed Spencer Lee earlier. Miss Eastwood sobbing admits that she had to do it.",
+              "evidence_end_ms": 4194190,
+              "uncertainty": "none"
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "3c32f4e7c25d0757ce17bc0f8dd6bae9f998db78e90a1fef3bbfb523ea89a7b9",
+          "source_request_sha256": "b4a40214588c528c0bf93d2cbcd88654affca75d8d8e734c3f16eca724e197b4",
+          "reading": "The repeated setup creates a controlled opportunity for speech under pressure. The reaction and confession occur in this segment; they should not be read backward into the earlier setup as if the viewer already knew them."
+        },
+        {
+          "segment_id": "segment-08",
+          "start_ms": 4200000,
+          "input_end_ms": 4343392,
+          "available_after_ms": 4343392,
+          "summary": "In this concluding segment of The Thirteenth Chair (1929), the true killer breaks down and confesses to stabbing Spencer after discovering his betrayal while hidden in his room. the inspector questions how the dead man's arm was propped up, and Madame Rosalie La Grange reveals that Richard inserted a cane into the sleeve. After Nelly admits to lying about the letters, Madame Rosalie steps onto the porch and asks the spirits if the lovers will live happily ever after before the film concludes.",
+          "observations": [
+            {
+              "timestamp_ms": 4204200,
+              "text": "The woman in the black evening gown exclaims with emotional distress that the victim deserved what happened to him.",
+              "evidence_end_ms": 4214210,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4214210,
+              "text": "She states that everyone thinks her husband went to London on business, but reveals he actually discovered her affair with Spencer and abandoned her.",
+              "evidence_end_ms": 4214210,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4224220,
+              "text": "the inspector stands beside Madame Rosalie La Grange, listening closely as the confession unfolds across the room.",
+              "evidence_end_ms": 4224220,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4234230,
+              "text": "She explains that she was hiding in Spencer's room on the day of the incident when another woman arrived.",
+              "evidence_end_ms": 4244240,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4244240,
+              "text": "She tearfully accuses Spencer of being a beast for attempting to make love to the visitor while knowing she was hidden in the room.",
+              "evidence_end_ms": 4254250,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4254250,
+              "text": "She confesses that after the other woman left, she lost control, grabbed a knife from his desk, and stabbed Spencer to death.",
+              "evidence_end_ms": 4264260,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4264260,
+              "text": "Overwhelmed by distress, she sinks down while pleading frantically that enough has been revealed and begs to be spared further interrogation.",
+              "evidence_end_ms": 4264260,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4274270,
+              "text": "the inspector asks about Richard's location and notes that the chair was vacant when the lights were restored.",
+              "evidence_end_ms": 4274270,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4284280,
+              "text": "Madame Rosalie La Grange explains to the inspector that Mr. Richard placed a cane inside Mr. Wales's sleeve to prop his arm up in the air.",
+              "evidence_end_ms": 4284280,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4294290,
+              "text": "Madame Rosalie La Grange steps aside politely as the inspector turns his attention toward comforting Nelly.",
+              "evidence_end_ms": 4294290,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4304300,
+              "text": "Madame Rosalie exits the main room through the doors, stepping onto the outdoor porch.",
+              "evidence_end_ms": 4304300,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4314310,
+              "text": "Nelly confesses off-screen to her father that she previously lied about Helen and the letters, and the inspector reassures her that he already knew.",
+              "evidence_end_ms": 4314310,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4324320,
+              "text": "Standing alone outside on the porch, Madame Rosalie asks the unseen spirits whether the couple will live happily ever after, reminding them to rap once for yes and twice for no.",
+              "evidence_end_ms": 4324320,
+              "uncertainty": "None."
+            },
+            {
+              "timestamp_ms": 4334330,
+              "text": "Madame Rosalie waits on the porch in the moonlight as dramatic orchestral music swells, bringing the story to a close.",
+              "evidence_end_ms": 4334330,
+              "uncertainty": "None."
+            }
+          ],
+          "source_scope": "INDEPENDENT_SEGMENT_ONLY",
+          "source_method": "AUDIO_AND_SAMPLED_STILLS",
+          "source_response_sha256": "aa7f4c31aa9155b859439060cbb71f7bab1a6e360943e5d93f63a07ef8fed747",
+          "source_request_sha256": "03de7901249b09768237db000a8af1c2996106b915139a87c339e936012c1739",
+          "reading": "The closing exchange distinguishes a physical staging method from the explanations offered for the experience. That distinction is now discussable because this segment has been completed."
+        }
+      ]
+    }
+  ]
+}

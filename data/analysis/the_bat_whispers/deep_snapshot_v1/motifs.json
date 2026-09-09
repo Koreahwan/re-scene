@@ -1,0 +1,48 @@
+[
+  {
+    "motif_id": "motif-bat-shadow",
+    "name": "Bat Shadow Projection",
+    "description": "Projection of giant bat shadows on walls and window panes signifying the omnipresent surveillance of The Bat.",
+    "occurrences": [
+      {
+        "scene_id": "scene-tbw-c003",
+        "timestamp_ms": 255000,
+        "event_ref": "ev-c003-01"
+      },
+      {
+        "scene_id": "scene-tbw-c030",
+        "timestamp_ms": 351000,
+        "event_ref": "ev-c030-03"
+      },
+      {
+        "scene_id": "scene-tbw-c032",
+        "timestamp_ms": 375000,
+        "event_ref": "ev-c032-03"
+      }
+    ],
+    "classification": "OBSERVED_EVIDENCE"
+  },
+  {
+    "motif_id": "motif-architectural-fixtures",
+    "name": "Architectural Fixture Manipulation",
+    "description": "Repeated physical probing of paintings, wall panels, and mantels reflecting the spatial search for the secret room.",
+    "occurrences": [
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000,
+        "event_ref": "ev-c023-05"
+      },
+      {
+        "scene_id": "scene-tbw-c028",
+        "timestamp_ms": 3270000,
+        "event_ref": "ev-c028-03"
+      },
+      {
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3645000,
+        "event_ref": "ev-c031-02"
+      }
+    ],
+    "classification": "OBSERVED_EVIDENCE"
+  }
+]

@@ -1,0 +1,4358 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Reframe V7 API",
+    "description": "Dual-Run Retrospective Deep Narrative Forensics API with ClickHouse & Google ADK",
+    "version": "7.0.0"
+  },
+  "paths": {
+    "/media/{filename}": {
+      "get": {
+        "summary": "Serve Media",
+        "operationId": "serve_media_media__filename__get",
+        "parameters": [
+          {
+            "name": "filename",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Filename"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/films/{movie_id}": {
+      "get": {
+        "summary": "Get Film",
+        "operationId": "get_film_films__movie_id__get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/films/{movie_id}/reveals": {
+      "get": {
+        "summary": "Get Film Reveals",
+        "operationId": "get_film_reveals_films__movie_id__reveals_get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/films/{movie_id}/insights": {
+      "get": {
+        "summary": "Get Film Insights",
+        "operationId": "get_film_insights_films__movie_id__insights_get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scenes/{scene_id}": {
+      "get": {
+        "summary": "Get Scene",
+        "operationId": "get_scene_scenes__scene_id__get",
+        "parameters": [
+          {
+            "name": "scene_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Scene Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/reframe": {
+      "post": {
+        "summary": "Reframe Endpoint",
+        "operationId": "reframe_endpoint_reframe_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/traces/{run_id}": {
+      "get": {
+        "summary": "Get Trace",
+        "operationId": "get_trace_traces__run_id__get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/eval/summary": {
+      "get": {
+        "summary": "Get Evaluation Summary",
+        "description": "Evaluation summary without canned 1.0 metrics (R4-21).",
+        "operationId": "get_evaluation_summary_eval_summary_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get Evaluation Summary Eval Summary Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/live": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Live Probe",
+        "description": "Fast process liveness check; makes zero external calls.",
+        "operationId": "live_probe_live_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object",
+                  "title": "Response Live Probe Live Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ready": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Ready Probe",
+        "description": "Readiness probe checking datastores and dependencies without triggering paid AI calls.",
+        "operationId": "ready_probe_ready_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Ready Probe Ready Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Health Probe",
+        "description": "Standard /health endpoint delegating directly to /ready.",
+        "operationId": "health_probe_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Health Probe Health Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/admin/health": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Admin Health",
+        "description": "Admin-only detailed diagnostics without exposing raw credentials or secrets.",
+        "operationId": "admin_health_admin_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Admin Health Admin Health Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/live": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Live Probe",
+        "description": "Fast process liveness check; makes zero external calls.",
+        "operationId": "live_probe_api_v1_live_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object",
+                  "title": "Response Live Probe Api V1 Live Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/ready": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Ready Probe",
+        "description": "Readiness probe checking datastores and dependencies without triggering paid AI calls.",
+        "operationId": "ready_probe_api_v1_ready_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Ready Probe Api V1 Ready Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/health": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Health Probe",
+        "description": "Standard /health endpoint delegating directly to /ready.",
+        "operationId": "health_probe_api_v1_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Health Probe Api V1 Health Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/health": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Admin Health",
+        "description": "Admin-only detailed diagnostics without exposing raw credentials or secrets.",
+        "operationId": "admin_health_api_v1_admin_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Admin Health Api V1 Admin Health Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/csrf": {
+      "get": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Get Csrf Token",
+        "description": "Returns a fresh CSRF token for the current session or a secure guest session.",
+        "operationId": "get_csrf_token_api_v1_auth_csrf_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get Csrf Token Api V1 Auth Csrf Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/handles/availability": {
+      "get": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Check Handle Availability",
+        "description": "Checks if a user handle is available for registration using SSOT handle validator.",
+        "operationId": "check_handle_availability_api_v1_auth_handles_availability_get",
+        "parameters": [
+          {
+            "name": "handle",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Handle"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Check Handle Availability Api V1 Auth Handles Availability Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/signup": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Signup",
+        "description": "Production user registration endpoint:\n- Pre-validates syntax (email, password, handle) via SSOT validators\n- Idempotency-Key handling via PostgreSQL AuthOperation table\n- Pre-checks duplicate email and handle\n- Atomically reserves verification ticket (AVAILABLE -> RESERVED with operation_id)\n- Persists User, Profile, SpoilerPreferences, and UserCredential in DB transaction\n- Handles uniqueness race conflicts safely and releases reservation on error\n- Atomically burns ticket on commit (RESERVED -> CONSUMED)",
+        "operationId": "signup_api_v1_auth_signup_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignupRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Signup Api V1 Auth Signup Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/login": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Login",
+        "description": "Production user login endpoint:\n- Verifies password using Argon2id against UserCredential\n- Checks user status == ACTIVE\n- Issues fresh HttpOnly session cookie\n- Returns safe user data + CSRF token (no raw passwords or session tokens in JSON)",
+        "operationId": "login_api_v1_auth_login_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/logout": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Logout",
+        "description": "State-changing logout requiring valid CSRF token.\nClears session cookie.",
+        "operationId": "logout_api_v1_auth_logout_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/me": {
+      "get": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Get My Profile",
+        "description": "Returns profile and spoiler preferences for current viewer context.",
+        "operationId": "get_my_profile_api_v1_me_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get My Profile Api V1 Me Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/me": {
+      "get": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Get My Profile",
+        "description": "Returns profile and spoiler preferences for current viewer context.",
+        "operationId": "get_my_profile_api_v1_auth_me_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get My Profile Api V1 Auth Me Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/dev-login": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Dev Login",
+        "description": "Local development login provider. Strictly disabled in production (requires AUTH_DEV_MODE=true).\nAlways assigns USER role; never allows privilege escalation to ADMIN / MODERATOR.",
+        "operationId": "dev_login_api_v1_auth_dev_login_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DevLoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/google/callback": {
+      "get": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Google Oidc Callback",
+        "description": "Production Google OIDC Authentication Callback.\nMarked EXTERNAL_PENDING when live Google credentials are not configured in environment.",
+        "operationId": "google_oidc_callback_api_v1_auth_google_callback_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/me/watch-progress": {
+      "get": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Get My Watch Progress",
+        "operationId": "get_my_watch_progress_api_v1_me_watch_progress_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get My Watch Progress Api V1 Me Watch Progress Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/me/watch-progress/{work_id}": {
+      "put": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Update Watch Progress",
+        "operationId": "update_watch_progress_api_v1_me_watch_progress__work_id__put",
+        "parameters": [
+          {
+            "name": "work_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Work Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateWatchProgressRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Update Watch Progress Api V1 Me Watch Progress  Work Id  Put"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/me/spoiler-preferences": {
+      "get": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Get Spoiler Preferences",
+        "operationId": "get_spoiler_preferences_api_v1_me_spoiler_preferences_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get Spoiler Preferences Api V1 Me Spoiler Preferences Get"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Update Spoiler Preferences",
+        "operationId": "update_spoiler_preferences_api_v1_me_spoiler_preferences_put",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateSpoilerPreferencesRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Update Spoiler Preferences Api V1 Me Spoiler Preferences Put"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/email-verification/request": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Request Email Verification",
+        "description": "Dispatches a 6-digit verification code to the requested email address.\nEnforces resend cooldown and rate limits.",
+        "operationId": "request_email_verification_api_v1_auth_email_verification_request_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmailVerificationRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/email-verification/confirm": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Confirm Email Verification",
+        "description": "Validates and consumes a verification code, issuing a short-lived one-time ticket for signup.",
+        "operationId": "confirm_email_verification_api_v1_auth_email_verification_confirm_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmailVerificationConfirmRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/password-reset/request": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Request Password Reset",
+        "description": "Initiates password recovery. Returns generic response to prevent account enumeration.",
+        "operationId": "request_password_reset_api_v1_auth_password_reset_request_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PasswordResetRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/password-reset/verify": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Verify Password Reset Code",
+        "description": "Verifies and consumes the 6-digit recovery code, issuing an opaque password_reset_ticket.",
+        "operationId": "verify_password_reset_code_api_v1_auth_password_reset_verify_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PasswordResetVerifyRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/password-reset/complete": {
+      "post": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Complete Password Reset",
+        "description": "Idempotent Password Reset Saga:\n- Validates new password complexity via SSOT\n- Checks Idempotency-Key via AuthOperation\n- Atomically reserves password reset ticket (AVAILABLE -> RESERVED with operation_id)\n- Row-locks User and UserCredential with with_for_update()\n- Updates Argon2id password hash and increments user.auth_version\n- Commits DB transaction (DB_COMMITTED)\n- Burns reset ticket in Redis (TICKET_CONSUMED -> COMPLETED)\n- Releases reservation on DB error",
+        "operationId": "complete_password_reset_api_v1_auth_password_reset_complete_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PasswordResetCompleteRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/dev/auth/outbox": {
+      "get": {
+        "tags": [
+          "Auth & Identity"
+        ],
+        "summary": "Get Dev Outbox",
+        "description": "Returns active dev outbox messages for browser testing and local development.\nStrictly blocked in production (returns 404).\nIn non-production, requires loopback or local-dev token.",
+        "operationId": "get_dev_outbox_api_v1_dev_auth_outbox_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get Dev Outbox Api V1 Dev Auth Outbox Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/films": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "List Films",
+        "operationId": "list_films_api_v1_films_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response List Films Api V1 Films Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/catalog/films/{movie_id}": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Film Detail",
+        "operationId": "get_film_detail_api_v1_catalog_films__movie_id__get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Film Detail Api V1 Catalog Films  Movie Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/catalog/works/{movie_id}": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Film Detail",
+        "operationId": "get_film_detail_api_v1_catalog_works__movie_id__get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Film Detail Api V1 Catalog Works  Movie Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/films/{movie_id}": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Film Detail",
+        "operationId": "get_film_detail_api_v1_films__movie_id__get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Film Detail Api V1 Films  Movie Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/catalog/films/{movie_id}/reveals": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "List Film Reveals",
+        "operationId": "list_film_reveals_api_v1_catalog_films__movie_id__reveals_get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response List Film Reveals Api V1 Catalog Films  Movie Id  Reveals Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/catalog/works/{movie_id}/reveals": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "List Film Reveals",
+        "operationId": "list_film_reveals_api_v1_catalog_works__movie_id__reveals_get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response List Film Reveals Api V1 Catalog Works  Movie Id  Reveals Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/films/{movie_id}/reveals": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "List Film Reveals",
+        "operationId": "list_film_reveals_api_v1_films__movie_id__reveals_get",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Movie Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response List Film Reveals Api V1 Films  Movie Id  Reveals Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/fan/scenes/{scene_id}": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Scene Detail",
+        "operationId": "get_scene_detail_api_v1_fan_scenes__scene_id__get",
+        "parameters": [
+          {
+            "name": "scene_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Scene Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Scene Detail Api V1 Fan Scenes  Scene Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/scenes/{scene_id}": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Scene Detail",
+        "operationId": "get_scene_detail_api_v1_scenes__scene_id__get",
+        "parameters": [
+          {
+            "name": "scene_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Scene Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Scene Detail Api V1 Scenes  Scene Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/reveals/{reveal_id}": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Reveal Detail",
+        "operationId": "get_reveal_detail_api_v1_reveals__reveal_id__get",
+        "parameters": [
+          {
+            "name": "reveal_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Reveal Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Reveal Detail Api V1 Reveals  Reveal Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/reveals/{reveal_id}/proofs": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Reveal Proofs",
+        "description": "Returns precomputed canonical proofs for the reveal.\nGuarantees exactly 0 paid Gemini model calls for normal public users.",
+        "operationId": "get_reveal_proofs_api_v1_reveals__reveal_id__proofs_get",
+        "parameters": [
+          {
+            "name": "reveal_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Reveal Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Reveal Proofs Api V1 Reveals  Reveal Id  Proofs Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/proofs/{proof_id}": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Proof Detail",
+        "description": "Returns verified proof details with server-side spoiler protection.\n0 paid model calls.",
+        "operationId": "get_proof_detail_api_v1_proofs__proof_id__get",
+        "parameters": [
+          {
+            "name": "proof_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Proof Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Proof Detail Api V1 Proofs  Proof Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/proofs/{proof_id}/evidence": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Proof Evidence",
+        "description": "Returns verified forensic evidence premises, canonical hashes, and frame IDs for a proof.",
+        "operationId": "get_proof_evidence_api_v1_proofs__proof_id__evidence_get",
+        "parameters": [
+          {
+            "name": "proof_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Proof Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Proof Evidence Api V1 Proofs  Proof Id  Evidence Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/proofs/{proof_id}/rewatch": {
+      "get": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Get Proof Rewatch Journey",
+        "description": "Returns the chronological rewatch journey sequence for a verified proof.",
+        "operationId": "get_proof_rewatch_journey_api_v1_proofs__proof_id__rewatch_get",
+        "parameters": [
+          {
+            "name": "proof_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Proof Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Proof Rewatch Journey Api V1 Proofs  Proof Id  Rewatch Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/reveals/{reveal_id}/refresh-proof": {
+      "post": {
+        "tags": [
+          "Catalog"
+        ],
+        "summary": "Admin Refresh Proof",
+        "description": "Admin-only live proof regeneration route.\nStrictly requires ADMIN role, valid CSRF token, Idempotency-Key, and budget preflight.",
+        "operationId": "admin_refresh_proof_api_v1_admin_reveals__reveal_id__refresh_proof_post",
+        "parameters": [
+          {
+            "name": "reveal_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Reveal Id"
+            }
+          },
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idempotency-Key"
+            }
+          }
+        ],
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/reframe-runs": {
+      "post": {
+        "tags": [
+          "Reframe Runs"
+        ],
+        "summary": "Create Reframe Run",
+        "description": "Submits a durable reframe narrative analysis run.\nStrictly forbids client spoiler_cutoff_ms or SQL tampering.",
+        "operationId": "create_reframe_run_api_v1_reframe_runs_post",
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idempotency-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateReframeRunRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/reframe-runs/{run_id}": {
+      "get": {
+        "tags": [
+          "Reframe Runs"
+        ],
+        "summary": "Get Reframe Run",
+        "operationId": "get_reframe_run_api_v1_reframe_runs__run_id__get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Reframe Run Api V1 Reframe Runs  Run Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/reframe-runs/{run_id}/events": {
+      "get": {
+        "tags": [
+          "Reframe Runs"
+        ],
+        "summary": "Stream Reframe Run Events",
+        "operationId": "stream_reframe_run_events_api_v1_reframe_runs__run_id__events_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          },
+          {
+            "name": "Last-Event-ID",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Last-Event-Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/moments/{moment_id}/quick-wow": {
+      "get": {
+        "tags": [
+          "Fan Experience"
+        ],
+        "summary": "Get Quick Wow",
+        "description": "1. Quick Wow: Mobile-first visual contrast card.",
+        "operationId": "get_quick_wow_api_v1_moments__moment_id__quick_wow_get",
+        "parameters": [
+          {
+            "name": "moment_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Moment Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/moments/{moment_id}/rewatch-sync": {
+      "get": {
+        "tags": [
+          "Fan Experience"
+        ],
+        "summary": "Get Rewatch Sync",
+        "description": "2. Rewatch Sync: Dual-stream synchronized video player cuepoints and A/B loops.",
+        "operationId": "get_rewatch_sync_api_v1_moments__moment_id__rewatch_sync_get",
+        "parameters": [
+          {
+            "name": "moment_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Moment Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/moments/{moment_id}/trust-label": {
+      "get": {
+        "tags": [
+          "Fan Experience"
+        ],
+        "summary": "Get Trust Label",
+        "description": "3. Trust Label: Scientific transparency breakdown of narrative evidence grounding.\nEnforces ViewerContext spoiler protection.",
+        "operationId": "get_trust_label_api_v1_moments__moment_id__trust_label_get",
+        "parameters": [
+          {
+            "name": "moment_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Moment Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/moments/{moment_id}/deep-dive": {
+      "get": {
+        "tags": [
+          "Fan Experience"
+        ],
+        "summary": "Get Deep Dive",
+        "description": "4. Deep Dive: Forensic workbench with complete graph path and counterfactual data.",
+        "operationId": "get_deep_dive_api_v1_moments__moment_id__deep_dive_get",
+        "parameters": [
+          {
+            "name": "moment_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Moment Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/community/posts": {
+      "post": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "Create Post",
+        "description": "Creates a new evidence-native community post.",
+        "operationId": "create_post_api_v1_community_posts_post",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePostRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "List Posts",
+        "description": "Lists community posts with server-side spoiler masking.",
+        "operationId": "list_posts_api_v1_community_posts_get",
+        "parameters": [
+          {
+            "name": "work_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "the-bat-whispers-1930",
+              "title": "Work Id"
+            }
+          },
+          {
+            "name": "origin",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Origin"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/community/posts/{post_id}": {
+      "get": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "Get Post Detail",
+        "description": "Retrieves full post detail with claims, evidence links, and counterclaims.",
+        "operationId": "get_post_detail_api_v1_community_posts__post_id__get",
+        "parameters": [
+          {
+            "name": "post_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Post Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/community/posts/{post_id}/counterclaims": {
+      "post": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "Create Counterclaim",
+        "description": "Creates a structured rebuttal/counterclaim against a specific claim on the post.",
+        "operationId": "create_counterclaim_api_v1_community_posts__post_id__counterclaims_post",
+        "parameters": [
+          {
+            "name": "post_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Post Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCounterclaimRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/community/posts/{post_id}/reactions": {
+      "post": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "Add Reaction",
+        "description": "Adds a structured reaction to the post (WELL_SUPPORTED, NEW_INSIGHT, etc.)",
+        "operationId": "add_reaction_api_v1_community_posts__post_id__reactions_post",
+        "parameters": [
+          {
+            "name": "post_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Post Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddReactionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "Delete Reaction",
+        "description": "Removes a reaction from a post.",
+        "operationId": "delete_reaction_api_v1_community_posts__post_id__reactions_delete",
+        "parameters": [
+          {
+            "name": "post_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Post Id"
+            }
+          },
+          {
+            "name": "reaction_type",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Reaction Type"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/community/posts/{post_id}/comments": {
+      "post": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "Create Comment",
+        "description": "Creates a new comment on a community post.",
+        "operationId": "create_comment_api_v1_community_posts__post_id__comments_post",
+        "parameters": [
+          {
+            "name": "post_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Post Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCommentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "List Comments",
+        "description": "Lists all comments for a community post.",
+        "operationId": "list_comments_api_v1_community_posts__post_id__comments_get",
+        "parameters": [
+          {
+            "name": "post_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Post Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/community/moderation/reports": {
+      "get": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "List Moderation Reports",
+        "description": "Lists moderation reports (Admin or Moderator only).",
+        "operationId": "list_moderation_reports_api_v1_community_moderation_reports_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Evidence-Native Community"
+        ],
+        "summary": "Create Moderation Report",
+        "description": "Submits a moderation report for a post, comment, or counterclaim.",
+        "operationId": "create_moderation_report_api_v1_community_moderation_reports_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateReportRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/theories": {
+      "post": {
+        "tags": [
+          "Theory Lab"
+        ],
+        "summary": "Create Theory",
+        "description": "Creates a structured Fan Theory draft with immutable PostVersion 1 (R3-07 / R3-08).",
+        "operationId": "create_theory_api_v1_theories_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateTheoryRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/theories/{theory_id}": {
+      "get": {
+        "tags": [
+          "Theory Lab"
+        ],
+        "summary": "Get Theory",
+        "description": "Retrieves theory draft with strict IDOR protection (R2-12).",
+        "operationId": "get_theory_api_v1_theories__theory_id__get",
+        "parameters": [
+          {
+            "name": "theory_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Theory Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Theory Lab"
+        ],
+        "summary": "Update Theory",
+        "description": "Creates an immutable new revision (PostVersion version_no + 1) for the theory (R3-08).\nNever mutates existing versions in place.",
+        "operationId": "update_theory_api_v1_theories__theory_id__patch",
+        "parameters": [
+          {
+            "name": "theory_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Theory Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTheoryRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/theories/{theory_id}/publish": {
+      "post": {
+        "tags": [
+          "Theory Lab"
+        ],
+        "summary": "Publish Theory",
+        "operationId": "publish_theory_api_v1_theories__theory_id__publish_post",
+        "parameters": [
+          {
+            "name": "theory_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Theory Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/theory-runs": {
+      "post": {
+        "tags": [
+          "Theory Lab"
+        ],
+        "summary": "Create Theory Validation Run",
+        "operationId": "create_theory_validation_run_api_v1_theory_runs_post",
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idempotency-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateTheoryRunRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/theory-runs/{run_id}": {
+      "get": {
+        "tags": [
+          "Theory Lab"
+        ],
+        "summary": "Get Theory Run Detail",
+        "operationId": "get_theory_run_detail_api_v1_theory_runs__run_id__get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/theory-runs/{run_id}/events": {
+      "get": {
+        "tags": [
+          "Theory Lab"
+        ],
+        "summary": "Stream Theory Run Events",
+        "operationId": "stream_theory_run_events_api_v1_theory_runs__run_id__events_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          },
+          {
+            "name": "Last-Event-ID",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Last-Event-Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/personas/summary": {
+      "get": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Get Personas Summary",
+        "description": "Returns metadata and demographic summary of the Nemotron-Personas-USA sample.",
+        "operationId": "get_personas_summary_api_v1_admin_audience_lab_personas_summary_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs": {
+      "post": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Create Audience Simulation Run",
+        "description": "Enqueues a durable Audience Simulation analysis run.",
+        "operationId": "create_audience_simulation_run_api_v1_admin_audience_lab_runs_post",
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idempotency-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateAudienceRunRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs/{run_id}": {
+      "get": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Get Audience Simulation Run",
+        "description": "Fetches status and results of an audience simulation run.",
+        "operationId": "get_audience_simulation_run_api_v1_admin_audience_lab_runs__run_id__get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs/{run_id}/funnel": {
+      "get": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Get Run Funnel",
+        "operationId": "get_run_funnel_api_v1_admin_audience_lab_runs__run_id__funnel_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs/{run_id}/bottlenecks": {
+      "get": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Get Run Bottlenecks",
+        "operationId": "get_run_bottlenecks_api_v1_admin_audience_lab_runs__run_id__bottlenecks_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs/{run_id}/cohorts": {
+      "get": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Get Run Cohorts",
+        "operationId": "get_run_cohorts_api_v1_admin_audience_lab_runs__run_id__cohorts_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs/{run_id}/sensitivity": {
+      "get": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Get Run Sensitivity",
+        "operationId": "get_run_sensitivity_api_v1_admin_audience_lab_runs__run_id__sensitivity_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs/{run_id}/load-profile": {
+      "get": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Get Run Load Profile",
+        "operationId": "get_run_load_profile_api_v1_admin_audience_lab_runs__run_id__load_profile_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs/{run_id}/seed-content": {
+      "post": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Seed Content For Run",
+        "operationId": "seed_content_for_run_api_v1_admin_audience_lab_runs__run_id__seed_content_post",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Run Id"
+            }
+          },
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Idempotency-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SeedContentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/runs/latest/summary": {
+      "get": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Get Latest Simulation Summary",
+        "description": "Returns the latest completed simulation result or pre-generated DEMO_US run.",
+        "operationId": "get_latest_simulation_summary_api_v1_admin_audience_lab_runs_latest_summary_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/demand-scenario": {
+      "post": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Calculate Demand Scenario",
+        "description": "Calculates directional demand scenario projections strictly from a completed simulation run result.",
+        "operationId": "calculate_demand_scenario_api_v1_admin_audience_lab_demand_scenario_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DirectionalDemandInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/seed-content": {
+      "post": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Seed Synthetic Content",
+        "description": "Deprecated standalone seed endpoint.",
+        "operationId": "seed_synthetic_content_api_v1_admin_audience_lab_seed_content_post",
+        "responses": {
+          "410": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audience-lab/purge-content": {
+      "post": {
+        "tags": [
+          "Admin Audience Lab"
+        ],
+        "summary": "Purge Synthetic Content",
+        "description": "Safely purges synthetic demo content only, leaving human user content completely untouched.",
+        "operationId": "purge_synthetic_content_api_v1_admin_audience_lab_purge_content_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PurgeContentRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/magazine": {
+      "get": {
+        "tags": [
+          "Film Magazine"
+        ],
+        "summary": "List Magazine Articles",
+        "description": "Lists published film magazine articles directly from PostgreSQL with central spoiler policy.\nStrictly queries Post.content_type == 'MAGAZINE_ARTICLE'.\nHonors article_type filtering and fails closed if spoiler scope is missing.\nZero static asset fallback.",
+        "operationId": "list_magazine_articles_api_v1_magazine_get",
+        "parameters": [
+          {
+            "name": "work_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": "the-bat-whispers-1930",
+              "title": "Work Id"
+            }
+          },
+          {
+            "name": "article_type",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Article Type"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/magazine/{article_id}": {
+      "get": {
+        "tags": [
+          "Film Magazine"
+        ],
+        "summary": "Get Magazine Article",
+        "description": "Retrieves a full magazine article with central spoiler protection and real EvidenceCatalog links.",
+        "operationId": "get_magazine_article_api_v1_magazine__article_id__get",
+        "parameters": [
+          {
+            "name": "article_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Article Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddReactionRequest": {
+        "properties": {
+          "reaction_type": {
+            "type": "string",
+            "title": "Reaction Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "reaction_type"
+        ],
+        "title": "AddReactionRequest"
+      },
+      "CreateAudienceRunRequest": {
+        "properties": {
+          "mode": {
+            "$ref": "#/components/schemas/SimulationMode",
+            "default": "CI"
+          },
+          "unique_source_personas": {
+            "type": "integer",
+            "maximum": 1000000.0,
+            "minimum": 100.0,
+            "title": "Unique Source Personas",
+            "default": 10000
+          },
+          "variants": {
+            "items": {
+              "$ref": "#/components/schemas/ScenarioVariant"
+            },
+            "type": "array",
+            "title": "Variants"
+          },
+          "replications": {
+            "type": "integer",
+            "maximum": 20.0,
+            "minimum": 1.0,
+            "title": "Replications",
+            "default": 1
+          },
+          "seed": {
+            "type": "integer",
+            "title": "Seed",
+            "default": 42
+          },
+          "seed_content": {
+            "type": "boolean",
+            "title": "Seed Content",
+            "default": false
+          }
+        },
+        "type": "object",
+        "title": "CreateAudienceRunRequest"
+      },
+      "CreateCommentRequest": {
+        "properties": {
+          "body_markdown": {
+            "type": "string",
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Body Markdown"
+          },
+          "comment_type": {
+            "type": "string",
+            "title": "Comment Type",
+            "default": "COMMENT"
+          },
+          "parent_comment_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uuid"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Parent Comment Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "body_markdown"
+        ],
+        "title": "CreateCommentRequest"
+      },
+      "CreateCounterclaimRequest": {
+        "properties": {
+          "target_claim_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Target Claim Id"
+          },
+          "challenged_premise": {
+            "type": "string",
+            "title": "Challenged Premise"
+          },
+          "alternative_explanation": {
+            "type": "string",
+            "title": "Alternative Explanation"
+          },
+          "evidence_links": {
+            "items": {
+              "$ref": "#/components/schemas/PostEvidenceLinkInput"
+            },
+            "type": "array",
+            "title": "Evidence Links"
+          }
+        },
+        "type": "object",
+        "required": [
+          "target_claim_id",
+          "challenged_premise",
+          "alternative_explanation"
+        ],
+        "title": "CreateCounterclaimRequest"
+      },
+      "CreatePostRequest": {
+        "properties": {
+          "work_id": {
+            "type": "string",
+            "title": "Work Id",
+            "default": "the-bat-whispers-1930"
+          },
+          "edition_id": {
+            "type": "string",
+            "title": "Edition Id",
+            "default": "tbw-fullscreen-archive"
+          },
+          "content_type": {
+            "type": "string",
+            "title": "Content Type",
+            "default": "FAN_THEORY"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "body_markdown": {
+            "type": "string",
+            "title": "Body Markdown"
+          },
+          "claim_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Claim Text"
+          },
+          "claim_classification": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Claim Classification",
+            "default": "STRONG_INTERPRETATION"
+          },
+          "evidence_links": {
+            "items": {
+              "$ref": "#/components/schemas/PostEvidenceLinkInput"
+            },
+            "type": "array",
+            "title": "Evidence Links"
+          },
+          "tagged_reveal_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Tagged Reveal Ids"
+          },
+          "ai_disclosure": {
+            "type": "string",
+            "title": "Ai Disclosure",
+            "default": "HUMAN"
+          }
+        },
+        "type": "object",
+        "required": [
+          "title",
+          "body_markdown"
+        ],
+        "title": "CreatePostRequest"
+      },
+      "CreateReframeRunRequest": {
+        "properties": {
+          "movie_id": {
+            "type": "string",
+            "title": "Movie Id",
+            "default": "the-bat-whispers-1930"
+          },
+          "edition_id": {
+            "type": "string",
+            "title": "Edition Id",
+            "default": "tbw-fullscreen-archive"
+          },
+          "reveal_id": {
+            "type": "string",
+            "title": "Reveal Id"
+          },
+          "mode": {
+            "type": "string",
+            "title": "Mode",
+            "default": "STRICT_CANON"
+          },
+          "top_k": {
+            "type": "integer",
+            "maximum": 10.0,
+            "minimum": 1.0,
+            "title": "Top K",
+            "default": 5
+          }
+        },
+        "type": "object",
+        "required": [
+          "reveal_id"
+        ],
+        "title": "CreateReframeRunRequest"
+      },
+      "CreateReportRequest": {
+        "properties": {
+          "subject_type": {
+            "type": "string",
+            "title": "Subject Type"
+          },
+          "subject_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Subject Id"
+          },
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "description": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Description"
+          }
+        },
+        "type": "object",
+        "required": [
+          "subject_type",
+          "subject_id",
+          "category"
+        ],
+        "title": "CreateReportRequest"
+      },
+      "CreateTheoryRequest": {
+        "properties": {
+          "work_id": {
+            "type": "string",
+            "title": "Work Id",
+            "default": "the-bat-whispers-1930"
+          },
+          "edition_id": {
+            "type": "string",
+            "title": "Edition Id",
+            "default": "tbw-fullscreen-archive"
+          },
+          "target_reveal_id": {
+            "type": "string",
+            "title": "Target Reveal Id"
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "title": "Title"
+          },
+          "hypothesis_explanation": {
+            "type": "string",
+            "minLength": 10,
+            "title": "Hypothesis Explanation"
+          },
+          "cited_premise_scenes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Cited Premise Scenes"
+          },
+          "cited_event_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Cited Event Ids"
+          },
+          "alternative_explanations": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Alternative Explanations"
+          }
+        },
+        "type": "object",
+        "required": [
+          "target_reveal_id",
+          "title",
+          "hypothesis_explanation"
+        ],
+        "title": "CreateTheoryRequest"
+      },
+      "CreateTheoryRunRequest": {
+        "properties": {
+          "theory_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Theory Id"
+          },
+          "work_id": {
+            "type": "string",
+            "title": "Work Id",
+            "default": "the-bat-whispers-1930"
+          },
+          "edition_id": {
+            "type": "string",
+            "title": "Edition Id",
+            "default": "tbw-fullscreen-archive"
+          },
+          "target_reveal_id": {
+            "type": "string",
+            "title": "Target Reveal Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "theory_id",
+          "target_reveal_id"
+        ],
+        "title": "CreateTheoryRunRequest"
+      },
+      "DevLoginRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "title": "Email"
+          },
+          "display_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Display Name"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email"
+        ],
+        "title": "DevLoginRequest"
+      },
+      "DirectionalDemandInput": {
+        "properties": {
+          "simulation_run_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uuid"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Simulation Run Id"
+          },
+          "forecast_class": {
+            "type": "string",
+            "title": "Forecast Class",
+            "default": "ASSUMPTION_BASED_DIRECTIONAL"
+          },
+          "monthly_visitors": {
+            "type": "integer",
+            "title": "Monthly Visitors",
+            "default": 50000
+          },
+          "traffic_source_mix": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object",
+            "title": "Traffic Source Mix"
+          },
+          "returning_visitor_rate": {
+            "type": "number",
+            "title": "Returning Visitor Rate",
+            "default": 0.25
+          },
+          "catalog_size": {
+            "type": "integer",
+            "title": "Catalog Size",
+            "default": 1
+          },
+          "new_article_frequency_monthly": {
+            "type": "integer",
+            "title": "New Article Frequency Monthly",
+            "default": 10
+          },
+          "new_community_post_frequency_monthly": {
+            "type": "integer",
+            "title": "New Community Post Frequency Monthly",
+            "default": 50
+          },
+          "campaign_conversion_assumption": {
+            "type": "number",
+            "title": "Campaign Conversion Assumption",
+            "default": 0.05
+          },
+          "real_user_forecast": {
+            "type": "boolean",
+            "title": "Real User Forecast",
+            "default": false
+          }
+        },
+        "type": "object",
+        "title": "DirectionalDemandInput"
+      },
+      "EmailVerificationConfirmRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "title": "Email"
+          },
+          "code": {
+            "type": "string",
+            "maxLength": 16,
+            "minLength": 4,
+            "title": "Code"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email",
+          "code"
+        ],
+        "title": "EmailVerificationConfirmRequest"
+      },
+      "EmailVerificationRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "title": "Email"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email"
+        ],
+        "title": "EmailVerificationRequest"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "LoginRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "title": "Email"
+          },
+          "password": {
+            "type": "string",
+            "maxLength": 128,
+            "minLength": 1,
+            "title": "Password"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email",
+          "password"
+        ],
+        "title": "LoginRequest"
+      },
+      "PasswordResetCompleteRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "title": "Email"
+          },
+          "password_reset_ticket": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 10,
+            "title": "Password Reset Ticket"
+          },
+          "new_password": {
+            "type": "string",
+            "maxLength": 128,
+            "minLength": 8,
+            "title": "New Password"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email",
+          "password_reset_ticket",
+          "new_password"
+        ],
+        "title": "PasswordResetCompleteRequest"
+      },
+      "PasswordResetRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "title": "Email"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email"
+        ],
+        "title": "PasswordResetRequest"
+      },
+      "PasswordResetVerifyRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "title": "Email"
+          },
+          "code": {
+            "type": "string",
+            "maxLength": 16,
+            "minLength": 4,
+            "title": "Code"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email",
+          "code"
+        ],
+        "title": "PasswordResetVerifyRequest"
+      },
+      "PostEvidenceLinkInput": {
+        "properties": {
+          "evidence_type": {
+            "type": "string",
+            "title": "Evidence Type"
+          },
+          "evidence_id": {
+            "type": "string",
+            "title": "Evidence Id"
+          },
+          "relation": {
+            "type": "string",
+            "title": "Relation",
+            "default": "SUPPORTS"
+          },
+          "annotation": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Annotation"
+          }
+        },
+        "type": "object",
+        "required": [
+          "evidence_type",
+          "evidence_id"
+        ],
+        "title": "PostEvidenceLinkInput"
+      },
+      "PurgeContentRequest": {
+        "properties": {
+          "confirm_delete_synthetic_only": {
+            "type": "boolean",
+            "title": "Confirm Delete Synthetic Only",
+            "default": false
+          }
+        },
+        "type": "object",
+        "title": "PurgeContentRequest"
+      },
+      "ScenarioVariant": {
+        "type": "string",
+        "enum": [
+          "QUICK_VALUE",
+          "CURRENT_BASELINE",
+          "EARLY_AUTH",
+          "DEEP_ANALYSIS",
+          "COMMUNITY_FIRST"
+        ],
+        "title": "ScenarioVariant"
+      },
+      "SeedContentRequest": {
+        "properties": {
+          "posts_count": {
+            "type": "integer",
+            "maximum": 150.0,
+            "minimum": 1.0,
+            "title": "Posts Count",
+            "default": 20
+          },
+          "comments_count": {
+            "type": "integer",
+            "maximum": 800.0,
+            "minimum": 1.0,
+            "title": "Comments Count",
+            "default": 40
+          },
+          "counterclaims_count": {
+            "type": "integer",
+            "maximum": 150.0,
+            "minimum": 1.0,
+            "title": "Counterclaims Count",
+            "default": 20
+          },
+          "reactions_count": {
+            "type": "integer",
+            "maximum": 2000.0,
+            "minimum": 1.0,
+            "title": "Reactions Count",
+            "default": 60
+          },
+          "enable_magazine": {
+            "type": "boolean",
+            "title": "Enable Magazine",
+            "default": true
+          }
+        },
+        "type": "object",
+        "title": "SeedContentRequest"
+      },
+      "SignupRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "title": "Email"
+          },
+          "password": {
+            "type": "string",
+            "maxLength": 128,
+            "minLength": 8,
+            "title": "Password"
+          },
+          "email_verification_ticket": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 10,
+            "title": "Email Verification Ticket"
+          },
+          "display_name": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 100
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Display Name"
+          },
+          "handle": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 64
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Handle"
+          },
+          "locale": {
+            "type": "string",
+            "maxLength": 10,
+            "title": "Locale",
+            "default": "en"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email",
+          "password",
+          "email_verification_ticket"
+        ],
+        "title": "SignupRequest"
+      },
+      "SimulationMode": {
+        "type": "string",
+        "enum": [
+          "CI",
+          "SMOKE",
+          "DEMO_US",
+          "FULL_US",
+          "MAX_SCALE"
+        ],
+        "title": "SimulationMode"
+      },
+      "UpdateSpoilerPreferencesRequest": {
+        "properties": {
+          "default_mode": {
+            "type": "string",
+            "title": "Default Mode",
+            "default": "STRICT"
+          },
+          "mask_titles": {
+            "type": "boolean",
+            "title": "Mask Titles",
+            "default": true
+          },
+          "mask_thumbnails": {
+            "type": "boolean",
+            "title": "Mask Thumbnails",
+            "default": true
+          },
+          "mask_comments": {
+            "type": "boolean",
+            "title": "Mask Comments",
+            "default": true
+          }
+        },
+        "type": "object",
+        "title": "UpdateSpoilerPreferencesRequest"
+      },
+      "UpdateTheoryRequest": {
+        "properties": {
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Title"
+          },
+          "hypothesis_explanation": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Hypothesis Explanation"
+          },
+          "change_summary": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Change Summary",
+            "default": "Theory revision"
+          }
+        },
+        "type": "object",
+        "title": "UpdateTheoryRequest"
+      },
+      "UpdateWatchProgressRequest": {
+        "properties": {
+          "edition_id": {
+            "type": "string",
+            "title": "Edition Id"
+          },
+          "state": {
+            "type": "string",
+            "title": "State"
+          },
+          "progress_ms": {
+            "type": "integer",
+            "title": "Progress Ms"
+          },
+          "completed_reveal_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Completed Reveal Ids"
+          }
+        },
+        "type": "object",
+        "required": [
+          "edition_id",
+          "state",
+          "progress_ms"
+        ],
+        "title": "UpdateWatchProgressRequest"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "relation_id": "car-001",
+    "claim_id": "claim-anderson-c025-01",
+    "action_id": "action-anderson-c028-01",
+    "relationship": "CONTRADICTS",
+    "rule_id": "PROMISED_ACTION_VS_SUBVERSIVE_EXECUTION",
+    "reasoning": "Anderson claims to be conducting protective surveillance for Cornelia, but physically manipulates wall portraits in pursuit of his private search for the loot.",
+    "evidence_refs": [
+      "ev-c025-02",
+      "ev-c028-03"
+    ],
+    "confidence": 0.88
+  },
+  {
+    "relation_id": "car-002",
+    "claim_id": "claim-anderson-c035-01",
+    "action_id": "action-anderson-c017-01",
+    "relationship": "CONTRADICTS",
+    "rule_id": "ASSERTED_IGNORANCE_VS_PRIOR_OBSERVATION",
+    "reasoning": "Anderson accuses Brooks of being the intruder, but Anderson himself conducted unauthorized solitary searches prior to Brooks's arrival.",
+    "evidence_refs": [
+      "ev-c017-05",
+      "ev-c035-03"
+    ],
+    "confidence": 0.85
+  }
+]

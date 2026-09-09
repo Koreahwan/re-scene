@@ -1,0 +1,68 @@
+[
+  {
+    "character": "Detective Anderson",
+    "epistemic_timeline": [
+      {
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 2010000,
+        "known_propositions": [
+          "prop-004-anderson-identity-the-bat"
+        ],
+        "public_facade": "Investigating police detective",
+        "private_intent": "Locating hidden bank safe"
+      },
+      {
+        "scene_id": "scene-tbw-c021",
+        "timestamp_ms": 2490000,
+        "known_propositions": [
+          "prop-001-blueprints-exist",
+          "prop-002-blueprints-secret-void"
+        ],
+        "public_facade": "Sharing architectural clues",
+        "private_intent": "Pinpointing safe room location"
+      },
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000,
+        "known_propositions": [
+          "prop-003-fireplace-mantel-mechanism"
+        ],
+        "public_facade": "Inspecting artwork",
+        "private_intent": "Locating mantel release lever"
+      },
+      {
+        "scene_id": "scene-tbw-c028",
+        "timestamp_ms": 3270000,
+        "known_propositions": [
+          "prop-002-blueprints-secret-void"
+        ],
+        "public_facade": "Searching perimeter",
+        "private_intent": "Probing wall void behind stairs"
+      }
+    ]
+  },
+  {
+    "character": "Dale Ogden",
+    "epistemic_timeline": [
+      {
+        "scene_id": "scene-tbw-c021",
+        "timestamp_ms": 2490000,
+        "known_propositions": [
+          "prop-001-blueprints-exist",
+          "prop-002-blueprints-secret-void"
+        ],
+        "public_facade": "Cooperating with investigation",
+        "private_intent": "Exonerating Jack Brooks"
+      },
+      {
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3645000,
+        "known_propositions": [
+          "prop-003-fireplace-mantel-mechanism"
+        ],
+        "public_facade": "Direct action",
+        "private_intent": "Opening the secret room"
+      }
+    ]
+  }
+]

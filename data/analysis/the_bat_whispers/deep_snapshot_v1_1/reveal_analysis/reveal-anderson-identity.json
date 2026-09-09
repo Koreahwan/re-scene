@@ -1,0 +1,27 @@
+{
+  "reveal_id": "reveal-anderson-identity",
+  "movie_id": "the-bat-whispers-1930",
+  "cutoff_ms": 4860000,
+  "title": "Detective Anderson is The Bat",
+  "revealed_fact": "Detective Anderson is secretly the masked criminal mastermind known as The Bat.",
+  "verified_reframed_moments": [
+    {
+      "moment_id": "moment-and-01",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2759000,
+      "event_id": "ev-c023-05",
+      "blind_interpretation": "A zealous detective inspecting furnishings.",
+      "reframed_meaning": "Covertly examining the fireplace painting frame where the secret room release is located.",
+      "depth_level": "D3_TO_D4_HYPOTHESIS"
+    },
+    {
+      "moment_id": "moment-and-02",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3270000,
+      "event_id": "ev-c028-03",
+      "blind_interpretation": "Searching for signs of forced entry near stairs.",
+      "reframed_meaning": "Moving large portrait to probe wall cavity coordinates.",
+      "depth_level": "D3_MULTI_SCENE_PATTERN"
+    }
+  ]
+}

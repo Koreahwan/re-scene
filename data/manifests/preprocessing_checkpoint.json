@@ -1,0 +1,161 @@
+{
+  "movie_id": "the-bat-whispers-1930",
+  "processed_chunks": {
+    "chunk-001": {
+      "scene_id": "scene-tbw-full-001",
+      "events_count": 3,
+      "facts_count": 33,
+      "p_tokens": 1644,
+      "c_tokens": 3370,
+      "cost_krw": 3.130668
+    },
+    "chunk-002": {
+      "scene_id": "scene-tbw-full-002",
+      "events_count": 5,
+      "facts_count": 4,
+      "p_tokens": 1646,
+      "c_tokens": 903,
+      "cost_krw": 1.088406
+    },
+    "chunk-003": {
+      "scene_id": "scene-tbw-full-003",
+      "events_count": 7,
+      "facts_count": 9,
+      "p_tokens": 1646,
+      "c_tokens": 1595,
+      "cost_krw": 1.661382
+    },
+    "chunk-004": {
+      "scene_id": "scene-tbw-full-004",
+      "events_count": 10,
+      "facts_count": 6,
+      "p_tokens": 1646,
+      "c_tokens": 1586,
+      "cost_krw": 1.65393
+    },
+    "chunk-005": {
+      "scene_id": "scene-tbw-full-005",
+      "events_count": 4,
+      "facts_count": 8,
+      "p_tokens": 1646,
+      "c_tokens": 1267,
+      "cost_krw": 1.3897979999999999
+    },
+    "chunk-006": {
+      "scene_id": "scene-tbw-full-006",
+      "events_count": 8,
+      "facts_count": 9,
+      "p_tokens": 1646,
+      "c_tokens": 1589,
+      "cost_krw": 1.656414
+    },
+    "chunk-007": {
+      "scene_id": "scene-tbw-full-007",
+      "events_count": 11,
+      "facts_count": 8,
+      "p_tokens": 1646,
+      "c_tokens": 1753,
+      "cost_krw": 1.7922059999999997
+    },
+    "chunk-008": {
+      "scene_id": "scene-tbw-full-008",
+      "events_count": 7,
+      "facts_count": 19,
+      "p_tokens": 1646,
+      "c_tokens": 2450,
+      "cost_krw": 2.369322
+    },
+    "chunk-009": {
+      "scene_id": "scene-tbw-full-009",
+      "events_count": 8,
+      "facts_count": 10,
+      "p_tokens": 1646,
+      "c_tokens": 1749,
+      "cost_krw": 1.788894
+    },
+    "chunk-010": {
+      "scene_id": "scene-tbw-full-010",
+      "events_count": 10,
+      "facts_count": 9,
+      "p_tokens": 1647,
+      "c_tokens": 1758,
+      "cost_krw": 1.796553
+    },
+    "chunk-011": {
+      "scene_id": "scene-tbw-full-011",
+      "events_count": 8,
+      "facts_count": 6,
+      "p_tokens": 1647,
+      "c_tokens": 1353,
+      "cost_krw": 1.461213
+    },
+    "chunk-012": {
+      "scene_id": "scene-tbw-full-012",
+      "events_count": 6,
+      "facts_count": 8,
+      "p_tokens": 1647,
+      "c_tokens": 1537,
+      "cost_krw": 1.613565
+    },
+    "chunk-013": {
+      "scene_id": "scene-tbw-full-013",
+      "events_count": 8,
+      "facts_count": 6,
+      "p_tokens": 1647,
+      "c_tokens": 1431,
+      "cost_krw": 1.5257969999999998
+    },
+    "chunk-014": {
+      "scene_id": "scene-tbw-full-014",
+      "events_count": 9,
+      "facts_count": 5,
+      "p_tokens": 1647,
+      "c_tokens": 1327,
+      "cost_krw": 1.4396849999999999
+    },
+    "chunk-015": {
+      "scene_id": "scene-tbw-full-015",
+      "events_count": 10,
+      "facts_count": 11,
+      "p_tokens": 1647,
+      "c_tokens": 2093,
+      "cost_krw": 2.073933
+    },
+    "chunk-016": {
+      "scene_id": "scene-tbw-full-016",
+      "events_count": 14,
+      "facts_count": 8,
+      "p_tokens": 1647,
+      "c_tokens": 1842,
+      "cost_krw": 1.866105
+    },
+    "chunk-017": {
+      "scene_id": "scene-tbw-full-017",
+      "events_count": 9,
+      "facts_count": 7,
+      "p_tokens": 1647,
+      "c_tokens": 1516,
+      "cost_krw": 1.596177
+    },
+    "chunk-018": {
+      "scene_id": "scene-tbw-full-018",
+      "events_count": 3,
+      "facts_count": 7,
+      "p_tokens": 1647,
+      "c_tokens": 1070,
+      "cost_krw": 1.226889
+    },
+    "chunk-019": {
+      "scene_id": "scene-tbw-full-019",
+      "events_count": 7,
+      "facts_count": 8,
+      "p_tokens": 1647,
+      "c_tokens": 1462,
+      "cost_krw": 1.551465
+    }
+  },
+  "cumulative_prompt_tokens": 31282,
+  "cumulative_candidate_tokens": 31651,
+  "cumulative_cost_krw": 32.682402,
+  "last_updated": 1787018741.3012176
+}

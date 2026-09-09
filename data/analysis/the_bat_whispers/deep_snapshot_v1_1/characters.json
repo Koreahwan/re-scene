@@ -1,0 +1,72 @@
+[
+  {
+    "character_id": "char-anderson",
+    "name": "Detective Anderson",
+    "aliases": [
+      "Anderson",
+      "The Detective",
+      "The Bat"
+    ],
+    "role": "Lead Investigator / Secret Antagonist",
+    "canonical_identity": "The Bat"
+  },
+  {
+    "character_id": "char-dale",
+    "name": "Dale Ogden",
+    "aliases": [
+      "Dale",
+      "Miss Ogden"
+    ],
+    "role": "Niece / Protagonist Ally",
+    "canonical_identity": "Dale Ogden"
+  },
+  {
+    "character_id": "char-cornelia",
+    "name": "Cornelia Van Gorder",
+    "aliases": [
+      "Cornelia",
+      "Miss Van Gorder"
+    ],
+    "role": "Tenant / Manor Resident",
+    "canonical_identity": "Cornelia Van Gorder"
+  },
+  {
+    "character_id": "char-lizzie",
+    "name": "Lizzie Allen",
+    "aliases": [
+      "Lizzie"
+    ],
+    "role": "Maid / Comic Relief",
+    "canonical_identity": "Lizzie Allen"
+  },
+  {
+    "character_id": "char-brooks",
+    "name": "Jack Brooks",
+    "aliases": [
+      "Brooks",
+      "Gardener"
+    ],
+    "role": "Bank Cashier / Disguised Gardener",
+    "canonical_identity": "Jack Brooks"
+  },
+  {
+    "character_id": "char-wells",
+    "name": "Dr. Wells",
+    "aliases": [
+      "Wells",
+      "The Doctor"
+    ],
+    "role": "Coroner / Local Physician",
+    "canonical_identity": "Dr. Wells"
+  },
+  {
+    "character_id": "char-richard",
+    "name": "Richard Fleming",
+    "aliases": [
+      "Fleming",
+      "Dick"
+    ],
+    "role": "Nephew / Victim",
+    "canonical_identity": "Richard Fleming"
+  }
+]

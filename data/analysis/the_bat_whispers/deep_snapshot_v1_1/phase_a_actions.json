@@ -1,0 +1,52 @@
+[
+  {
+    "action_id": "act-anderson-c017-01",
+    "actor": "Detective Anderson",
+    "action_type": "RECONNAISSANCE",
+    "observed_action": "Detective Anderson stands alone in the dark hall inspecting his surroundings.",
+    "scene_id": "scene-tbw-c017",
+    "timestamp_ms": 2010000,
+    "evidence_ref": "ev-c017-05",
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "action_id": "act-anderson-c021-01",
+    "actor": "Detective Anderson",
+    "action_type": "PLAN_DISPLAY",
+    "observed_action": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group.",
+    "scene_id": "scene-tbw-c021",
+    "timestamp_ms": 2490000,
+    "evidence_ref": "ev-c021-03",
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "action_id": "act-anderson-c023-01",
+    "actor": "Detective Anderson",
+    "action_type": "FIXTURE_INSPECTION",
+    "observed_action": "Detective Anderson stands on a stepladder to examine the painting above the fireplace.",
+    "scene_id": "scene-tbw-c023",
+    "timestamp_ms": 2759000,
+    "evidence_ref": "ev-c023-05",
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "action_id": "act-anderson-c028-01",
+    "actor": "Detective Anderson",
+    "action_type": "FIXTURE_MANIPULATION",
+    "observed_action": "Detective Anderson moves large framed portrait near stairs.",
+    "scene_id": "scene-tbw-c028",
+    "timestamp_ms": 3270000,
+    "evidence_ref": "ev-c028-03",
+    "grounding_status": "VISUALLY_RECHECKED"
+  },
+  {
+    "action_id": "act-dale-c031-01",
+    "actor": "Dale Ogden",
+    "action_type": "MECHANISM_OPERATION",
+    "observed_action": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel.",
+    "scene_id": "scene-tbw-c031",
+    "timestamp_ms": 3645000,
+    "evidence_ref": "ev-c031-02",
+    "grounding_status": "VISUALLY_RECHECKED"
+  }
+]

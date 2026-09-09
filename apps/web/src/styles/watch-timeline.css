@@ -1,0 +1,18 @@
+.watch-timeline { width: 100%; box-sizing: border-box; color: #2d2d34; }
+.watch-timeline-heading { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.watch-timeline h2 { margin: 0 0 6px; font-size: 18px; }
+.watch-timeline p { margin: 0; font-size: 14px; line-height: 1.5; color: #6b6b75; }
+.watch-timeline button { border: 1px solid #e6e6ea; border-radius: 8px; padding: 8px 14px; background: #fff; color: #4c22f4; cursor: pointer; }
+.watch-timeline button:disabled { opacity: .5; cursor: not-allowed; }
+.watch-timeline-label { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; font-size: 14px; }
+.watch-timeline output { font-variant-numeric: tabular-nums; color: #4c22f4; font-weight: 600; }
+.watch-timeline input[type=range] { appearance: none; display: block; width: 100%; height: 32px; margin: 8px 0 0; cursor: pointer; background: transparent; touch-action: pan-y; }
+.watch-timeline input[type=range]::-webkit-slider-runnable-track { height: 8px; border-radius: 8px; background: linear-gradient(to right, #4c22f4 var(--watch-progress), #e9e5ff var(--watch-progress)); }
+.watch-timeline input[type=range]::-webkit-slider-thumb { appearance: none; width: 22px; height: 22px; margin-top: -7px; border: 3px solid white; border-radius: 50%; background: #4c22f4; box-shadow: 0 0 0 1px #4c22f4; }
+.watch-timeline input[type=range]::-moz-range-track { height: 8px; border-radius: 8px; background: #e9e5ff; }
+.watch-timeline input[type=range]::-moz-range-progress { height: 8px; border-radius: 8px; background: #4c22f4; }
+.watch-timeline input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border: 3px solid white; border-radius: 50%; background: #4c22f4; box-shadow: 0 0 0 1px #4c22f4; }
+.watch-timeline :focus-visible { outline: 2px solid #4c22f4; outline-offset: 4px; }
+.watch-timeline-ticks { display: flex; justify-content: space-between; color: #898992; font-size: 12px; margin-bottom: 16px; }
+.watch-timeline .watch-save-status { margin-top: 12px; }
+@media(max-width:600px) { .watch-timeline output { width: 100%; } }

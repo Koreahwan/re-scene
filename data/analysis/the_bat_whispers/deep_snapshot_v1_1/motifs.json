@@ -1,0 +1,22 @@
+[
+  {
+    "motif_id": "motif-001-shadow",
+    "name": "Bat Shadow Projection",
+    "occurrences": [
+      "ev-c001-01",
+      "ev-c010-02",
+      "ev-c040-01"
+    ],
+    "significance": "Visual thematic signature announcing the presence or approach of The Bat."
+  },
+  {
+    "motif_id": "motif-002-fixture",
+    "name": "Architectural Fixture Manipulation",
+    "occurrences": [
+      "ev-c023-05",
+      "ev-c028-03",
+      "ev-c031-02"
+    ],
+    "significance": "Physical manipulation of paintings, mantels, and portraits concealing secret mechanisms."
+  }
+]

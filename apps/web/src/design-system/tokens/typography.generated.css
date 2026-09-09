@@ -1,0 +1,23 @@
+/* Reframe V7 Figma Source-of-Truth Typography */
+:root {
+  --font-family-body: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --font-family-heading: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+
+  /* Typography Scales */
+  --font-title-hero: 700 48px/1.3 var(--font-family-heading);
+  --font-title-1: 700 36px/1.35 var(--font-family-heading);
+  --font-title-2: 700 28px/1.4 var(--font-family-heading);
+  --font-title-3: 700 24px/1.4 var(--font-family-heading);
+  --font-title-4: 600 20px/1.4 var(--font-family-heading);
+  --font-body-large: 400 18px/1.6 var(--font-family-body);
+  --font-body-large-bold: 600 18px/1.6 var(--font-family-body);
+  --font-body-base: 400 16px/1.5 var(--font-family-body);
+  --font-body-base-medium: 500 16px/1.5 var(--font-family-body);
+  --font-body-base-bold: 600 16px/1.5 var(--font-family-body);
+  --font-body-small: 400 14px/1.5 var(--font-family-body);
+  --font-body-small-medium: 500 14px/1.5 var(--font-family-body);
+  --font-body-small-bold: 600 14px/1.5 var(--font-family-body);
+  --font-caption: 400 12px/1.4 var(--font-family-body);
+  --font-caption-medium: 500 12px/1.4 var(--font-family-body);
+  --font-caption-bold: 600 12px/1.4 var(--font-family-body);
+}

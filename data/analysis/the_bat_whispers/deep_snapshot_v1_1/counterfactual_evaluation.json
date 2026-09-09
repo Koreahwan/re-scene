@@ -1,0 +1,164 @@
+[
+  {
+    "evaluation_id": "cf-eval-cand-secret-room-01",
+    "candidate_id": "proof-cand-secret-room-01",
+    "input_hash": "283e4157852b63cf39a86cc8990be3cfd9583f14c4a543c9a827379fd5f9ce19",
+    "reveal_id": "reveal-secret-room-location",
+    "engine_version": "CounterfactualTournamentEngine_v7",
+    "is_robust": false,
+    "reveal_swap_delta": 0.0,
+    "evidence_ablation_delta": -1.0,
+    "wrong_mechanism_delta": -0.5,
+    "shuffle_delta": -1.0,
+    "experiments": [
+      {
+        "control_name": "reveal-anderson-identity",
+        "before_score": 1.0,
+        "after_score": 1.0,
+        "delta": 0.0,
+        "broken_obligations": [
+          "KNOWLEDGE_PROPOSITION_NOT_REVEAL_SPECIFIC"
+        ],
+        "passed": false
+      },
+      {
+        "control_name": "mutated_wrong_identity_lizzie",
+        "before_score": 1.0,
+        "after_score": 0.5,
+        "delta": -0.5,
+        "broken_obligations": [
+          "UNKNOWN_EPISTEMIC_AVAILABILITY"
+        ],
+        "passed": true
+      },
+      {
+        "control_name": "critical_premise_ablation",
+        "before_score": 1.0,
+        "after_score": 0.0,
+        "delta": -1.0,
+        "broken_obligations": [
+          "INSUFFICIENT_EVIDENCE_CHAIN"
+        ],
+        "passed": true
+      },
+      {
+        "control_name": "chronological_order_inversion",
+        "before_score": 1.0,
+        "after_score": 0.0,
+        "delta": -1.0,
+        "broken_obligations": [
+          "CAUSAL_ORDER_BROKEN"
+        ],
+        "passed": true
+      }
+    ]
+  },
+  {
+    "evaluation_id": "cf-eval-cand-anderson-01",
+    "candidate_id": "proof-cand-anderson-01",
+    "input_hash": "eb5ae95a109261de28681b93ce8723997fffedcbdc721c6ab69f0c0ada5885d6",
+    "reveal_id": "reveal-anderson-identity",
+    "engine_version": "CounterfactualTournamentEngine_v7",
+    "is_robust": false,
+    "reveal_swap_delta": 0.0,
+    "evidence_ablation_delta": -1.0,
+    "wrong_mechanism_delta": -0.5,
+    "shuffle_delta": -1.0,
+    "experiments": [
+      {
+        "control_name": "reveal-secret-room-location",
+        "before_score": 1.0,
+        "after_score": 1.0,
+        "delta": 0.0,
+        "broken_obligations": [
+          "KNOWLEDGE_PROPOSITION_NOT_REVEAL_SPECIFIC"
+        ],
+        "passed": false
+      },
+      {
+        "control_name": "mutated_wrong_identity_lizzie",
+        "before_score": 1.0,
+        "after_score": 0.5,
+        "delta": -0.5,
+        "broken_obligations": [
+          "UNKNOWN_EPISTEMIC_AVAILABILITY"
+        ],
+        "passed": true
+      },
+      {
+        "control_name": "critical_premise_ablation",
+        "before_score": 1.0,
+        "after_score": 0.0,
+        "delta": -1.0,
+        "broken_obligations": [
+          "INSUFFICIENT_EVIDENCE_CHAIN"
+        ],
+        "passed": true
+      },
+      {
+        "control_name": "chronological_order_inversion",
+        "before_score": 1.0,
+        "after_score": 0.0,
+        "delta": -1.0,
+        "broken_obligations": [
+          "CAUSAL_ORDER_BROKEN"
+        ],
+        "passed": true
+      }
+    ]
+  },
+  {
+    "evaluation_id": "cf-eval-cand-anderson-02",
+    "candidate_id": "proof-cand-anderson-02",
+    "input_hash": "371a305a513ac045b77565c33c472add5c8be80cfb380e678ea7759ecb24fea1",
+    "reveal_id": "reveal-anderson-identity",
+    "engine_version": "CounterfactualTournamentEngine_v7",
+    "is_robust": false,
+    "reveal_swap_delta": 0.0,
+    "evidence_ablation_delta": -1.0,
+    "wrong_mechanism_delta": 0.0,
+    "shuffle_delta": -1.0,
+    "experiments": [
+      {
+        "control_name": "reveal-secret-room-location",
+        "before_score": 1.0,
+        "after_score": 1.0,
+        "delta": 0.0,
+        "broken_obligations": [
+          "KNOWLEDGE_PROPOSITION_NOT_REVEAL_SPECIFIC"
+        ],
+        "passed": false
+      },
+      {
+        "control_name": "mutated_wrong_identity_lizzie",
+        "before_score": 1.0,
+        "after_score": 1.0,
+        "delta": 0.0,
+        "broken_obligations": [
+          "ACTOR_IDENTITY_BINDING_FAILED"
+        ],
+        "passed": false
+      },
+      {
+        "control_name": "critical_premise_ablation",
+        "before_score": 1.0,
+        "after_score": 0.0,
+        "delta": -1.0,
+        "broken_obligations": [
+          "INSUFFICIENT_EVIDENCE_CHAIN"
+        ],
+        "passed": true
+      },
+      {
+        "control_name": "chronological_order_inversion",
+        "before_score": 1.0,
+        "after_score": 0.0,
+        "delta": -1.0,
+        "broken_obligations": [
+          "CAUSAL_ORDER_BROKEN"
+        ],
+        "passed": true
+      }
+    ]
+  }
+]

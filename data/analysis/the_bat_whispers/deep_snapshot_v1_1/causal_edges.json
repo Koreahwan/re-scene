@@ -1,0 +1,26 @@
+[
+  {
+    "edge_id": "causal-001",
+    "source_step_id": "step-anderson-01",
+    "target_step_id": "step-anderson-02",
+    "relation_type": "ENABLES",
+    "justification": "Blueprint examination in c021 provides architectural coordinates that direct stepladder inspection of fireplace structure in c023.",
+    "rule_id": "DAG_ENABLES_01"
+  },
+  {
+    "edge_id": "causal-002",
+    "source_step_id": "step-anderson-02",
+    "target_step_id": "step-anderson-03",
+    "relation_type": "TEMPORAL_PRECEDENCE_ONLY",
+    "justification": "Anderson inspects fireplace in c023 and later moves portrait in c028; sequential search without strict state precondition.",
+    "rule_id": "DAG_PRECEDENCE_01"
+  },
+  {
+    "edge_id": "causal-003",
+    "source_event": "ev-c031-02",
+    "target_event": "ev-c037-04",
+    "relation_type": "ENABLES",
+    "justification": "Dale operating mantel mechanism physically unlocks and pivots the fireplace wall, creating the doorway aperture necessary for Anderson to enter in c037.",
+    "rule_id": "DAG_ENABLES_02"
+  }
+]

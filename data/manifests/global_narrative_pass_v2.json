@@ -1,0 +1,59 @@
+{
+  "audience_knowledge_evolution": [
+    {
+      "timecode_range": "0s - 1200s",
+      "established_belief": "The Bat is an elusive master criminal terrorizing the city, while Miss Cornelia Van Gorder moves into Oakdale Manor unaware of any connection to ongoing bank thefts."
+    },
+    {
+      "timecode_range": "1200s - 2400s",
+      "established_belief": "A major bank robbery has occurred and suspicious individuals, including disguised bank clerk Brooks and Dr. Wells, are searching Oakdale Manor for hidden loot or secret blueprints."
+    },
+    {
+      "timecode_range": "2400s - 3000s",
+      "established_belief": "Detective Anderson has arrived at Oakdale Manor to lead the official police investigation, secure the property, and apprehend the elusive Bat."
+    }
+  ],
+  "validated_reveals": [
+    {
+      "reveal_id": "reveal-anderson-identity",
+      "movie_id": "the-bat-whispers-1930",
+      "timestamp_ms": 4860000,
+      "title": "Detective Anderson is Unmasked as 'The Bat'",
+      "reveal_type": "IDENTITY",
+      "subject": "Detective Anderson",
+      "predicate": "is_identity_of",
+      "previous_belief": "Detective Anderson is a dedicated police detective leading the investigation to capture The Bat.",
+      "revealed_fact": "Detective Anderson is himself 'The Bat', using his official position to orchestrate terror and locate the stolen money.",
+      "affected_entities": [
+        "Detective Anderson",
+        "The Bat",
+        "Brooks",
+        "Cornelia Van Gorder",
+        "Dale Ogden"
+      ],
+      "importance": 1.0,
+      "review_status": "APPROVED"
+    },
+    {
+      "reveal_id": "reveal-robbery-hidden-partition",
+      "movie_id": "the-bat-whispers-1930",
+      "timestamp_ms": 4500000,
+      "title": "Stolen Bank Funds Hidden in Oakdale Manor Secret Room",
+      "reveal_type": "KNOWLEDGE",
+      "subject": "Oakdale Manor Secret Room",
+      "predicate": "conceals",
+      "previous_belief": "The missing bank funds were carried away from the mansion or lost off-site.",
+      "revealed_fact": "The stolen bank fortune was hidden inside a concealed secret room within Oakdale Manor all along.",
+      "affected_entities": [
+        "Oakdale Manor",
+        "The Bat",
+        "Brooks",
+        "Cornelia Van Gorder",
+        "Dr. Wells"
+      ],
+      "importance": 0.85,
+      "review_status": "APPROVED"
+    }
+  ],
+  "escalations": []
+}

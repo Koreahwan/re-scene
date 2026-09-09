@@ -1,0 +1,373 @@
+{
+  "work_id": "the-bat-whispers-1930",
+  "edition_id": "tbw-fullscreen-archive",
+  "canonical_asset_sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+  "total_scenes": 43,
+  "total_events": 187,
+  "total_facts": 94,
+  "scenes": [
+    {
+      "scene_id": "scene-tbw-c001",
+      "start_ms": 0,
+      "end_ms": 120000,
+      "summary": "The scene opens with the movie's title credits and cast list displayed on screen, followed by establishing shots of a city skyline with a clock tower showing midnight, and the exterior of Police Headquarters with pedestrians passing by.",
+      "location": "City Skyline / Police Headquarters Exterior"
+    },
+    {
+      "scene_id": "scene-tbw-c002",
+      "start_ms": 120000,
+      "end_ms": 240000,
+      "summary": "A police vehicle departs Police Headquarters and travels through city streets at night, pulling up outside a large stone building. The camera pans up the building's facade before transitioning inside to an office where a man sits at a desk examining a paper document.",
+      "location": "Police Headquarters Exterior / City Streets / Building Exterior / Office Interior"
+    },
+    {
+      "scene_id": "scene-tbw-c003",
+      "start_ms": 240000,
+      "end_ms": 360000,
+      "summary": "Mr. Bell reads a threatening note signed by 'The Bat' in his library. Police wait outside while Bell checks his clock. A gloved hand reaches inside through an open window.",
+      "location": "Manor Library"
+    },
+    {
+      "scene_id": "scene-tbw-c004",
+      "start_ms": 360000,
+      "end_ms": 480000,
+      "summary": "A man leans through a window, police gather at a manor where a butler opens a hidden wall safe, and a road sign leads to a bank vault viewed from above.",
+      "location": "Oakdale Manor & Bank Vault Interior"
+    },
+    {
+      "scene_id": "scene-tbw-c005",
+      "start_ms": 480000,
+      "end_ms": 600000,
+      "summary": "A bank vault room is observed from an elevated viewpoint while a worker operates near the vault door. A car drives away from a dark garage, followed by scenes of an exterior road and a man carrying a bag entering the wrought-iron gate of the Fleming estate.",
+      "location": "Bank Vault Interior and Fleming Estate Exterior"
+    },
+    {
+      "scene_id": "scene-tbw-c006",
+      "start_ms": 600000,
+      "end_ms": 720000,
+      "summary": "An exterior view shows the gated entrance to the Fleming estate and a parked car outside at night, followed by a man carrying a satchel walking through the grounds. Inside Oakdale Manor Great Hall, a maid stands beside an older woman sitting in an armchair with knitting, animatedly speaking to her while the woman listens and continues to knit.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c007",
+      "start_ms": 720000,
+      "end_ms": 840000,
+      "summary": "Lizzie Allen interacts anxiously with Miss Cornelia Van Gorder in Oakdale Manor before both sit down to operate a Ouija board.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c008",
+      "start_ms": 840000,
+      "end_ms": 960000,
+      "summary": "Cornelia Van Gorder and her maid Lizzie interact over a Ouija board in the manor living room before investigating suspicious activity in the dark basement, where Cornelia holds a handgun. Meanwhile, a figure enters through a basement entry, and a cloaked silhouette lurks outside near the window.",
+      "location": "Oakdale Manor Basement"
+    },
+    {
+      "scene_id": "scene-tbw-c009",
+      "start_ms": 960000,
+      "end_ms": 1080000,
+      "summary": "A bat-shaped shadow appears outside the manor. Inside, the maid moves through the basement and bedroom, picks up a trap, and shows a bank robbery newspaper to Cornelia.",
+      "location": "Oakdale Manor Upstairs Bedroom"
+    },
+    {
+      "scene_id": "scene-tbw-c010",
+      "start_ms": 1080000,
+      "end_ms": 1200000,
+      "summary": "Cornelia Van Gorder and her maid Lizzie view the interior staircase from an doorway before conversing with Billy, the caretaker, inside a room equipped with fine furniture and tapestries.",
+      "location": "Oakdale Manor Ground Floor Room"
+    },
+    {
+      "scene_id": "scene-tbw-c011",
+      "start_ms": 1200000,
+      "end_ms": 1320000,
+      "summary": "Dale visits the garage before returning to the Great Hall, where Lizzie and Cornelia discuss recent occurrences during an outdoor lightning storm.",
+      "location": "Oakdale Manor"
+    },
+    {
+      "scene_id": "scene-tbw-c012",
+      "start_ms": 1320000,
+      "end_ms": 1440000,
+      "summary": "Exterior tree silhouette at night transitioning to a garage interior with a car silhouette, then into Oakdale Manor Great Hall where Cornelia Van Gorder knits while Dale Van Gorder, Lizzie, and Jack Brooks converse, as Caretaker Billy anxiously peeks through a doorway.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c013",
+      "start_ms": 1440000,
+      "end_ms": 1560000,
+      "summary": "In the Great Hall of Oakdale Manor, Cornelia Van Gorder knits while Lizzie speaks with her. They discover a note attached to an umbrella near the door, startling Lizzie. Dr. Wells enters the hall wearing an overcoat and converses with Cornelia.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c014",
+      "start_ms": 1560000,
+      "end_ms": 1680000,
+      "summary": "Dr. Wells confers with Miss Cornelia in the manor before departing through a doorway. Meanwhile, a man uses a wall telephone, Dale walks near the main staircase, and Miss Cornelia sits down at a table in the Great Hall to talk with a young man holding a hat.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c015",
+      "start_ms": 1680000,
+      "end_ms": 1800000,
+      "summary": "In the hall of Oakdale Manor, Cornelia Van Gorder and a man in a suit converse at a table. Meanwhile, Doctor Wells interacts with items on a desk, talks briefly with Dale Ogden, and exits through large double doors. Dale Ogden then operates a light switch on the wall and peers back into the room through the slightly opened double doors.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c016",
+      "start_ms": 1800000,
+      "end_ms": 1920000,
+      "summary": "Cornelia Van Gorder sits at a table conversing with a man in a dark suit while Dale Ogden watches through a crack in the double doors. Afterwards, Dale Ogden meets a young man in the ground floor hallway near the staircase, where they speak intimately before he walks up the stairs alone.",
+      "location": "Oakdale Manor Ground Floor Hallway"
+    },
+    {
+      "scene_id": "scene-tbw-c017",
+      "start_ms": 1920000,
+      "end_ms": 2040000,
+      "summary": "Detective Anderson interviews Cornelia Van Gorder and maid Lizzie in the hall while taking notes. Cornelia ascends the stairs, leaving Anderson alone as the lights dim.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c018",
+      "start_ms": 2040000,
+      "end_ms": 2160000,
+      "summary": "Characters move through Oakdale Manor hall and room. A maid is startled by occupants entering the living area.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c019",
+      "start_ms": 2160000,
+      "end_ms": 2280000,
+      "summary": "Characters move through Oakdale Manor's main hall, upstairs hallways, and basement. Detective Anderson stands in the hall with Dale Van Gorder. Figures move cautiously through upper corridors, while the caretaker falls into laundry sacks in the basement.",
+      "location": "Oakdale Manor"
+    },
+    {
+      "scene_id": "scene-tbw-c020",
+      "start_ms": 2280000,
+      "end_ms": 2400000,
+      "summary": "Dale Van Gorder converses with a man wearing an overcoat inside Oakdale Manor. The man inspects a bookcase with a rolled paper while Dale walks across different rooms in the house during their conversation.",
+      "location": "Oakdale Manor Interior"
+    },
+    {
+      "scene_id": "scene-tbw-c021",
+      "start_ms": 2400000,
+      "end_ms": 2520000,
+      "summary": "Characters gather in the hallway of Oakdale Manor. Detective Anderson discusses evidence with Cornelia Van Gorder while holding a small object, then retrieves and displays house blueprints to Dale Ogden, Brooks Bailey, Lizzie Allen, and Cornelia.",
+      "location": "Oakdale Manor Ground Floor Hallway"
+    },
+    {
+      "scene_id": "scene-tbw-c022",
+      "start_ms": 2520000,
+      "end_ms": 2640000,
+      "summary": "Inside Oakdale Manor, Richard Fleming addresses a distressed Dale Ogden while Cornelia, Lizzie, and Brooks look on. A figure appears on the balcony outside. Later, a detective in a bowler hat arrives, confers with Richard and Cornelia, and watches as Richard uses a wall telephone.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c023",
+      "start_ms": 2640000,
+      "end_ms": 2760000,
+      "summary": "Characters gather in the Great Hall, listen to a phone call, and investigate the room, including examining a framed portrait and a hidden passage.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c024",
+      "start_ms": 2760000,
+      "end_ms": 2880000,
+      "summary": "In Oakdale Manor Great Hall, Cornelia and Lizzie look up startled, Detective Anderson and Dale Ogden move through the room, Brook enters, and Doctor Wells confers with Dale and Cornelia while a figure runs past a window.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c025",
+      "start_ms": 2880000,
+      "end_ms": 3000000,
+      "summary": "In the upstairs hallway and landing of Oakdale Manor, Dr. Sterling, Cornelia Van Gorder, and Dale Ogden talk near the staircase post. Detective Anderson briefly converses with Cornelia. Dr. Sterling then speaks near a doorway with Lizzie Allen, who is holding a hot water bottle. Richard Fleming emerges from behind a curtain, leading to a tense face-to-face conversation with Dr. Sterling in front of the paneled doors.",
+      "location": "Oakdale Manor Upstairs Hallway"
+    },
+    {
+      "scene_id": "scene-tbw-c026",
+      "start_ms": 3000000,
+      "end_ms": 3120000,
+      "summary": "Richard Fleming converses intensely with Dr. Wells in the manor hallway while holding papers. Dr. Wells turns and walks away, leaving Richard alone before an unseen figure appears behind a glass pane.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c027",
+      "start_ms": 3120000,
+      "end_ms": 3240000,
+      "summary": "Dr. Sterling watches through a doorway and raises a club before walking down an upper hallway. Downstairs, Cornelia uses the telephone while Lizzie reacts to a smoking hot water bottle on a chair. Detective Anderson arrives to converse with Cornelia and Lizzie, after which Billy navigates a dark hallway carrying a lantern.",
+      "location": "Oakdale Manor Interior"
+    },
+    {
+      "scene_id": "scene-tbw-c028",
+      "start_ms": 3240000,
+      "end_ms": 3360000,
+      "summary": "In the hallway, a masked figure emerges behind a man with a lantern. In the hall, Detective Anderson moves a painting, then draws his revolver as a man collapses from a doorway. The group gathers around the fallen man, and Miss Cornelia speaks with the detective.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c029",
+      "start_ms": 3360000,
+      "end_ms": 3480000,
+      "summary": "Characters secure the main doors inside Oakdale Manor as commotion unfolds. An exterior figure fires a gun outside, and an unconscious man lies on the floor near the stairs while Detective Anderson confers with Dale and Brook.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c030",
+      "start_ms": 3480000,
+      "end_ms": 3600000,
+      "summary": "A man lies on the floor inside Oakdale Manor before the group gathers in the hall. Meanwhile, a cloaked figure moves secretly through rooms, crouching near windows, working with wires on the floor, and passing near a fireplace hidden passageway while people gather on the staircase below.",
+      "location": "Oakdale Manor"
+    },
+    {
+      "scene_id": "scene-tbw-c031",
+      "start_ms": 3600000,
+      "end_ms": 3720000,
+      "summary": "A woman holding a candle approaches a fireplace inside a dimly lit manor room. She manipulates a hidden latch on the mantelpiece, causing the entire fireplace structure to pivot open as a secret door. She steps through into the hidden passage beyond, and the secret door panel closes behind her.",
+      "location": "Oakdale Manor Secret Fireplace Room"
+    },
+    {
+      "scene_id": "scene-tbw-c032",
+      "start_ms": 3720000,
+      "end_ms": 3840000,
+      "summary": "A bearded man peeks through a door opening. A woman in a light dress searches a desk before a cloaked figure casting a bat shadow enters and crouches. The woman presses against and knocks on a panel door while the cloaked figure remains in the room near the safe.",
+      "location": "Oakdale Manor Office"
+    },
+    {
+      "scene_id": "scene-tbw-c033",
+      "start_ms": 3840000,
+      "end_ms": 3960000,
+      "summary": "Inside Oakdale Manor, tension rises as occupants navigate dimly lit rooms. In the Great Hall, Lizzie Allen, Billy, and Detective Anderson converse in alarm until a mystery gloved hand reaches around a marble pillar to extinguish a lit candle, plunging the room into darkness.",
+      "location": "Oakdale Manor Great Hall"
+    },
+    {
+      "scene_id": "scene-tbw-c034",
+      "start_ms": 3960000,
+      "end_ms": 4080000,
+      "summary": "In an upstairs room of Oakdale Manor, Miss Cornelia and Dale sit together while Brooks stands nearby holding a light. Detective Anderson enters through a doorway and speaks with Miss Cornelia while the others move toward the hall. Meanwhile, a cloaked figure in a bat mask descends a wooden staircase. Downstairs in the Great Hall, two men react to smoke and commotion near the grand staircase before Detective Anderson inspects a table upstairs.",
+      "location": "Oakdale Manor Upstairs Room"
+    },
+    {
+      "scene_id": "scene-tbw-c035",
+      "start_ms": 4080000,
+      "end_ms": 4200000,
+      "summary": "In an upstairs room at Oakdale Manor, Detective Anderson, Miss Cornelia van Gorder, and Dale Ogden converse before Brook appears in the doorway. Detective Anderson confronts Brook face-to-face as Miss Cornelia intervenes. A police officer wearing a bowler hat searches Detective Anderson's coat and retrieves a handgun.",
+      "location": "Oakdale Manor Upstairs Room"
+    },
+    {
+      "scene_id": "scene-tbw-c036",
+      "start_ms": 4200000,
+      "end_ms": 4320000,
+      "summary": "Detective Anderson, Cornelia Van Gorder, and Richard Fleming investigate a hidden room in Oakdale Manor. Inside, Detective Anderson draws handguns on a group, including an injured man seated in a chair with blood on his temple, while Richard Fleming inspects the injured man close up.",
+      "location": "Oakdale Manor Hidden Room"
+    },
+    {
+      "scene_id": "scene-tbw-c037",
+      "start_ms": 4320000,
+      "end_ms": 4440000,
+      "summary": "Dr. Wells physically examines a distressed man's head and eyes in close-up. The camera then cuts to a wider view of the attic room where Detective Anderson holds revolvers aimed toward the occupants while the group, including Dale, Lizzie, and Dr. Wells, exits through a doorway, leaving the distressed man seated until he suddenly rises.",
+      "location": "Oakdale Manor Attic Room"
+    },
+    {
+      "scene_id": "scene-tbw-c038",
+      "start_ms": 4440000,
+      "end_ms": 4560000,
+      "summary": "An injured man grabs a handgun before the scene shifts to a group investigating a secret wall panel and safe in Oakdale Manor. A black-gloved hand grabs the maid from behind a hidden doorway, causing her to flee down the stairs in terror.",
+      "location": "Oakdale Manor Secret Room and Staircase"
+    },
+    {
+      "scene_id": "scene-tbw-c039",
+      "start_ms": 4560000,
+      "end_ms": 4680000,
+      "summary": "Characters gather around a newly discovered secret door panel inside the manor attic studio. A man steps into the secret alcove housing a safe, while others inspect an open window leading outside to a ladder.",
+      "location": "Oakdale Manor Attic Studio"
+    },
+    {
+      "scene_id": "scene-tbw-c040",
+      "start_ms": 4680000,
+      "end_ms": 4800000,
+      "summary": "Detective Anderson detains a cloaked figure and confiscates handguns inside Oakdale Manor. Men run down a staircase, a masked figure flees across the exterior grounds carrying a satchel, and Lizzie reacts in shock from her bed.",
+      "location": "Oakdale Manor"
+    },
+    {
+      "scene_id": "scene-tbw-c041",
+      "start_ms": 4800000,
+      "end_ms": 4920000,
+      "summary": "Characters react inside Oakdale Manor before moving outdoors to capture a cloaked figure on the lawn. The figure is subdued and bound, but later threatens the gathered crowd at gunpoint.",
+      "location": "Exterior Manor Lawn"
+    },
+    {
+      "scene_id": "scene-tbw-c042",
+      "start_ms": 4920000,
+      "end_ms": 5040000,
+      "summary": "Characters subdue and tie the caped man to a tree on the manor grounds, revealing his face. The scene transitions to a theater stage where an actor in a tuxedo addresses the audience directly.",
+      "location": "Exterior Manor Lawn / Theater Stage"
+    },
+    {
+      "scene_id": "scene-tbw-c043",
+      "start_ms": 5040000,
+      "end_ms": 5119000,
+      "summary": "Chester Morris stands in front of a draped curtain in formal tuxedo tails and delivers a speech directly to the audience. Following his speech, the closing title card 'The End - A Roland West Attraction' appears, concluding the film into blackness.",
+      "location": "Theater Stage Backdrop"
+    }
+  ],
+  "key_evidence_refs": [
+    {
+      "event_id": "ev-c017-05",
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 2010000,
+      "description": "Detective Anderson stands alone in the dark hall inspecting his surroundings."
+    },
+    {
+      "event_id": "ev-c021-03",
+      "scene_id": "scene-tbw-c021",
+      "timestamp_ms": 2490000,
+      "description": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group."
+    },
+    {
+      "event_id": "ev-c023-05",
+      "scene_id": "scene-tbw-c023",
+      "timestamp_ms": 2759000,
+      "description": "Detective stands on a stepladder to examine the painting above the fireplace."
+    },
+    {
+      "event_id": "ev-c025-02",
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2895000,
+      "description": "Detective Anderson, wearing a bowler hat and coat, gestures while speaking to Cornelia Van Gorder."
+    },
+    {
+      "event_id": "ev-c028-03",
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3270000,
+      "description": "Detective Anderson moves large framed portrait near stairs."
+    },
+    {
+      "event_id": "ev-c031-02",
+      "scene_id": "scene-tbw-c031",
+      "timestamp_ms": 3645000,
+      "description": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel."
+    },
+    {
+      "event_id": "ev-c035-03",
+      "scene_id": "scene-tbw-c035",
+      "timestamp_ms": 4140000,
+      "description": "Detective Anderson faces Brook at close proximity while speaking directly to him."
+    },
+    {
+      "event_id": "ev-c037-04",
+      "scene_id": "scene-tbw-c037",
+      "timestamp_ms": 4425000,
+      "description": "Detective Anderson walks into the passageway opening near the fireplace."
+    },
+    {
+      "event_id": "ev-c038-02",
+      "scene_id": "scene-tbw-c038",
+      "timestamp_ms": 4470000,
+      "description": "Men inspect an opened hidden wall panel and safe while onlookers watch inside the room."
+    },
+    {
+      "event_id": "ev-c041-03",
+      "scene_id": "scene-tbw-c041",
+      "timestamp_ms": 4890000,
+      "description": "Detective Anderson stands beside the captured, bound cloaked figure on the lawn."
+    }
+  ]
+}

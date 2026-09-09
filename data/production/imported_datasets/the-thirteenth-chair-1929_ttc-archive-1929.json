@@ -1,0 +1,1020 @@
+{
+  "film": {
+    "movie_id": "the-thirteenth-chair-1929",
+    "title": "The Thirteenth Chair",
+    "year": 1929,
+    "synopsis_safe": "A visiting medium conducts a séance at a gathering in Calcutta, hoping to shed light on an unsolved murder. When the evening takes another violent turn, Inspector Delzante must question the guests and reconstruct what they believe they witnessed.",
+    "runtime_ms": 4343392,
+    "rights_status": "PUBLIC_DOMAIN",
+    "analysis_status": "READY",
+    "poster_path": "/assets/catalog/wikidata/Q3522999-sound-1929.jpg",
+    "directors": [
+      "Tod Browning"
+    ],
+    "cast": [
+      "Conrad Nagel",
+      "Leila Hyams",
+      "Bela Lugosi",
+      "Cyril Chadwick",
+      "Holmes Herbert",
+      "John Davidson",
+      "Margaret Wycherly",
+      "Mary Forbes",
+      "Joel McCrea"
+    ],
+    "genres": [
+      "mystery film"
+    ]
+  },
+  "edition": {
+    "edition_id": "ttc-archive-1929",
+    "movie_id": "the-thirteenth-chair-1929",
+    "runtime_ms": 4343392,
+    "dataset_version": "sound-v1-20260908",
+    "source_url": "https://archive.org/download/the-thirteenth-chair_1929/the-thirteenth-chair_1929.mp4",
+    "asset_sha256": "2b2cf53350bf301975b3d24c1fc2a803182c7393d119ecf7b6a7493d66c4856f",
+    "rights_review_status": "ANALYSIS_ONLY_NO_VIDEO_REDISTRIBUTION"
+  },
+  "reveals": [
+    {
+      "reveal_id": "ttc-archive-1929-reveal-01",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "title": "Inspector Delzante discovers rehearsed séance notes revealing Wales and La Grange's secret script",
+      "safe_title": "AI analysis after the film",
+      "safe_preview": "Complete this film before opening its retrospective analysis.",
+      "timestamp_ms": 2535000,
+      "spoiler_cutoff_ms": 4343392,
+      "revealed_fact": "Delzante produces written notes showing that Wales and Madame La Grange had rehearsed the seance script in advance. He explains Wales believed a woman killed Spencer Lee and wanted to trick her into confessing.",
+      "severity": "ENDING"
+    },
+    {
+      "reveal_id": "ttc-archive-1929-reveal-02",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "title": "Madame La Grange confesses to Inspector Delzante that Helen O'Neill is her biological daughter",
+      "safe_title": "AI analysis after the film",
+      "safe_preview": "Complete this film before opening its retrospective analysis.",
+      "timestamp_ms": 2840000,
+      "spoiler_cutoff_ms": 4343392,
+      "revealed_fact": "To prevent the search, Madame La Grange admits that Helen O'Neill is her biological child and that seeing her unexpectedly made her panic and attempt to protect her.",
+      "severity": "ENDING"
+    },
+    {
+      "reveal_id": "ttc-archive-1929-reveal-03",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "title": "Miss Eastwood hysterically breaks down and confesses to murdering both Wales and Spencer Lee",
+      "safe_title": "AI analysis after the film",
+      "safe_preview": "Complete this film before opening its retrospective analysis.",
+      "timestamp_ms": 4190000,
+      "spoiler_cutoff_ms": 4343392,
+      "revealed_fact": "Inspector Delzante states that Miss Eastwood killed Wales to prevent him from receiving Lee's message, and killed Spencer Lee earlier. Miss Eastwood sobbing admits that she had to do it.",
+      "severity": "ENDING"
+    }
+  ],
+  "proofs": [
+    {
+      "proof_id": "proof-ai-ttc-archive-1929-01",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "reveal_id": "ttc-archive-1929-reveal-01",
+      "title": "The Fake Séance Conspiracy Between Edward Wales and Madame La Grange",
+      "summary": "Delzante's discovery of prepared séance notes changes how Wales's apparently adversarial relationship with La Grange can be read. The later disclosure connects the two participants through a planned performance intended to elicit information about the murder. Wales's introduction of the medium and insistence on controlled conditions can now appear to support that performance rather than simply test it from outside. The written preparation is the recorded evidence; treating every stern remark or locked door as a calculated part of the trap is an interpretation. Those precautions could serve practical purposes as well. The notes also do not establish Wales's private beliefs about spiritualism. The strongest retrospective connection is that apparently independent roles were coordinated in advance, making the earlier public interaction less straightforward than it first appeared.",
+      "timestamp_ms": 930930,
+      "spoiler_cutoff_ms": 4343392,
+      "observed_premises": [
+        {
+          "event_id": "ttc-archive-1929-c01-e08",
+          "scene_id": "ttc-archive-1929-window-015",
+          "timestamp_ms": 930930,
+          "actor": "Madame Rosalie La Grange and Edward Wales",
+          "action": "Entering the room and greeting the hostess",
+          "fact": "Madame La Grange enters wearing dark clothing and a head wrap, greeting Lady Crosby and guests in an Irish accent. Edward Wales introduces her to the room.",
+          "display_fact": "Madame La Grange enters wearing dark clothing and a head wrap, greeting Lady Crosby and guests in an Irish accent. Edward Wales introduces her to the room.",
+          "display_paraphrase": "Madame La Grange enters wearing dark clothing and a head wrap, greeting Lady Crosby and guests in an Irish accent. Edward Wales introduces her to the room.",
+          "frame_ids": [
+            "ttc-archive-1929-f0920920",
+            "ttc-archive-1929-f0930930",
+            "ttc-archive-1929-f0940940"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f0920920",
+            "ttc-archive-1929-f0930930",
+            "ttc-archive-1929-f0940940"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f0920920",
+          "canonical_content_hash": "9a759fb53268ffcf1a81bc21df707e54af99e56961eb6588f20a3c5d99219c32",
+          "source_modality": "BOTH",
+          "uncertainty": null,
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "ttc-archive-1929-c01-e11",
+          "scene_id": "ttc-archive-1929-window-017",
+          "timestamp_ms": 1071070,
+          "actor": "Madame Rosalie La Grange and Edward Wales",
+          "action": "Promising an honest séance without fake tricks",
+          "fact": "Madame La Grange promises that although her profession usually involves trickery, tonight she will perform an honest séance. Wales confirms no money will be exchanged for her services under these test conditions.",
+          "display_fact": "Madame La Grange promises that although her profession usually involves trickery, tonight she will perform an honest séance. Wales confirms no money will be exchanged for her services under these test conditions.",
+          "display_paraphrase": "Madame La Grange promises that although her profession usually involves trickery, tonight she will perform an honest séance. Wales confirms no money will be exchanged for her services under these test conditions.",
+          "frame_ids": [
+            "ttc-archive-1929-f1061060",
+            "ttc-archive-1929-f1071070"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f1061060",
+            "ttc-archive-1929-f1071070"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f1061060",
+          "canonical_content_hash": "4ec0c9f9c4084250bedba9622af861f8bb1a461ca57d00c5c0b965c81b4a48de",
+          "source_modality": "BOTH",
+          "uncertainty": null,
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "ttc-archive-1929-c02-e04",
+          "scene_id": "ttc-archive-1929-window-022",
+          "timestamp_ms": 1370000,
+          "actor": "Edward Wales and Madame La Grange",
+          "action": "Edward Wales sets controlled conditions for the seance.",
+          "fact": "Edward Wales warns Madame La Grange that he will closely scrutinize her manifestations. He suggests locking all doors and windows to ensure no outside accomplice can assist her.",
+          "display_fact": "Edward Wales warns Madame La Grange that he will closely scrutinize her manifestations. He suggests locking all doors and windows to ensure no outside accomplice can assist her.",
+          "display_paraphrase": "Edward Wales warns Madame La Grange that he will closely scrutinize her manifestations. He suggests locking all doors and windows to ensure no outside accomplice can assist her.",
+          "frame_ids": [
+            "ttc-archive-1929-f1351350",
+            "ttc-archive-1929-f1361360"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f1351350",
+            "ttc-archive-1929-f1361360"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f1351350",
+          "canonical_content_hash": "c4be55bfa4be6fede7990314c42b4b73d49e859fa4c3459ec21661d0cd67cf94",
+          "source_modality": "BOTH",
+          "uncertainty": "none",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        }
+      ],
+      "human_review_status": "NOT_REVIEWED",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "proof_type": "HIDDEN_PLAN_CHAIN",
+      "blind_explanation": "On a first viewing, Edward Wales appears to be an uncompromising skeptic demanding strict scientific test conditions to evaluate a visiting medium. When Madame La Grange promises an honest séance without monetary compensation (ttc-archive-1929-c01-e11), Wales orders all doors locked (ttc-archive-1929-c02-e04) and introduces her to the room as an independent investigator (ttc-archive-1929-c01-e08). Viewers reasonably infer that Wales is conducting an objective, adversarial trial of La Grange's spiritualist claims to determine whether genuine supernatural phenomena or fraudulent tricks will occur under strict dark-room conditions.",
+      "reveal_explanation": "Delzante's discovery of prepared séance notes changes how Wales's apparently adversarial relationship with La Grange can be read. The later disclosure connects the two participants through a planned performance intended to elicit information about the murder. Wales's introduction of the medium and insistence on controlled conditions can now appear to support that performance rather than simply test it from outside. The written preparation is the recorded evidence; treating every stern remark or locked door as a calculated part of the trap is an interpretation. Those precautions could serve practical purposes as well. The notes also do not establish Wales's private beliefs about spiritualism. The strongest retrospective connection is that apparently independent roles were coordinated in advance, making the earlier public interaction less straightforward than it first appeared.",
+      "evidence_chain": [
+        {
+          "event_id": "ttc-archive-1929-c01-e08",
+          "scene_id": "ttc-archive-1929-window-015",
+          "timestamp_ms": 930930,
+          "evidence_hash": "9a759fb53268ffcf1a81bc21df707e54af99e56961eb6588f20a3c5d99219c32"
+        },
+        {
+          "event_id": "ttc-archive-1929-c01-e11",
+          "scene_id": "ttc-archive-1929-window-017",
+          "timestamp_ms": 1071070,
+          "evidence_hash": "4ec0c9f9c4084250bedba9622af861f8bb1a461ca57d00c5c0b965c81b4a48de"
+        },
+        {
+          "event_id": "ttc-archive-1929-c02-e04",
+          "scene_id": "ttc-archive-1929-window-022",
+          "timestamp_ms": 1370000,
+          "evidence_hash": "c4be55bfa4be6fede7990314c42b4b73d49e859fa4c3459ec21661d0cd67cf94"
+        }
+      ],
+      "alternative_explanations": [
+        "Locked doors and controlled conditions can have practical investigative purposes alongside theatrical ones.",
+        "Prepared notes do not by themselves establish either participant's private beliefs about spiritualism."
+      ]
+    },
+    {
+      "proof_id": "proof-ai-ttc-archive-1929-02",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "reveal_id": "ttc-archive-1929-reveal-02",
+      "title": "Madame La Grange's Tactical Silence to Protect Her Secret Daughter",
+      "summary": "La Grange's declaration that Helen O'Neill is her daughter supplies a personal connection missing from the earlier scenes. Helen's request that she remain and their emotional embrace now carry the possibility of recognition and attachment, rather than merely hospitality toward a visitor. The disclosure also supports a protective reading of La Grange's hesitation during the séance: naming a suspect could endanger someone to whom she is closely connected. This is a retrospective interpretation of the recorded behavior, not direct evidence of every thought behind it. The observed admission establishes the relationship; the earlier hesitation does not independently prove a calculated refusal or exclude shock and distress. The meaningful change is that apparent professional failure can be understood in the light of a concealed family bond. Whether she feared actual guilt, a false accusation, or the consequences of exposure is not settled by these observations alone.",
+      "timestamp_ms": 1330000,
+      "spoiler_cutoff_ms": 4343392,
+      "observed_premises": [
+        {
+          "event_id": "ttc-archive-1929-c02-e03",
+          "scene_id": "ttc-archive-1929-window-022",
+          "timestamp_ms": 1330000,
+          "actor": "Helen and Madame La Grange",
+          "action": "Helen begs Madame La Grange to stay for the seance.",
+          "fact": "Helen approaches Madame La Grange and earnestly pleads with her to stay as a personal favor. Moved by Helen's request, Madame La Grange agrees to stay and proceed with the seance.",
+          "display_fact": "Helen approaches Madame La Grange and earnestly pleads with her to stay as a personal favor. Moved by Helen's request, Madame La Grange agrees to stay and proceed with the seance.",
+          "display_paraphrase": "Helen approaches Madame La Grange and earnestly pleads with her to stay as a personal favor. Moved by Helen's request, Madame La Grange agrees to stay and proceed with the seance.",
+          "frame_ids": [
+            "ttc-archive-1929-f1311310",
+            "ttc-archive-1929-f1321320",
+            "ttc-archive-1929-f1331330"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f1311310",
+            "ttc-archive-1929-f1321320",
+            "ttc-archive-1929-f1331330"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f1311310",
+          "canonical_content_hash": "b1c18c6607887048f6e69a801e982f4b4663d4996c214fc605306658d3e04c2d",
+          "source_modality": "BOTH",
+          "uncertainty": "none",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "ttc-archive-1929-c02-e08",
+          "scene_id": "ttc-archive-1929-window-026",
+          "timestamp_ms": 1560000,
+          "actor": "Madame La Grange and Helen",
+          "action": "Madame La Grange privately reveals to Helen that she is her mother.",
+          "fact": "When left alone together, Madame La Grange embraces Helen tearfully and addresses her as her daughter, expressing anxiety about embarrassing Helen in front of wealthy friends. Helen embraces her warmly and insists she feels no shame.",
+          "display_fact": "When left alone together, Madame La Grange embraces Helen tearfully and addresses her as her daughter, expressing anxiety about embarrassing Helen in front of wealthy friends. Helen embraces her warmly and insists she feels no shame.",
+          "display_paraphrase": "When left alone together, Madame La Grange embraces Helen tearfully and addresses her as her daughter, expressing anxiety about embarrassing Helen in front of wealthy friends. Helen embraces her warmly and insists she feels no shame.",
+          "frame_ids": [
+            "ttc-archive-1929-f1551550",
+            "ttc-archive-1929-f1561560",
+            "ttc-archive-1929-f1571570"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f1551550",
+            "ttc-archive-1929-f1561560",
+            "ttc-archive-1929-f1571570"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f1551550",
+          "canonical_content_hash": "0bfe141a13724f63cf28d53f2660cb6eec9f168b138ce04b0eb9ba0850f96026",
+          "source_modality": "BOTH",
+          "uncertainty": "none",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "ttc-archive-1929-c03-e05",
+          "scene_id": "ttc-archive-1929-window-033",
+          "timestamp_ms": 1990000,
+          "actor": "Madame La Grange and Edward Wales",
+          "action": "Channeling spirit messages",
+          "fact": "Madame La Grange speaks in a altered spirit voice regarding Spencer, letters, and a pool, while Edward Wales asks the spirit questions.",
+          "display_fact": "Madame La Grange speaks in a altered spirit voice regarding Spencer, letters, and a pool, while Edward Wales asks the spirit questions.",
+          "display_paraphrase": "Madame La Grange speaks in a altered spirit voice regarding Spencer, letters, and a pool, while Edward Wales asks the spirit questions.",
+          "frame_ids": [
+            "ttc-archive-1929-f1971970",
+            "ttc-archive-1929-f1981980"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f1971970",
+            "ttc-archive-1929-f1981980"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f1971970",
+          "canonical_content_hash": "75f306e3554fc0d735881a21571ae1b3148a9cb1729fe3e1dd2cbb11325774ee",
+          "source_modality": "AUDIO",
+          "uncertainty": "Visuals remain pitch black during the blackout.",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        }
+      ],
+      "human_review_status": "NOT_REVIEWED",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "proof_type": "CLAIM_ACTION_CONFLICT",
+      "blind_explanation": "When Helen begs Madame La Grange to stay for the séance (ttc-archive-1929-c02-e03), viewers naturally assume the fortune teller is simply moved by a polite request from a sympathetic young lady. Their subsequent emotional embrace in the adjoining room (ttc-archive-1929-c02-e08) seems like a poignant moment of maternal warmth from a lonely woman toward a kind hostess's secretary. Later, when La Grange stammers vaguely during the dark trance without delivering the promised suspect's name (ttc-archive-1929-c03-e05), it appears that the medium's trickery faltered or that genuine trance exhaustion interrupted the spiritual communication.",
+      "reveal_explanation": "La Grange's declaration that Helen O'Neill is her daughter supplies a personal connection missing from the earlier scenes. Helen's request that she remain and their emotional embrace now carry the possibility of recognition and attachment, rather than merely hospitality toward a visitor. The disclosure also supports a protective reading of La Grange's hesitation during the séance: naming a suspect could endanger someone to whom she is closely connected. This is a retrospective interpretation of the recorded behavior, not direct evidence of every thought behind it. The observed admission establishes the relationship; the earlier hesitation does not independently prove a calculated refusal or exclude shock and distress. The meaningful change is that apparent professional failure can be understood in the light of a concealed family bond. Whether she feared actual guilt, a false accusation, or the consequences of exposure is not settled by these observations alone.",
+      "evidence_chain": [
+        {
+          "event_id": "ttc-archive-1929-c02-e03",
+          "scene_id": "ttc-archive-1929-window-022",
+          "timestamp_ms": 1330000,
+          "evidence_hash": "b1c18c6607887048f6e69a801e982f4b4663d4996c214fc605306658d3e04c2d"
+        },
+        {
+          "event_id": "ttc-archive-1929-c02-e08",
+          "scene_id": "ttc-archive-1929-window-026",
+          "timestamp_ms": 1560000,
+          "evidence_hash": "0bfe141a13724f63cf28d53f2660cb6eec9f168b138ce04b0eb9ba0850f96026"
+        },
+        {
+          "event_id": "ttc-archive-1929-c03-e05",
+          "scene_id": "ttc-archive-1929-window-033",
+          "timestamp_ms": 1990000,
+          "evidence_hash": "75f306e3554fc0d735881a21571ae1b3148a9cb1729fe3e1dd2cbb11325774ee"
+        }
+      ],
+      "alternative_explanations": [
+        "The hesitation could reflect emotional shock rather than a fully planned protective tactic.",
+        "Concern for a daughter does not establish a belief that the daughter committed a crime."
+      ]
+    },
+    {
+      "proof_id": "proof-ai-ttc-archive-1929-03",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "reveal_id": "ttc-archive-1929-reveal-03",
+      "title": "Miss Eastwood's Panic and Guilt as the Double Murderer",
+      "summary": "Eastwood's later confession connects the earlier killing of Spencer Lee with Wales's death during the séance. It also gives her scream during the reconstruction a new possible meaning: fear of exposure rather than only fear of a frightening room. The sequence links Wales's demand for a name, the disturbance in darkness, and the later breakdown into a retrospective account of silencing someone who could reveal the crime. The admission is the recorded basis for identifying Eastwood; an observer cannot reconstruct her exact movements from the blacked-out images. Likewise, the scream alone would not prove guilt without the later confession. The interpretation should preserve that distinction between a character's admission, the detective's reconstruction, and events that the camera does not visibly show.",
+      "timestamp_ms": 2035000,
+      "spoiler_cutoff_ms": 4343392,
+      "observed_premises": [
+        {
+          "event_id": "ttc-archive-1929-c03-e06",
+          "scene_id": "ttc-archive-1929-window-033",
+          "timestamp_ms": 2035000,
+          "actor": "Edward Wales and unseen attacker",
+          "action": "Demanding the killer's name amid a sudden assault",
+          "fact": "Wales repeatedly demands to know who killed Spencer, which is immediately followed by sounds of a struggle, gasps, and screams in the dark.",
+          "display_fact": "Wales repeatedly demands to know who killed Spencer, which is immediately followed by sounds of a struggle, gasps, and screams in the dark.",
+          "display_paraphrase": "Wales repeatedly demands to know who killed Spencer, which is immediately followed by sounds of a struggle, gasps, and screams in the dark.",
+          "frame_ids": [
+            "ttc-archive-1929-f2022020",
+            "ttc-archive-1929-f2032030"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f2022020",
+            "ttc-archive-1929-f2032030"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f2022020",
+          "canonical_content_hash": "8d4c9335f63d4c202235bfc662b686184a1832a52fb19d27147a5ef3c57b8ba8",
+          "source_modality": "AUDIO",
+          "uncertainty": "The attack occurs in complete darkness; exact physical movements cannot be seen.",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "ttc-archive-1929-c03-e09",
+          "scene_id": "ttc-archive-1929-window-037",
+          "timestamp_ms": 2220000,
+          "actor": "Inspector Delzante and gentlemen",
+          "action": "Stopping body removal to note guest hesitation",
+          "fact": "Delzante stops the men from carrying Wales out, pointing out that four gentlemen hesitated when asked to lift the body.",
+          "display_fact": "Delzante stops the men from carrying Wales out, pointing out that four gentlemen hesitated when asked to lift the body.",
+          "display_paraphrase": "Delzante stops the men from carrying Wales out, pointing out that four gentlemen hesitated when asked to lift the body.",
+          "frame_ids": [
+            "ttc-archive-1929-f2212210",
+            "ttc-archive-1929-f2222220",
+            "ttc-archive-1929-f2232230"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f2212210",
+            "ttc-archive-1929-f2222220",
+            "ttc-archive-1929-f2232230"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f2212210",
+          "canonical_content_hash": "ee16539ad36d148c3a549438a1e4d90809479e8faf4512b03d33d349655fbb07",
+          "source_modality": "BOTH",
+          "uncertainty": "None.",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        },
+        {
+          "event_id": "ttc-archive-1929-c06-e11",
+          "scene_id": "ttc-archive-1929-window-068",
+          "timestamp_ms": 4130000,
+          "actor": "Miss Eastwood",
+          "action": "panics in the darkness and screams that someone pulled their hand away",
+          "fact": "Miss Eastwood screams in terror that someone next to her is moving and pulling their hand free in the dark circle.",
+          "display_fact": "Miss Eastwood screams in terror that someone next to her is moving and pulling their hand free in the dark circle.",
+          "display_paraphrase": "Miss Eastwood screams in terror that someone next to her is moving and pulling their hand free in the dark circle.",
+          "frame_ids": [
+            "ttc-archive-1929-f4124120",
+            "ttc-archive-1929-f4134130"
+          ],
+          "evidence_frame_ids": [
+            "ttc-archive-1929-f4124120",
+            "ttc-archive-1929-f4134130"
+          ],
+          "frame_url": "/api/v1/media/the-thirteenth-chair-1929/ttc-archive-1929/frames/ttc-archive-1929-f4124120",
+          "canonical_content_hash": "e3d09b1a77df976a3618f0d5466d68570439366573ce7653a8d4b46ba407e2ee",
+          "source_modality": "AUDIO",
+          "uncertainty": "none",
+          "source_method": "AI observation; not human verified",
+          "frame_role": "Visual context; a still is not proof of audible dialogue"
+        }
+      ],
+      "human_review_status": "NOT_REVIEWED",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "proof_type": "HIDDEN_PLAN_CHAIN",
+      "blind_explanation": "Wales demands the killer's name during the first séance, and a disturbance follows in darkness. The blackout prevents the viewer from identifying an attacker by sight. Delzante's later comment about four gentlemen hesitating to lift the body adds suspicion, but hesitation alone neither identifies the killer nor establishes the attacker's gender. During the reconstructed séance, Eastwood's scream can initially be understood as fear of returning to the conditions of the killing. Darkness, an unsettling performance, and the memory of the earlier death provide reasons for an innocent guest to be distressed. Before the later admission, the distinction between ordinary terror and fear of exposure remains unresolved.",
+      "reveal_explanation": "Eastwood's later confession connects the earlier killing of Spencer Lee with Wales's death during the séance. It also gives her scream during the reconstruction a new possible meaning: fear of exposure rather than only fear of a frightening room. The sequence links Wales's demand for a name, the disturbance in darkness, and the later breakdown into a retrospective account of silencing someone who could reveal the crime. The admission is the recorded basis for identifying Eastwood; an observer cannot reconstruct her exact movements from the blacked-out images. Likewise, the scream alone would not prove guilt without the later confession. The interpretation should preserve that distinction between a character's admission, the detective's reconstruction, and events that the camera does not visibly show.",
+      "evidence_chain": [
+        {
+          "event_id": "ttc-archive-1929-c03-e06",
+          "scene_id": "ttc-archive-1929-window-033",
+          "timestamp_ms": 2035000,
+          "evidence_hash": "8d4c9335f63d4c202235bfc662b686184a1832a52fb19d27147a5ef3c57b8ba8"
+        },
+        {
+          "event_id": "ttc-archive-1929-c03-e09",
+          "scene_id": "ttc-archive-1929-window-037",
+          "timestamp_ms": 2220000,
+          "evidence_hash": "ee16539ad36d148c3a549438a1e4d90809479e8faf4512b03d33d349655fbb07"
+        },
+        {
+          "event_id": "ttc-archive-1929-c06-e11",
+          "scene_id": "ttc-archive-1929-window-068",
+          "timestamp_ms": 4130000,
+          "evidence_hash": "e3d09b1a77df976a3618f0d5466d68570439366573ce7653a8d4b46ba407e2ee"
+        }
+      ],
+      "alternative_explanations": [
+        "A scream in a recreated murder scene can express ordinary fear; its significance depends on the later admission.",
+        "The blackout leaves the exact physical movements unobserved even after the narrative identifies the killer."
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_id": "ttc-archive-1929-f0920920",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 920920,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f0920920.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f0930930",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 930930,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f0930930.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f0940940",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 940940,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f0940940.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1061060",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1061060,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1061060.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1071070",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1071070,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1071070.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1351350",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1351350,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1351350.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1361360",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1361360,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1361360.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2522520",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2522520,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2522520.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2532530",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2532530,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2532530.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2542540",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2542540,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2542540.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1311310",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1311310,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1311310.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1321320",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1321320,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1321320.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1331330",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1331330,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1331330.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1551550",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1551550,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1551550.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1561560",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1561560,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1561560.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1571570",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1571570,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1571570.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1971970",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1971970,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1971970.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f1981980",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 1981980,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f1981980.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2822820",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2822820,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2822820.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2832830",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2832830,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2832830.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2842840",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2842840,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2842840.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2022020",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2022020,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2022020.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2032030",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2032030,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2032030.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2212210",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2212210,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2212210.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2222220",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2222220,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2222220.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f2232230",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 2232230,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f2232230.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f4124120",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 4124120,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f4124120.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f4134130",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 4134130,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f4134130.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f4184180",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 4184180,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f4184180.jpg"
+    },
+    {
+      "frame_id": "ttc-archive-1929-f4194190",
+      "movie_id": "the-thirteenth-chair-1929",
+      "edition_id": "ttc-archive-1929",
+      "absolute_timestamp_ms": 4194190,
+      "filename": "ttc-archive-1929/ttc-archive-1929-f4194190.jpg"
+    }
+  ],
+  "subtitles": [],
+  "media": null,
+  "ai_publications": [
+    {
+      "proof_id": "proof-ai-ttc-archive-1929-01",
+      "record_sha256": "4b1cb282c2c57a9bc57a96fa58ef4e27efe8dc35fa46b3dff51bb0b84821fd20"
+    },
+    {
+      "proof_id": "proof-ai-ttc-archive-1929-02",
+      "record_sha256": "b5acc051daafbfa06b5abaf32c6524351301ae1c41bfe294a666100d2b844b83"
+    },
+    {
+      "proof_id": "proof-ai-ttc-archive-1929-03",
+      "record_sha256": "7252687c28431c3d0e1c454e6a3971597627649ef439667618dfbe1d37e77133"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "ttc-archive-1929-window-000",
+      "start_ms": 0,
+      "end_ms": 60000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-001",
+      "start_ms": 60000,
+      "end_ms": 120000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-002",
+      "start_ms": 120000,
+      "end_ms": 180000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-003",
+      "start_ms": 180000,
+      "end_ms": 240000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-004",
+      "start_ms": 240000,
+      "end_ms": 300000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-005",
+      "start_ms": 300000,
+      "end_ms": 360000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-006",
+      "start_ms": 360000,
+      "end_ms": 420000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-007",
+      "start_ms": 420000,
+      "end_ms": 480000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-008",
+      "start_ms": 480000,
+      "end_ms": 540000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-009",
+      "start_ms": 540000,
+      "end_ms": 600000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-010",
+      "start_ms": 600000,
+      "end_ms": 660000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-011",
+      "start_ms": 660000,
+      "end_ms": 720000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-012",
+      "start_ms": 720000,
+      "end_ms": 780000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-013",
+      "start_ms": 780000,
+      "end_ms": 840000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-014",
+      "start_ms": 840000,
+      "end_ms": 900000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-015",
+      "start_ms": 900000,
+      "end_ms": 960000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-016",
+      "start_ms": 960000,
+      "end_ms": 1020000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-017",
+      "start_ms": 1020000,
+      "end_ms": 1080000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-018",
+      "start_ms": 1080000,
+      "end_ms": 1140000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-019",
+      "start_ms": 1140000,
+      "end_ms": 1200000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-020",
+      "start_ms": 1200000,
+      "end_ms": 1260000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-021",
+      "start_ms": 1260000,
+      "end_ms": 1320000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-022",
+      "start_ms": 1320000,
+      "end_ms": 1380000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-023",
+      "start_ms": 1380000,
+      "end_ms": 1440000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-024",
+      "start_ms": 1440000,
+      "end_ms": 1500000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-025",
+      "start_ms": 1500000,
+      "end_ms": 1560000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-026",
+      "start_ms": 1560000,
+      "end_ms": 1620000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-027",
+      "start_ms": 1620000,
+      "end_ms": 1680000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-028",
+      "start_ms": 1680000,
+      "end_ms": 1740000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-029",
+      "start_ms": 1740000,
+      "end_ms": 1800000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-030",
+      "start_ms": 1800000,
+      "end_ms": 1860000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-031",
+      "start_ms": 1860000,
+      "end_ms": 1920000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-032",
+      "start_ms": 1920000,
+      "end_ms": 1980000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-033",
+      "start_ms": 1980000,
+      "end_ms": 2040000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-034",
+      "start_ms": 2040000,
+      "end_ms": 2100000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-035",
+      "start_ms": 2100000,
+      "end_ms": 2160000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-036",
+      "start_ms": 2160000,
+      "end_ms": 2220000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-037",
+      "start_ms": 2220000,
+      "end_ms": 2280000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-038",
+      "start_ms": 2280000,
+      "end_ms": 2340000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-039",
+      "start_ms": 2340000,
+      "end_ms": 2400000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-040",
+      "start_ms": 2400000,
+      "end_ms": 2460000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-041",
+      "start_ms": 2460000,
+      "end_ms": 2520000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-042",
+      "start_ms": 2520000,
+      "end_ms": 2580000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-043",
+      "start_ms": 2580000,
+      "end_ms": 2640000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-044",
+      "start_ms": 2640000,
+      "end_ms": 2700000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-045",
+      "start_ms": 2700000,
+      "end_ms": 2760000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-046",
+      "start_ms": 2760000,
+      "end_ms": 2820000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-047",
+      "start_ms": 2820000,
+      "end_ms": 2880000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-048",
+      "start_ms": 2880000,
+      "end_ms": 2940000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-049",
+      "start_ms": 2940000,
+      "end_ms": 3000000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-050",
+      "start_ms": 3000000,
+      "end_ms": 3060000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-051",
+      "start_ms": 3060000,
+      "end_ms": 3120000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-052",
+      "start_ms": 3120000,
+      "end_ms": 3180000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-053",
+      "start_ms": 3180000,
+      "end_ms": 3240000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-054",
+      "start_ms": 3240000,
+      "end_ms": 3300000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-055",
+      "start_ms": 3300000,
+      "end_ms": 3360000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-056",
+      "start_ms": 3360000,
+      "end_ms": 3420000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-057",
+      "start_ms": 3420000,
+      "end_ms": 3480000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-058",
+      "start_ms": 3480000,
+      "end_ms": 3540000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-059",
+      "start_ms": 3540000,
+      "end_ms": 3600000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-060",
+      "start_ms": 3600000,
+      "end_ms": 3660000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-061",
+      "start_ms": 3660000,
+      "end_ms": 3720000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-062",
+      "start_ms": 3720000,
+      "end_ms": 3780000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-063",
+      "start_ms": 3780000,
+      "end_ms": 3840000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-064",
+      "start_ms": 3840000,
+      "end_ms": 3900000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-065",
+      "start_ms": 3900000,
+      "end_ms": 3960000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-066",
+      "start_ms": 3960000,
+      "end_ms": 4020000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-067",
+      "start_ms": 4020000,
+      "end_ms": 4080000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-068",
+      "start_ms": 4080000,
+      "end_ms": 4140000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-069",
+      "start_ms": 4140000,
+      "end_ms": 4200000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-070",
+      "start_ms": 4200000,
+      "end_ms": 4260000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-071",
+      "start_ms": 4260000,
+      "end_ms": 4320000
+    },
+    {
+      "scene_id": "ttc-archive-1929-window-072",
+      "start_ms": 4320000,
+      "end_ms": 4343392
+    }
+  ]
+}

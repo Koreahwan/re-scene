@@ -1,0 +1,26 @@
+[
+  {
+    "claim_id": "claim-anderson-c025-01",
+    "speaker": "Detective Anderson",
+    "normalized_proposition": "I am securing the household perimeter and protecting the occupants from The Bat.",
+    "verbatim_or_paraphrase": "Detective Anderson gestures while speaking to Cornelia Van Gorder assuring safety and control.",
+    "source_type": "GESTURE_ASSERTION",
+    "scene_id": "scene-tbw-c025",
+    "timestamp_ms": 2895000,
+    "evidence_ref": "ev-c025-02",
+    "confidence": 0.9,
+    "paraphrase": true
+  },
+  {
+    "claim_id": "claim-anderson-c035-01",
+    "speaker": "Detective Anderson",
+    "normalized_proposition": "Jack Brooks is the primary suspect responsible for the robbery and threats.",
+    "verbatim_or_paraphrase": "Detective Anderson faces Brooks at close proximity while accusing him.",
+    "source_type": "DIALOGUE",
+    "scene_id": "scene-tbw-c035",
+    "timestamp_ms": 4140000,
+    "evidence_ref": "ev-c035-03",
+    "confidence": 0.92,
+    "paraphrase": true
+  }
+]

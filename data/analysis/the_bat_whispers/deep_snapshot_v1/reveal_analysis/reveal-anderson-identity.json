@@ -1,0 +1,76 @@
+{
+  "reveal_id": "reveal-anderson-identity",
+  "subject": "Detective Anderson",
+  "revealed_fact": "Detective Anderson is himself 'The Bat' using his detective persona to search for the hidden bank room without suspicion.",
+  "timestamp_ms": 4860000,
+  "pre_reveal_viewer_belief": "Anderson is a zealous lead detective trying to protect the manor and apprehend The Bat.",
+  "canonical_evidence_for_reveal": [
+    "ev-c041-03",
+    "ev-c041-04",
+    "ev-c042-02"
+  ],
+  "earlier_candidate_scenes": [
+    {
+      "scene_id": "scene-tbw-c017",
+      "timestamp_ms": 2010000,
+      "events": [
+        "ev-c017-05"
+      ]
+    },
+    {
+      "scene_id": "scene-tbw-c021",
+      "timestamp_ms": 2490000,
+      "events": [
+        "ev-c021-03"
+      ]
+    },
+    {
+      "scene_id": "scene-tbw-c025",
+      "timestamp_ms": 2895000,
+      "events": [
+        "ev-c025-02"
+      ]
+    },
+    {
+      "scene_id": "scene-tbw-c028",
+      "timestamp_ms": 3270000,
+      "events": [
+        "ev-c028-03"
+      ]
+    },
+    {
+      "scene_id": "scene-tbw-c035",
+      "timestamp_ms": 4140000,
+      "events": [
+        "ev-c035-03"
+      ]
+    }
+  ],
+  "knowledge_anomalies": [
+    "Anderson brings and introduces blueprints before receiving architectural briefing from the owner.",
+    "Anderson searches dark corridors alone prior to establishing security stations."
+  ],
+  "claim_action_conflicts": [
+    "Promises perimeter protection while manipulating interior wall fixtures.",
+    "Accuses Brooks of intrusion while concealing his own unauthorized prior searches."
+  ],
+  "hidden_plan_candidates": [
+    "3-step sequence: reconnaissance (c017) -> blueprint focus (c021) -> fixture probing (c028)."
+  ],
+  "counterevidence": [
+    "Anderson shoots at intruders and maintains standard police demeanor.",
+    "Anderson fails to open the secret room before Dale operates the mantel."
+  ],
+  "alternative_explanations": [
+    "Diligent police detective conducting rigorous room-by-room search."
+  ],
+  "why_missed": [
+    "Role expectation (detectives are assumed to be trustworthy protagonists).",
+    "Attention misdirection toward Dr. Wells and Jack Brooks."
+  ],
+  "depth_classification": "D5",
+  "abstentions": [],
+  "unresolved_questions": [
+    "Did Anderson know Courtleigh Fleming was alive or conspiring with him prior to the robbery?"
+  ]
+}

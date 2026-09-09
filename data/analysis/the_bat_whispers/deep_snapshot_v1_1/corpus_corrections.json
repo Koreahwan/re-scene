@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "correction_id": "corpus_corrections_the_bat_whispers_v1_1",
+  "original_phase_a_base_sha": "059cc9f320e3c85cb9b4e4bf9578ea9f4c498f62",
+  "original_phase_a_file_hashes": {
+    "clean_room_manifest.json": "a8996c01a6b16430beddc9f1ec8dd2deb206995bc8b008629138ee2c57e03a13",
+    "media_review.json": "314129a2287baa6f38341d37a9ef8baaafa94d54402ae351adec816b633f7fc2",
+    "phase_a_observations.json": "fc29d042f32facb268946ece7784df9e330d3f1c4d0ba01b4b28c5f3d0e7960e",
+    "phase_a_knowledge.json": "112604d0ea4c256720f3c9f572476d917c7bd244e8cbd606cf107af65ad13fad",
+    "phase_a_claims.json": "200ccb15b5552765c922166dbf703805a85733557b88f25cd59276dd69e04947",
+    "phase_a_actions.json": "3d285b7c08326940382bc2dccf0c82322fc62623fe02db13e41352aabaab91d3",
+    "phase_a_access.json": "cccd39b90cec9cba11be854ee37e0e82a1c1ca3e110145a0a01cbb381910b8ba",
+    "phase_a_goals.json": "4facfaca8e5d77f45676dbe504896d9e9d278f9af424ae45734504eed8363f47",
+    "phase_a_plan_hypotheses.json": "bd69f0777d92c73cc5733f99ff997b87825bfaf24b1d9b2e1a9ee5a7f4a58b7f",
+    "phase_a_candidate_proofs.json": "a5824ecb4d7eadf0fe0aed988ce822dd5e05bdc1d48eb259f7c511b621bbc121"
+  },
+  "corrections": [
+    {
+      "correction_code": "PROP_001_ANDERSON_ACCESS_REVEAL_DEPENDENT",
+      "target_file": "knowledge_propositions.json",
+      "target_id": "prop-001-blueprints-secret-void",
+      "original_value": "OBSERVED",
+      "corrected_value": "INFERRED_REVEAL_DEPENDENT",
+      "rationale": "Anderson safe blueprint knowledge is inferred solely from retrospective reveal dependency; cannot be observed pre-reveal or satisfy unassisted knowledge leak."
+    },
+    {
+      "correction_code": "PROP_003_DALE_ACCESS_DISCOVERY_BY_OPERATION",
+      "target_file": "knowledge_propositions.json",
+      "target_id": "prop-003-fireplace-mantel-mechanism",
+      "original_value": "OBSERVED",
+      "corrected_value": "DISCOVERS_BY_OPERATION",
+      "rationale": "Dale operates fireplace mantel lever on-camera in Scene 31; this is an operational discovery, not pre-existing unbriefed knowledge leak."
+    },
+    {
+      "correction_code": "PROOF_CAND_ANDERSON_01_RECLASSIFY_MULTI_SCENE_PATTERN",
+      "target_file": "proof_candidates.json",
+      "target_id": "proof-cand-anderson-01",
+      "original_proof_type": "KNOWLEDGE_LEAK",
+      "corrected_proof_type": "MULTI_SCENE_PATTERN",
+      "depth": "D3",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "rationale": "Multi-scene spatial search pattern across Scenes 17 and 21; unassisted knowledge leak not proven pre-cutoff."
+    },
+    {
+      "correction_code": "PROOF_CAND_ANDERSON_02_RECLASSIFY_GOAL_ALIGNED_PATTERN",
+      "target_file": "proof_candidates.json",
+      "target_id": "proof-cand-anderson-02",
+      "original_proof_type": "HIDDEN_PLAN_CHAIN",
+      "corrected_proof_type": "GOAL_ALIGNED_PATTERN",
+      "depth": "D3",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "rationale": "Goal-aligned investigative pattern across Scenes 23 and 28; causal chain incomplete; D5=0."
+    },
+    {
+      "correction_code": "PROOF_CAND_SECRET_ROOM_01_RECLASSIFY_MECHANISM_DISCOVERY",
+      "target_file": "proof_candidates.json",
+      "target_id": "proof-cand-secret-room-01",
+      "original_proof_type": "KNOWLEDGE_LEAK",
+      "corrected_proof_type": "MECHANISM_DISCOVERY",
+      "depth": "D3",
+      "presentation_status": "HIDDEN_FROM_PUBLIC",
+      "rationale": "Mechanism discovery / retrospective setup-payoff; Dale discovers mechanism on-camera in Scene 31; no pre-existing knowledge leak."
+    },
+    {
+      "correction_code": "CLAIMS_C025_INSUFFICIENT_CONTENT",
+      "target_file": "claims.json",
+      "target_id": "claim-anderson-c025-01",
+      "grounding_status": "INSUFFICIENT_CONTENT"
+    },
+    {
+      "correction_code": "CAR_001_INSUFFICIENT_CLAIM_GROUNDING",
+      "target_file": "claim_action_relations.json",
+      "target_id": "car-001",
+      "relation_type": "INSUFFICIENT_CLAIM_GROUNDING",
+      "is_contradiction": false
+    },
+    {
+      "correction_code": "CAR_002_DEFLECTION_HYPOTHESIS",
+      "target_file": "claim_action_relations.json",
+      "target_id": "car-002",
+      "relation_type": "DEFLECTION_HYPOTHESIS",
+      "is_contradiction": false
+    },
+    {
+      "correction_code": "COUNTERFACTUAL_SSOT_DECOUPLING",
+      "target_file": "proof_candidates.json",
+      "description": "Inline counterfactual_results removed; referenced counterfactual_evaluation_id and evaluation_input_hash in counterfactual_evaluation.json."
+    }
+  ],
+  "normalized_output_hashes": {
+    "knowledge_propositions.json": "93f2a8390c322ad26863545ec0c5f30a3341554ba766768e70de057f691d53ac",
+    "proof_candidates.json": "c58ebcd8d8c1daf8c26712ad06c4249c4d16fcba535cc55cf064a172084c893b",
+    "claims.json": "200ccb15b5552765c922166dbf703805a85733557b88f25cd59276dd69e04947",
+    "actions.json": "3d285b7c08326940382bc2dccf0c82322fc62623fe02db13e41352aabaab91d3",
+    "claim_action_relations.json": "ee0a8c7caf815e0c0d2ecac83365403f3c5d2ed2479a533b0a7bd2841bd11690",
+    "access_opportunities.json": "cccd39b90cec9cba11be854ee37e0e82a1c1ca3e110145a0a01cbb381910b8ba",
+    "goals.json": "4facfaca8e5d77f45676dbe504896d9e9d278f9af424ae45734504eed8363f47",
+    "plan_steps.json": "98af5f83fe6837392f7152b9e1a247de89e9d38c2d77f693b9adad3078442fb5",
+    "causal_edges.json": "a026934ef270ff55c5b2cea8baf4f3edf67557b60572d6355ae912f8c3b0923b",
+    "counterfactual_evaluation.json": "31fe693fc0f3f25b2b6bdab56775d2a69aab35cff4749ad12b59d17c12aeb870",
+    "motifs.json": "2cf475f529aff2e5f402288530620fd41154f24f5e15f2c6731f3bf366f2e9d6",
+    "negative_evidence.json": "176fa5e4716a6dbcaab34cbba615d05577f465ce7c525d7579d2ea6e4d785fa6",
+    "why_missed.json": "95fe4de49d290d59335503b6b252ecd56dfd2ad1cfd31100a6501b54b4ec6735",
+    "human_review_queue.json": "63343148335ff0f85ca9a2fc32941f2e855b5d9d4464e2e57933ab195ca3fe0d",
+    "legacy_comparison.json": "825a2eeb39ccf425698406a7e8757ed49a990c7776597f484a06b91455204f29",
+    "analysis_report.md": "5d0deaf64485ed277c2373ca7261bd98c86dd40f01b8213d60280a491d8f04b1"
+  },
+  "correction_overlay_hash": "fbb5e6303254a4eea625b81bfce5207cfa4d4b45e72bcde5d11717196ef813d2"
+}

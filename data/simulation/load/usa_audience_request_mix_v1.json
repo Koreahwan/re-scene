@@ -1,0 +1,172 @@
+{
+  "scenario_name": "reframe_usa_audience_load_v1",
+  "default_target_host": "http://localhost:8000",
+  "default_virtual_users": 250,
+  "default_duration_minutes": 10,
+  "persona_groups": {
+    "CATALOG_BROWSER": {
+      "weight": 30,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/catalog/works",
+          "weight": 50,
+          "auth_required": false,
+          "read_write": "READ"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/catalog/works/the-bat-whispers-1930",
+          "weight": 50,
+          "auth_required": false,
+          "read_write": "READ"
+        }
+      ],
+      "think_time_sec": {
+        "min": 2.0,
+        "max": 6.0
+      }
+    },
+    "REVEAL_READER": {
+      "weight": 25,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/catalog/works/the-bat-whispers-1930/reveals",
+          "weight": 40,
+          "auth_required": false,
+          "read_write": "READ"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/fan-experience/works/the-bat-whispers-1930/reveals/reveal-anderson-identity/reframed-moments",
+          "weight": 60,
+          "auth_required": false,
+          "read_write": "READ"
+        }
+      ],
+      "think_time_sec": {
+        "min": 5.0,
+        "max": 15.0
+      }
+    },
+    "REWATCH_VIEWER": {
+      "weight": 15,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/fan-experience/works/the-bat-whispers-1930/rewatch-stream",
+          "weight": 70,
+          "auth_required": false,
+          "read_write": "READ"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/fan-experience/works/the-bat-whispers-1930/scenes",
+          "weight": 30,
+          "auth_required": false,
+          "read_write": "READ"
+        }
+      ],
+      "think_time_sec": {
+        "min": 10.0,
+        "max": 30.0
+      }
+    },
+    "THEORY_BUILDER": {
+      "weight": 10,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/theory-lab/templates",
+          "weight": 40,
+          "auth_required": false,
+          "read_write": "READ"
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/theory-lab/runs",
+          "weight": 60,
+          "auth_required": true,
+          "read_write": "WRITE",
+          "payload": "theory_draft_fixture"
+        }
+      ],
+      "think_time_sec": {
+        "min": 8.0,
+        "max": 20.0
+      }
+    },
+    "COMMUNITY_LURKER": {
+      "weight": 10,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/community/posts?work_id=the-bat-whispers-1930",
+          "weight": 70,
+          "auth_required": false,
+          "read_write": "READ"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/community/posts/featured",
+          "weight": 30,
+          "auth_required": false,
+          "read_write": "READ"
+        }
+      ],
+      "think_time_sec": {
+        "min": 4.0,
+        "max": 12.0
+      }
+    },
+    "ACTIVE_DEBATER": {
+      "weight": 5,
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/api/v1/community/posts/{post_id}/comments",
+          "weight": 60,
+          "auth_required": true,
+          "read_write": "WRITE",
+          "payload": "comment_fixture"
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/community/posts/{post_id}/counterclaims",
+          "weight": 40,
+          "auth_required": true,
+          "read_write": "WRITE",
+          "payload": "counterclaim_fixture"
+        }
+      ],
+      "think_time_sec": {
+        "min": 10.0,
+        "max": 25.0
+      }
+    },
+    "MAGAZINE_READER": {
+      "weight": 5,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/magazine?work_id=the-bat-whispers-1930",
+          "weight": 50,
+          "auth_required": false,
+          "read_write": "READ"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/magazine/mag_article_001",
+          "weight": 50,
+          "auth_required": false,
+          "read_write": "READ"
+        }
+      ],
+      "think_time_sec": {
+        "min": 6.0,
+        "max": 18.0
+      }
+    }
+  }
+}

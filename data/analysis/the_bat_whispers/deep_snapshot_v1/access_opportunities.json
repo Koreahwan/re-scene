@@ -1,0 +1,73 @@
+[
+  {
+    "opportunity_id": "acc-anderson-c017",
+    "actor": "Detective Anderson",
+    "location": "Oakdale Manor Hall",
+    "object_or_mechanism": "Dark Hallway & Architecture",
+    "start_ms": 2010000,
+    "end_ms": 2040000,
+    "access_type": "PRESENT_AT",
+    "opportunity_type": "UNMONITORED_RECONNAISSANCE",
+    "evidence_refs": [
+      "ev-c017-05"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "opportunity_id": "acc-anderson-c021",
+    "actor": "Detective Anderson",
+    "location": "Oakdale Manor Living Room",
+    "object_or_mechanism": "Architectural Blueprints",
+    "start_ms": 2490000,
+    "end_ms": 2520000,
+    "access_type": "HAS_USED",
+    "opportunity_type": "STEERING_INVESTIGATION",
+    "evidence_refs": [
+      "ev-c021-03"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "opportunity_id": "acc-anderson-c023",
+    "actor": "Detective",
+    "location": "Oakdale Manor Fireplace Room",
+    "object_or_mechanism": "Fireplace Mantel & Painting",
+    "start_ms": 2759000,
+    "end_ms": 2780000,
+    "access_type": "CAN_ACCESS",
+    "opportunity_type": "PROBING_SECRET_MECHANISM",
+    "evidence_refs": [
+      "ev-c023-05"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "opportunity_id": "acc-anderson-c028",
+    "actor": "Detective Anderson",
+    "location": "Oakdale Manor Staircase",
+    "object_or_mechanism": "Framed Portrait",
+    "start_ms": 3270000,
+    "end_ms": 3300000,
+    "access_type": "HAS_USED",
+    "opportunity_type": "WALL_FIXTURE_MANIPULATION",
+    "evidence_refs": [
+      "ev-c028-03"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "opportunity_id": "acc-dale-c031",
+    "actor": "Dale Ogden",
+    "location": "Oakdale Manor Fireplace Room",
+    "object_or_mechanism": "Fireplace Wall Pivot Mechanism",
+    "start_ms": 3645000,
+    "end_ms": 3660000,
+    "access_type": "HAS_USED",
+    "opportunity_type": "SECRET_ROOM_UNLOCK",
+    "evidence_refs": [
+      "ev-c031-02",
+      "ev-c031-03"
+    ],
+    "confidence": 1.0
+  }
+]

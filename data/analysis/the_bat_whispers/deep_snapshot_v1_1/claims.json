@@ -1,0 +1,28 @@
+[
+  {
+    "claim_id": "claim-anderson-c025-01",
+    "speaker": "Detective Anderson",
+    "normalized_proposition": "Detective Anderson speaks to Cornelia Van Gorder during manor search.",
+    "source_type": "OBSERVED_EVENT",
+    "scene_id": "scene-tbw-c025",
+    "timestamp_ms": 2895000,
+    "evidence_ref": "ev-c025-02",
+    "verbatim_text": null,
+    "paraphrase": "Anderson gestures while speaking to Cornelia Van Gorder.",
+    "grounding_status": "INSUFFICIENT_CONTENT",
+    "notes": "No verbatim transcript/dialogue available in metadata; insufficient for strict logical contradiction."
+  },
+  {
+    "claim_id": "claim-anderson-c035-01",
+    "speaker": "Detective Anderson",
+    "normalized_proposition": "Detective Anderson interrogates Brooks and directly accuses him.",
+    "source_type": "OBSERVED_EVENT",
+    "scene_id": "scene-tbw-c035",
+    "timestamp_ms": 4140000,
+    "evidence_ref": "ev-c035-03",
+    "verbatim_text": null,
+    "paraphrase": "Anderson confronts Brooks at close proximity accusing him.",
+    "grounding_status": "PARAPHRASE_SUPPORTED",
+    "notes": "Investigative interrogation gesture/speech observed."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "queue_item_id": "hrq-001",
+    "item_type": "PROOF_CANDIDATE",
+    "item_id": "proof-anderson-01",
+    "current_status": "NOT_REVIEWED",
+    "action_required": "Verify whether pre-cutoff hallway inspection constitutes conclusive knowledge leak under forensic review.",
+    "priority": "HIGH"
+  },
+  {
+    "queue_item_id": "hrq-002",
+    "item_type": "PROOF_CANDIDATE",
+    "item_id": "proof-anderson-03",
+    "current_status": "NOT_REVIEWED",
+    "action_required": "Review causal linkage between blueprint display and portrait movement for D5 classification.",
+    "priority": "HIGH"
+  },
+  {
+    "queue_item_id": "hrq-003",
+    "item_type": "PROOF_CANDIDATE",
+    "item_id": "proof-secret-room-01",
+    "current_status": "NOT_REVIEWED",
+    "action_required": "Confirm mantel mechanism examination grounding in Scene 23.",
+    "priority": "MEDIUM"
+  }
+]

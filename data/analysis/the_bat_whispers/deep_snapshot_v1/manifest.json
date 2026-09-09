@@ -1,0 +1,30 @@
+{
+  "snapshot_id": "the_bat_whispers_deep_snapshot_v1",
+  "generation_mode": "GEMINI_INTERACTIVE_DEEP_SNAPSHOT",
+  "external_model_api_calls": 0,
+  "answer_assisted_fixture": true,
+  "trust_namespace": "ENGINE_INFERENCE",
+  "human_review_status": "NOT_REVIEWED",
+  "movie_id": "the-bat-whispers-1930",
+  "edition_id": "tbw-fullscreen-archive",
+  "canonical_asset_sha256": "8bb196344ab03a29e90dd62a08a318329560582c69fafe36aac4354d40f64948",
+  "source_dataset_version": "the_bat_whispers_v3_gemini36",
+  "source_file_hashes": {
+    "data/production/v3_dataset_export.json": "c2f2af8a578e89bd34b0b1a6a396717cffe70a6141c2202f8ad08414f53305fb",
+    "data/production/reveals_registry.json": "6f3c852a2930efdcfd5744deb7835480c21341a61f52cbcde029c8e8ab56257c",
+    "data/production/canonical_corrections_v3.json": "5ac67c69768d401248f90cf50ad351810424bfcac257b02c9c72490e5c5dc5d4",
+    "data/manifests/global_narrative_pass_v3.json": "8fa7e1966109bb7476e7591c3a8c0e9b0dd258b5fc7e2f203613047f29c74166",
+    "data/manifests/v3_frame_manifest.json": "9fde315fe301cbc0779789e7a0c4816da3ea1dea24093d07fc7aaafc92664c16",
+    "data/manifests/asset_manifest.json": "45426db375e03567de031727e666f2e390eabda73e036b0cd1f4b98a11d76a3e",
+    "data/fixtures/the_bat_whispers_golden.json": "5d61df6548d24995c632e059d8ffe8fa63931a77679e6f1b732c75c6a5bd2f4d"
+  },
+  "analysis_timestamp": "2026-08-20T02:49:32.896053+00:00",
+  "starting_git_sha": "9af794b1ba92276f404d295054776ad3ec32aa60",
+  "schema_version": "1.0.0",
+  "full_media_recheck_status": "AVAILABLE_LOCALLY_VERIFIED",
+  "limitations": [
+    "Development golden / answer-assisted fixture only",
+    "Must be isolated from live evaluation context",
+    "All interpretations remain ENGINE_INFERENCE until certified by human review"
+  ]
+}

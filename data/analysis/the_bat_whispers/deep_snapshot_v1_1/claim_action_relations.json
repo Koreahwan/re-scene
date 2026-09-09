@@ -1,0 +1,20 @@
+[
+  {
+    "relation_id": "car-001",
+    "claim_id": "claim-anderson-c025-01",
+    "action_id": "act-anderson-c028-01",
+    "relation_type": "INSUFFICIENT_CLAIM_GROUNDING",
+    "is_contradiction": false,
+    "reasoning": "Claim in c025 lacks verbatim dialogue in metadata; classified as conversational interaction without formal logical contradiction.",
+    "rule_id": "LOGICAL_CONTRADICTION_RULE_01"
+  },
+  {
+    "relation_id": "car-002",
+    "claim_id": "claim-anderson-c035-01",
+    "action_id": "act-anderson-c023-01",
+    "relation_type": "DEFLECTION_HYPOTHESIS",
+    "is_contradiction": false,
+    "reasoning": "Accusing Brooks in c035 after covertly searching fireplace in c023 represents an investigative deflection, not a formal logical proposition contradiction.",
+    "rule_id": "DEFLECTION_RULE_01"
+  }
+]

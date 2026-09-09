@@ -1,0 +1,34 @@
+{
+  "dataset_id": "nvidia/Nemotron-Personas-USA",
+  "dataset_revision": "5b4cd35ab46490c1da1bd2b5a2324d6f871be180",
+  "split": "train",
+  "source_kind": "REAL_NEMOTRON_SOURCE",
+  "nemotron_derived": true,
+  "total_source_universe_rows": 1000000,
+  "source_row_count_origin": "STREAM_COUNT",
+  "source_rows_seen": 100000,
+  "eligible_adult_rows": 100000,
+  "full_stream_completed": true,
+  "sample_size": 10000,
+  "accepted_profile_count": 10000,
+  "rejected_profile_count": 0,
+  "rejection_reasons": {},
+  "sample_method": "DERIVED_CACHE_HASH_PRIORITY_RESERVOIR_V1",
+  "weighting_method": "SOURCE_RECORD_EQUAL_WEIGHT",
+  "sample_seed": 42,
+  "sample_sha256": "3748691ff3a3e9379da9f3fb0bf92ff9584b1602b70ce40043992fcb7cb25b3d",
+  "output_file": "nemotron_usa_repro_sample_v1.jsonl.gz",
+  "license": "CC BY 4.0",
+  "source_fingerprints": [
+    {
+      "file": "nemotron_usa_100k_cache.jsonl.gz",
+      "sha256": "ce20b987a2c3eacd0c63fda00abfc913aa11bf89da273281045c064514822c28"
+    }
+  ],
+  "pseudonymization": {
+    "algorithm": "SALTED_SHA256",
+    "format": "us_pers_<hash[:16]>",
+    "raw_pii_persisted": false,
+    "adult_only_enforced": true
+  }
+}

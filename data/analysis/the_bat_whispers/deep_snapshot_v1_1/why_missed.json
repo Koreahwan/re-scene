@@ -1,0 +1,20 @@
+[
+  {
+    "factor_id": "wm-001",
+    "factor_name": "Authoritative Role Assumption",
+    "description": "Viewers interpret Anderson's physical fixture manipulation and blueprint analysis as standard professional diligence by a seasoned detective rather than covert reconnaissance.",
+    "psychological_mechanism": "Authority bias & narrative framing"
+  },
+  {
+    "factor_id": "wm-002",
+    "factor_name": "Active Threat Misdirection",
+    "description": "The ongoing threat of mysterious intruder sounds and Dr. Wells' suspicious demeanor deflect attention away from Anderson's spatial movements.",
+    "psychological_mechanism": "Salience diversion"
+  },
+  {
+    "factor_id": "wm-003",
+    "factor_name": "Staging & Foreground Activity",
+    "description": "When Anderson moves portraits or inspects fireplace artwork, other characters are engaged in dialogue in the foreground, drawing focal attention away from the background physical actions.",
+    "psychological_mechanism": "Visual staging concealment"
+  }
+]

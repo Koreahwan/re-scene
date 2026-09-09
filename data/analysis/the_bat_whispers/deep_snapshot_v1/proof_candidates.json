@@ -1,0 +1,189 @@
+[
+  {
+    "proof_candidate_id": "proof-anderson-01",
+    "reveal_id": "reveal-anderson-identity",
+    "proof_type": "KNOWLEDGE_LEAK",
+    "title": "Detective Anderson Performs Unbriefed Search Operations",
+    "estimated_depth": "D4",
+    "confidence": 0.94,
+    "trust_namespace": "ENGINE_INFERENCE",
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "PUBLIC",
+    "development_only": true,
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 2010000
+      },
+      {
+        "scene_id": "scene-tbw-c021",
+        "timestamp_ms": 2490000
+      }
+    ],
+    "observed_premises": [
+      {
+        "event_id": "ev-c017-05",
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 2010000,
+        "actor": "Detective Anderson",
+        "action": "observe",
+        "display_fact": "Detective Anderson stands alone in the dark hall inspecting his surroundings."
+      },
+      {
+        "event_id": "ev-c021-03",
+        "scene_id": "scene-tbw-c021",
+        "timestamp_ms": 2490000,
+        "actor": "Detective Anderson",
+        "action": "displays",
+        "display_fact": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group."
+      }
+    ],
+    "blind_explanation": "A zealous detective conducting a thorough inspection and reviewing blueprints with witnesses.",
+    "reveal_explanation": "Anderson was actively searching for the concealed safe because he is secretly The Bat.",
+    "alternative_explanations": [
+      "Standard police investigation sweep",
+      "Routine examination of architectural plans"
+    ],
+    "counterevidence": [
+      "Anderson was called in an official capacity as lead detective"
+    ],
+    "counterfactual_results": {
+      "wrong_reveal_delta": -0.85,
+      "ablation_delta": -0.65,
+      "shuffle_delta": -1.0,
+      "wrong_identity_delta": -0.5
+    }
+  },
+  {
+    "proof_candidate_id": "proof-anderson-03",
+    "reveal_id": "reveal-anderson-identity",
+    "proof_type": "HIDDEN_PLAN_CHAIN",
+    "title": "Detective Anderson Multi-Stage Infiltration and Safe Search Sequence",
+    "estimated_depth": "D5",
+    "confidence": 0.95,
+    "trust_namespace": "ENGINE_INFERENCE",
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "PUBLIC",
+    "development_only": true,
+    "goal_id": "goal-anderson-locate-safe",
+    "plan_step_ids": [
+      "step-anderson-01",
+      "step-anderson-02",
+      "step-anderson-03"
+    ],
+    "causal_edge_ids": [
+      "edge-001",
+      "edge-002"
+    ],
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 2010000
+      },
+      {
+        "scene_id": "scene-tbw-c021",
+        "timestamp_ms": 2490000
+      },
+      {
+        "scene_id": "scene-tbw-c028",
+        "timestamp_ms": 3270000
+      }
+    ],
+    "observed_premises": [
+      {
+        "event_id": "ev-c017-05",
+        "scene_id": "scene-tbw-c017",
+        "timestamp_ms": 2010000,
+        "actor": "Detective Anderson",
+        "action": "observe",
+        "display_fact": "Detective Anderson stands alone in the dark hall inspecting his surroundings."
+      },
+      {
+        "event_id": "ev-c021-03",
+        "scene_id": "scene-tbw-c021",
+        "timestamp_ms": 2490000,
+        "actor": "Detective Anderson",
+        "action": "displays",
+        "display_fact": "Detective Anderson carries rolled papers across the room and unrolls blueprints before Dale and the group."
+      },
+      {
+        "event_id": "ev-c028-03",
+        "scene_id": "scene-tbw-c028",
+        "timestamp_ms": 3270000,
+        "actor": "Detective Anderson",
+        "action": "moves",
+        "display_fact": "Detective Anderson moves large framed portrait near stairs."
+      }
+    ],
+    "blind_explanation": "Sequential routine investigative steps by the lead detective across the manor.",
+    "reveal_explanation": "A coordinated multi-stage plan to locate the hidden room and safe while maintaining detective cover.",
+    "alternative_explanations": [
+      "Standard protocol progression",
+      "Escalating security response to intruder alarms"
+    ],
+    "counterevidence": [
+      "Anderson did not find the safe until Dale opened the fireplace"
+    ],
+    "counterfactual_results": {
+      "wrong_reveal_delta": -0.86,
+      "ablation_delta": -0.68,
+      "shuffle_delta": -1.0,
+      "wrong_identity_delta": -0.5
+    }
+  },
+  {
+    "proof_candidate_id": "proof-secret-room-01",
+    "reveal_id": "reveal-secret-room-location",
+    "proof_type": "KNOWLEDGE_LEAK",
+    "title": "Direct Examination and Operation of Fireplace Mantel Mechanism",
+    "estimated_depth": "D4",
+    "confidence": 0.92,
+    "trust_namespace": "ENGINE_INFERENCE",
+    "human_review_status": "NOT_REVIEWED",
+    "presentation_status": "PUBLIC",
+    "development_only": true,
+    "evidence_chain": [
+      {
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000
+      },
+      {
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3645000
+      }
+    ],
+    "observed_premises": [
+      {
+        "event_id": "ev-c023-05",
+        "scene_id": "scene-tbw-c023",
+        "timestamp_ms": 2759000,
+        "actor": "Detective",
+        "action": "examines painting frame",
+        "display_fact": "Detective stands on a stepladder to examine the painting above the fireplace."
+      },
+      {
+        "event_id": "ev-c031-02",
+        "scene_id": "scene-tbw-c031",
+        "timestamp_ms": 3645000,
+        "actor": "Dale Ogden",
+        "action": "touches_mechanism",
+        "display_fact": "Dale Ogden reaches up to touch and operate the mechanism located on the side of the fireplace mantel."
+      }
+    ],
+    "blind_explanation": "Inspecting decorative art and furnishings above the mantelpiece.",
+    "reveal_explanation": "Characters were examining and operating the concealed trigger that unlocks the rotating fireplace wall.",
+    "alternative_explanations": [
+      "Art historical examination",
+      "Accidental discovery during frantic search"
+    ],
+    "counterevidence": [
+      "The stepladder examination in c023 did not open the wall immediately"
+    ],
+    "counterfactual_results": {
+      "wrong_reveal_delta": -0.84,
+      "ablation_delta": -0.66,
+      "shuffle_delta": -1.0,
+      "wrong_identity_delta": -0.5
+    }
+  }
+]
