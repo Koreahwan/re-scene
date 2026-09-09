@@ -2516,7 +2516,7 @@ export const FilmHubPage: React.FC<FilmHubPageProps> = ({ movieId, navigate }) =
                   const pId = post.post_id || post.id;
                   const isMasked = post.visibility === 'MASKED' || post.is_spoiler_masked || post.is_locked;
                   const isCommentsOpen = expandedCommentsPostId === pId;
-                  const commentCount = post.comments_count || post.comment_count || 0;
+                  const commentCount = post.comments_count ?? post.comment_count ?? 0;
 
                   return (
                     <div
@@ -2679,7 +2679,7 @@ export const FilmHubPage: React.FC<FilmHubPageProps> = ({ movieId, navigate }) =
                         >
                           <span style={{ fontSize: 14 }}>💬</span>
                           <span style={{ fontSize: 13, fontWeight: 600, color: isCommentsOpen ? '#4C22F4' : '#6B6B75' }}>
-                            {commentCount > 0 ? `${commentCount} Comments` : 'Comments'}
+                            {`${commentCount} ${commentCount === 1 ? 'Comment' : 'Comments'}`}
                           </span>
                         </button>
                       </div>

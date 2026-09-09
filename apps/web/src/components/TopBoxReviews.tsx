@@ -77,8 +77,8 @@ export function TopBoxReviews({ pageId, title, navigate, openRequest }: {
       <header><strong>{post.author_name || 'Viewer'}</strong><RatingStars rating={post.rating} /></header>
       {post.is_spoiler_masked || post.is_locked ? <p>Contains possible spoilers. <button onClick={() => setReveal(post)}>Show review</button></p> : <p className="comment-body">{post.body_markdown}</p>}
       {post.author_id === user?.id && <div><button onClick={() => void start()}>Edit</button><button onClick={() => setDeleting(post)}>Delete</button></div>}
-      <button onClick={() => setExpanded(value => value === post.post_id ? null : post.post_id)} aria-expanded={expanded === post.post_id}>Comments</button>
-      {expanded === post.post_id && <ProofComments key={post.post_id} proofId={post.post_id} postId={post.post_id} navigate={navigate} onCount={() => {}} />}
+      <button onClick={() => setExpanded(value => value === post.post_id ? null : post.post_id)} aria-expanded={expanded === post.post_id}>{post.comments_count ?? 0} {post.comments_count === 1 ? 'Comment' : 'Comments'}</button>
+      {expanded === post.post_id && <ProofComments key={post.post_id} proofId={post.post_id} postId={post.post_id} navigate={navigate} onCount={count => setPosts(rows => rows.map(row => row.post_id === post.post_id ? { ...row, comments_count: count } : row))} />}
     </article>)}
     <AppModal isOpen={open} title={editing ? 'Edit My Review' : 'Write a Review'} onClose={() => { if (!busy.current) setOpen(false); }}>
       <form onSubmit={save} className="comment-composer">

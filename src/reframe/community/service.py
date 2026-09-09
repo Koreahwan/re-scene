@@ -13,7 +13,7 @@ import structlog
 
 from src.reframe.community.models import (
     Post, PostVersion, Claim, ClaimVersion, PostEvidenceLink,
-    Counterclaim, CounterclaimEvidenceLink, Reaction, FilmReviewSlot
+    Counterclaim, CounterclaimEvidenceLink, Reaction, FilmReviewSlot, Comment
 )
 from src.reframe.evidence.models import EvidenceCatalog
 from src.reframe.evidence.adapter import v3_adapter
@@ -297,6 +297,27 @@ class CommunityService:
 
         # Load reactions for listed posts
         post_ids = [p.id for p, _, _, _, _ in rows]
+        # Fetch only thread metadata in one query; never expose spoiler bodies
+        # just to display engagement counts on collapsed review cards.
+        comment_counts = dict.fromkeys(post_ids, 0)
+        if post_ids:
+            thread_rows = (await db.execute(select(
+                Comment.id, Comment.post_id, Comment.parent_comment_id, Comment.status
+            ).where(Comment.post_id.in_(post_ids)))).all()
+            thread_index = {row.id: row for row in thread_rows}
+            for row in thread_rows:
+                if row.status != "PUBLISHED":
+                    continue
+                parent_id, seen = row.parent_comment_id, {row.id}
+                while parent_id is not None:
+                    parent = thread_index.get(parent_id)
+                    if (parent_id in seen or parent is None or parent.post_id != row.post_id
+                            or parent.status not in ("PUBLISHED", "DELETED")):
+                        break
+                    seen.add(parent_id)
+                    parent_id = parent.parent_comment_id
+                else:
+                    comment_counts[row.post_id] += 1
         like_counts: Dict[uuid.UUID, int] = {}
         viewer_liked_set: set[uuid.UUID] = set()
         if post_ids:
@@ -356,6 +377,7 @@ class CommunityService:
                 "contains_spoilers": version.contains_spoilers,
                 "inspection_status": insp_status,
                 "like_count": like_counts.get(post.id, 0),
+                "comments_count": comment_counts.get(post.id, 0),
                 "viewer_liked": post.id in viewer_liked_set,
                 "created_at": post.created_at.isoformat()
             }

@@ -101,7 +101,7 @@ def sanitize_payload_for_viewer(
         "id", "moment_id", "proof_id", "post_id", "reveal_id", "work_id",
         "movie_id", "edition_id", "scene_id", "created_at", "published_at", "status",
         "proof_type", "severity", "reaction_counts", "reply_count",
-        "like_count", "likes_count", "viewer_liked", "version_no",
+        "like_count", "likes_count", "comments_count", "viewer_liked", "version_no",
         "content_type", "author_name", "author_id", "can_edit", "rating", "author_cutoff_ms",
         "human_review_status", "live_analysis_pending_approval", "trust_namespace"
     ]:
