@@ -38,7 +38,7 @@ async def test_imported_film_spoiler_review_saves_edits_and_masks(work, edition)
         assert (await owner.get(f'{POSTS}/{post_id}')).json()['data']['body_markdown'] == 'My revised spoiler review'
 
 
-async def test_pending_comment_unlock_denied_and_completed_reply_reveals_only_itself():
+async def test_unverified_reply_requires_explicit_versioned_reveal():
     async with AsyncClient(transport=ASGITransport(app=app), base_url='http://test') as owner, AsyncClient(transport=ASGITransport(app=app), base_url='http://test') as guest:
         await login(owner)
         await login(guest)
@@ -47,12 +47,7 @@ async def test_pending_comment_unlock_denied_and_completed_reply_reveals_only_it
         root = (await owner.post(url, json={'body_markdown': 'A root spoiler', 'contains_spoilers': True})).json()['data']['comment_id']
         reply = (await owner.post(url, json={'body_markdown': 'A reply spoiler', 'parent_comment_id': root})).json()['data']['comment_id']
         payload = {'content_type': 'COMMENT', 'content_id': reply, 'version_no': 1}
-        denied = await guest.post('/api/v1/viewer/unlock', json=payload)
-        assert denied.status_code == 409, denied.text
         assert (await guest.get(f'{url}/{reply}')).json()['data']['is_spoiler_masked']
-        async with AsyncSessionLocal() as db:
-            await db.execute(update(Comment).where(Comment.id == uuid.UUID(reply)).values(inspection_status='AI_SPOILER'))
-            await db.commit()
         revealed = await guest.post('/api/v1/viewer/unlock', json=payload)
         assert revealed.status_code == 200, revealed.text
         rows = (await guest.get(url)).json()['data']
@@ -60,7 +55,8 @@ async def test_pending_comment_unlock_denied_and_completed_reply_reveals_only_it
         assert next(row for row in rows if row['comment_id'] == root)['is_spoiler_masked']
         await owner.patch(f'{url}/{reply}', json={'expected_version': 1, 'body_markdown': 'A newly edited spoiler'})
         assert (await guest.get(f'{url}/{reply}')).json()['data']['is_spoiler_masked']
-        assert (await guest.post('/api/v1/viewer/unlock', json={**payload, 'version_no': 2})).status_code == 409
+        assert (await guest.post('/api/v1/viewer/unlock', json=payload)).status_code == 400
+        assert (await guest.post('/api/v1/viewer/unlock', json={**payload, 'version_no': 2})).status_code == 200
 
 
 async def test_top_box_exact_release_and_owner_permissions():

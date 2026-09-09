@@ -79,13 +79,20 @@ export const PostDetailPage: React.FC<PostDetailPageProps> = ({ postId, navigate
     } catch (error: any) { setCcError(error.message); }
   };
 
+  const pendingPostReveal = useRef(false);
+  const [revealingPost, setRevealingPost] = useState(false);
   const handleUnlockPost = async () => {
-    if (!postId || !post) return;
+    if (!postId || !post || pendingPostReveal.current) return;
+    pendingPostReveal.current = true;
+    setRevealingPost(true);
     try {
       await apiClient.community.unlockContent('POST', postId, post.version_no || 1);
       await fetchPost();
     } catch (err: any) {
       setCcError(err.message || 'Failed to unlock post');
+    } finally {
+      pendingPostReveal.current = false;
+      setRevealingPost(false);
     }
   };
 
@@ -235,7 +242,11 @@ export const PostDetailPage: React.FC<PostDetailPageProps> = ({ postId, navigate
               </div>
 
               {/* Body Text or Spoiler Warning */}
-              {isPostMasked ? (
+              {isPostMasked && (post.content_type === 'REVIEW' || post.rating != null) ? (
+                <CommentSpoiler key={`${postId}:${post.version_no || 1}`} contentKind="review"
+                  canReveal pending={revealingPost} inspectionStatus={post.inspection_status}
+                  onReveal={() => void handleUnlockPost()} />
+              ) : isPostMasked ? (
                 <div style={{ alignSelf: 'stretch', padding: 20, background: '#FFFBEB', borderRadius: 12, border: '1px solid #FDE68A', display: 'flex', flexDirection: 'column', gap: 12 }}>
                   <div style={{ fontSize: 15, fontWeight: 600, color: '#92400E' }}>
                     ⚠️ Spoiler Protected Discussion

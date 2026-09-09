@@ -488,7 +488,7 @@ async def get_comment_detail(
 
     c_version = getattr(comment, "version_no", 1)
     comment_ref = f"COMMENT:{comment.id}:{c_version}"
-    comment_is_author = bool(viewer.user_id and comment.author_id == viewer.user_id and not viewer.is_public_author)
+    comment_is_author = bool(viewer.user_id and comment.author_id == viewer.user_id and not viewer.is_public_author and not viewer.is_shared_demo)
     comment_unlocked = comment_ref in viewer.explicit_unlocks
 
     scope = None

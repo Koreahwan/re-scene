@@ -49,11 +49,15 @@ def test_shared_demo_login_and_browser_isolation(monkeypatch):
             'expected_version': 1, 'body_markdown': 'Edited own review', 'author_cutoff_ms': 50000})
         assert edited.status_code == 200, edited.text
         updated = first.get(f'/api/v1/community/posts/{post_id}').json()['data']
+        assert updated['is_spoiler_masked']
+        assert first.post('/api/v1/viewer/unlock', json={'content_type': 'POST', 'content_id': post_id, 'version_no': 2}).status_code == 200
+        updated = first.get(f'/api/v1/community/posts/{post_id}').json()['data']
         assert updated['body_markdown'] == 'Edited own review' and updated['visibility'] == 'VISIBLE'
+        assert second.get(f'/api/v1/community/posts/{post_id}').json()['data']['is_spoiler_masked']
         comment = first.post(f'/api/v1/community/posts/{post_id}/comments', json={'body_markdown': 'Own reply'})
         assert comment.status_code == 201, comment.text
         comments = first.get(f'/api/v1/community/posts/{post_id}/comments').json()['data']
-        assert comments[0]['visibility'] == 'VISIBLE' and comments[0]['can_edit'] is True
+        assert comments[0]['is_spoiler_masked'] and comments[0]['can_edit'] is True
         with TestClient(app) as guest:
             guest_posts = guest.get('/api/v1/community/posts?work_id=the-bat-whispers-1930').json()['data']
             public = next(p for p in guest_posts if p['post_id'] == post_id)

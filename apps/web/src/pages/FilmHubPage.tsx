@@ -4,6 +4,7 @@ import { compareRanking } from '../utils/contentRanking';
 import { recordPageView } from '../utils/pageViews';
 import { Pagination } from '../components/Pagination';
 import { ProofComments } from '../components/ProofComments';
+import { CommentSpoiler } from '../components/CommentSpoiler';
 import { RatingStars } from '../components/RatingStars';
 import { getVisualFixtureFilms, getVisualFixtureReveals, getVisualFixtureMoments, isVisualFixtureMode } from '../testing/useVisualFixture';
 import { LoadingState, ErrorState, EmptyState } from '../components/FeedbackStates';
@@ -274,6 +275,8 @@ export const FilmHubPage: React.FC<FilmHubPageProps> = ({ movieId, navigate }) =
   const [deletingReview, setDeletingReview] = useState<string | null>(null);
   const reviewSubmitting = useRef(false);
   const pendingReviewLikes = useRef(new Set<string>());
+  const pendingReviewReveals = useRef(new Set<string>());
+  const [revealingReviews, setRevealingReviews] = useState<string[]>([]);
   const reviewRequestKey = useRef<string>(crypto.randomUUID());
   const [isSubmittingReview, setIsSubmittingReview] = useState(false);
   const [reviewError, setReviewError] = useState<string | null>(null);
@@ -835,12 +838,18 @@ export const FilmHubPage: React.FC<FilmHubPageProps> = ({ movieId, navigate }) =
   };
 
   const handleUnlockReview = async (postId: string, versionNo: number = 1) => {
+    if (pendingReviewReveals.current.has(postId)) return;
+    pendingReviewReveals.current.add(postId);
+    setRevealingReviews(previous => [...previous, postId]);
     try {
       await communityApi.unlockContent('POST', postId, versionNo);
       const targetMovieId = movieId || 'the-bat-whispers-1930';
       await loadPublicReviews(targetMovieId, reviewSort);
     } catch (err: any) {
       setShareToast('Could not reveal this review. Please try again.');
+    } finally {
+      pendingReviewReveals.current.delete(postId);
+      setRevealingReviews(previous => previous.filter(id => id !== postId));
     }
   };
 
@@ -2608,28 +2617,9 @@ export const FilmHubPage: React.FC<FilmHubPageProps> = ({ movieId, navigate }) =
 
                       {/* Body Content or Masked Warning */}
                       {isMasked ? (
-                        <div className="audience-review-warning" style={{ padding: 12, background: '#F2F2F5', borderRadius: 10, display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12 }}>
-                          <div style={{ fontSize: 14, color: '#6B6B75', fontFamily: 'Pretendard' }}>
-                            May contain spoilers
-                          </div>
-                          <button
-                            type="button"
-                            data-testid="review-reveal-btn"
-                            onClick={() => handleUnlockReview(pId, post.version_no || 1)}
-                            style={{
-                              padding: '6px 14px',
-                              background: 'var(--Purple-500, #4C22F4)',
-                              color: '#FFFFFF',
-                              border: 'none',
-                              borderRadius: 8,
-                              fontSize: 13,
-                              fontWeight: 600,
-                              cursor: 'pointer',
-                            }}
-                          >
-                            View Review
-                          </button>
-                        </div>
+                        <CommentSpoiler key={`${pId}:${post.version_no || 1}`} contentKind="review"
+                          canReveal pending={revealingReviews.includes(pId)} inspectionStatus={post.inspection_status}
+                          onReveal={() => void handleUnlockReview(pId, post.version_no || 1)} />
                       ) : (
                         <div data-testid="audience-review-body" style={{ fontSize: 15, color: '#2D2D34', fontFamily: 'Pretendard', lineHeight: '23px', whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>
                           {post.body_markdown}
