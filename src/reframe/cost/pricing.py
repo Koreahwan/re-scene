@@ -43,6 +43,7 @@ class ModelPricingConfig(BaseModel):
 class PricingRegistry:
     def __init__(self):
         self._registry: Dict[str, ModelPricingConfig] = {}
+        self._global_registry: Dict[str, ModelPricingConfig] = {}
         self._load_verified_rates()
 
     def _load_verified_rates(self):
@@ -111,6 +112,20 @@ class PricingRegistry:
             raise PricingConfigException(
                 f"Unknown or unverified model '{model_id}'. Fail-closed spend policy active."
             )
+        # Standard global and multi-region rates differ for this model.
+        from src.reframe.shared.config import settings
+        if cfg.pricing_status != PricingStatus.VERIFIED_BILLING_PRICE:
+            return cfg
+        if clean_id == "gemini-3.6-flash" and settings.GOOGLE_CLOUD_LOCATION == "global":
+            if clean_id not in self._global_registry:
+                self._global_registry[clean_id] = cfg.model_copy(update={
+                "input_text_micro_rate": 0.75, "input_image_micro_rate": 0.75,
+                "cached_input_micro_rate": 0.075, "output_text_micro_rate": 3.75,
+                "reasoning_micro_rate": 3.75,
+                "pricing_version": "2026-09-10-gemini-3.6-global",
+                "verified_at": "2026-09-09",  # UTC date of the September 10 KST check.
+                })
+            return self._global_registry[clean_id]
         return cfg
 
     def calculate_estimated_cost_micros(

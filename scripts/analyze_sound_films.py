@@ -102,14 +102,17 @@ def validate_analysis(value, events):
 
 
 async def main(args):
+    project = args.project or os.getenv('GOOGLE_CLOUD_PROJECT')
+    if args.execute_paid and not project:
+        raise ValueError('Supply --project or GOOGLE_CLOUD_PROJECT before paid generation')
     inputs, output = Path(args.inputs).resolve(), Path(args.output).resolve()
     output.mkdir(parents=True, exist_ok=True)
     journal = output / 'generation-ledger.sqlite'
     os.environ.update(DATABASE_URL=f'sqlite+aiosqlite:///{journal.as_posix()}',
         SYNC_DATABASE_URL=f'sqlite:///{journal.as_posix()}', PAID_CALLS_ENABLED=str(args.execute_paid).lower(),
         SPEND_KILL_SWITCH_ACTIVE=str(not args.execute_paid).lower(), LIVE_AGENT_ENABLED='true',
-        EXECUTION_MODE='LIVE_GOOGLE', GOOGLE_CLOUD_PROJECT='reframe-agentic-cinema-0813',
-        GOOGLE_CLOUD_LOCATION='global', GEMINI_MODEL_ID=MODEL, MAX_MODEL_CALLS_PER_ANALYSIS_RUN='1', DEBUG='false')
+        EXECUTION_MODE='LIVE_GOOGLE', GOOGLE_CLOUD_PROJECT=project or '',
+        GOOGLE_CLOUD_LOCATION=args.location, GEMINI_MODEL_ID=MODEL, MAX_MODEL_CALLS_PER_ANALYSIS_RUN='1', DEBUG='false')
     from google.genai import types
     from sqlalchemy import select, func
     from src.reframe.shared.database import Base, async_engine, AsyncSessionLocal
@@ -258,4 +261,6 @@ if __name__ == '__main__':
     parser.add_argument('--output', required=True)
     parser.add_argument('--film', choices=list(FILMS))
     parser.add_argument('--execute-paid', action='store_true')
+    parser.add_argument('--project', help='Your Google Cloud project; never replaced by a project from this repository')
+    parser.add_argument('--location', default=os.getenv('GOOGLE_CLOUD_LOCATION', 'global'))
     asyncio.run(main(parser.parse_args()))

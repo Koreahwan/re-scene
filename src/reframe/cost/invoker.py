@@ -56,6 +56,25 @@ live_invocation_ctx: ContextVar[Optional[LiveModelInvocationContext]] = ContextV
 ALLOWED_LIVE_MODEL_IDS: Set[str] = {"gemini-3.6-flash"}
 
 
+def ensure_model_location_supported(model_id, location):
+    # Google deployment support table checked 2026-09-10. Metadata lookup
+    # can succeed even when generation is unsupported at a regional endpoint.
+    if model_id == "gemini-3.6-flash" and location not in {"global", "us", "eu"}:
+        raise PaidCallGuardException("MODEL_LOCATION_UNSUPPORTED",
+            "Gemini 3.6 Flash requires global, us, or eu; choose a supported endpoint explicitly.")
+
+
+def verified_sdk_usage(response):
+    """Never substitute a reservation estimate for actual provider token usage."""
+    usage = getattr(response, "usage_metadata", None)
+    counts = (getattr(usage, "prompt_token_count", None),
+              getattr(usage, "candidates_token_count", None),
+              getattr(usage, "thoughts_token_count", None) or 0)
+    if any(type(value) is not int or value < 0 for value in counts):
+        raise RuntimeError("SDK_USAGE_MISSING: Keep the claim reserved for manual reconciliation")
+    return counts
+
+
 class GuardedGeminiInvoker:
     """
     GuardedGeminiInvoker is the sole authorized gateway for executing live Google Gemini model calls.
@@ -97,6 +116,8 @@ class GuardedGeminiInvoker:
             raise PaidCallGuardException("LIVE_AGENT_DISABLED", "Live Agent execution flag is disabled.")
         if settings.EXECUTION_MODE != "LIVE_GOOGLE":
             raise PaidCallGuardException("NON_LIVE_MODE", f"Execution mode '{settings.EXECUTION_MODE}' cannot make live calls.")
+
+        ensure_model_location_supported(model_id, settings.GOOGLE_CLOUD_LOCATION or "global")
 
         # An offline intake worker can supply bounded, inline media. Public callers
         # still use text only. Reserve the entire model context for media requests,
@@ -314,7 +335,7 @@ class GuardedGeminiInvoker:
         t0 = time.perf_counter()
         request_sent = False
         target_project = settings.GOOGLE_CLOUD_PROJECT or None
-        target_location = settings.GOOGLE_CLOUD_LOCATION or "us-central1"
+        target_location = settings.GOOGLE_CLOUD_LOCATION or "global"
         try:
             from google import genai
 
@@ -338,18 +359,18 @@ class GuardedGeminiInvoker:
                 model=model_id,
                 contents=[prompt_text, *media_parts] if media_parts else prompt_text,
                 config=types.GenerateContentConfig(
-                    temperature=0.0,
+                    temperature=None if model_id == "gemini-3.6-flash" else 0.0,
                     max_output_tokens=estimated_output_tokens,
                     response_mime_type="application/json" if json_output else None,
+                    thinking_config=(types.ThinkingConfig(thinking_level=types.ThinkingLevel.MINIMAL)
+                        if model_id == "gemini-3.6-flash" and role == "LIVE_SERVICE_VALIDATION" else None),
                 )
             )
             latency_ms = round((time.perf_counter() - t0) * 1000, 2)
             response_text = response.text or ""
 
             # 26-27. Extract Real SDK Usage Metadata & Compute Actual Cost
-            actual_input = getattr(response.usage_metadata, "prompt_token_count", estimated_input_tokens) if hasattr(response, "usage_metadata") else estimated_input_tokens
-            actual_output = getattr(response.usage_metadata, "candidates_token_count", estimated_output_tokens) if hasattr(response, "usage_metadata") else estimated_output_tokens
-            actual_reasoning = (getattr(response.usage_metadata, "thoughts_token_count", None) or 0) if hasattr(response, "usage_metadata") else 0
+            actual_input, actual_output, actual_reasoning = verified_sdk_usage(response)
 
             actual_cost, p_ver = pricing_registry.calculate_estimated_cost_micros(
                 model_id=effective_model_id,
@@ -403,6 +424,8 @@ class GuardedGeminiInvoker:
 
             telemetry = AgentCallTelemetry(
                 model_call_id=model_call_id,
+                provider_call_id=response.response_id if isinstance(getattr(response, "response_id", None), str) else None,
+                output_hash=hashlib.sha256(response_text.encode("utf-8")).hexdigest(),
                 role=role,
                 model_id=model_id,
                 prompt_hash=prompt_hash,

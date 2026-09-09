@@ -36,16 +36,23 @@ async def get_selected_portion_analysis(
     viewer: ViewerContext = Depends(get_viewer_context),
 ):
     from src.reframe.catalog.selected_portion import selected_portion
+    from src.reframe.catalog.clickhouse_publication import read_selected_portion, NarrativeMemoryUnavailable
+    from src.reframe.shared.config import settings
     response.headers['Cache-Control'] = 'private, no-store'
     response.headers['Vary'] = 'Cookie, Authorization'
     norm_id = catalog_service.normalize_movie_id(movie_id)
     try:
-        data = selected_portion(norm_id, edition_id, viewer, selected_ms)
-    except (ValueError, KeyError, OSError):
-        raise HTTPException(503, 'Selected-portion observations are unavailable')
+        if settings.NARRATIVE_MEMORY_BACKEND == 'CLICKHOUSE_MCP':
+            data, meta = await read_selected_portion(norm_id, edition_id, viewer, selected_ms)
+        else:
+            data = selected_portion(norm_id, edition_id, viewer, selected_ms)
+            meta = {'paid_model_calls':0, 'source':'INDEPENDENT_SEGMENT_OBSERVATIONS', 'storage':'OFFLINE_FILE'}
+    except (ValueError, KeyError, OSError, NarrativeMemoryUnavailable):
+        raise HTTPException(503, 'Selected-portion observations are unavailable',
+                            headers={'Cache-Control':'private, no-store', 'Vary':'Cookie, Authorization'})
     if data is None:
         raise HTTPException(404, 'Selected-portion analysis is unavailable for this edition')
-    return {'data':data, 'meta':{'paid_model_calls':0, 'source':'INDEPENDENT_SEGMENT_OBSERVATIONS'}}
+    return {'data':data, 'meta':meta}
 
 
 class CreateProofCommentRequest(BaseModel):

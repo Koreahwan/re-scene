@@ -4,6 +4,10 @@
 
 RE:SCENE is a film discovery and discussion app that separates what you can see at your current viewing position from what becomes meaningful after the ending. It combines a React interface, a FastAPI backend, stored scene evidence, and Google Gemini integrations.
 
+[Open the hosted app](https://hermes-agent-a1.tail5317ee.ts.net:10000/).
+The hosted film-analysis endpoint reads stored observations from ClickHouse
+through the official MCP integration. Browsing does not trigger paid generation.
+
 ## Features
 
 - **Progress-aware analysis:** only completed input segments are available before the end of a film.
@@ -50,7 +54,7 @@ The preview binds to `127.0.0.1:8000`, includes Redis, and leaves paid generatio
 
 See [.env.example](.env.example) and [`Settings`](src/reframe/shared/config.py). Runtime model integrations use Google Gemini through the Google Gen AI SDK and Google ADK; narrative retrieval supports ClickHouse through the official `mcp-clickhouse` package.
 
-Live generation is optional and requires separately configured Google credentials, model access, retrieval services, and the existing budget controls. Do not enable paid calls just to browse the included dataset. Keep credentials server-side and out of version control.
+The offline preview does not demonstrate live service use. See [runtime setup and verification](docs/runtime.md) for ClickHouse initialization, read-only official-MCP delivery, Google credentials, and the separate budgeted generation workflow. Do not enable paid calls just to browse the included dataset. Keep credentials server-side and out of version control.
 
 Production deployment additionally requires unique authentication secrets, secure cookies, real email delivery, database migrations, Redis, and the retrieval/worker services needed by the chosen features. `/ready` checks those dependencies; local liveness does not imply production readiness.
 
@@ -70,3 +74,28 @@ The repository contains stored demonstration analysis and test fixtures, not com
 Included interpretations may be AI-generated or AI-edited. They are exploratory readings, not independently established facts or human-reviewed conclusions. Provenance, evidence boundaries, and review-status fields are retained in the data.
 
 Source code is licensed under [Apache-2.0](LICENSE). Third-party media, fonts, metadata, and datasets have separate terms; see [DATA_LICENSES.md](DATA_LICENSES.md).
+
+## Findings and lessons learned
+
+- A working offline preview does not prove that an external integration runs.
+  We added explicit database initialization, runtime source metadata, and a
+  separate verification command rather than treating installed SDKs as evidence.
+- Spoiler boundaries must follow the end of the source input, not just the
+  timestamp assigned to an interpretation. Retrieval checks the saved viewing
+  position before returning each completed analysis segment.
+- A failed database dependency must remain visible. The live retrieval profile
+  returns an error instead of silently substituting a bundled file.
+- Account and community records remain in PostgreSQL on the hosted service;
+  ClickHouse serves narrative evidence and analysis. The local preview uses
+  SQLite for account and community data.
+- Generated observations need explicit provenance and review labels. Source
+  attribution does not by itself grant redistribution rights to third-party media.
+
+On September 10, 2026 (KST), an authorized local worker retrieved a real completed
+segment through official ClickHouse MCP and successfully generated a complete
+Google Gemini reading with source IDs, SDK usage and a settled budget record.
+See [verification evidence](docs/runtime-verification-20260910.json) and
+[runtime setup](docs/runtime.md). Google credentials remain on the operator's
+machine; ordinary hosted browsing uses stored analysis and does not generate a
+new response on every page view. This does not certify all submission or
+third-party media-rights requirements.

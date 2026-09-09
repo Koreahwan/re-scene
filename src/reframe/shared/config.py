@@ -2,7 +2,7 @@
 Reframe V7 Shared Configuration
 Zero Paid Model Calls in default configuration.
 """
-from typing import List, Optional
+from typing import List, Literal, Optional
 from pydantic import Field, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -73,6 +73,11 @@ class Settings(BaseSettings):
     CLICKHOUSE_PASSWORD: str = ""
     CLICKHOUSE_DATABASE: str = "reframe"
     CLICKHOUSE_ALLOW_WRITE_ACCESS: bool = False  # Runtime identity is STRICTLY read-only
+    CLICKHOUSE_SECURE: bool = False
+    CLICKHOUSE_VERIFY: bool = True
+    NARRATIVE_MEMORY_BACKEND: Literal["OFFLINE_FILE", "CLICKHOUSE_MCP"] = "OFFLINE_FILE"
+    CLICKHOUSE_PUBLICATION_ID: str = ""
+    CLICKHOUSE_QUERY_TIMEOUT_SECONDS: float = Field(default=15.0, ge=1.0, le=60.0)
 
     @model_validator(mode="after")
     def validate_database_isolation(self) -> "Settings":
@@ -95,7 +100,7 @@ class Settings(BaseSettings):
 
     # AI, Cost & Google Gemini Budget Controls (Cost Emergency Guardrails - R2-08)
     GOOGLE_CLOUD_PROJECT: str = ""
-    GOOGLE_CLOUD_LOCATION: str = "us-central1"
+    GOOGLE_CLOUD_LOCATION: str = "global"
     GEMINI_API_KEY: Optional[str] = None
     GEMINI_MODEL_ID: str = "gemini-3.6-flash"  # Target approved Gemini model
     GEMINI_MODEL: str = "gemini-3.6-flash"     # Alias for compatibility

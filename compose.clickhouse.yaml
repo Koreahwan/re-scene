@@ -1,0 +1,21 @@
+# Optional local self-hosted ClickHouse, separate from the zero-cost app preview.
+name: re-scene-memory
+services:
+  clickhouse:
+    image: clickhouse/clickhouse-server@sha256:c3f166f4a80098480463d897a63f6867d24e3a7661fc1fe72e889788115a25f1
+    environment:
+      CLICKHOUSE_USER: ${CLICKHOUSE_BOOTSTRAP_USER:?Set a bootstrap user}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_BOOTSTRAP_PASSWORD:?Set a unique bootstrap password}
+      CLICKHOUSE_DB: reframe
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: "1"
+    ports:
+      - "127.0.0.1:18123:8123"
+    volumes:
+      - narrative_data:/var/lib/clickhouse
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://127.0.0.1:8123/ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+volumes:
+  narrative_data:

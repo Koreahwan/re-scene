@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-09-09T16:17:25.745973+00:00",
+  "status": "LIVE_SERVICES_VERIFIED",
+  "execution_environment": "authorized local operator with a loopback SSH tunnel to the hosted read-only ClickHouse service",
+  "google_credentials_copied_to_server": false,
+  "public_browsing_triggers_generation": false,
+  "automatic_generation_retries": 0,
+  "clickhouse": {
+    "source": "CLICKHOUSE_MCP",
+    "tool": "run_query",
+    "mcp_queries": 2,
+    "returned_segments": 1,
+    "source_segment_ids": ["chunk-001"],
+    "publication_id": "d60a829a4ddbb59d2e91a639002401b62dcf0205a3d8a501015431a3a006f6fb",
+    "input_sha256": "5b5e19a4cfca4bcc6b8a046c477e1a3575c04dfaf8e356e8a1fbd5e6938a38b9"
+  },
+  "google": {
+    "model_id": "gemini-3.6-flash",
+    "location": "global",
+    "generation_verified": true,
+    "paid_model_calls": 1,
+    "input_tokens": 467,
+    "output_tokens": 148,
+    "reasoning_tokens": 0,
+    "response_sha256": "2e887156ff8932c8abee0fbe4e447f78d8007c1aec5b097b599b3ee8462bd6c0",
+    "provider_response_id_retained_in_private_receipt": true,
+    "claim_state": "SUCCEEDED",
+    "reservation_state": "SETTLED",
+    "maximum_authorized_usd": 0.5,
+    "estimated_cost_usd": 0.000905,
+    "cost_is_provider_invoice": false,
+    "pricing_source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+  },
+  "reading": {
+    "analysis": "The sequence opens with textual exposition, displaying title credits and cast lists against the screen. Visually, the scene transitions to setting the spatial context through establishing shots. A cityscape reveals a prominent clock tower illuminated at midnight, suggesting a temporal baseline for the narrative environment. Below, at street level, human activity is noted as pedestrians and a newsboy traverse the sidewalk adjacent to the exterior entrance of Police Headquarters. Visually, the framing organizes the urban setting by moving from grand architectural markers to mundane street-level movement, establishing a civic environment without explicitly confirming individual character motives or specific plot developments.",
+    "source_segment_ids": ["chunk-001"]
+  },
+  "limitations": [
+    "This is an operator integration check, not a new paid call on every hosted page view.",
+    "The generated reading is not independently human-verified and was not automatically inserted into production content.",
+    "Earlier failed or truncated attempts remain separately recorded; this receipt does not erase them or establish their billed cost.",
+    "This evidence does not certify third-party media rights or completion of the submission form."
+  ]
+}

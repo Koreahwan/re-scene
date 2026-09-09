@@ -51,6 +51,12 @@ def selected_portion(work_id, edition_id, viewer, selected_ms=None):
     if (work_id, edition_id) not in SEPARATED_ANALYSIS_EDITIONS:
         return None
     film = next(f for f in load_package()['films'] if (f['work_id'],f['edition_id']) == (work_id,edition_id))
+    return selected_portion_from_film(film, viewer, selected_ms)
+
+
+def selected_portion_from_film(film, viewer, selected_ms=None):
+    """Shape already validated observations with the same per-edition boundary."""
+    work_id, edition_id = film['work_id'], film['edition_id']
     saved = min(film['runtime_ms'], current_position(viewer,work_id,edition_id))
     if selected_ms is not None and (type(selected_ms) is not int or selected_ms < 0):
         raise ValueError('Invalid selected position')
